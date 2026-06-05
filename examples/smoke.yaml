@@ -7,4 +7,4 @@ worried_risk: |
   Shiseido가 2026 Q1부터 mass-premium 30% 가격 인하 실집행.
 n_scenarios: 2
 max_turns: 2
-scenario_path: redcell/scenarios/kbeauty_aurie.yaml
+scenario_path: scenarios/kbeauty_aurie.yaml

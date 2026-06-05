@@ -96,16 +96,13 @@ scenario_path: scenarios/kbeauty_aurie.yaml
 
 ## Status
 
-`0.1` bootstrap.
+`0.2` — fully self-contained.
 
-**Self-contained:**
-- LLM transport layer (`redcell/llm.py`) — provider-portable, no `strategyforge` dependency
-- Adversary expansion, per-scenario analysis, brief rendering
+- LLM transport layer (`redcell/llm.py`) — provider-portable, auto-detects sglang / DashScope / OpenAI / generic OpenAI-compatible.
+- Simulation engine (`redcell/sim/`) — multi-agent C-suite deliberation, adjudication panel, event deck, rulebook generator. Vendored from the original strategyforge implementation; no runtime dependency on strategyforge.
+- Pre-workshop flow (`redcell/adversary.py`, `analysis.py`, `pipeline.py`, `render.py`) — native.
 
-**Still imported from parent strategyforge:**
-- Simulation engine: multi-agent C-suite deliberation, adjudication panel, event deck, rulebook generator (~5k LOC behind `redcell/engine.py`)
-
-Vendoring the engine into redcell (cutting the strategyforge dependency entirely) is the next milestone — see `redcell/engine.py` for the single extraction boundary.
+`pip install -e .` and you have a standalone tool.
 
 ## License
 

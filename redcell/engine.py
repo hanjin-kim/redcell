@@ -1,24 +1,22 @@
-"""Engine adapter — the single extraction boundary to strategyforge.
+"""Engine adapter — thin wrapper over the vendored simulation engine.
 
-redcell needs a *linear* multi-turn simulation: each turn, all players'
+redcell runs a *linear* multi-turn simulation: each turn, all players'
 C-suite teams deliberate, an adjudication panel awards positions, and cash
 is booked. No branching, no matched counterfactual (branch_budget=0).
 
-During the 0.1 bootstrap this delegates to strategyforge's
-run_event_tree_simulation. To vendor the engine into redcell (cutting the
-strategyforge dependency), only this file needs to change — replace the
-import + call with a self-contained linear runner over the copied
-deliberation / adjudicator / event-deck modules.
+The simulation modules (deliberation panel, adjudicator, event deck,
+rulebook generator) live in ``redcell.sim`` — vendored from the original
+strategyforge implementation. redcell has zero runtime dependency on
+strategyforge as of v0.2.
 """
 from __future__ import annotations
 
 from pathlib import Path
 from typing import Any
 
-from strategyforge.simulation.event_tree import run_event_tree_simulation
-
 from .config import LLMSettings
 from .llm import LLMAdapter
+from .sim import run_event_tree_simulation
 
 
 def make_llm(settings: LLMSettings) -> Any:
