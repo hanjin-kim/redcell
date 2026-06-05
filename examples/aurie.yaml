@@ -1,0 +1,23 @@
+# redcell run config — AURIE (K-beauty mid-cap) example.
+# Run: redcell run examples/aurie.yaml -o brief.md
+
+industry: kbeauty_premium_skincare
+our_company: AURIE
+competitors:
+  - Shiseido
+  - Amore Pacific
+
+strategy: |
+  프리미엄-아시아 듀얼 트랙: 고가 anti-aging SKU 집중 + 일본 직영 채널 50개
+  신설 + 동남아 멀티브랜드 확장 + 중국 의존도 35→20% 축소.
+  R&D 매출 비중 7%→12% 증가, 면세 30%→15% 축소, D2C 자체몰 25% 비중 확보.
+  24개월 KPI: EBIT 마진 12→15%, 일본 매출 비중 8→18%, 중국 매출 35→20%.
+
+worried_risk: |
+  Shiseido가 2025 Q4에 발표한 한국 mass-premium 30% 가격 인하를 2026 Q1부터
+  실제 집행 — Olive Young / Lotte 면세 / 백화점 동시 적용, AURIE 핵심
+  anti-aging SKU 가격대(₩80-150K)에 직접 침투.
+
+n_scenarios: 3
+max_turns: 5
+scenario_path: scenarios/kbeauty_aurie.yaml

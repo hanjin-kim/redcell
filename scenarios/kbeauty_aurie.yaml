@@ -1,0 +1,182 @@
+name: "AURIE 2026: K-Beauty Premium-Asia Dual Track vs Shiseido/Amore"
+closed_market: true
+intensity_jitter: 0.15
+domain: competitive
+industry: kbeauty_premium_skincare
+time_unit: year
+time_horizon: 5
+
+# Position-tier → per-turn revenue (cash) mapping. Industry-specific calibration.
+# Engine computes ending cash = starting − action_cost + events_delta + position_revenue[tier].
+# K-beauty premium skincare typical margin spread:
+#   dominant brand: high margin + high volume from anchor SKUs + brand premium
+#   strong: solid but contested
+#   contested: middle, fighting for share
+#   weak: margin pressure
+#   marginal: near-loss
+# These values are the *modeling assumption* — user should adjust per industry
+# context and revisit if outcome trajectory looks unreasonable.
+position_revenue:
+  dominant: 0.12
+  strong: 0.08
+  contested: 0.05
+  weak: 0.03
+  marginal: 0.01
+trigger_event: "K-beauty 글로벌 인기가 정체기에 진입(2024-2025 한국 화장품 수출 둔화), 일본 J-beauty 부상 + 중국 자국 브랜드(Proya, Florasis) 강세로 한국 mid-cap 브랜드의 동남아·일본 진출이 다음 24개월 생존축. 동시에 시세이도가 K-beauty 가격대(mass-premium)로 다운 포지셔닝, 중국 정부의 한국 화장품 수입 inspection 강화 risk가 운전자본 부담으로 작용 중."
+
+_additional_context: |
+  CANONICAL PROPER NOUNS:
+    AURIE(아우리, 가상 한국 mid-cap), Shiseido(시세이도), Amore Pacific(아모레퍼시픽),
+    LG H&H, Proya(중국), Sephora, Olive Young, Don Quijote(돈키호테), Watsons
+
+  Market context (Q1 2026 ground truth):
+  - 한국 화장품 수출 YoY +2% (2024-2025 정체기). K-beauty 글로벌 모멘텀 둔화.
+  - 일본 J-beauty 수출 YoY +18% (시세이도 주도). 일본 내수 회복 + 아시아 prestige 채널 점유 회복.
+  - 중국 자국 브랜드(Proya, Florasis 등) 자국 시장 점유율 60%+ 도달. 한국 브랜드 중국 매출 2년 연속 감소.
+  - 동남아(인니/베트남/태국) prestige skincare 시장 YoY +25%, K-beauty mid-premium 진출 기회.
+  - 한국 mid-cap 브랜드 (매출 5000억-1.5조 구간): 글로벌 5-15위, 한국 5-10위.
+
+  채널 dynamics:
+  - 한국 면세 채널 회복 정체. 중국 보따리상(다이고우) 의존도 축소 압박.
+  - 일본 시장 진입: Don Quijote (mass), 한큐/이세탄 백화점 (prestige), Cosme.com (online).
+    Shiseido 본진이라 마진/유통권 challenge 큼.
+  - 동남아: Watsons / Sephora SEA / TikTok Shop 인플루언서. 마진 매력 있으나 brand-building 비용 부담.
+  - D2C 자체몰: brand equity 축적은 가능하나 CAC 압박, ROAS 1.5-2 수준.
+
+  Strategic dilemmas (각 플레이어):
+  - AURIE: 프리미엄 SKU 집중 vs mass-market 다운 포지셔닝 압박. 일본 직영 확장 capex
+    vs 단기 마진 압박. 중국 의존도 축소가 단기 매출 손실을 감내할 수 있는가?
+  - Shiseido: J-beauty 부활 + K-beauty 가격대 침투로 한국 mid-cap 시장 공격.
+    한국에서 mass-premium SKU 30% 가격 인하 발표(2025 Q4) — AURIE 같은 한국 5-10위 압박.
+  - Amore Pacific: 한국 1위 방어 + 미국·동남아 확장. AURIE의 일본 침투에는 무관심하나
+    동남아·D2C에서 경쟁. 자체 R&D + Sephora 글로벌 채널 강세.
+
+  Key scenario pressures:
+  - Shiseido의 한국 mass-premium 가격 인하가 AURIE 프리미엄 전략의 customer base를 잠식.
+  - 중국 통관 검역 강화 시 AURIE 재고/운전자본 부담 폭증. 중국 의존 축소 *명분*은 강해지나
+    *전환기 cash burn*이 capex 여력을 압박.
+  - 일본 직영 50개 신설은 18-24개월 소요, 단기 EBIT 마진 압박.
+  - Amore가 동남아·D2C에 본격 진입 시 AURIE의 동남아 경로 마진 침식.
+
+simulation_constraints:
+  - "각 플레이어가 한 해에 둘 이상의 큰 capex 전환을 동시에 집행할 수 없음 (조직 absorption capacity 제약)"
+  - "일본 직영 매장 capex는 첫 해 비용 발생, EBIT contribution은 2년차부터 본격화 (브랜드 빌딩 lag)"
+  - "한국 채널 mass-premium 가격 인하의 마진 압박은 동일 해 즉시 반영, share 재편은 1-2년 지속"
+  - "R&D 비중 증가(7→12%)는 1-2년 비용 선행, clinical data 누적·신규 SKU 효과는 3년차부터"
+  - "중국 의존도 축소는 단기 매출 감소 → 일본/동남아 확대로 메우는 데 2-3년 transition window"
+
+sides:
+  - id: side_a
+    company:
+      id: aurie
+      name: AURIE
+      industry: kbeauty
+    business_units:
+      - id: bu_aurie
+        name: AURIE Premium Skincare
+        segment:
+          industry: kbeauty
+          segment: premium_skincare
+          region: asia
+        market_share: 0.08
+        revenue_index: 0.8
+        competitive_power: 70.0
+        brand_loyalty: 65.0
+        r_and_d: 0.70
+        cash_reserves: 0.55
+    structural_advantages:
+      - "Anti-aging SKU R&D 8년 누적, 한국 mid-cap 중 임상 데이터 가장 풍부"
+      - "한국 D2C 자체몰 MAU 80만, 30대 후반 여성 NPS 65"
+      - "Olive Young / Cosme.com 입점 안정, 면세 의존도 18%로 mid-cap 중 낮음"
+      - "동남아 멀티브랜드(Watsons SEA) 3개국 진출 완료, 18개월 운영 trace 있음"
+    structural_disadvantages:
+      - "일본 시장 신규 진입자 — Shiseido/POLA 등 현지 강자 대비 brand awareness 낮음"
+      - "중국 매출 비중 35% — 통관 강화 / 자국 브랜드 강세 양면 압박"
+      - "Cash reserves 55%로 일본 직영 50개 capex + R&D 12% 동시 수행 시 burn 압박"
+      - "Prestige 브랜드 인지도가 한국 5위권, 시세이도/SK-II 대비 가격결정력 약함"
+    commanders:
+      - id: ceo_aurie
+        name: 김주현
+        role: CEO
+        personality:
+          aggression: 0.65
+          risk_tolerance: 0.55
+        management_style: "founder-CEO 출신, 브랜드 일관성과 R&D 우선, 단기 매출 압박에 흔들리지 않는 편"
+        ceo_profile: "화학 연구원 출신, 임상 데이터 신뢰, 디스플레이/광고보다 제품력 중심"
+        strategic_tendency: brand_premium_driven
+
+  - id: side_b
+    company:
+      id: shiseido
+      name: Shiseido
+      industry: kbeauty
+    business_units:
+      - id: bu_shiseido
+        name: Shiseido Global Skincare
+        segment:
+          industry: kbeauty
+          segment: premium_skincare
+          region: asia
+        market_share: 0.22
+        revenue_index: 4.2
+        competitive_power: 88.0
+        brand_loyalty: 82.0
+        r_and_d: 0.85
+        cash_reserves: 0.75
+    structural_advantages:
+      - "150년 brand heritage, prestige 가격결정력 압도적"
+      - "일본 내수 + 글로벌 prestige 채널(Sephora 글로벌, 한큐 등) 깊이"
+      - "R&D 자본력으로 anti-aging clinical 데이터 풍부, J-beauty 부활 모멘텀"
+      - "2025 Q4 한국 mass-premium SKU 30% 가격 인하 발표 — K-beauty mid-cap 침투 의지"
+      - "동남아 prestige 시장 1위 점유, AURIE의 신규 진출과 직접 경합"
+    structural_disadvantages:
+      - "한국 시장 prestige 외 mass-premium은 신규 — Olive Young 입점 협상 진행 중"
+      - "환율(엔/원) 변동 리스크 — 가격 인하 정책의 마진 부담"
+      - "MZ/Gen Z 세대 인지도가 K-beauty 대비 약함"
+    commanders:
+      - id: ceo_shiseido
+        name: 후지와라 켄지
+        role: CEO
+        personality:
+          aggression: 0.70
+          risk_tolerance: 0.60
+        management_style: "global multinational executive, 시장 점유 회복에 공격적, 단기 마진 희생 용인"
+        ceo_profile: "재무 출신, 데이터 기반 의사결정, 다년간 글로벌 prestige 사업 운영"
+        strategic_tendency: market_share_recovery
+
+  - id: side_c
+    company:
+      id: amore
+      name: Amore Pacific
+      industry: kbeauty
+    business_units:
+      - id: bu_amore
+        name: Amore Pacific Brands
+        segment:
+          industry: kbeauty
+          segment: premium_skincare
+          region: asia
+        market_share: 0.18
+        revenue_index: 3.5
+        competitive_power: 80.0
+        brand_loyalty: 75.0
+        r_and_d: 0.78
+        cash_reserves: 0.62
+    structural_advantages:
+      - "한국 1위 brand portfolio (Sulwhasoo, Innisfree, Etude), 채널 협상력 강함"
+      - "Sephora 글로벌 입점, 미국·동남아 D2C 가속"
+      - "R&D 자본 + 자체 임상센터, anti-aging/whitening 영역 강세"
+    structural_disadvantages:
+      - "중국 시장 매출 회복 정체 (자국 브랜드에 점유 빼앗김)"
+      - "Sulwhasoo 외 brand들 prestige 가격결정력 약함"
+      - "조직 비대, 의사결정 속도 mid-cap 대비 느림"
+    commanders:
+      - id: ceo_amore
+        name: 서경배
+        role: CEO
+        personality:
+          aggression: 0.55
+          risk_tolerance: 0.50
+        management_style: "오너 경영, 장기 brand 자산 우선, 단기 점유 변동에 둔감"
+        ceo_profile: "창업주 가문, 다년간 브랜드 포트폴리오 운영 경험"
+        strategic_tendency: brand_portfolio_stewardship

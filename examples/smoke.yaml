@@ -1,0 +1,10 @@
+industry: kbeauty_premium_skincare
+our_company: AURIE
+competitors: [Shiseido, Amore Pacific]
+strategy: |
+  프리미엄-아시아 듀얼 트랙: 고가 anti-aging SKU 집중 + 일본 직영 채널 50개 신설.
+worried_risk: |
+  Shiseido가 2026 Q1부터 mass-premium 30% 가격 인하 실집행.
+n_scenarios: 2
+max_turns: 2
+scenario_path: redcell/scenarios/kbeauty_aurie.yaml

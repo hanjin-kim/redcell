@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+.env.local
+
+# Runtime
+.redcell_cache/
+.strategyforge_cache/
+*.log
+smoke_brief.md
+red_team_brief.md
+
+# Test artifacts
+tmp_review/
+
+# OMC harness state (auto-generated)
+.omc/
