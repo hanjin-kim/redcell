@@ -106,4 +106,4 @@ scenario_path: scenarios/kbeauty_aurie.yaml
 
 ## License
 
-TBD.
+[MIT](LICENSE) © 2026 Hanjin Kim

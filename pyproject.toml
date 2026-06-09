@@ -1,15 +1,40 @@
 [project]
 name = "redcell"
-version = "0.1.0"
-description = "Adversarial strategy scenario generator — turn a strategy + a worry into N distinct stress-test scenarios with cash/position trajectories and workshop diligence questions."
+version = "0.2.0"
+description = "Pre-workshop Red Team for strategy teams. Expand one risk into N adversarial scenarios across 6 axes — each simulated with multi-agent C-suite LLM deliberation."
 readme = "README.md"
 requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "Hanjin Kim", email = "hanjin.kim@outlook.com"},
+]
+keywords = [
+    "red-team", "llm-agent", "strategy-simulation", "pre-mortem",
+    "multi-agent", "scenario-planning", "consulting-tools",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 dependencies = [
     "pyyaml>=6.0",
     "openai>=1.0",
     "typer>=0.12",
     "pydantic>=2.0",
+    "json-repair>=0.20",
 ]
+
+[project.urls]
+Homepage = "https://github.com/hanjin-kim/redcell"
+Repository = "https://github.com/hanjin-kim/redcell"
+Issues = "https://github.com/hanjin-kim/redcell/issues"
 
 [project.scripts]
 redcell = "redcell.cli:app"
@@ -20,10 +45,3 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["redcell"]
-
-# NOTE: during the 0.1 bootstrap the simulation engine (multi-agent C-suite
-# deliberation + adjudication panel + event deck) is imported from the
-# parent `strategyforge` package via redcell/engine.py. Vendoring those
-# modules into redcell/ (cutting the strategyforge dependency entirely) is
-# tracked as the next milestone — engine.py is the single extraction
-# boundary that needs to change.
