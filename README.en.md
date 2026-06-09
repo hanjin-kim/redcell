@@ -2,15 +2,15 @@
 
 > 🇰🇷 [한국어 README](README.md)
 
-**Stress-test your strategy *before* the workshop.** Expand a single worry into N adversarial scenarios across multiple axes — each with a cash/position trajectory and measurable diligence questions.
+**Stress-test your strategy *before* the workshop.** Surface N adversarial scenarios that could break the strategy — each with a cash/position trajectory and measurable diligence questions.
 
-Built for strategy teams running pre-mortems, and consultants checking blind spots before drafting the deck. Surfaces *missed scenarios* and turns abstract risks into concrete data-gathering questions.
+Built for strategy teams running pre-mortems, and consultants checking blind spots before drafting the deck. The point is to surface scenarios the user did *not* name.
 
 ## What it does
 
-Give it your strategy and one risk you're worried about. redcell:
+Give it your strategy. redcell:
 
-1. **Expands** the worry into N distinct adversary scenarios across 6 axes — competitor action, customer reaction, channel leverage, regulatory shock, macro pressure, internal execution. The one you named is Scenario 1; the rest are ones you may not have considered.
+1. **Surfaces** N distinct adversary scenarios across 6 axes — competitor action, customer reaction, channel leverage, regulatory shock, macro pressure, internal execution — picking the ones where this specific strategy is most exposed.
 2. **Simulates** each scenario as a multi-turn linear run — your C-suite (CEO/CFO/CTO/CMO/COO) vs AI-driven competitors, with an adjudication panel awarding position tiers and booking cash.
 3. **Analyzes** each trajectory axis-by-axis. When the axis didn't materialize in the trace, it says so plainly — no forced narrative. Per-turn cash drivers exposed with arithmetic.
 4. **Renders** a scenario-card brief: primary stressor, trajectory, cash drivers, observation triggers, and 3 specific diligence questions per scenario.
@@ -79,8 +79,6 @@ Run `redcell doctor` to confirm the detected provider for your endpoint.
 ```yaml
 strategy: |
   <your strategy in prose>
-worried_risk: |
-  <the one risk you're worried about>
 n_scenarios: 5
 max_turns: 5
 scenario_path: scenarios/kbeauty_aurie.yaml

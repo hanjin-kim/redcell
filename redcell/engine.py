@@ -34,21 +34,36 @@ def run_linear_scenario(
     *,
     scenario: dict,
     strategy: str,
+    environment: str = "",
     llm: Any,
     our_side: str = "side_a",
     max_turns: int = 5,
     cache_dir: str | Path = ".redcell_cache",
     callback=None,
 ) -> list[dict]:
-    """Run ONE linear scenario (no branching) and return a per-turn trace
-    for ``our_side``.
+    """Run ONE linear simulation (no branching) and return our side's
+    per-turn trace.
+
+    The ``environment`` text is the initial exogenous condition (a risk /
+    market state / competitor stance the strategy is executed under). It
+    is injected into the scenario as ``trigger_event`` so the engine's
+    competitor-strategy generator and bucket builder pick it up — making
+    competitors react to it, not just our side.
 
     Returns a list of turn dicts:
       {turn, position, momentum, cash, our_action, audit_action_type,
        audit_intensity, events, narrative, cash_attribution}
     """
+    # Shallow-copy scenario so we don't mutate the caller's dict, and
+    # inject the environment text as the engine's ``trigger_event`` hook
+    # (used by simulation_setup._generate_competitor_strategies and the
+    # bucket/momentum generator).
+    scenario_with_env = dict(scenario)
+    if environment:
+        scenario_with_env["trigger_event"] = environment
+
     result = run_event_tree_simulation(
-        scenario=scenario,
+        scenario=scenario_with_env,
         strategy=strategy,
         our_side=our_side,
         llm=llm,
@@ -66,25 +81,37 @@ def run_linear_scenario(
     return _linearize(leaves[0], our_side)
 
 
-def _linearize(leaf, side: str) -> list[dict]:
+def _linearize(leaf, our_side: str) -> list[dict]:
+    """Turn each TreeNode along the leaf path into a structured dict that
+    exposes every side's data — so the renderer can show competitor
+    reactions, not just our trajectory."""
     nodes = leaf.path_from_root()
     out = []
     for n in nodes:
         if n.turn < 1:
             continue
-        det = (n.actions_detail or {}).get(side, {}) or {}
+        # Build per-side detail
+        sides_data: dict[str, dict] = {}
+        for sid, pos in (n.positions or {}).items():
+            det = (n.actions_detail or {}).get(sid, {}) or {}
+            sides_data[sid] = {
+                "position": pos.get("position", "?"),
+                "momentum": pos.get("momentum", ""),
+                "rationale": pos.get("rationale", "")[:400],
+                "cash": (n.cash or {}).get(sid, 0.0),
+                "action_text": (n.actions or {}).get(sid, "")[:200],
+                "action_type": det.get("action_type", ""),
+                "action_intensity": det.get("intensity", 0.5),
+                "cash_attribution":
+                    dict((n.cash_attribution or {}).get(sid) or {}),
+                "is_us": sid == our_side,
+            }
         out.append({
             "turn": n.turn,
-            "position": (n.positions or {}).get(side, {}).get("position", "?"),
-            "momentum": (n.positions or {}).get(side, {}).get("momentum", ""),
-            "cash": (n.cash or {}).get(side, 0.0),
-            "our_action": (n.actions or {}).get(side, "")[:200],
-            "audit_action_type": det.get("action_type", ""),
-            "audit_intensity": det.get("intensity", 0.5),
             "events": [e.get("label_ko", e.get("name", "?"))
                        for e in (n.events or [])],
             "narrative": (n.adjudication or {}).get("turn_narrative", "")[:600],
-            "cash_attribution":
-                dict(n.cash_attribution) if n.cash_attribution else {},
+            "interaction": (n.adjudication or {}).get("interaction_analysis", "")[:400],
+            "sides": sides_data,
         })
     return out

@@ -70,25 +70,32 @@ class LLMSettings(BaseModel):
 class RunConfig(BaseModel):
     """A single redcell run.
 
-    Carries only what's specific to this run: the strategy under test,
-    the worry to stress-test, and simulation parameters. The cast
-    (industry, our company, competitors) is read from the scenario YAML
-    pointed to by ``scenario_path`` — single source of truth for who's
-    in the market.
+    User inputs:
+      - ``strategy``: what we are doing (kept constant across turns; an
+        overarching frame, not per-turn tactics)
+      - ``environment``: the initial exogenous condition the strategy is
+        executed under (a market state / risk frame / competitor stance).
+        Injected into ALL sides' deliberation context so competitors
+        also react to it, not just us.
+
+    Cast (industry / our company / competitors) is read from the scenario
+    YAML's ``sides`` — single source of truth for the market roster.
     """
 
     strategy: str
-    worried_risk: str
-    n_scenarios: int = 5
+    environment: str
     max_turns: int = 5
     scenario_path: str
 
     @classmethod
     def from_yaml(cls, path: str | Path) -> "RunConfig":
         data = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
-        # Tolerate legacy configs that still have industry/our_company/
-        # competitors fields — silently drop them (scenario YAML wins).
-        for k in ("industry", "our_company", "competitors"):
+        # Tolerate legacy configs that still have any of these — drop them
+        # silently. industry/our_company/competitors → scenario YAML wins.
+        # worried_risk / n_scenarios → v0.3 dropped LLM scenario generation;
+        #   single run per environment.
+        for k in ("industry", "our_company", "competitors",
+                  "worried_risk", "n_scenarios"):
             data.pop(k, None)
         return cls(**data)
 

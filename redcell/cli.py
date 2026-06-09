@@ -48,12 +48,14 @@ strategy: |
     신설 + 동남아 멀티브랜드 확장. R&D 매출 비중 7%→12% 증가.
     24개월 KPI: EBIT 마진 12→15%, 일본 매출 비중 8→18%.
 
-worried_risk: |
-  <One risk you're worried about. Concrete trigger + when + who.>
+environment: |
+  <The initial exogenous condition / risk frame the strategy will be
+   executed under. This is injected into ALL sides' deliberation context,
+   so competitors react to it, not just us.>
   Example:
-    Shiseido가 2026 Q1부터 mass-premium 30% 가격 인하 실집행.
+    Shiseido가 2026 Q1부터 한국 mass-premium 30% 가격 인하 실집행 — Olive Young
+    / Lotte 면세 / 백화점 동시 적용. 동남아 채널 경쟁 격화 동반.
 
-n_scenarios: 5     # 3-8 recommended. each scenario is one LLM-orchestrated sim
 max_turns: 5       # multi-turn propagation depth
 scenario_path: {scenario_name}
 """

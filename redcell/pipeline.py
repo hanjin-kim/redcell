@@ -1,7 +1,10 @@
-"""Pipeline orchestrator — adversary → simulate → analyze → render.
+"""Pipeline orchestrator — single run per (strategy, environment).
 
-Ties the four stages into one call so the CLI (and tests) can run a full
-redcell job from a RunConfig.
+v0.3: drops the LLM-driven adversary-scenario generation stage. The
+environment is a user input, not something the tool invents. A single
+simulation runs with that environment injected into BOTH our strategy
+context AND every competitor's strategy context — so competitors react
+to the environment, not just our team.
 """
 from __future__ import annotations
 
@@ -10,8 +13,6 @@ from pathlib import Path
 
 import yaml
 
-from .adversary import generate_adversary_moves
-from .analysis import analyze_scenario
 from .config import RunConfig, load_llm_settings
 from .engine import make_llm, run_linear_scenario
 from .render import render_brief
@@ -37,22 +38,20 @@ def _extract_cast(scenario: dict) -> tuple[str, str, list[str]]:
     return industry, our_company, competitors
 
 
-def _augmented_strategy(base: str, move: dict) -> str:
+def _augmented_strategy(strategy: str, environment: str) -> str:
+    """Append the environment block to a strategy text so the side reading
+    it deliberates with the environment in context."""
     return (
-        f"{base}\n\n"
-        f"[Red Team scenario context — adversary stress to anticipate]\n"
-        f"  Axis: {move['axis']}\n"
-        f"  Primary stressor: {move['primary_stressor']}\n"
-        f"  Secondary conditions: {move['secondary_conditions']}\n"
-        f"  Expected failure mode (hypothesis): {move['expected_failure_mode']}\n"
-        f"위 시나리오 압박이 *진행 중*이라는 가정 하에 전략을 펼쳐 deliberate 하라."
+        f"{strategy}\n\n"
+        f"[배경 환경 — 이 시뮬레이션 시작 시점의 시장/위협 조건]\n"
+        f"{environment}\n"
+        f"위 환경을 *주어진 외부 조건*으로 받아들이고, 자기 입장에서 합리적으로 반응하라."
     )
 
 
 def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
         log=print) -> dict:
-    """Execute a full redcell job. Returns the analyzed run dict
-    (renderable via render_brief)."""
+    """Execute a redcell job. Returns the renderable run dict."""
     llm = make_llm(load_llm_settings())
     scenario = yaml.safe_load(
         Path(config.scenario_path).read_text(encoding="utf-8")
@@ -60,43 +59,34 @@ def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
     industry, our_company, competitors = _extract_cast(scenario)
     log(f"[redcell] cast: {our_company} vs {', '.join(competitors)} "
         f"({industry})")
+    log(f"[redcell] environment: {config.environment[:80]}"
+        f"{'...' if len(config.environment) > 80 else ''}")
 
-    log(f"[redcell] generating {config.n_scenarios} adversary moves...")
-    moves = generate_adversary_moves(
-        llm,
-        industry=industry,
-        our_company=our_company,
-        competitor_list=competitors,
-        strategy=config.strategy,
-        worried_risk=config.worried_risk,
-        n_scenarios=config.n_scenarios,
+    strategy_with_env = _augmented_strategy(config.strategy, config.environment)
+
+    log(f"[redcell] running {config.max_turns}-turn simulation...")
+    t0 = time.time()
+    trace = run_linear_scenario(
+        scenario=scenario,
+        strategy=strategy_with_env,
+        environment=config.environment,
+        llm=llm,
+        our_side="side_a",
+        max_turns=config.max_turns,
+        cache_dir=cache_dir,
+        callback=lambda msg, pct=0.0: log(
+            f"  [{pct:5.1%}] {msg[:80]}"
+        ),
     )
-    for i, m in enumerate(moves, 1):
-        log(f"  [{i}] ({m['axis']}) {m['label_ko']}")
-
-    scenarios_out = []
-    for idx, move in enumerate(moves):
-        log(f"[redcell] scenario {idx+1}/{len(moves)}: {move['label_ko']}")
-        t0 = time.time()
-        trace = run_linear_scenario(
-            scenario=scenario,
-            strategy=_augmented_strategy(config.strategy, move),
-            llm=llm,
-            our_side="side_a",
-            max_turns=config.max_turns,
-            cache_dir=cache_dir,
-        )
-        log(f"    sim done in {time.time() - t0:.1f}s ({len(trace)} turns)")
-        s = {"scenario_idx": idx, "move": move, "trace": trace}
-        log(f"    analyzing...")
-        s["analysis"] = analyze_scenario(llm, scenario=s)
-        scenarios_out.append(s)
+    log(f"[redcell] sim done in {time.time() - t0:.1f}s ({len(trace)} turns)")
 
     return {
-        "user_worried_risk": config.worried_risk,
         "user_strategy": config.strategy,
+        "environment": config.environment,
         "industry": industry,
-        "scenarios": scenarios_out,
+        "our_company": our_company,
+        "competitors": competitors,
+        "trace": trace,
     }
 
 
