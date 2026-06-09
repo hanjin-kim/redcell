@@ -17,6 +17,26 @@ from .engine import make_llm, run_linear_scenario
 from .render import render_brief
 
 
+def _extract_cast(scenario: dict) -> tuple[str, str, list[str]]:
+    """Read industry + our_company + competitors from the scenario YAML.
+
+    Our side is ``side_a`` by convention; everyone else is a competitor.
+    Falls back to the side ID if a side has no ``company.name``.
+    """
+    industry = scenario.get("industry", "")
+    sides = scenario.get("sides", []) or []
+    our_company = ""
+    competitors: list[str] = []
+    for s in sides:
+        sid = s.get("id", "")
+        name = (s.get("company") or {}).get("name") or sid
+        if sid == "side_a":
+            our_company = name
+        else:
+            competitors.append(name)
+    return industry, our_company, competitors
+
+
 def _augmented_strategy(base: str, move: dict) -> str:
     return (
         f"{base}\n\n"
@@ -37,13 +57,16 @@ def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
     scenario = yaml.safe_load(
         Path(config.scenario_path).read_text(encoding="utf-8")
     )
+    industry, our_company, competitors = _extract_cast(scenario)
+    log(f"[redcell] cast: {our_company} vs {', '.join(competitors)} "
+        f"({industry})")
 
     log(f"[redcell] generating {config.n_scenarios} adversary moves...")
     moves = generate_adversary_moves(
         llm,
-        industry=config.industry,
-        our_company=config.our_company,
-        competitor_list=config.competitors,
+        industry=industry,
+        our_company=our_company,
+        competitor_list=competitors,
         strategy=config.strategy,
         worried_risk=config.worried_risk,
         n_scenarios=config.n_scenarios,
@@ -72,7 +95,7 @@ def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
     return {
         "user_worried_risk": config.worried_risk,
         "user_strategy": config.strategy,
-        "industry": config.industry,
+        "industry": industry,
         "scenarios": scenarios_out,
     }
 

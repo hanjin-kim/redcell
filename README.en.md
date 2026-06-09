@@ -77,9 +77,6 @@ Run `redcell doctor` to confirm the detected provider for your endpoint.
 ## Run config
 
 ```yaml
-industry: kbeauty_premium_skincare
-our_company: AURIE
-competitors: [Shiseido, Amore Pacific]
 strategy: |
   <your strategy in prose>
 worried_risk: |
@@ -88,6 +85,8 @@ n_scenarios: 5
 max_turns: 5
 scenario_path: scenarios/kbeauty_aurie.yaml
 ```
+
+Industry, our company, and competitors are read from the scenario YAML's `sides` — single source of truth for the market cast.
 
 ## Status
 

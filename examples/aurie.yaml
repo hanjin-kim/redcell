@@ -1,11 +1,6 @@
 # redcell run config — AURIE (K-beauty mid-cap) example.
 # Run: redcell run examples/aurie.yaml -o brief.md
 
-industry: kbeauty_premium_skincare
-our_company: AURIE
-competitors:
-  - Shiseido
-  - Amore Pacific
 
 strategy: |
   프리미엄-아시아 듀얼 트랙: 고가 anti-aging SKU 집중 + 일본 직영 채널 50개
@@ -18,6 +13,6 @@ worried_risk: |
   실제 집행 — Olive Young / Lotte 면세 / 백화점 동시 적용, AURIE 핵심
   anti-aging SKU 가격대(₩80-150K)에 직접 침투.
 
-n_scenarios: 3
-max_turns: 5
+n_scenarios: 5
+max_turns: 4
 scenario_path: scenarios/kbeauty_aurie.yaml

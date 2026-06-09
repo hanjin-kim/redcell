@@ -37,12 +37,9 @@ def _main():
 _CONFIG_TEMPLATE = """# redcell run config.
 # Edit the fields below, then run:
 #   redcell run {config_name}
-
-industry: <industry_name>             # e.g., kbeauty_premium_skincare
-our_company: <Our Company>            # the company whose strategy is being stress-tested
-competitors:                          # 1-3 main rivals
-  - <Competitor A>
-  - <Competitor B>
+#
+# The cast (industry, our company, competitors) lives in the scenario YAML
+# below — single source of truth for who's in the market.
 
 strategy: |
   <Describe your strategy in 3-6 lines. Concrete actions + 12-24 month KPIs.>

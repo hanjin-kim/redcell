@@ -17,12 +17,16 @@ venv/
 .env
 .env.local
 
-# Runtime
-.redcell_cache/
-.strategyforge_cache/
+# Runtime caches (any redcell/strategyforge cache dir variant)
+.redcell_cache*/
+.strategyforge_cache*/
+
+# Logs and throwaway briefs
 *.log
 smoke_brief.md
+smoke*.md
 red_team_brief.md
+red_team_brief_*.md
 
 # Test artifacts
 tmp_review/

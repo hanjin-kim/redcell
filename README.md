@@ -11,7 +11,7 @@
 전략과 걱정되는 위협 한 가지를 입력하면:
 
 1. **시나리오 확장** — 입력한 위협을 6개 축(경쟁사 행동, 고객 반응, 채널 압박, 규제 충격, 거시 환경, 내부 실행)으로 펼쳐 서로 다른 N개의 적대적 시나리오를 만듭니다. 입력한 위협은 첫 번째 시나리오로 보존되고, 나머지는 미처 떠올리지 못했을 수 있는 다른 종류의 위협으로 채워집니다.
-2. **시뮬레이션** — 각 시나리오를 여러 턴에 걸쳐 돌립니다. 우리 측 C-suite(CEO/CFO/CTO/CMO/COO)와 경쟁사가 매 턴 의사결정을 내리고, 어드judicator 패널이 시장 포지션을 매기고 현금을 정산합니다.
+2. **시뮬레이션** — 각 시나리오를 여러 턴에 걸쳐 돌립니다. 우리 측 C-suite(CEO/CFO/CTO/CMO/COO)와 경쟁사가 매 턴 의사결정을 내리고, adjudicator 패널이 시장 포지션을 매기고 현금을 정산합니다.
 3. **분석** — 각 궤적을 시나리오의 축 관점에서 다시 읽습니다. 그 축이 시뮬레이션에서 실제로 발현되지 않았다면 억지로 끼워 맞추지 않고 그 사실을 그대로 적습니다. 매 턴 현금 변동의 주요 동인도 숫자까지 노출합니다.
 4. **브리프 출력** — 시나리오별 카드 형식 마크다운. 핵심 스트레스 요인, 궤적, 현금 동인, 관찰 신호, 그리고 워크숍에서 바로 쓸 수 있는 구체적인 진단 질문 3개씩.
 
@@ -82,16 +82,11 @@ redcell run redcell_config.yaml -o brief.md
 | **qwen3.5-flash** (DashScope) | $0.35-0.60 |
 | **qwen3.5-plus** (DashScope) | $2-3 |
 | 권장 기본값 5 × 5 | flash 약 $2-4, plus 약 $12-20 |
-| sglang 로컬 | $0 (대신 GPU 시간) |
-
-워크숍 한 번 외주에 $50k가 드는 시장에서는 커피값 수준이지만, 무료는 아닙니다.
+| sglang 로컬 | $0 |
 
 ## Run config 예시
 
 ```yaml
-industry: kbeauty_premium_skincare
-our_company: AURIE
-competitors: [Shiseido, Amore Pacific]
 strategy: |
   <여기에 전략을 산문으로>
 worried_risk: |
@@ -101,15 +96,13 @@ max_turns: 5
 scenario_path: scenarios/kbeauty_aurie.yaml
 ```
 
-## 상태
+산업·우리 회사·경쟁사 정보는 `scenario_path`가 가리키는 시나리오 YAML 안의 `sides`에서 읽어옵니다.
 
-현재 `0.2` — 외부 의존성 없이 동작합니다.
+## 구성
 
 - LLM 호출 계층 (`redcell/llm.py`) — sglang / DashScope / OpenAI / 그 외 OpenAI 호환 endpoint를 자동으로 구분해 다룹니다.
-- 시뮬레이션 엔진 (`redcell/sim/`) — 멀티 에이전트 C-suite 토론, 어드judicator 패널, 이벤트 덱, 룰북 생성기. 원래는 strategyforge 프로젝트에서 가져온 코드이지만 현재는 redcell 안에 모두 들어와 있고, strategyforge에 대한 런타임 의존은 없습니다.
-- 사전 워크숍 파이프라인 (`redcell/adversary.py`, `analysis.py`, `pipeline.py`, `render.py`) — redcell 고유.
-
-`pip install -e .` 한 줄로 끝납니다.
+- 시뮬레이션 엔진 (`redcell/sim/`) — 멀티 에이전트 C-suite 토론, adjudicator 패널, 이벤트 덱, 룰북 생성기.
+- 사전 워크숍 파이프라인 (`redcell/adversary.py`, `analysis.py`, `pipeline.py`, `render.py`) — 적대 시나리오 생성, 궤적 분석, 브리프 렌더링.
 
 ## 라이선스
 
