@@ -2,26 +2,27 @@
 
 > 🇺🇸 [English version](README.en.md)
 
-**전략을 워크숍 *전* stress-test 하는 도구.** 한 가지 걱정거리를 *여러 axis의 N개 adversary scenarios*로 펼쳐서, 각각의 cash/position trajectory와 *측정 가능한 워크숍 질문*을 출력합니다.
+**워크숍 전에 전략을 미리 깨뜨려 보는 도구.** 신경 쓰이는 위협 하나를 여러 각도의 시나리오로 펼치고, 각각의 현금·점유율 궤적과 워크숍에서 던질 만한 구체적인 질문을 만들어 줍니다.
 
-전략기획팀의 *pre-mortem*, 컨설턴트의 *deck prep 전 빈틈 점검*에 사용. *missed scenarios* 발굴 + *추상 risk를 구체적 데이터 요청으로 전환*.
+전략기획팀이 사전 점검을 돌리거나, 컨설턴트가 보고서 초안을 잡기 전에 빈 곳을 짚어 보는 용도. 평소 안 보이던 시나리오를 끌어내고, 막연한 우려를 *어떤 데이터를 확인해야 하는지*로 바꿔 줍니다.
 
-## 무엇을 하나
+## 동작 방식
 
-전략과 *걱정되는 risk 한 가지*를 입력하면 redcell은:
+전략과 걱정되는 위협 한 가지를 입력하면:
 
-1. **확장** — 입력 risk를 6개 axis (competitor action / customer reaction / channel leverage / regulatory shock / macro pressure / internal execution)에 걸쳐 N개 distinct adversary scenarios로 풀어냄. 사용자 worry는 Scenario 1로 보존, 나머지는 *생각 못 했을 수도 있는 위협*.
-2. **시뮬레이션** — 각 시나리오를 multi-turn linear run으로 실행. 우리 C-suite (CEO/CFO/CTO/CMO/COO) vs AI 경쟁사 deliberation, adjudication panel이 *position tier* 부여하고 cash 정산.
-3. **분석** — 각 trajectory를 axis 기준 재해석. Axis가 trace에 *명확히 materialize 안 했으면* 솔직히 명시 — narrative 강요 안 함. Per-turn cash drivers 산술까지 노출.
-4. **렌더링** — Scenario card 형식 brief: primary stressor / trajectory / cash drivers / observation triggers / 3개 구체 diligence questions.
+1. **시나리오 확장** — 입력한 위협을 6개 축(경쟁사 행동, 고객 반응, 채널 압박, 규제 충격, 거시 환경, 내부 실행)으로 펼쳐 서로 다른 N개의 적대적 시나리오를 만듭니다. 입력한 위협은 첫 번째 시나리오로 보존되고, 나머지는 미처 떠올리지 못했을 수 있는 다른 종류의 위협으로 채워집니다.
+2. **시뮬레이션** — 각 시나리오를 여러 턴에 걸쳐 돌립니다. 우리 측 C-suite(CEO/CFO/CTO/CMO/COO)와 경쟁사가 매 턴 의사결정을 내리고, 어드judicator 패널이 시장 포지션을 매기고 현금을 정산합니다.
+3. **분석** — 각 궤적을 시나리오의 축 관점에서 다시 읽습니다. 그 축이 시뮬레이션에서 실제로 발현되지 않았다면 억지로 끼워 맞추지 않고 그 사실을 그대로 적습니다. 매 턴 현금 변동의 주요 동인도 숫자까지 노출합니다.
+4. **브리프 출력** — 시나리오별 카드 형식 마크다운. 핵심 스트레스 요인, 궤적, 현금 동인, 관찰 신호, 그리고 워크숍에서 바로 쓸 수 있는 구체적인 진단 질문 3개씩.
 
-## ChatGPT 한 번 물어보는 것과 차이
+## ChatGPT에 한 번 물어보는 것과의 차이
 
-단일 LLM prompt는 *그럴듯한 narrative 하나*를 줍니다. redcell의 차별점:
-- **breadth** — 사용자가 명시 안 한 axis까지 포함한 여러 adversary 후보
-- **trajectory** — multi-turn cash/position propagation, *한 방 짐작* 아님
-- **honest grounding** — 분석이 *axis 외 다른 요인*이 결과를 끌었으면 그대로 표기
-- **workshop-ready output** — *측정 가능 threshold* 있는 diligence questions, 산문 아님
+LLM에 한 번 물어보면 그럴듯한 서사 하나를 받습니다. redcell이 더 주는 것:
+
+- **폭** — 사용자가 명시한 위협 외에 다른 축의 시나리오도 함께 surface
+- **궤적** — 여러 턴에 걸친 현금·포지션 전개, 한 번에 추측한 결과가 아님
+- **솔직한 결론** — 결과가 명시한 축이 아닌 다른 요인 때문이었다면 분석이 그대로 적음
+- **워크숍에서 바로 쓸 수 있는 질문** — 측정 가능한 임계값이 들어간 진단 질문, 산문 narrative가 아님
 
 ## Quickstart
 
@@ -63,27 +64,27 @@ redcell run redcell_config.yaml -o brief.md
 
 ## 지원 LLM provider
 
-redcell은 `base_url`에서 provider를 *자동 감지*. 어댑터가 provider별 비호환 kwargs를 자동 제거하므로 *코드 수정 없이* provider 전환 가능.
+`base_url`에서 provider를 자동으로 알아내고, 어댑터가 provider별로 안 통하는 옵션을 알아서 잘라 보냅니다. 그래서 provider를 바꿔도 코드는 손대지 않습니다.
 
-| Provider | 자동 감지 조건 | 상태 |
+| Provider | 감지 조건 | 상태 |
 |---|---|---|
-| **sglang local** (Qwen) | `localhost` / `10.*` / `192.168.*` + 모델명에 `qwen` | ✅ Dev 권장. `guided_json` 완전 strict |
-| **DashScope** (Alibaba Qwen) | URL에 `dashscope` / `aliyuncs.com` | ✅ E2E smoke 검증. Schema는 *advisory* (prompt가 보호). 드물게 reasoning runaway → adapter가 자동 retry |
-| **OpenAI** (api.openai.com) | base_url 없거나 `openai.com` 포함 | ⚠ CI 미검증. `json_schema strict` 실제 동작. `enable_thinking` kwarg는 무시 (reasoning은 o1/o3/gpt-5 모델명으로 활성화) |
-| **OpenAI-compatible** (Groq, Together, vLLM-direct, …) | 그 외 모든 endpoint | ⚠ Conservative passthrough. Qwen 전용 extras 비활성. Schema 약한 server는 *prompt explicit listing*에 의존 |
+| **sglang 로컬** (Qwen) | `localhost` / `10.*` / `192.168.*` + 모델명에 `qwen` | ✅ 개발 환경 권장. `guided_json`이 토큰 단위로 스키마를 강제 |
+| **DashScope** (알리바바 Qwen) | URL에 `dashscope` / `aliyuncs.com` | ✅ E2E 스모크 검증 완료. 스키마는 권고 수준이지만 프롬프트로 보완. 드물게 reasoning이 폭주하면 어댑터가 thinking을 끄고 자동 재시도 |
+| **OpenAI** (api.openai.com) | base_url 없거나 `openai.com` 포함 | ⚠ 실 테스트 미진행. `json_schema strict`는 진짜로 동작. `enable_thinking` 인자는 무시되며, reasoning은 o1/o3/gpt-5 같은 모델명으로 활성화 |
+| **OpenAI-compatible** (Groq, Together, vLLM-direct 등) | 그 외 모든 endpoint | ⚠ 보수적 패스스루. Qwen 전용 옵션은 모두 비활성. 스키마 강제가 약한 서버에서는 프롬프트의 명시적 필드 나열에 의존 |
 
-`redcell doctor`로 현재 endpoint의 감지된 provider 확인 가능.
+지금 endpoint가 어떤 provider로 잡히는지는 `redcell doctor`로 확인할 수 있습니다.
 
-## 비용 (참고용 — 2 scenario × 2 turn 기준)
+## 비용 감각 (2 시나리오 × 2 턴 기준)
 
 | 모델 | 추정 비용 |
 |---|---|
 | **qwen3.5-flash** (DashScope) | $0.35-0.60 |
 | **qwen3.5-plus** (DashScope) | $2-3 |
-| 5 scenario × 5 turn (권장 default) | flash $2-4, plus $12-20 |
-| 로컬 sglang | $0 (시간 비용만) |
+| 권장 기본값 5 × 5 | flash 약 $2-4, plus 약 $12-20 |
+| sglang 로컬 | $0 (대신 GPU 시간) |
 
-MBB 워크숍 reference ($50-200k)와 비교 시 *coffee 값*. 단 절대 무료 아님.
+워크숍 한 번 외주에 $50k가 드는 시장에서는 커피값 수준이지만, 무료는 아닙니다.
 
 ## Run config 예시
 
@@ -102,13 +103,13 @@ scenario_path: scenarios/kbeauty_aurie.yaml
 
 ## 상태
 
-`0.2` — fully self-contained.
+현재 `0.2` — 외부 의존성 없이 동작합니다.
 
-- LLM transport (`redcell/llm.py`) — provider-portable, sglang/DashScope/OpenAI/generic 자동 감지
-- Simulation engine (`redcell/sim/`) — multi-agent C-suite deliberation, adjudication panel, event deck, rulebook 생성기. 원래 strategyforge에서 vendored, *runtime 의존 0*
-- Pre-workshop flow (`redcell/adversary.py`, `analysis.py`, `pipeline.py`, `render.py`) — native
+- LLM 호출 계층 (`redcell/llm.py`) — sglang / DashScope / OpenAI / 그 외 OpenAI 호환 endpoint를 자동으로 구분해 다룹니다.
+- 시뮬레이션 엔진 (`redcell/sim/`) — 멀티 에이전트 C-suite 토론, 어드judicator 패널, 이벤트 덱, 룰북 생성기. 원래는 strategyforge 프로젝트에서 가져온 코드이지만 현재는 redcell 안에 모두 들어와 있고, strategyforge에 대한 런타임 의존은 없습니다.
+- 사전 워크숍 파이프라인 (`redcell/adversary.py`, `analysis.py`, `pipeline.py`, `render.py`) — redcell 고유.
 
-`pip install -e .` 한 줄이면 standalone 도구.
+`pip install -e .` 한 줄로 끝납니다.
 
 ## 라이선스
 
