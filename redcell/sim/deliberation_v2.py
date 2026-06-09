@@ -1629,3 +1629,133 @@ class DeliberationV2:
                 reasoning="[fallback] 토론 파싱 실패",
             ))
         return actions
+
+
+# ---------------------------------------------------------------------------
+# Per-side competitor strategy reassessment (turn ≥ 2, non-our sides)
+# ---------------------------------------------------------------------------
+
+COMPETITOR_REASSESS_PROMPT = """당신은 {company_name}의 CEO입니다. 산업: {industry}.
+
+지금 우리 회사는 *주어진 시장 환경* 하에서 N턴 시뮬레이션을 진행 중이며,
+1턴이 끝났습니다. 환경과 *직전 턴 관찰 결과*를 보고 *우리 회사가 다음 턴에
+전략을 적응시킬지* 판단하십시오.
+
+==========================
+주어진 시장 환경
+==========================
+{environment}
+
+==========================
+우리 회사의 현재 전략 (시뮬 시작 시점 brief)
+==========================
+{current_strategy}
+
+==========================
+지금까지 trajectory (우리 회사 위치 / 현금)
+==========================
+{trajectory_summary}
+
+==========================
+직전 턴 발효 이벤트
+==========================
+{recent_events}
+
+==========================
+경쟁사 (우리 입장에서) 직전 턴 행동
+==========================
+{rival_actions}
+
+==========================
+질문
+==========================
+환경 변화와 직전 턴 관찰 결과를 보고:
+- **hold**: 현재 전략 그대로 유지가 합리적
+- **adapt**: 전략을 *부분 수정* (완전 전환 아니라 *조정*)
+
+adapt 시:
+- *어떤 부분*을 *어떻게* 바꿀지 1-2문장으로 명시
+- 새 전략 텍스트 = 기존 전략을 *수정한 버전* (완전 새로 쓰는 게 아님)
+- *왜* adapt가 합리적인지 rationale
+
+==========================
+출력
+==========================
+JSON only — 다음 필드 모두 포함:
+- verdict: "hold" 또는 "adapt"
+- new_strategy: adapt 시 새 전략 텍스트 (hold 시 빈 문자열)
+- rationale: 한국어 1-2문장 — *왜* 이 판단인지
+"""
+
+
+def reassess_competitor_strategy(
+    llm,
+    *,
+    side: str,
+    company_name: str,
+    industry: str,
+    current_strategy: str,
+    environment: str,
+    trajectory_summary: str,
+    recent_events: str,
+    rival_actions: str,
+) -> dict:
+    """Ask a competitor side's CEO whether to adapt their strategy in
+    response to the environment + observed turn outcomes.
+
+    Free function (not a method) — competitors don't have a pre-built
+    DeliberationV2 instance the way our side does. Just an LLM call with
+    the side's context. Returns a hold/adapt dict.
+
+    Fail-safe: any error returns ``verdict='hold'``.
+    """
+    fallback_hold = {
+        "verdict": "hold",
+        "new_strategy": "",
+        "rationale": "reassess unavailable — defaulting to hold",
+    }
+    if not environment:
+        # No environment to react to — hold.
+        return fallback_hold
+
+    prompt = COMPETITOR_REASSESS_PROMPT.format(
+        company_name=company_name,
+        industry=industry,
+        environment=environment,
+        current_strategy=current_strategy or "(unknown)",
+        trajectory_summary=trajectory_summary or "(no trajectory yet)",
+        recent_events=recent_events or "(none)",
+        rival_actions=rival_actions or "(none)",
+    )
+
+    try:
+        response = llm.complete(
+            system=prompt,
+            user="Reassess strategy for this turn.",
+            temperature=0.3,
+            max_tokens=1024,
+            enable_thinking=False,
+        )
+        data = parse_llm_json(response)
+    except Exception as e:
+        logger.warning("Competitor reassess LLM call failed for %s: %s", side, e)
+        return fallback_hold
+
+    if not isinstance(data, dict):
+        return fallback_hold
+
+    verdict = data.get("verdict", "hold")
+    if verdict not in ("hold", "adapt"):
+        verdict = "hold"
+    new_strategy = data.get("new_strategy", "") or ""
+    rationale = data.get("rationale", "") or ""
+
+    # If adapt but empty new_strategy → degrade to hold (no change to apply).
+    if verdict == "adapt" and not new_strategy.strip():
+        verdict = "hold"
+
+    return {
+        "verdict": verdict,
+        "new_strategy": new_strategy.strip() if verdict == "adapt" else "",
+        "rationale": rationale,
+    }

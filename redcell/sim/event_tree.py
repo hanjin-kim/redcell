@@ -78,6 +78,10 @@ class _TreeCtx:
     # from scenario.position_revenue. Falls back to adjudicator.POSITION_REVENUE
     # if not specified. Exposed to the brief renderer for audit.
     position_revenue: dict = field(default_factory=dict)
+    # The user-supplied environment/risk frame (mirror of scenario.trigger_event).
+    # Threaded into per-turn competitor strategy reassessment so each side can
+    # adapt to the environment as the simulation unfolds.
+    environment: str = ""
 
 
 # ---------------------------------------------------------------------------
@@ -116,6 +120,7 @@ def _engine_signature() -> str:
             getattr(dv, "DEVILS_ADVOCATE_PROMPT", ""),
             getattr(dv, "BOARD_REVIEW_PROMPT", ""),
             getattr(dv, "STRATEGY_REASSESS_PROMPT", ""),
+            getattr(dv, "COMPETITOR_REASSESS_PROMPT", ""),
         ])
     except Exception:
         blob = ""
@@ -495,6 +500,112 @@ def _reassess_our_campaign(
     return new_state
 
 
+def _reassess_competitor_strategies(
+    ctx: _TreeCtx, parent: TreeNode, agents: dict, turn: int,
+) -> None:
+    """Let each competitor side adapt its strategy in response to the
+    environment + observed turn outcomes. Mutates ``agents[sid]._strategy``
+    in place when a side chooses to adapt.
+
+    Mirror of ``_reassess_our_campaign`` but for non-our sides: simpler
+    because competitors don't have a pre-built campaign menu — they just
+    free-form revise their strategy text.
+    """
+    if turn < 2:
+        return
+    if not ctx.environment:
+        return
+
+    # Build trajectory + recent events + our-actions blocks once; same
+    # facts for every competitor reassess.
+    path = parent.path_from_root() if parent is not None else []
+    recent_events: list[str] = []
+    for n in path[-3:]:
+        for ev in (n.events or []):
+            recent_events.append(
+                f"  T{n.turn}: {ev.get('label_ko', ev.get('name', '?'))}"
+            )
+    recent_str = "\n".join(recent_events[-5:]) if recent_events else "(none)"
+
+    # Our (the user's side) last-turn actions — competitors see this and
+    # react.
+    rival_lines: list[str] = []
+    if path:
+        last = path[-1]
+        det = (last.actions_detail or {}).get(ctx.our_side, {}) or {}
+        atype = det.get("action_type", "")
+        txt = (det.get("text", "") or "")[:80]
+        our_name = ctx.companies.get(ctx.our_side, ctx.our_side)
+        if atype or txt:
+            rival_lines.append(f"  {our_name}: {atype} — {txt}")
+    rival_str = "\n".join(rival_lines) if rival_lines else "(none)"
+
+    # Late import to keep cycle-safe; deliberation_v2 is already loaded
+    # by upstream callers in practice.
+    from . import deliberation_v2 as dv
+
+    for sid in ctx.sides:
+        if sid == ctx.our_side:
+            continue
+        agent = agents.get(sid)
+        if agent is None:
+            continue
+        current_strategy = getattr(agent, "_strategy", "")
+        company_name = ctx.companies.get(sid, sid)
+
+        # This side's own trajectory snippet (last 3 turns).
+        traj_lines: list[str] = []
+        for n in path[-3:]:
+            if n.turn < 1:
+                continue
+            pos = (n.positions or {}).get(sid, {}) if n.positions else {}
+            cash_v = (n.cash or {}).get(sid, 0.0)
+            traj_lines.append(
+                f"  T{n.turn}: pos={pos.get('position', '?')}"
+                f"({pos.get('momentum', '→')}) cash={cash_v:.0%}"
+            )
+        traj_str = "\n".join(traj_lines) if traj_lines else "(no trajectory yet)"
+
+        try:
+            result = dv.reassess_competitor_strategy(
+                ctx.llm,
+                side=sid,
+                company_name=company_name,
+                industry=ctx.industry,
+                current_strategy=current_strategy,
+                environment=ctx.environment,
+                trajectory_summary=traj_str,
+                recent_events=recent_str,
+                rival_actions=rival_str,
+            )
+        except Exception as e:
+            logger.warning(
+                "Competitor reassess failed at turn %d for %s: %s",
+                turn, sid, e,
+            )
+            continue
+
+        verdict = result.get("verdict", "hold")
+        rationale = (result.get("rationale", "") or "")[:120]
+        if verdict == "adapt":
+            new_strategy = result.get("new_strategy", "").strip()
+            if new_strategy:
+                agent._strategy = new_strategy
+                logger.info(
+                    "competitor-reassess T%d %s: ADAPT — %s",
+                    turn, sid, rationale,
+                )
+            else:
+                logger.info(
+                    "competitor-reassess T%d %s: adapt-with-empty-strategy "
+                    "(treated as hold)", turn, sid,
+                )
+        else:
+            logger.info(
+                "competitor-reassess T%d %s: hold — %s", turn, sid, rationale,
+            )
+
+
 def _build_actions(campaigns: dict, companies: dict) -> tuple[dict, dict, dict]:
     """Turn campaign tuples into (actions_text, actions_detail, impact_input)."""
     actions_text = {sid: campaigns.get(sid, ("", {}))[0] for sid in companies}
@@ -704,6 +815,7 @@ def _expand(
     strategic_state = _reassess_our_campaign(
         ctx, parent, agents, strategic_state, turn,
     )
+    _reassess_competitor_strategies(ctx, parent, agents, turn)
 
     has_events = turn > 1
     turn_es = event_state.fork() if has_events else event_state
@@ -1041,6 +1153,7 @@ def run_event_tree_simulation(
             seed_campaign_text=campaign_strategy,
             cache_dir=ctx.cache_dir,
             position_revenue=dict(scenario.get("position_revenue") or {}),
+            environment=scenario.get("trigger_event", "") or "",
         )
         # NEVER use Python's built-in hash() for cross-process determinism —
         # PYTHONHASHSEED is randomized per process by default, so the same
