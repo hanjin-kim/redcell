@@ -1,109 +1,122 @@
 # redcell
 
-**Adversarial strategy scenario generator.** Turn a strategy and a single worry into N distinct stress-test scenarios — each with a cash/position trajectory and workshop diligence questions.
+> 🇺🇸 [English version](README.en.md)
 
-redcell is a **pre-workshop thinking aid**: a hypothesis generator for strategy teams running pre-mortems. It is *not* a statistical estimator, *not* a parameter-calibrated forecast, and *not* a client-facing deck. It surfaces *missed scenarios* and turns abstract risks into concrete data-gathering questions.
+**전략을 워크숍 *전* stress-test 하는 도구.** 사용자가 *명시한* 한 가지 risk를 *여러 axis의 N개 adversary scenarios*로 펼치고, 각각의 cash/position trajectory와 워크숍 prep용 *질문*을 출력합니다.
 
-## What it does
+redcell은 **pre-workshop thinking aid** — 전략기획팀이 *워크숍 전 pre-mortem*을 돌리거나 컨설턴트가 *deck prep 전 빈틈을 점검*할 때 사용하는 가설 발굴 도구입니다. *통계 추정기 아니며, calibrated forecast 아니며, client-facing deck 아닙니다.* *missed scenarios* 발굴 + *추상적 risk를 구체적 데이터 요청으로 전환*하는 게 목적입니다.
 
-Give it your strategy and one risk you're worried about. redcell:
+## 무엇을 하나
 
-1. **Expands** the worry into N distinct adversary scenarios across axes — competitor action, customer reaction, channel leverage, regulatory shock, macro pressure, internal execution. (The one you named is Scenario 1; the rest are ones you may not have considered.)
-2. **Simulates** each scenario as an independent linear run — your C-suite vs AI-driven competitors over N turns, with an adjudication panel awarding competitive positions and booking cash.
-3. **Analyzes** each trajectory honestly — axis-aligned, grounded in the actual simulation trace (it will tell you when the axis *didn't* materialize rather than forcing a narrative).
-4. **Renders** a scenario-card brief: primary stressor, trajectory, per-turn cash drivers, observation triggers, and 3 specific diligence questions per scenario.
+전략과 *걱정되는 risk 한 가지*를 입력하면 redcell은:
 
-## Why not just ask ChatGPT?
+1. **확장** — 입력 risk를 *6개 axis* (competitor action, customer reaction, channel leverage, regulatory shock, macro pressure, internal execution)에 걸쳐 N개의 distinct adversary scenarios로 풀어냄. 사용자가 명시한 worry는 Scenario 1로 보존, 나머지는 *생각 못 했을 수도 있는 위협*.
+2. **시뮬레이션** — 각 시나리오를 *독립 linear run*으로 실행. 우리 측 C-suite (CEO/CFO/CTO/CMO/COO) vs AI 경쟁사를 N턴 deliberation, 그 후 adjudication panel이 *position tier* 부여하고 cash 정산.
+3. **분석** — 각 trajectory를 *정직하게* 재해석. Axis가 *실제로 materialize 안 했으면* 그 사실을 *솔직히 명시* (narrative 강요 안 함). Per-turn cash drivers 산술까지 노출.
+4. **렌더링** — Scenario card 형식의 brief: primary stressor / trajectory / cash drivers / observation triggers / 3개 구체 diligence questions.
 
-A single LLM prompt gives you a plausible narrative. redcell gives you:
-- **breadth** — multiple adversary axes, including ones you didn't name
-- **trajectory** — multi-turn cash/position propagation, not a one-shot guess
-- **honest grounding** — analysis flags when a scenario's outcome is driven by something *other* than the named axis
-- **workshop-ready output** — diligence questions with measurable thresholds, not prose
+## ChatGPT 한 번 물어보는 것과 뭐가 다른가
 
-## What it is NOT
+단일 LLM prompt는 *그럴듯한 narrative* 하나를 줍니다. redcell의 차별점:
+- **breadth** — 사용자가 명시 안 한 axis까지 포함한 여러 adversary 후보
+- **trajectory** — multi-turn cash/position propagation, *한 방 짐작* 아님
+- **honest grounding** — 분석이 *axis 외 다른 요인*이 결과를 끌었으면 그렇게 표기
+- **workshop-ready output** — *측정 가능한 threshold* 있는 diligence questions, 산문 narrative 아님
 
-- ❌ Statistical estimator — no "robust", no confidence intervals, no p-values. Each scenario is one *conditional plausible future*.
-- ❌ Matched counterfactual — it does not isolate one event's causal effect.
-- ❌ Calibrated forecast — cash/revenue mappings are day-0 rulebook assumptions. Use *relative comparison* and *direction*, not absolute numbers.
-- ❌ A conclusion — the output is *questions to ask*, not answers to cite.
+## redcell은 *아닙니다*
+
+- ❌ Statistical estimator — *robust*, CI, p-value *전부 안 씀*. 각 scenario는 *조건부 plausible future* 하나.
+- ❌ Matched counterfactual — *event X가 fire vs not* isolated effect를 측정 *안 함*.
+- ❌ Calibrated forecast — cash/revenue mapping은 *day-0 rulebook* 가정. *상대 비교*와 *방향성*만 사용 권장, *절대값 인용 금지*.
+- ❌ 결론 — 출력은 *물어볼 질문*, *인용할 답*이 아님.
 
 ## Quickstart
 
 ```bash
-# 1. Install (editable)
+# 1. 설치 (editable)
 pip install -e .
 
-# 2. Set LLM credentials. Any of these env-var sets works:
-#    OpenAI direct:
+# 2. LLM credentials 설정 — 아래 셋 중 하나
+#    OpenAI 직접:
 export OPENAI_API_KEY=sk-...
-#    DashScope Qwen (Alibaba):
+#    DashScope Qwen (Alibaba Cloud):
 export SF_QWEN_API_KEY=sk-...
 export SF_QWEN_MODEL=qwen-plus
 export SF_QWEN_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-#    Local sglang serving Qwen:
+#    로컬 sglang serving Qwen:
 export SF_QWEN_API_KEY=local-sglang
 export SF_QWEN_MODEL=Qwen/Qwen3.5-35B-A3B
 export SF_QWEN_BASE_URL=http://localhost:8000/v1
 
-# 3. Scaffold a starter config
+# 3. 시작 config scaffold
 redcell init
 
-# 4. Edit redcell_config.yaml + scenario.yaml
+# 4. redcell_config.yaml + scenario.yaml 편집
 
-# 5. Pre-flight check (verifies creds + connectivity)
+# 5. Pre-flight check (creds + 연결성 점검)
 redcell doctor
 
-# 6. Generate the brief
+# 6. Brief 생성
 redcell run redcell_config.yaml -o brief.md
 ```
 
 ## CLI
 
-| Command | What it does |
+| Command | 설명 |
 |---|---|
-| `redcell init [-o config.yaml]` | Scaffold a starter config + scenario stub |
-| `redcell doctor` | Pre-flight: LLM creds, provider detection, ping, optional deps |
-| `redcell run <config.yaml> -o brief.md` | Generate the adversarial scenario brief |
+| `redcell init [-o config.yaml]` | 시작 config + scenario stub scaffold |
+| `redcell doctor` | LLM 자격증명 / provider 자동 감지 / ping / optional dep 점검 |
+| `redcell run <config.yaml> -o brief.md` | Adversary scenario brief 생성 |
 
-## Supported LLM providers
+## 지원 LLM provider
 
-redcell auto-detects the provider from `base_url`. The adapter strips provider-incompatible kwargs so you can swap providers without touching code.
+redcell은 `base_url`에서 provider를 *자동 감지*. 어댑터가 provider별 비호환 kwargs를 자동 제거하므로 *코드 수정 없이* provider 전환 가능.
 
-| Provider | Detected by | Status |
+| Provider | 자동 감지 조건 | 상태 |
 |---|---|---|
-| **sglang local** (Qwen) | `localhost` / `10.*` / `192.168.*` + `qwen` in model name | ✅ Recommended for dev. Full `guided_json` strict schema. |
-| **DashScope** (Alibaba Qwen) | `dashscope` / `aliyuncs.com` in URL | ✅ Tested. Schema is advisory (relies on prompt). Empty-content edge case observed but not reproducible. |
-| **OpenAI** (api.openai.com) | no base_url, or `openai.com` | ⚠ Untested in CI. Real `json_schema` strict supported. `enable_thinking` kwarg dropped (use o1/o3/gpt-5 model names for reasoning). |
-| **OpenAI-compatible** (Groq, Together, vLLM-direct, …) | anything else | ⚠ Conservative passthrough. Qwen-specific extras disabled. May parse-fail on weak-schema servers — prompts are explicit but some providers need defensive retry. |
+| **sglang local** (Qwen) | `localhost` / `10.*` / `192.168.*` + 모델명에 `qwen` | ✅ Dev 권장. `guided_json` 완전 strict |
+| **DashScope** (Alibaba Qwen) | URL에 `dashscope` / `aliyuncs.com` | ✅ E2E smoke 검증. Schema는 *advisory* (prompt가 보호). 드물게 reasoning runaway → adapter가 자동 retry |
+| **OpenAI** (api.openai.com) | base_url 없거나 `openai.com` 포함 | ⚠ CI 미검증. `json_schema strict` 실제 동작. `enable_thinking` kwarg는 무시 (reasoning은 o1/o3/gpt-5 모델명으로 활성화) |
+| **OpenAI-compatible** (Groq, Together, vLLM-direct, …) | 그 외 모든 endpoint | ⚠ Conservative passthrough. Qwen 전용 extras 비활성. Schema 약한 server는 *prompt explicit listing*에 의존 |
 
-Run `redcell doctor` to confirm the detected provider for your endpoint.
+`redcell doctor`로 현재 endpoint의 감지된 provider 확인 가능.
 
-## Run config
+## 비용 (참고용 — 2 scenario × 2 turn 기준)
+
+| 모델 | 추정 비용 |
+|---|---|
+| **qwen3.5-flash** (DashScope) | $0.35-0.60 |
+| **qwen3.5-plus** (DashScope) | $2-3 |
+| 5 scenario × 5 turn (권장 default) | flash $2-4, plus $12-20 |
+| 로컬 sglang | $0 (시간 비용만) |
+
+MBB 워크숍 reference ($50-200k)와 비교 시 *coffee 값*. 단 절대 무료 아님.
+
+## Run config 예시
 
 ```yaml
 industry: kbeauty_premium_skincare
 our_company: AURIE
 competitors: [Shiseido, Amore Pacific]
 strategy: |
-  <your strategy in prose>
+  <여기에 전략을 산문으로>
 worried_risk: |
-  <the one risk you're worried about>
+  <걱정되는 risk 한 줄>
 n_scenarios: 5
 max_turns: 5
 scenario_path: scenarios/kbeauty_aurie.yaml
 ```
 
-## Status
+## 상태
 
 `0.2` — fully self-contained.
 
-- LLM transport layer (`redcell/llm.py`) — provider-portable, auto-detects sglang / DashScope / OpenAI / generic OpenAI-compatible.
-- Simulation engine (`redcell/sim/`) — multi-agent C-suite deliberation, adjudication panel, event deck, rulebook generator. Vendored from the original strategyforge implementation; no runtime dependency on strategyforge.
-- Pre-workshop flow (`redcell/adversary.py`, `analysis.py`, `pipeline.py`, `render.py`) — native.
+- LLM transport (`redcell/llm.py`) — provider-portable, sglang/DashScope/OpenAI/generic 자동 감지
+- Simulation engine (`redcell/sim/`) — multi-agent C-suite deliberation, adjudication panel, event deck, rulebook 생성기. 원래 strategyforge에서 vendored, *runtime 의존 0*
+- Pre-workshop flow (`redcell/adversary.py`, `analysis.py`, `pipeline.py`, `render.py`) — native
 
-`pip install -e .` and you have a standalone tool.
+`pip install -e .` 한 줄이면 standalone 도구.
 
-## License
+## 라이선스
 
 [MIT](LICENSE) © 2026 Hanjin Kim
