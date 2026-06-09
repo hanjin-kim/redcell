@@ -2,33 +2,26 @@
 
 > 🇰🇷 [한국어 README](README.md)
 
-**Adversarial strategy scenario generator.** Turn a strategy and a single worry into N distinct stress-test scenarios — each with a cash/position trajectory and workshop diligence questions.
+**Stress-test your strategy *before* the workshop.** Expand a single worry into N adversarial scenarios across multiple axes — each with a cash/position trajectory and measurable diligence questions.
 
-redcell is a **pre-workshop thinking aid**: a hypothesis generator for strategy teams running pre-mortems. It is *not* a statistical estimator, *not* a parameter-calibrated forecast, and *not* a client-facing deck. It surfaces *missed scenarios* and turns abstract risks into concrete data-gathering questions.
+Built for strategy teams running pre-mortems, and consultants checking blind spots before drafting the deck. Surfaces *missed scenarios* and turns abstract risks into concrete data-gathering questions.
 
 ## What it does
 
 Give it your strategy and one risk you're worried about. redcell:
 
-1. **Expands** the worry into N distinct adversary scenarios across axes — competitor action, customer reaction, channel leverage, regulatory shock, macro pressure, internal execution. (The one you named is Scenario 1; the rest are ones you may not have considered.)
-2. **Simulates** each scenario as an independent linear run — your C-suite vs AI-driven competitors over N turns, with an adjudication panel awarding competitive positions and booking cash.
-3. **Analyzes** each trajectory honestly — axis-aligned, grounded in the actual simulation trace (it will tell you when the axis *didn't* materialize rather than forcing a narrative).
-4. **Renders** a scenario-card brief: primary stressor, trajectory, per-turn cash drivers, observation triggers, and 3 specific diligence questions per scenario.
+1. **Expands** the worry into N distinct adversary scenarios across 6 axes — competitor action, customer reaction, channel leverage, regulatory shock, macro pressure, internal execution. The one you named is Scenario 1; the rest are ones you may not have considered.
+2. **Simulates** each scenario as a multi-turn linear run — your C-suite (CEO/CFO/CTO/CMO/COO) vs AI-driven competitors, with an adjudication panel awarding position tiers and booking cash.
+3. **Analyzes** each trajectory axis-by-axis. When the axis didn't materialize in the trace, it says so plainly — no forced narrative. Per-turn cash drivers exposed with arithmetic.
+4. **Renders** a scenario-card brief: primary stressor, trajectory, cash drivers, observation triggers, and 3 specific diligence questions per scenario.
 
 ## Why not just ask ChatGPT?
 
-A single LLM prompt gives you a plausible narrative. redcell gives you:
+A single LLM prompt gives you one plausible narrative. redcell gives you:
 - **breadth** — multiple adversary axes, including ones you didn't name
 - **trajectory** — multi-turn cash/position propagation, not a one-shot guess
 - **honest grounding** — analysis flags when a scenario's outcome is driven by something *other* than the named axis
 - **workshop-ready output** — diligence questions with measurable thresholds, not prose
-
-## What it is NOT
-
-- ❌ Statistical estimator — no "robust", no confidence intervals, no p-values. Each scenario is one *conditional plausible future*.
-- ❌ Matched counterfactual — it does not isolate one event's causal effect.
-- ❌ Calibrated forecast — cash/revenue mappings are day-0 rulebook assumptions. Use *relative comparison* and *direction*, not absolute numbers.
-- ❌ A conclusion — the output is *questions to ask*, not answers to cite.
 
 ## Quickstart
 

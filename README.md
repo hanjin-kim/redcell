@@ -2,33 +2,26 @@
 
 > 🇺🇸 [English version](README.en.md)
 
-**전략을 워크숍 *전* stress-test 하는 도구.** 사용자가 *명시한* 한 가지 risk를 *여러 axis의 N개 adversary scenarios*로 펼치고, 각각의 cash/position trajectory와 워크숍 prep용 *질문*을 출력합니다.
+**전략을 워크숍 *전* stress-test 하는 도구.** 한 가지 걱정거리를 *여러 axis의 N개 adversary scenarios*로 펼쳐서, 각각의 cash/position trajectory와 *측정 가능한 워크숍 질문*을 출력합니다.
 
-redcell은 **pre-workshop thinking aid** — 전략기획팀이 *워크숍 전 pre-mortem*을 돌리거나 컨설턴트가 *deck prep 전 빈틈을 점검*할 때 사용하는 가설 발굴 도구입니다. *통계 추정기 아니며, calibrated forecast 아니며, client-facing deck 아닙니다.* *missed scenarios* 발굴 + *추상적 risk를 구체적 데이터 요청으로 전환*하는 게 목적입니다.
+전략기획팀의 *pre-mortem*, 컨설턴트의 *deck prep 전 빈틈 점검*에 사용. *missed scenarios* 발굴 + *추상 risk를 구체적 데이터 요청으로 전환*.
 
 ## 무엇을 하나
 
 전략과 *걱정되는 risk 한 가지*를 입력하면 redcell은:
 
-1. **확장** — 입력 risk를 *6개 axis* (competitor action, customer reaction, channel leverage, regulatory shock, macro pressure, internal execution)에 걸쳐 N개의 distinct adversary scenarios로 풀어냄. 사용자가 명시한 worry는 Scenario 1로 보존, 나머지는 *생각 못 했을 수도 있는 위협*.
-2. **시뮬레이션** — 각 시나리오를 *독립 linear run*으로 실행. 우리 측 C-suite (CEO/CFO/CTO/CMO/COO) vs AI 경쟁사를 N턴 deliberation, 그 후 adjudication panel이 *position tier* 부여하고 cash 정산.
-3. **분석** — 각 trajectory를 *정직하게* 재해석. Axis가 *실제로 materialize 안 했으면* 그 사실을 *솔직히 명시* (narrative 강요 안 함). Per-turn cash drivers 산술까지 노출.
-4. **렌더링** — Scenario card 형식의 brief: primary stressor / trajectory / cash drivers / observation triggers / 3개 구체 diligence questions.
+1. **확장** — 입력 risk를 6개 axis (competitor action / customer reaction / channel leverage / regulatory shock / macro pressure / internal execution)에 걸쳐 N개 distinct adversary scenarios로 풀어냄. 사용자 worry는 Scenario 1로 보존, 나머지는 *생각 못 했을 수도 있는 위협*.
+2. **시뮬레이션** — 각 시나리오를 multi-turn linear run으로 실행. 우리 C-suite (CEO/CFO/CTO/CMO/COO) vs AI 경쟁사 deliberation, adjudication panel이 *position tier* 부여하고 cash 정산.
+3. **분석** — 각 trajectory를 axis 기준 재해석. Axis가 trace에 *명확히 materialize 안 했으면* 솔직히 명시 — narrative 강요 안 함. Per-turn cash drivers 산술까지 노출.
+4. **렌더링** — Scenario card 형식 brief: primary stressor / trajectory / cash drivers / observation triggers / 3개 구체 diligence questions.
 
-## ChatGPT 한 번 물어보는 것과 뭐가 다른가
+## ChatGPT 한 번 물어보는 것과 차이
 
-단일 LLM prompt는 *그럴듯한 narrative* 하나를 줍니다. redcell의 차별점:
+단일 LLM prompt는 *그럴듯한 narrative 하나*를 줍니다. redcell의 차별점:
 - **breadth** — 사용자가 명시 안 한 axis까지 포함한 여러 adversary 후보
 - **trajectory** — multi-turn cash/position propagation, *한 방 짐작* 아님
-- **honest grounding** — 분석이 *axis 외 다른 요인*이 결과를 끌었으면 그렇게 표기
-- **workshop-ready output** — *측정 가능한 threshold* 있는 diligence questions, 산문 narrative 아님
-
-## redcell은 *아닙니다*
-
-- ❌ Statistical estimator — *robust*, CI, p-value *전부 안 씀*. 각 scenario는 *조건부 plausible future* 하나.
-- ❌ Matched counterfactual — *event X가 fire vs not* isolated effect를 측정 *안 함*.
-- ❌ Calibrated forecast — cash/revenue mapping은 *day-0 rulebook* 가정. *상대 비교*와 *방향성*만 사용 권장, *절대값 인용 금지*.
-- ❌ 결론 — 출력은 *물어볼 질문*, *인용할 답*이 아님.
+- **honest grounding** — 분석이 *axis 외 다른 요인*이 결과를 끌었으면 그대로 표기
+- **workshop-ready output** — *측정 가능 threshold* 있는 diligence questions, 산문 아님
 
 ## Quickstart
 
