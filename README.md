@@ -6,6 +6,8 @@
 
 전략기획팀이 사전 점검을 돌리거나, 컨설턴트가 보고서 초안을 잡기 전에 *환경 가정 하 양측 반응*을 미리 보기 위한 용도.
 
+**예시 결과물** → [`examples/aurie_brief.md`](examples/aurie_brief.md) (K-beauty mid-cap 5턴 시뮬, 환경: "Shiseido 30% 가격 인하")
+
 ## 동작 방식
 
 전략 + 환경을 입력하면:

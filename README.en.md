@@ -6,6 +6,8 @@
 
 Built for strategy teams running pre-mortems, and consultants checking blind spots before drafting the deck. The point is to surface scenarios the user did *not* name.
 
+**Example output** → [`examples/aurie_brief.md`](examples/aurie_brief.md) (K-beauty mid-cap, 5-turn sim under a "Shiseido 30% price cut" environment)
+
 ## What it does
 
 Give it your strategy. redcell:
