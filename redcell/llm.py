@@ -404,15 +404,20 @@ class LLMAdapter:
             self.total_completion_tokens += response.usage.completion_tokens
             self.total_calls += 1
 
-        # Reasoning-runaway recovery: thinking ON + truncated + empty content
-        # → retry once without thinking. The model exhausted its budget on
-        # reasoning; without thinking, it should emit structured output.
-        if (finish == "length" and not content and enable_thinking
+        # Reasoning-runaway recovery: thinking ON + empty content + abnormal
+        # finish (length truncation OR DashScope's None) → retry once without
+        # thinking. The model exhausted its budget on reasoning OR dropped
+        # the answer into the reasoning channel; either way, a no-thinking
+        # retry gives us a structured answer.
+        # NB: DashScope's thinking+structured failures surface as finish=None,
+        # not finish=length (verified 2026-06-09 smoke). Our condition must
+        # accept both.
+        if (finish in ("length", None) and not content and enable_thinking
                 and _retry_no_thinking):
             logger.warning(
-                "Reasoning runaway (max_tokens=%d, reasoning=%dc, content=0c) "
-                "— retrying with thinking=False",
-                max_tokens, len(reasoning),
+                "Reasoning runaway (finish=%s, max_tokens=%d, reasoning=%dc, "
+                "content=0c) — retrying with thinking=False",
+                finish, max_tokens, len(reasoning),
             )
             return self.complete(
                 system, user,
