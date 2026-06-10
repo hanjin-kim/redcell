@@ -84,13 +84,15 @@ redcell run redcell_config.yaml -o brief.md
 
 ## 비용 감각
 
-한 번의 `redcell run` = 1 trajectory × `max_turns` 턴. 매 턴 모든 측 C-suite 토론 + adjudicator 패널이 돌아가서 토큰 사용량이 턴 수에 거의 선형으로 비례합니다.
+5턴 3측 시나리오 한 번 돌릴 때 LLM 호출 수를 캐시에서 실측하면 약 **217 calls** — deliberation 180 (5턴 × 3측 × 12 phase-call) + adjudication 20 + reassess 12 + setup 5. 캐시에 저장된 출력 토큰에 입력 토큰을 합쳐 DashScope 단가로 곱한 *대략적인* 추정:
 
-| 모델 | `max_turns=5` 기준 |
+| 모델 | `max_turns=5` 기준 (추정) |
 |---|---|
-| **qwen3.5-flash** (DashScope) | $1-2 |
-| **qwen3.5-plus** (DashScope) | $6-10 |
+| **qwen3.5-flash** (DashScope) | ~$0.04 |
+| **qwen3.5-plus** (DashScope) | ~$0.25-0.40 |
 | sglang 로컬 | $0 |
+
+> 입력 토큰은 캐시에 안 남아있어서 prompt 코드 문자열 길이 + 사이즈 가정으로 추정 — 시나리오 컨텍스트 크기에 따라 ±50% 변동 가능. 단가는 2026년 기준 DashScope 표준 가격 가정 (qwen-plus $0.40/$1.20, qwen-turbo $0.05/$0.20 per 1M in/out). 정확한 비용은 직접 청구서로 확인하세요.
 
 초기 셋업 (rulebook + event_deck + competitor_strategies LLM 생성) 은 scenario hash 단위로 캐시되어, 같은 scenario.yaml 을 다시 돌리면 그 부분만큼 비용이 줄어듭니다. CLAUDE.md 의 override hook 으로 LLM 생성 자체를 끄면 더 줄어듭니다.
 
