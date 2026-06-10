@@ -89,10 +89,23 @@ def build_simulation_context(
     _s_hash = scenario_hash(scenario)
     _p_hash = paths_hash(scenario, strategy, max_depth_or_turns)
 
-    # Rulebook (from cache or generated)
+    # Rulebook resolution: user-override (scenario.rulebook) > cache > LLM gen.
+    # Users supplying their own experience tables put the full rulebook dict
+    # at the top level of scenario.yaml; we then skip LLM generation entirely
+    # (see redcell/CLAUDE.md → Override hooks).
     setup_cached = None if regenerate else load_cached(_s_hash, "setup", _cache_dir)
+    user_rulebook = scenario.get("rulebook")
 
-    if setup_cached:
+    if user_rulebook:
+        if callback:
+            callback("Rulebook: using user override (scenario.rulebook)", 0.0)
+        rulebook = user_rulebook
+        if setup_cached and "non_actors" in setup_cached:
+            non_actors = setup_cached["non_actors"]
+        else:
+            from .state import _generate_non_actor_list
+            non_actors = _generate_non_actor_list(llm, scenario, companies)
+    elif setup_cached:
         if callback:
             callback("Rulebook loaded from cache", 0.0)
         rulebook = setup_cached["rulebook"]
@@ -191,15 +204,24 @@ def load_or_generate_run_inputs(
     )
     needs_save = False
 
-    if setup_cached and "event_deck" in setup_cached:
+    # Event deck resolution: user-override > cache > LLM gen. Users with their
+    # own experience tables put a list at scenario.event_deck; see CLAUDE.md.
+    user_deck = scenario.get("event_deck")
+    if user_deck:
+        event_deck = user_deck
+    elif setup_cached and "event_deck" in setup_cached:
         event_deck = setup_cached["event_deck"]
     else:
         from .rulebook import _generate_event_deck
         event_deck = _generate_event_deck(llm, scenario, ctx.rulebook)
         needs_save = True
 
-    if setup_cached and "competitor_strategies" in setup_cached:
-        competitor_strategies: dict[str, str] = setup_cached["competitor_strategies"]
+    # Competitor strategies resolution: user-override > cache > LLM gen.
+    user_comp_strats = scenario.get("competitor_strategies")
+    if user_comp_strats:
+        competitor_strategies: dict[str, str] = dict(user_comp_strats)
+    elif setup_cached and "competitor_strategies" in setup_cached:
+        competitor_strategies = setup_cached["competitor_strategies"]
     else:
         from .strategic_setup import (
             _generate_competitor_strategies,

@@ -82,14 +82,17 @@ redcell run redcell_config.yaml -o brief.md
 
 지금 endpoint가 어떤 provider로 잡히는지는 `redcell doctor`로 확인할 수 있습니다.
 
-## 비용 감각 (2 시나리오 × 2 턴 기준)
+## 비용 감각
 
-| 모델 | 추정 비용 |
+한 번의 `redcell run` = 1 trajectory × `max_turns` 턴. 매 턴 모든 측 C-suite 토론 + adjudicator 패널이 돌아가서 토큰 사용량이 턴 수에 거의 선형으로 비례합니다.
+
+| 모델 | `max_turns=5` 기준 |
 |---|---|
-| **qwen3.5-flash** (DashScope) | $0.35-0.60 |
-| **qwen3.5-plus** (DashScope) | $2-3 |
-| 권장 기본값 5 × 5 | flash 약 $2-4, plus 약 $12-20 |
+| **qwen3.5-flash** (DashScope) | $1-2 |
+| **qwen3.5-plus** (DashScope) | $6-10 |
 | sglang 로컬 | $0 |
+
+초기 셋업 (rulebook + event_deck + competitor_strategies LLM 생성) 은 scenario hash 단위로 캐시되어, 같은 scenario.yaml 을 다시 돌리면 그 부분만큼 비용이 줄어듭니다. CLAUDE.md 의 override hook 으로 LLM 생성 자체를 끄면 더 줄어듭니다.
 
 ## Run config 예시
 

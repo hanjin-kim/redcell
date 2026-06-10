@@ -88,12 +88,25 @@ Run `redcell doctor` to confirm the detected provider for your endpoint.
 ```yaml
 strategy: |
   <your strategy in prose>
-n_scenarios: 5
+environment: |
+  <initial exogenous condition the strategy executes under; injected into all sides>
 max_turns: 5
 scenario_path: scenarios/kbeauty_aurie.yaml
 ```
 
 Industry, our company, and competitors are read from the scenario YAML's `sides` — single source of truth for the market cast.
+
+## Cost
+
+One `redcell run` = 1 trajectory × `max_turns` turns. Token usage scales near-linearly with turn count.
+
+| Model | `max_turns=5` |
+|---|---|
+| **qwen3.5-flash** (DashScope) | $1-2 |
+| **qwen3.5-plus** (DashScope) | $6-10 |
+| sglang local | $0 |
+
+The initial setup (rulebook + event_deck + competitor_strategies LLM generation) is cached per scenario hash. See `CLAUDE.md` for override hooks that bypass LLM generation when you have your own data.
 
 ## Status
 
