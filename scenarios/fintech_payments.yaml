@@ -1,0 +1,180 @@
+name: "Korean Payments 2026: Toss vs Kakao Pay vs Naver Pay"
+closed_market: true
+intensity_jitter: 0.15
+domain: competitive
+industry: fintech_korea_payments
+time_unit: year
+time_horizon: 5
+
+# Position-tier → per-turn revenue (transaction fee + financial product) mapping.
+# Korean payments market: high MAU, low margin per txn, monetization via
+# adjacent products (loan, insurance, securities, advertising):
+#   dominant: MAU 4000만+, super-app monetization, banking ecosystem
+#   strong: MAU 3000만, adjacent product traction
+#   contested: MAU 2000만, monetization gap
+#   weak: MAU 1000만 미만, viability 의문
+#   marginal: niche only
+position_revenue:
+  dominant: 0.08
+  strong: 0.05
+  contested: 0.03
+  weak: 0.01
+  marginal: -0.01
+trigger_event: "한국 금감원이 2026 Q1 간편결제 수수료 자율 인하 가이드라인 발표 — 가맹점 결제 수수료 1.5-2.0% → 1.0-1.3% 권고. 동시에 Toss가 2026 H2 미국 나스닥 IPO 추진 (목표 시가총액 200억 달러), 자금 조달로 글로벌 진출 + AI 기반 신용평가 가속화. Kakao 그룹은 sm엔터 인수 이후 카카오페이 자체 수익화 압박 강해짐 — 단기 가맹점 fee 부담 감수 어려움. Naver는 커머스(네이버 쇼핑) + 페이 통합으로 가맹점 lock-in 강화 모드."
+
+_additional_context: |
+  CANONICAL PROPER NOUNS:
+    Toss(토스/비바리퍼블리카), Kakao Pay(카카오페이), Naver Pay(네이버페이),
+    Kakao Bank(카카오뱅크), Toss Securities(토스증권), Toss Bank(토스뱅크),
+    금감원(FSS), 한국은행(BOK), 간편결제, 후불결제(BNPL)
+
+  Market context (Q1 2026 ground truth):
+  - 한국 간편결제 일평균 거래액 1조 5천억원 (연 600조), MAU 4500만.
+  - Toss MAU 2300만, 결제 + 송금 + 증권 + 뱅킹 통합 super-app. 가맹점 거래액
+    점유 30%.
+  - Kakao Pay MAU 4000만 (메신저 ecosystem), 결제 점유 40%. 단 monetization은
+    Toss 대비 후행.
+  - Naver Pay MAU 3500만 (네이버 쇼핑 ecosystem), 점유 25%. 가맹점 lock-in 강함.
+  - 한국 간편결제 가맹점 수수료가 미국 PayPal 대비 1/2 수준 — 금감원 인하 권고로
+    여기서 더 압축 압박.
+
+  Monetization model:
+  - 결제 수수료: 거래액의 1.0-2.0%, 가맹점 부담. (정부 인하 압박 강함)
+  - 후불결제(BNPL): Toss/네이버 모두 출시, 한도 30만원, 자체 신용평가.
+  - 증권/투자: Toss 증권 MAU 1100만, Kakao 페이증권 800만 — 거래 수수료 + 운용 수익.
+  - 보험: Toss 보험 + 카카오 페이 보험 — 디지털 비교/가입 수수료.
+  - 광고: Naver Pay 쇼핑광고 + Toss 카드 추천 — 광고 ARPU 증가 중.
+
+  Strategic dilemmas:
+  - Toss: IPO로 자금 조달 → 글로벌 진출 (베트남/일본) vs 한국 super-app 수익화 강화.
+    상장 후 단기 수익 압박과 장기 성장 투자의 균형.
+  - Kakao Pay: 메신저 ecosystem leverage vs 자체 수익 증명. 카카오 그룹 정치 이슈
+    (sm엔터 등) 영향 받음, 모회사 압박.
+  - Naver Pay: 네이버 쇼핑과의 deep integration 강점 vs OTT 자체 super-app 부재.
+
+  Key scenario pressures:
+  - 정부 수수료 인하 권고는 3사 모두 결제 수익 감소, BNPL/광고 monetization으로 보전 필요.
+  - Toss IPO 자금이 베트남/일본 진출에 투입 시 한국 경쟁 강도 일시 완화 가능.
+  - Kakao 그룹 거버넌스 위기가 Kakao Pay 자율성 압박 → 단기 의사결정 보수화 우려.
+  - Naver 쇼핑 거래액 성장률 둔화 시 Naver Pay 가맹점 lock-in 효과 약화.
+
+simulation_constraints:
+  - "간편결제 수수료 인하는 정부 가이드라인 발효 후 1-2 분기 내 시장 반영"
+  - "BNPL 한도 인상은 금감원 승인 필요 — 6-12개월 lag"
+  - "글로벌 진출 (베트남/일본)은 현지 라이센스 + 가맹점 영업 — 2-3년 ramp"
+  - "광고 매출 활성화는 광고주 영업 + ad tech 인프라 lag 6-12개월"
+
+sides:
+  - id: side_a
+    company:
+      id: toss
+      name: Toss
+      industry: fintech
+    business_units:
+      - id: bu_toss
+        name: Toss super-app
+        segment:
+          industry: fintech
+          segment: payments_super_app
+          region: korea
+        market_share: 0.30
+        revenue_index: 3.5
+        competitive_power: 88.0
+        brand_loyalty: 78.0
+        r_and_d: 0.85
+        cash_reserves: 0.55
+    structural_advantages:
+      - "결제 + 송금 + 증권 + 뱅킹 + 보험 통합 super-app — single PIN MAU 2300만"
+      - "Toss 증권/뱅킹 자체 수익 다각화, monetization Korea 1위"
+      - "2026 H2 미국 IPO 추진 — 자금 조달 200억 달러 시도"
+      - "MZ세대 NPS 가장 높음 (Kakao Pay 대비 +15p)"
+    structural_disadvantages:
+      - "현금 보유량 55% — IPO 전 단기 burn 부담"
+      - "메신저 ecosystem 부재 — 신규 가입 acquisition cost 상대적으로 높음"
+      - "글로벌 진출 (베트남/일본) 초기 → 단기 매출 기여 없음"
+    commanders:
+      - id: ceo_toss
+        name: 이승건
+        role: CEO
+        personality:
+          aggression: 0.80
+          risk_tolerance: 0.75
+        management_style: "founder-CEO, super-app 일관 vision, aggressive product 확장"
+        ceo_profile: "치과의사 → 핀테크 창업, 10년 super-app 빌드 mission 명확"
+        strategic_tendency: super_app_aggressive_expansion
+
+  - id: side_b
+    company:
+      id: kakao_pay
+      name: Kakao Pay
+      industry: fintech
+    business_units:
+      - id: bu_kakao_pay
+        name: Kakao Pay
+        segment:
+          industry: fintech
+          segment: payments_super_app
+          region: korea
+        market_share: 0.40
+        revenue_index: 4.5
+        competitive_power: 82.0
+        brand_loyalty: 70.0
+        r_and_d: 0.75
+        cash_reserves: 0.62
+    structural_advantages:
+      - "카카오톡 메신저 ecosystem leverage — MAU 4000만 (한국 1위)"
+      - "Kakao Bank + Kakao Pay 통합 — Korea 디지털 뱅킹/결제 깊은 cross-sell"
+      - "가맹점 결제 거래액 1위 (40%) — fee 인하기에도 절대 수익 large"
+      - "광고/쇼핑 통합 — 카카오 ecosystem 광고 ARPU 활용"
+    structural_disadvantages:
+      - "수익화 후행 — MAU 우위에도 ARPU 상대적으로 낮음"
+      - "카카오 그룹 거버넌스 이슈 (sm엔터, 김범수 사법 리스크) — 자율성 압박"
+      - "Toss 대비 신상품 출시 속도 느림 — 그룹 결재 라인 복잡"
+    commanders:
+      - id: ceo_kakao_pay
+        name: 신원근
+        role: CEO
+        personality:
+          aggression: 0.55
+          risk_tolerance: 0.50
+        management_style: "그룹 ecosystem 동조, 보수적 capex, ARPU 점진 개선 추구"
+        ceo_profile: "금융권 출신, 카카오 그룹 정치 navigate 능력 강함"
+        strategic_tendency: ecosystem_steady_monetization
+
+  - id: side_c
+    company:
+      id: naver_pay
+      name: Naver Pay
+      industry: fintech
+    business_units:
+      - id: bu_naver_pay
+        name: Naver Pay
+        segment:
+          industry: fintech
+          segment: payments_super_app
+          region: korea
+        market_share: 0.25
+        revenue_index: 3.0
+        competitive_power: 78.0
+        brand_loyalty: 72.0
+        r_and_d: 0.78
+        cash_reserves: 0.70
+    structural_advantages:
+      - "네이버 쇼핑과 deep integration — 가맹점 거래액 lock-in 강함"
+      - "네이버 검색 + 쇼핑 + 페이 ecosystem 통합 광고 monetization"
+      - "Naver Plus 멤버십 통합 — 결제 + 콘텐츠(Tving 일부) + 쇼핑 cross-sell"
+      - "재무 안정성 — 모회사 NAVER 캐시 풍부"
+    structural_disadvantages:
+      - "Super-app 통합도 Toss/Kakao Pay 대비 약함 — 단일 앱 monolith 아님"
+      - "MZ세대 일상 결제 비중 Toss/Kakao 대비 낮음"
+      - "쇼핑 외 영역 (송금/투자) 사용 비중 약함"
+    commanders:
+      - id: ceo_naver_pay
+        name: 박상진
+        role: CEO
+        personality:
+          aggression: 0.55
+          risk_tolerance: 0.50
+        management_style: "쇼핑 ecosystem leverage 우선, 단독 super-app 무리하지 않음"
+        ceo_profile: "네이버 출신, 커머스 + 페이 통합 모델 설계"
+        strategic_tendency: ecosystem_lockin_steady

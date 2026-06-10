@@ -6,7 +6,14 @@
 
 Built for strategy teams running pre-mortems, and consultants checking blind spots before drafting the deck. The point is to surface scenarios the user did *not* name.
 
-**Example output** → [`examples/aurie_brief.md`](examples/aurie_brief.md) (K-beauty mid-cap, 5-turn sim under a "Shiseido 30% price cut" environment)
+**Example scenarios + output** (4 industries)
+
+| Scenario | Our side | Environment |
+|---|---|---|
+| [aurie](examples/aurie.yaml) → [brief](examples/aurie_brief.md) | AURIE (K-beauty mid-cap) | Shiseido cuts mass-premium prices 30% |
+| [hbm](examples/hbm.yaml) | SK Hynix | NVIDIA Blackwell + supplier diversification |
+| [streaming](examples/streaming.yaml) | Coupang Play | Netflix Korea hikes prices |
+| [fintech](examples/fintech.yaml) | Toss | Korean regulator pushes payment-fee cap down |
 
 ## What it does
 

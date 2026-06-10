@@ -1,0 +1,22 @@
+# redcell run config — Toss example.
+# Run: redcell run examples/fintech.yaml -o brief.md
+
+strategy: |
+  Super-app monetization 가속 + 글로벌 발판 동시 추진:
+  - 2026 H2 미국 나스닥 IPO (목표 200억 달러), 자금 조달로 베트남/일본 진출 본격화
+  - BNPL 한도 30 → 100만원 인상 신청 (금감원), AI 신용평가 모델 정확도 강화
+  - 광고 ARPU 활성화 — 카드 추천 + 보험/대출 비교 광고 inventory 확장
+  - Toss 증권 거래 수수료 0원 정책 유지로 MAU 1100 → 1500만 견인
+  - 글로벌: 베트남 결제 라이센스 2026 Q3 확보 목표, 일본 라이센스 사전 협상
+  24개월 KPI: Korea MAU 2300 → 3000만, 글로벌 가입 100만, 광고 매출 +150%.
+
+environment: |
+  한국 금감원이 2026 Q1 간편결제 가맹점 수수료 자율 인하 가이드라인 발표 — 1.5-2.0%
+  → 1.0-1.3% 권고. 결제 자체 마진 직접 압박. Kakao Pay는 메신저 ecosystem MAU
+  4000만 leverage 강화 의지, Naver Pay는 쇼핑 거래액 lock-in 가속 모드. 동시에
+  카카오 그룹 거버넌스 (sm엔터 인수 후 분쟁 + 김범수 사법 리스크) 가 Kakao Pay 의사
+  결정 보수화 압박. 글로벌 동남아 핀테크 (Grab Financial, Sea Money) 가 한국 신생
+  핀테크 카피 전략으로 빠르게 따라오는 중.
+
+max_turns: 5
+scenario_path: scenarios/fintech_payments.yaml

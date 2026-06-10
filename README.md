@@ -6,7 +6,14 @@
 
 전략기획팀이 사전 점검을 돌리거나, 컨설턴트가 보고서 초안을 잡기 전에 *환경 가정 하 양측 반응*을 미리 보기 위한 용도.
 
-**예시 결과물** → [`examples/aurie_brief.md`](examples/aurie_brief.md) (K-beauty mid-cap 5턴 시뮬, 환경: "Shiseido 30% 가격 인하")
+**예시 시나리오 + 결과물** (4개 산업)
+
+| 시나리오 | 우리 측 | 환경 |
+|---|---|---|
+| [aurie](examples/aurie.yaml) → [brief](examples/aurie_brief.md) | AURIE (K-beauty mid-cap) | Shiseido 30% 가격 인하 |
+| [hbm](examples/hbm.yaml) | SK Hynix | NVIDIA Blackwell + supplier 다변화 |
+| [streaming](examples/streaming.yaml) | Coupang Play | Netflix Korea 가격 인상 |
+| [fintech](examples/fintech.yaml) | Toss | 금감원 수수료 인하 권고 |
 
 ## 동작 방식
 

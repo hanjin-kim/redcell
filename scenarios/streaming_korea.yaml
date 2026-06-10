@@ -1,0 +1,176 @@
+name: "Korea Streaming 2026: Coupang Play vs Netflix vs Tving"
+closed_market: true
+intensity_jitter: 0.15
+domain: competitive
+industry: streaming_korea_ott
+time_unit: year
+time_horizon: 5
+
+# Position-tier → per-turn revenue (subscriber-driven net cash) mapping.
+# Streaming is a subscriber + ad revenue business with heavy content amortization:
+#   dominant: 800만+ paid subscribers, ad tier scale, content moat
+#   strong: 400만+ paid + healthy ARPU
+#   contested: 200만 수준, ARPU 압박
+#   weak: subscriber churn, content ROI 의문
+#   marginal: 100만 미만, viability 의문
+position_revenue:
+  dominant: 0.10
+  strong: 0.07
+  contested: 0.04
+  weak: 0.01
+  marginal: -0.02
+trigger_event: "Netflix가 2026 Q1부터 한국 베이직(광고 포함) 5,500원 → 7,900원, 스탠더드 13,500원 → 17,000원 가격 인상 발표. 동시에 한국 오리지널 콘텐츠 투자 연 7000억원 → 1조원 확대 발표. Coupang Play는 로켓와우 멤버십 끼워팔기로 사실상 무료 사용자 850만 확보 — 광고 inventory + 스포츠(MLB) 독점으로 ARPU 보전 시도. Tving은 한국 지상파(JTBC/CJ) 콘텐츠 풀 + KBO 야구 독점으로 시즌 ARPU 변동 큼."
+
+_additional_context: |
+  CANONICAL PROPER NOUNS:
+    Coupang Play(쿠팡플레이), Netflix Korea, Tving(티빙), Wavve, Disney+ Korea,
+    JTBC, CJ ENM, KBO(한국야구위원회), MLB Korea, 로켓와우(Rocket WOW)
+
+  Market context (Q1 2026 ground truth):
+  - 한국 OTT 가입자(중복 포함) 2,500만, MAU 기준 Netflix 1100만 / Coupang Play 850만 /
+    Tving 500만 / Wavve 350만 / Disney+ 250만.
+  - 광고 지원 베이직 tier가 신규 가입의 60%+, ARPU는 standard의 40% 수준.
+  - 한국 오리지널 콘텐츠 글로벌 hit (오징어게임 시즌 3 2026 출시 예정)이 글로벌 가입자
+    유인의 핵심 자산. Netflix가 2017년 이래 한국 콘텐츠에만 누적 $3.5B 투자.
+  - 스포츠 라이브 콘텐츠가 churn 방어의 핵심 — MLB(쿠팡), KBO(티빙), EPL(쿠팡 협상 중),
+    UFC(쿠팡 일부) — 시즌별 사용자 spike 발생.
+
+  Business model dynamics:
+  - 콘텐츠 amortization: 오리지널 한 작품당 200-500억원, 회수까지 3-5년.
+  - 광고 inventory: 한국 디지털 광고 시장 약 9조원, OTT 광고 비중 10% (확장 중).
+  - 멤버십 끼워팔기: Coupang Play(로켓와우), Naver Plus(Tving 일부), KT 통신 멤버십.
+  - 결제: 신용카드 + 통신사 합산 청구가 churn에 유리.
+
+  Strategic dilemmas:
+  - Coupang Play: e-commerce 끼워팔기 모델 vs 콘텐츠 단독 ARPU 모델 전환. 이커머스 LTV
+    제고 vs 콘텐츠 자체 수익화.
+  - Netflix Korea: 가격 인상 + 콘텐츠 확대로 ARPU 방어 vs 가격 민감 사용자 churn 위험.
+  - Tving: 한국 콘텐츠 풀 우위 vs 글로벌 콘텐츠 부재. 광고 tier 활성화 vs ARPU 보전.
+
+  Key scenario pressures:
+  - Netflix 가격 인상이 Coupang Play 무료 사용자에게 churn driver 작용.
+  - KBO 시즌 (3-10월) 동안 Tving subscribers 폭증, off-season 감소.
+  - 오징어게임 시즌 3 출시 시점 Netflix global subscribers spike → 한국 사용자 stickness 강화.
+  - Coupang의 로켓와우 가격 인상 (4,990 → 7,890원) 시 OTT 끼워팔기 ROI 변화.
+
+simulation_constraints:
+  - "오리지널 콘텐츠 1편 제작은 18-24개월 소요, 효과는 출시 후 3-6개월에 집중"
+  - "광고 tier 활성화는 6-12개월 광고주 영업 + ad server 인프라 lag"
+  - "스포츠 라이센스는 multi-year 계약 — 한 시즌에 한 번 갱신 협상 가능"
+  - "subscriber acquisition cost (SAC) 회수까지 12-18개월"
+  - "콘텐츠 amortization 기간이 EBIT에 직접 영향 — 5년 평준화 가정"
+
+sides:
+  - id: side_a
+    company:
+      id: coupang_play
+      name: Coupang Play
+      industry: streaming
+    business_units:
+      - id: bu_coupang_play
+        name: Coupang Play
+        segment:
+          industry: streaming
+          segment: korea_ott
+          region: korea
+        market_share: 0.34
+        revenue_index: 2.5
+        competitive_power: 78.0
+        brand_loyalty: 60.0
+        r_and_d: 0.55
+        cash_reserves: 0.65
+    structural_advantages:
+      - "로켓와우 멤버십(연 1,400만 가입자) 끼워팔기 — 사실상 OTT MAU 850만 확보"
+      - "MLB 한국 독점 중계권 보유, UFC 일부 라이트 확보"
+      - "e-commerce LTV 향상과 함께 OTT 사용자 데이터 활용 가능"
+      - "광고 inventory 850만 사용자 베이스로 광고주 협상력 강함"
+    structural_disadvantages:
+      - "OTT 단독 ARPU 약함 — 멤버십 끼워팔기 의존도 높음"
+      - "오리지널 콘텐츠 풀이 Netflix/Tving 대비 얕음"
+      - "로켓와우 가격 인상 시 OTT 사용 동기 약화 risk"
+    commanders:
+      - id: ceo_coupang_play
+        name: 박대준
+        role: CEO
+        personality:
+          aggression: 0.70
+          risk_tolerance: 0.65
+        management_style: "PMF 모델 우선, e-commerce ecosystem 통합 추진"
+        ceo_profile: "쿠팡 출신, 스포츠 콘텐츠 + 멤버십 통합 모델 설계"
+        strategic_tendency: ecosystem_bundling
+
+  - id: side_b
+    company:
+      id: netflix_korea
+      name: Netflix Korea
+      industry: streaming
+    business_units:
+      - id: bu_netflix_korea
+        name: Netflix Korea
+        segment:
+          industry: streaming
+          segment: korea_ott
+          region: korea
+        market_share: 0.44
+        revenue_index: 5.0
+        competitive_power: 90.0
+        brand_loyalty: 80.0
+        r_and_d: 0.85
+        cash_reserves: 0.80
+    structural_advantages:
+      - "한국 오리지널 콘텐츠 8년 누적 자산 (오징어게임/지옥/마이네임 등)"
+      - "글로벌 1조원 한국 콘텐츠 투자 — 2026 연 1조 확대 발표"
+      - "광고 tier ad server 인프라 글로벌 운영, 광고 ARPU 6개월 만에 standard 60%까지 회복"
+      - "Net cash flow positive — 추가 capex 여력"
+    structural_disadvantages:
+      - "한국 가격 인상이 가격 민감 cohort에 churn driver"
+      - "라이브 스포츠 부재 — 시즌별 spike 부재"
+      - "한국 콘텐츠 의존도 — 한국 제작비 인상이 마진 압박"
+    commanders:
+      - id: ceo_netflix_korea
+        name: 강동한
+        role: CEO  # Country Manager treated as CEO for this sim
+        personality:
+          aggression: 0.65
+          risk_tolerance: 0.60
+        management_style: "글로벌 본사 metrics 우선, 한국 시장 ARPU 회복 mandate"
+        ceo_profile: "글로벌 미디어 executive, 한국 콘텐츠 sourcing 8년"
+        strategic_tendency: arpu_growth_global_synergy
+
+  - id: side_c
+    company:
+      id: tving
+      name: Tving
+      industry: streaming
+    business_units:
+      - id: bu_tving
+        name: Tving
+        segment:
+          industry: streaming
+          segment: korea_ott
+          region: korea
+        market_share: 0.20
+        revenue_index: 1.5
+        competitive_power: 70.0
+        brand_loyalty: 65.0
+        r_and_d: 0.60
+        cash_reserves: 0.50
+    structural_advantages:
+      - "JTBC + CJ ENM 콘텐츠 풀 독점 (가장 큰 한국 지상파 portfolio)"
+      - "KBO 야구 시즌 중계권 독점 — 시즌 3-10월 spike"
+      - "Naver Plus 멤버십 부분 통합으로 acquisition cost 절감"
+      - "한국 콘텐츠에 특화된 사용자 cohort — Netflix/Coupang 대비 stickness 강함"
+    structural_disadvantages:
+      - "글로벌 자산 부재 — Netflix 글로벌 hit과 경쟁 어려움"
+      - "ARPU off-season 변동성 큼 (KBO 시즌 의존)"
+      - "Wavve 합병(2024) 후 통합 비용 + 콘텐츠 라인업 정리 중"
+    commanders:
+      - id: ceo_tving
+        name: 이덕재
+        role: CEO
+        personality:
+          aggression: 0.55
+          risk_tolerance: 0.50
+        management_style: "CJ ENM/JTBC 콘텐츠 자산 활용, 보수적 capex 관리"
+        ceo_profile: "방송계 출신, 한국 콘텐츠 sourcing 깊은 네트워크"
+        strategic_tendency: content_moat_defense

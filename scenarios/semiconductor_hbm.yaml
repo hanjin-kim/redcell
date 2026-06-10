@@ -1,0 +1,180 @@
+name: "HBM 2026: SK Hynix vs Samsung vs Micron — NVIDIA Grade Memory Race"
+closed_market: true
+intensity_jitter: 0.15
+domain: competitive
+industry: semiconductor_memory_hbm
+time_unit: year
+time_horizon: 5
+
+# Position-tier → per-turn revenue (cash) mapping.
+# HBM is a near-zero-sum, customer-concentration industry:
+#   dominant: NVIDIA primary supplier + premium ASP + capacity allocation power
+#   strong: meaningful share, sustained margin
+#   contested: in the qualification round, margin compressed
+#   weak: low ASP, capacity utilization risk
+#   marginal: legacy DDR5 only, AI-grade share lost
+position_revenue:
+  dominant: 0.15
+  strong: 0.10
+  contested: 0.05
+  weak: 0.02
+  marginal: 0.00
+trigger_event: "NVIDIA가 2026 H2부터 Blackwell Ultra(B200) 출하 가속, HBM3E 12-Hi 수요 폭증 + HBM4 qualification 라운드 동시 진행. NVIDIA가 supplier 다변화 명목으로 Samsung 8-Hi 재진입 협상 + Micron 12-Hi 비중 확대 검토. 동시에 미국 CHIPS 보조금 2단계 + 한국 K-Chips 세액공제 확대로 capex 인센티브 변동."
+
+_additional_context: |
+  CANONICAL PROPER NOUNS:
+    SK Hynix(SK하이닉스), Samsung(삼성전자 DS), Micron Technology,
+    NVIDIA, TSMC CoWoS, ASML, HBM3E 12-Hi, HBM4, Blackwell B200,
+    이천(Icheon), 청주(Cheongju), Boise, Hsinchu
+
+  Market context (Q1 2026 ground truth):
+  - HBM 전체 시장 규모 2026e $30B (2024 $10B 대비 3x). AI 가속기 수요 견인.
+  - SK Hynix: HBM3E 12-Hi NVIDIA 우선 공급사. 전체 HBM 매출 점유 53%.
+  - Samsung: 2024-2025 NVIDIA qualification 지연으로 HBM3E 8-Hi 진입 → 12-Hi
+    재qualification 진행 중. HBM 매출 점유 32% (대부분 8-Hi).
+  - Micron: HBM3E 12-Hi NVIDIA 일부 채택, HBM 점유 15%로 부상.
+  - TSMC CoWoS-L 패키징 capacity가 전체 HBM 출하의 bottleneck — 2026 +100%
+    capacity 확대 약속이나 NVIDIA + AMD + 클라우드 자체 ASIC가 모두 경쟁.
+
+  Capex / qualification dynamics:
+  - HBM4 (2026 H2 샘플, 2027 H2 ramp) qualification 라운드 진행 중. 1년+ 소요.
+  - HBM3E 12-Hi 라인 capex: line당 ~$2B, ramp까지 12-18개월.
+  - NVIDIA가 1개 supplier 시장점유 50% 이하 다변화 목표 명시 — SK Hynix 점유
+    축소 압박 + Samsung/Micron에게 진입 기회.
+  - HBM ASP는 DRAM commodity 대비 5-7x, 마진 60%+ — capacity 확보 = 수익 직결.
+
+  Strategic dilemmas:
+  - SK Hynix: HBM4 lead 사수 vs Samsung 진입에 대한 ASP 방어. 12-Hi capacity
+    확대 capex vs HBM4 R&D 자원 배분.
+  - Samsung: HBM3E 12-Hi qualification 통과 vs HBM4 leapfrog. DS 부문 수익
+    회복 압박 강함, 단 NVIDIA 신뢰 회복 비용 큼.
+  - Micron: 12-Hi 안정 출하 + HBM4 catch-up. capacity 제약(Boise 단일 거점)
+    극복 위한 일본 Hiroshima 확장 capex.
+
+  Key scenario pressures:
+  - NVIDIA의 supplier 다변화 압력이 SK Hynix ASP에 직접 타격.
+  - TSMC CoWoS capacity allocation이 HBM 매출 cap을 결정 — 패키징 동맹 중요.
+  - Samsung의 HBM3E 12-Hi 통과 시 시장 share 재편 (SK Hynix 53→45% 추정).
+  - HBM4 R&D 투자 = 2-3년 후 수익, 단기 capex 부담.
+
+simulation_constraints:
+  - "HBM 라인 capex는 ramp-up 12-18개월 lag — 첫 해 비용, 2-3년차 수익"
+  - "NVIDIA qualification은 한 번 실패 시 6-12개월 재진입 cycle"
+  - "TSMC CoWoS 패키징 allocation이 HBM 매출의 hard ceiling"
+  - "HBM4 R&D 투자는 2-3년 후 수익, 단기 EBIT 압박"
+  - "DRAM 일반 commodity 가격 하락기에는 HBM 마진이 회사 전체 수익 견인"
+
+sides:
+  - id: side_a
+    company:
+      id: sk_hynix
+      name: SK Hynix
+      industry: semiconductor_memory
+    business_units:
+      - id: bu_sk_hbm
+        name: SK Hynix HBM Division
+        segment:
+          industry: semiconductor_memory
+          segment: hbm
+          region: global
+        market_share: 0.53
+        revenue_index: 5.3
+        competitive_power: 90.0
+        brand_loyalty: 85.0
+        r_and_d: 0.92
+        cash_reserves: 0.70
+    structural_advantages:
+      - "HBM3E 12-Hi NVIDIA 우선 공급사 — 2024-2025 leadership 확정"
+      - "이천 M16 HBM 라인 가동률 95%+, 2026 청주 M15X 추가 ramp 진행"
+      - "TSMC CoWoS와 long-term 협업, 패키징 allocation 우선 확보"
+      - "HBM4 샘플링 1위, NVIDIA Blackwell Ultra 시점에 양산 가능 시그널"
+    structural_disadvantages:
+      - "NVIDIA의 supplier 다변화 정책으로 점유 축소 압박"
+      - "DRAM 일반 commodity 비중이 매출의 60%+ — commodity 가격 충격 시 cushion 부족"
+      - "Capex 부담: 청주 M15X + 일본 진출 등 동시 다발 → cash burn 가속"
+    commanders:
+      - id: ceo_sk_hynix
+        name: 곽노정
+        role: CEO
+        personality:
+          aggression: 0.65
+          risk_tolerance: 0.60
+        management_style: "엔지니어 출신 CEO, R&D 우선·기술 leadership 사수 의지 강함"
+        ceo_profile: "메모리 엔지니어 30년 경력, HBM 사업화 직접 주도"
+        strategic_tendency: tech_leadership_defense
+
+  - id: side_b
+    company:
+      id: samsung_ds
+      name: Samsung Electronics DS
+      industry: semiconductor_memory
+    business_units:
+      - id: bu_samsung_hbm
+        name: Samsung Memory HBM
+        segment:
+          industry: semiconductor_memory
+          segment: hbm
+          region: global
+        market_share: 0.32
+        revenue_index: 8.0
+        competitive_power: 80.0
+        brand_loyalty: 70.0
+        r_and_d: 0.90
+        cash_reserves: 0.85
+    structural_advantages:
+      - "DRAM 전체 매출 글로벌 1위, 자본력 압도적"
+      - "Foundry + Memory + System LSI 통합, AI 가속기 전반 capability"
+      - "Hwaseong/Pyeongtaek 거대 fab 인프라, capacity 확장 여유"
+      - "HBM4 leapfrog R&D 투자 강행, custom HBM 사업 적극 추진"
+    structural_disadvantages:
+      - "HBM3 8-Hi → 12-Hi qualification 지연 (2024-2025 실패)"
+      - "조직 의사결정 속도 느림 — HBM 사업 우선순위 흔들림 인식"
+      - "Foundry 부문 적자 누적, DS 부문 전체 수익성 압박"
+    commanders:
+      - id: ceo_samsung_ds
+        name: 전영현
+        role: CEO
+        personality:
+          aggression: 0.70
+          risk_tolerance: 0.65
+        management_style: "메모리 베테랑, HBM 추격 추진 의지 + 회사 정치 navigate"
+        ceo_profile: "메모리 엔지니어 출신, DS 부문 회생 mandate 수행 중"
+        strategic_tendency: market_share_recovery
+
+  - id: side_c
+    company:
+      id: micron
+      name: Micron Technology
+      industry: semiconductor_memory
+    business_units:
+      - id: bu_micron_hbm
+        name: Micron HBM
+        segment:
+          industry: semiconductor_memory
+          segment: hbm
+          region: global
+        market_share: 0.15
+        revenue_index: 2.5
+        competitive_power: 75.0
+        brand_loyalty: 65.0
+        r_and_d: 0.80
+        cash_reserves: 0.60
+    structural_advantages:
+      - "HBM3E 12-Hi NVIDIA 일부 채택 — 시장 진입 성공"
+      - "미국 CHIPS Act 보조금 우선 수혜 — capex 부담 일부 상쇄"
+      - "Idaho/Boise + 일본 Hiroshima 신규 fab capex 진행 중"
+      - "Tech credibility 회복 — 2024-2025 NVIDIA qualification 통과"
+    structural_disadvantages:
+      - "Capacity 절대량이 SK Hynix/Samsung 대비 1/3 수준"
+      - "TSMC CoWoS 패키징 allocation 후순위 — 출하량 ceiling"
+      - "HBM4 R&D 추격 위치, SK Hynix와 1년+ gap"
+    commanders:
+      - id: ceo_micron
+        name: Sanjay Mehrotra
+        role: CEO
+        personality:
+          aggression: 0.60
+          risk_tolerance: 0.55
+        management_style: "long-term tech investment, capacity 확대 신중 + 미국 정부 협력 적극"
+        ceo_profile: "SanDisk 공동창업자, 메모리 산업 30년"
+        strategic_tendency: capacity_buildout_steady

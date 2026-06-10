@@ -1,0 +1,21 @@
+# redcell run config — Coupang Play example.
+# Run: redcell run examples/streaming.yaml -o brief.md
+
+strategy: |
+  Sports + 멤버십 끼워팔기 fortress 강화:
+  - 로켓와우 멤버십 (4,990원/월) 가격 동결 — 사실상 무료 OTT 사용자 850만 → 1000만
+  - MLB 중계권 재계약 (2026-2030) + EPL 한국 독점 협상 마무리
+  - 오리지널 콘텐츠 투자 연 1500억 → 2500억 확대 (한국 한정)
+  - 광고 inventory 활성화 — 850만 사용자 베이스 광고주 영업 가속
+  - e-commerce LTV 향상과 OTT 사용자 데이터 통합 — 추천 광고 ARPU 증가
+  24개월 KPI: MAU 850 → 1100만, 광고 매출 +200%, 멤버십 churn -30%.
+
+environment: |
+  Netflix가 2026 Q1부터 한국 베이직(광고 포함) 5,500 → 7,900원, 스탠더드 13,500 →
+  17,000원 가격 인상 발표 + 한국 오리지널 콘텐츠 투자 연 7000억 → 1조원 확대.
+  오징어게임 시즌 3 (2026 H2 출시) global hit 예상으로 Netflix Korea 가입자 stickness
+  급격히 강화 시그널. Tving은 KBO 야구 시즌 (3-10월) 사용자 spike + Naver Plus 통합
+  마케팅 확대.
+
+max_turns: 5
+scenario_path: scenarios/streaming_korea.yaml

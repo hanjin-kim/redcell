@@ -1,0 +1,22 @@
+# redcell run config — SK Hynix HBM example.
+# Run: redcell run examples/hbm.yaml -o brief.md
+
+strategy: |
+  HBM4 양산 우선 + HBM3E 12-Hi capacity 유지 듀얼 트랙:
+  - 청주 M15X 라인 ramp 가속 (HBM3E 12-Hi 추가 capacity 50%)
+  - HBM4 양산 일정 2027 H1 → 2026 H2로 6개월 앞당김
+  - TSMC CoWoS 패키징 multi-year allocation 재계약
+  - R&D 비중 매출의 12 → 16%, 차세대 HBM4E 선행 투자
+  - DRAM 일반 commodity 비중 60% → 45% 축소, HBM/DDR5 server-grade 집중
+  24개월 KPI: HBM 매출 점유 53 → 60%, NVIDIA HBM4 launch supplier 1순위 사수.
+
+environment: |
+  NVIDIA가 2026 H2 Blackwell Ultra (B200) 출하 가속하며 HBM3E 12-Hi 수요 폭증.
+  동시에 supplier 다변화 명목으로 Samsung HBM3E 12-Hi 재qualification 검토 + Micron
+  12-Hi 비중 확대 의지 시그널. HBM4 qualification 라운드도 2026 H1부터 NVIDIA가 주도.
+  TSMC CoWoS-L 패키징 capacity가 2026 +100% 확대 약속이나 NVIDIA + AMD + 클라우드
+  자체 ASIC가 모두 경쟁. 미국 CHIPS Act 2차 보조금 + 한국 K-Chips 세액공제 변동이
+  capex 인센티브에 영향.
+
+max_turns: 5
+scenario_path: scenarios/semiconductor_hbm.yaml
