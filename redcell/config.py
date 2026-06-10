@@ -85,6 +85,14 @@ class RunConfig(BaseModel):
     strategy: str
     environment: str
     max_turns: int = 5
+    # Number of independent simulation runs over the same (strategy,
+    # environment). Each run is stochastic (LLM sampling + event RNG)
+    # so M traces is M plausible futures. Default 1.
+    #
+    # NB v0.3: the engine already runs M trials when n_runs > 1, but the
+    # current renderer only emits the first trajectory. Multi-trace
+    # rendering (option A.1: M separate traces side-by-side) is TODO.
+    n_runs: int = 1
     scenario_path: str
 
     @classmethod

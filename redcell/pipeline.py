@@ -64,7 +64,12 @@ def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
 
     strategy_with_env = _augmented_strategy(config.strategy, config.environment)
 
-    log(f"[redcell] running {config.max_turns}-turn simulation...")
+    log(f"[redcell] running {config.max_turns}-turn simulation"
+        f"{f' (n_runs={config.n_runs})' if config.n_runs > 1 else ''}...")
+    if config.n_runs > 1:
+        log("  ⚠ n_runs > 1: the engine will run M trials but the current "
+            "renderer only emits the first trajectory. Multi-trace render "
+            "is TODO (see RunConfig.n_runs docstring).")
     t0 = time.time()
     trace = run_linear_scenario(
         scenario=scenario,
@@ -73,6 +78,7 @@ def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
         llm=llm,
         our_side="side_a",
         max_turns=config.max_turns,
+        n_runs=config.n_runs,
         cache_dir=cache_dir,
         callback=lambda msg, pct=0.0: log(
             f"  [{pct:5.1%}] {msg[:80]}"

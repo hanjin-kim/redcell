@@ -38,6 +38,7 @@ def run_linear_scenario(
     llm: Any,
     our_side: str = "side_a",
     max_turns: int = 5,
+    n_runs: int = 1,
     cache_dir: str | Path = ".redcell_cache",
     callback=None,
 ) -> list[dict]:
@@ -69,7 +70,7 @@ def run_linear_scenario(
         llm=llm,
         max_turns=max_turns,
         our_branch_factor=1,
-        n_runs=1,
+        n_runs=n_runs,
         branch_budget=0,  # LINEAR — no tree, no counterfactual
         callback=callback,
         cache_dir=Path(cache_dir),
