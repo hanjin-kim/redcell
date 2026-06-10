@@ -152,12 +152,12 @@
   - changed `CEO: Naver Shopping Lock-in(50%)+Naver Search Synergy(30%)+Naver Plus Membership Bundle(20%)` → because: 수동적 방어에 집중, 단독 앱 확장 배제
 - **CEO**: `Naver Shopping Lock-in`@0.60, `Naver Search Synergy`@0.40
 - **CTO**: `Cross-Platform Integration`@0.60, `Data Privacy Certification`@0.40
-  - dissent: Naver Shopping Lock-in 은 외부 인프라 의존도를 높여 기술 자립성을 저해함. 네이버의 API 변경 시 대응 지연과 R&D 모멘텀 손실이 발생. 경쟁사 중 하나인 Toss 내부 기술 역량을 축적하는 것이 장기 우위 확보에 필수적임. 가맹점 이탈은 기술적 차별화보다 마케팅 요인에 더 크게 영향을 받음. Naver Pay 전용 정책은 파트너 의존 리스크를 증폭시켜 Toss 플랫폼 확장성을 제한함. 단순 트래픽 흡입보다 데이터 처리 최적화와 보안 아키텍처 고도화가 우선되어야 함. KAKAO PAY 와의 거대한 시장 환경에서 독자적인 기술 스택이 없으면 2-3 년 내에 경쟁력이 급격히 하락함. 현 R&D 50% 수준을 유지하며 외부 종속 전략을 축소해야 함. 금감원 및 금융당국 규제 대응 측면에서도 자체 기술 검증이 필수적이기 때문임. 베트남, 일본 등 해외 진출 계획에도 자체 표준 적용이 필요한 핵심 단계임. 결국 타사의 생태계 속성이 아닌 우리 (Toss) 가 통제하는熄
+  - dissent: Naver Shopping Lock-in 은 외부 인프라 의존도를 높여 기술 자립성을 저해함. 네이버의 API 변경 시 대응 지연과 R&D 모멘텀 손실이 발생. 경쟁사 중 하나인 Toss 내부 기술 역량을 축적하는 것이 장기 우위 확보에 필수적임. 가맹점 이탈은 기술적 차별화보다 마케팅 요인에 더 크게 영향을 받음. Naver Pay 전용 정책은 파트너 의존 리스크를 증폭시켜 Toss 플랫폼 확장성을 제한함. 단순 트래픽 흡입보다 데이터 처리 최적화와 보안 아키텍처 고도화가 우선되어야 함. KAKAO PAY 와의 거대한 시장 환경에서 독자적인 기술 스택이 없으면 2-3 년 내에 경쟁력이 급격히 하락함. 현 R&D 50% 수준을 유지하며 외부 종속 전략을 축소해야 함. 금감원 및 금융당국 규제 대응 측면에서도 자체 기술 검증이 필수적이기 때문임. 베트남, 일본 등 해외 진출 계획에도 자체 표준 적용이 필요한 핵심 단계임. 결국 타사의 생태계 속성이 아닌 우리 (Toss) 가 통제하는 자체 인프라가 필요합니다.
 
 **Position changes:**
 - COO: Naver Shopping Lock-in+Ecosystem Marketing Push+Cross-Platform Integration → Naver Shopping Lock-in+Cross-Platform Integration (현금 70% 유지 위해 마케팅 병행 폐기, 실행 집중)
 - CMO: Naver Shopping Lock-in+Naver Search Synergy+Naver Plus Membership Bundle → Naver Shopping Lock-in+Cross-Platform Integration+Ecosystem Marketing Push (수동적 방어에 집중, 단독 앱 확장 배제)
-- [반대] CTO: Naver Shopping Lock-in 은 외부 인프라 의존도를 높여 기술 자립성을 저해함. 네이버의 API 변경 시 대응 지연과 R&D 모멘텀 손실이 발생. 경쟁사 중 하나인 Toss 내부 기술 역량을 축적하는 것이 장기 우위 확보에 필수적임. 가맹점 이탈은 기술적 차별화보다 마케팅 요인에 더 크게 영향을 받음. Naver Pay 전용 정책은 파트너 의존 리스크를 증폭시켜 Toss 플랫폼 확장성을 제한함. 단순 트래픽 흡입보다 데이터 처리 최적화와 보안 아키텍처 고도화가 우선되어야 함. KAKAO PAY 와의 거대한 시장 환경에서 독자적인 기술 스택이 없으면 2-3 년 내에 경쟁력이 급격히 하락함. 현 R&D 50% 수준을 유지하며 외부 종속 전략을 축소해야 함. 금감원 및 금융당국 규제 대응 측면에서도 자체 기술 검증이 필수적이기 때문임. 베트남, 일본 등 해외 진출 계획에도 자체 표준 적용이 필요한 핵심 단계임. 결국 타사의 생태계 속성이 아닌 우리 (Toss) 가 통제하는熄
+- [반대] CTO: Naver Shopping Lock-in 은 외부 인프라 의존도를 높여 기술 자립성을 저해함. 네이버의 API 변경 시 대응 지연과 R&D 모멘텀 손실이 발생. 경쟁사 중 하나인 Toss 내부 기술 역량을 축적하는 것이 장기 우위 확보에 필수적임. 가맹점 이탈은 기술적 차별화보다 마케팅 요인에 더 크게 영향을 받음. Naver Pay 전용 정책은 파트너 의존 리스크를 증폭시켜 Toss 플랫폼 확장성을 제한함. 단순 트래픽 흡입보다 데이터 처리 최적화와 보안 아키텍처 고도화가 우선되어야 함. KAKAO PAY 와의 거대한 시장 환경에서 독자적인 기술 스택이 없으면 2-3 년 내에 경쟁력이 급격히 하락함. 현 R&D 50% 수준을 유지하며 외부 종속 전략을 축소해야 함. 금감원 및 금융당국 규제 대응 측면에서도 자체 기술 검증이 필수적이기 때문임. 베트남, 일본 등 해외 진출 계획에도 자체 표준 적용이 필요한 핵심 단계임. 결국 타사의 생태계 속성이 아닌 우리 (Toss) 가 통제하는 자체 인프라가 필요합니다.
 
 ##### Phase 3 — CEO 종합
 
@@ -280,14 +280,14 @@
 - **CEO**: `Aggressive Price Cut`@0.75, `Cross-Platform Integration`@0.25
   - changed `Ecosystem Marketing Push` → because: 보드 mandates 에 따른 가격인센티브 집중
 - **CMO**: `Aggressive Price Cut`@1.00
-  - dissent: 다수안이 제안한 Cross-Platform Integration 은 장기적 전환율 향상에는 유효하나, 현재 Kakao Pay 의 점유율 하락 국면에서 신속한 방어책이 되지 못함. Toss 의 부상세가 가속화되는 상황에서 기능 통합은 비용과 시간을 소모하여 시장 흐름을 뒤집기에 부족하다. 가격 인하만이 즉각적인 유입과 이탈 방지에 효과적이며, 다른 플레이어 대비 단기 수익성牺牲은 감수할 가치가 있다. 하지만 기능 의존성은 회복 불가능한 시점에 기회를 잃게 만든다. 따라서 Immediate Price Adjustment 가 필수적이다. 이는 단기적인 효율성 저하보다는 시장 지위 회복을 최우선으로 하는 판단이다. 또한, Naver Pay 등의 동형 플랫폼 대응에도 가격이 가장 강력한 무기가 될 수 있다. Kakao Pay 의 강점은 네트워크가 아닌 가격 민감도 관리에 있다. 따라서 통합 추진은 현 상황에서는 위험부담만 가중한다. 결론적으로, Cross-Platform Integration
+  - dissent: 다수안이 제안한 Cross-Platform Integration 은 장기적 전환율 향상에는 유효하나, 현재 Kakao Pay 의 점유율 하락 국면에서 신속한 방어책이 되지 못함. Toss 의 부상세가 가속화되는 상황에서 기능 통합은 비용과 시간을 소모하여 시장 흐름을 뒤집기에 부족하다. 가격 인하만이 즉각적인 유입과 이탈 방지에 효과적이며, 다른 플레이어 대비 단기 수익성희생은 감수할 가치가 있다. 하지만 기능 의존성은 회복 불가능한 시점에 기회를 잃게 만든다. 따라서 Immediate Price Adjustment 가 필수적이다. 이는 단기적인 효율성 저하보다는 시장 지위 회복을 최우선으로 하는 판단이다. 또한, Naver Pay 등의 동형 플랫폼 대응에도 가격이 가장 강력한 무기가 될 수 있다. Kakao Pay 의 강점은 네트워크가 아닌 가격 민감도 관리에 있다. 따라서 통합 추진은 현 상황에서는 위험부담만 가중한다. 결론적으로, Cross-Platform Integration
 
 **Position changes:**
 - COO: Aggressive Price Cut+Cross-Platform Integration → Aggressive Price Cut (보장된 현금으로 Toss 직접 공략에 집중)
 - CFO: Aggressive Price Cut → Kakao Ecosystem Leverage+Cross-Platform Integration (현금 소진 위험 및 ROI 부재로 가격인하 반대)
 - CTO: Aggressive Price Cut+Cross-Platform Integration → Aggressive Price Cut+Cross-Platform Integration (보안 R&D 예산 확보를 위해 통합 비중 축소)
 - CEO: Ecosystem Marketing Push → Aggressive Price Cut+Cross-Platform Integration (보드 mandates 에 따른 가격인센티브 집중)
-- [반대] CMO: 다수안이 제안한 Cross-Platform Integration 은 장기적 전환율 향상에는 유효하나, 현재 Kakao Pay 의 점유율 하락 국면에서 신속한 방어책이 되지 못함. Toss 의 부상세가 가속화되는 상황에서 기능 통합은 비용과 시간을 소모하여 시장 흐름을 뒤집기에 부족하다. 가격 인하만이 즉각적인 유입과 이탈 방지에 효과적이며, 다른 플레이어 대비 단기 수익성牺牲은 감수할 가치가 있다. 하지만 기능 의존성은 회복 불가능한 시점에 기회를 잃게 만든다. 따라서 Immediate Price Adjustment 가 필수적이다. 이는 단기적인 효율성 저하보다는 시장 지위 회복을 최우선으로 하는 판단이다. 또한, Naver Pay 등의 동형 플랫폼 대응에도 가격이 가장 강력한 무기가 될 수 있다. Kakao Pay 의 강점은 네트워크가 아닌 가격 민감도 관리에 있다. 따라서 통합 추진은 현 상황에서는 위험부담만 가중한다. 결론적으로, Cross-Platform Integration
+- [반대] CMO: 다수안이 제안한 Cross-Platform Integration 은 장기적 전환율 향상에는 유효하나, 현재 Kakao Pay 의 점유율 하락 국면에서 신속한 방어책이 되지 못함. Toss 의 부상세가 가속화되는 상황에서 기능 통합은 비용과 시간을 소모하여 시장 흐름을 뒤집기에 부족하다. 가격 인하만이 즉각적인 유입과 이탈 방지에 효과적이며, 다른 플레이어 대비 단기 수익성희생은 감수할 가치가 있다. 하지만 기능 의존성은 회복 불가능한 시점에 기회를 잃게 만든다. 따라서 Immediate Price Adjustment 가 필수적이다. 이는 단기적인 효율성 저하보다는 시장 지위 회복을 최우선으로 하는 판단이다. 또한, Naver Pay 등의 동형 플랫폼 대응에도 가격이 가장 강력한 무기가 될 수 있다. Kakao Pay 의 강점은 네트워크가 아닌 가격 민감도 관리에 있다. 따라서 통합 추진은 현 상황에서는 위험부담만 가중한다. 결론적으로, Cross-Platform Integration
 
 ##### Phase 3 — CEO 종합
 
@@ -352,7 +352,7 @@
 
 - side_a: `dominant` ↑ — Toss 의 공격적 할인 정책과 누적된 슈퍼앱 통합 효과가 경기 위축 상황에서도 가맹점 전환 비용 (switching_cost) 을 상승시켜 시장 선도력을 가속화합니다.
 - side_b: `dominant` ↗ — Kakao Pay 는 메신저 생태계의 절대적 사용량 규모를 통해 가격 인하 파이를 흡수하며 하락세를 진정시키고 지위를 공고히 합니다.
-- side_c: `strong` ↗ — Naver Pay 는充裕한 현금 보유량을 바탕으로 쇼핑 락인 전략을 지속하여 가격 민감도가 높은 환경에서도 핵심 고객을 성공적으로 유지하였습니다.
+- side_c: `strong` ↗ — Naver Pay 는충분한 현금 보유량을 바탕으로 쇼핑 락인 전략을 지속하여 가격 민감도가 높은 환경에서도 핵심 고객을 성공적으로 유지하였습니다.
 
 **Strategy Consultant**: 경기 위축과 수익률 축소 환경에서 단순 가격 경쟁은 자원 소모적 승무 (Bloodless Victory) 로 이어지므로, 현금 보유량이 많고 타겟팅된 생태계 락인이 있는 플레이어가 상대적으로 우위를 점하게 됩니다.
 
@@ -392,7 +392,7 @@
   - rationale: 이전 가격 인하 전략의 실패로 현금 소진 가속 우려가 있으나, 금감원 가이드라인 하에서 B2B 인프라 전환은 장기적 모서 확보에 필수적이므로, 단기적으로 고객 유지 (Retention) 와 생태계 깊이 (Depth) 를 통한 가치 제고에 집중한다. Kakao Pay의 저가 공세에 맞서 가격 경쟁을 피하고, Toss 증권 등 기존 강점을 활용한 교차 판매로 LTV를 방어하며, MZ 세대의 높은 충성도를 활용해 점유율 하락세를 멈추는 것이 현 시점 가장 합리적 대응이다.
   - risk: 단기 매출 성장 둔화 가능성
 - **CTO**: `Cross-Platform Integration`@0.45, `Data Privacy Certification`@0.35, `Toss Super-App Deepening`@0.20
-  - rationale: 보드의 가격 인하 금지 및 마케팅 전환 mandates 에 따라, 저가 공세 (Kakao Pay) 와 쇼핑 락인 (Naver Pay) 에 맞서 B2B 인프라 독점 전략을 실행함. 'Cross-Platform Integration'으로 가맹점의 기술적 전환 비용 높여 이탈 방지, 'Data Privacy Certification'로 규제 리스크 관리 및 기업 신뢰도 확보, 'Toss Super-App Deepening'으로 광고/금융 상품 수익 다각화를 통해 현금 흐름 개선. R&D(50%) 유지를 위해 단기 마케팅 예산을削减하되, 장기 경쟁력 확보를 위한 기술적 차별화에 집중함.
+  - rationale: 보드의 가격 인하 금지 및 마케팅 전환 mandates 에 따라, 저가 공세 (Kakao Pay) 와 쇼핑 락인 (Naver Pay) 에 맞서 B2B 인프라 독점 전략을 실행함. 'Cross-Platform Integration'으로 가맹점의 기술적 전환 비용 높여 이탈 방지, 'Data Privacy Certification'로 규제 리스크 관리 및 기업 신뢰도 확보, 'Toss Super-App Deepening'으로 광고/금융 상품 수익 다각화를 통해 현금 흐름 개선. R&D(50%) 유지를 위해 단기 마케팅 예산을삭감하되, 장기 경쟁력 확보를 위한 기술적 차별화에 집중함.
   - risk: 단기 현금 소모 가속 및 R&D 투자 지연 위험
 - **CEO**: `Toss Super-App Deepening`@0.50, `Cross-Platform Integration`@0.30, `Toss MZ Loyalty Campaign`@0.20
   - rationale: 금감원 수수료 인하 가이드라인으로 가격 경쟁 불가. 현금 보유량 47.4% 에 근접하여 신규 할인 금지 정책 준수 필수. Kakao Pay 과 가격 전선에서 벗어나 서비스 심화로 전환. 마케팅 예산의 50% 를 고객 유지 프로그램 전환하여 보드 명령 수행. 동시에 B2B 인프라 독과점 기반을 마련하여 장기 가치 창출.
@@ -533,7 +533,7 @@
 
 - side_a: `strong` ↑ — Toss 는 MZ 세대를 대상으로 한 충성도 캠페인과 자산 최적화로 전차 위축세의 하방 압력을 완화하며 모멘텀 반전을 주도하고 있으나 현금 보유량 부족이 지속적 확장을 어렵게 만듭니다.
 - side_b: `dominant` → — Kakao Pay 는 메신저 생태계 영향력으로 시장 점유율을 유지하나 정부 주도의 표준화 정책과 그룹 내 거버넌스 이슈가 새로운 성장 도약에 제동을 걸고 있습니다.
-- side_c: `strong` ↑ — Naver Pay 는 네이버 쇼핑 연계와 멤버십 번들로 사용성을 심화시켜上升 궤적을 유지했으나, 결제외 기능 약점으로 전체 적 시장 지배력은 아직 확보되지 못했습니다.
+- side_c: `strong` ↑ — Naver Pay 는 네이버 쇼핑 연계와 멤버십 번들로 사용성을 심화시켜상승 궤적을 유지했으나, 결제외 기능 약점으로 전체 적 시장 지배력은 아직 확보되지 못했습니다.
 
 #### Adjudicator synthesis
 
@@ -744,7 +744,7 @@
   - rationale: 금감원 수수료 인하 가이드라인 (1.0-1.3%) 으로 소비자 마진 전쟁은 불가피한 적자 구조이므로, Board mandate 에 따라 가격 경쟁 중단 후 'Super-app monetization'과 'B2B Infrastructure Monopoly' 전략에 집중해야 함. Kakao Pay 의 메신저 생태계와 Naver Pay 의 쇼핑 락인에는 개별 서비스로는 대항 불가능하므로, 증권/뱅킹/보험을 통합한 Toss Super-App 을 통해 가맹점의 결제 데이터 기반 AI 신용평가 및 BNPL 서비스를 강화하여 B2B 관점에서 차별화된 모닝게이트를 구축하는 것이 유일한 생존 경로임. 또한 규제 리스크 (금감원) 를 상쇄하기 위한 Data Privacy Certification 은 SME 고객 유입의 필수 전제 조건이며, 이는 단순 마케팅이 아닌 기술적 진입 장벽 구축임.
   - risk: R&D 예산 50% 유지 시 단기 현금 소진 가속화 가능
 - **CEO**: `Toss Super-App Deepening`@0.50, `Cash Reserve Optimization`@0.30, `Data Privacy Certification`@0.20
-  - rationale: Board mandate(가격전폐·예산재배) 준수를 최우선. Turn 4 가격공세 실패复盘. Kakao Pay(Naver Pay)와의 직접적 마진 전쟁 종료, B2B 인프라와 서비스 심화로 지속가능성 확보.
+  - rationale: Board mandate(가격전폐·예산재배) 준수를 최우선. Turn 4 가격공세 실패복기. Kakao Pay(Naver Pay)와의 직접적 마진 전쟁 종료, B2B 인프라와 서비스 심화로 지속가능성 확보.
   - risk: 투자 지연 시 시장 선점 기회 상실
 
 ##### Phase 2 — 비판적 검토 (다수안: `Toss Super-App Deepening`, DA: `CFO`)
@@ -756,12 +756,12 @@
 - **CEO**: `Cross-Platform Integration`@0.60, `Data Privacy Certification`@0.40
   - changed `Toss Super-App Deepening` → because: 서비스 핵심 가치로 재집중 필요
 - **CFO**: `Cross-Platform Integration`@0.40, `Data Privacy Certification`@0.30, `Cash Reserve Optimization`@0.30
-  - dissent: 대안인 Toss Super-App Deepening 은 규제 승인 및 개발 비용이 지연되어 현금 소모 위험이 큽니다. 현재 39% 현금 보유 상태에서 금감원, FSS 등의 금융 당국 심의 기간은 예측 불가능합니다. 경쟁사如 Kakao Pay, Naver Pay 는 이미 인프라를 갖춘 상태이나 새로운 금융 상품 출시 시 중국, 베트남, 일본 시장 진출 시도 (Grab Financial, Sea Money 등) 와 같은 글로벌 리스크 관리가 선행되지 않으면 자본 손실이 발생합니다. 또한 BOK, 한국은행 의 금리 정책 변화는 자금 조달 비용을 변동시키고, 특정 사례 (김범수, sm 엔터 관련 사건) 의 영향으로 인해 브랜드 가치 하락 시 복구 비용이 발생합니다. 외부 요소 (미국, 동남아, CHIPS Act) 와 무관하게 내부 재무 건전성이 최우선이며, 고위험 투자보다 통합된 서비스로 유지하는 것이 적절합니다. 따라서 가격 인하나 공격적 확장보다 데이터 기반 서비스 연동이 필요합니다.
+  - dissent: 대안인 Toss Super-App Deepening 은 규제 승인 및 개발 비용이 지연되어 현금 소모 위험이 큽니다. 현재 39% 현금 보유 상태에서 금감원, FSS 등의 금융 당국 심의 기간은 예측 불가능합니다. 경쟁사인 Kakao Pay, Naver Pay 는 이미 인프라를 갖춘 상태이나 새로운 금융 상품 출시 시 중국, 베트남, 일본 시장 진출 시도 (Grab Financial, Sea Money 등) 와 같은 글로벌 리스크 관리가 선행되지 않으면 자본 손실이 발생합니다. 또한 BOK, 한국은행 의 금리 정책 변화는 자금 조달 비용을 변동시키고, 특정 사례 (김범수, sm 엔터 관련 사건) 의 영향으로 인해 브랜드 가치 하락 시 복구 비용이 발생합니다. 외부 요소 (미국, 동남아, CHIPS Act) 와 무관하게 내부 재무 건전성이 최우선이며, 고위험 투자보다 통합된 서비스로 유지하는 것이 적절합니다. 따라서 가격 인하나 공격적 확장보다 데이터 기반 서비스 연동이 필요합니다.
 
 **Position changes:**
 - CMO: Toss Super-App Deepening → Toss Super-App Deepening+Data Privacy Certification+Cross-Platform Integration (가격전술 중단, B2B 인프라 강화)
 - CEO: Toss Super-App Deepening → Cross-Platform Integration+Data Privacy Certification (서비스 핵심 가치로 재집중 필요)
-- [반대] CFO: 대안인 Toss Super-App Deepening 은 규제 승인 및 개발 비용이 지연되어 현금 소모 위험이 큽니다. 현재 39% 현금 보유 상태에서 금감원, FSS 등의 금융 당국 심의 기간은 예측 불가능합니다. 경쟁사如 Kakao Pay, Naver Pay 는 이미 인프라를 갖춘 상태이나 새로운 금융 상품 출시 시 중국, 베트남, 일본 시장 진출 시도 (Grab Financial, Sea Money 등) 와 같은 글로벌 리스크 관리가 선행되지 않으면 자본 손실이 발생합니다. 또한 BOK, 한국은행 의 금리 정책 변화는 자금 조달 비용을 변동시키고, 특정 사례 (김범수, sm 엔터 관련 사건) 의 영향으로 인해 브랜드 가치 하락 시 복구 비용이 발생합니다. 외부 요소 (미국, 동남아, CHIPS Act) 와 무관하게 내부 재무 건전성이 최우선이며, 고위험 투자보다 통합된 서비스로 유지하는 것이 적절합니다. 따라서 가격 인하나 공격적 확장보다 데이터 기반 서비스 연동이 필요합니다. 
+- [반대] CFO: 대안인 Toss Super-App Deepening 은 규제 승인 및 개발 비용이 지연되어 현금 소모 위험이 큽니다. 현재 39% 현금 보유 상태에서 금감원, FSS 등의 금융 당국 심의 기간은 예측 불가능합니다. 경쟁사인 Kakao Pay, Naver Pay 는 이미 인프라를 갖춘 상태이나 새로운 금융 상품 출시 시 중국, 베트남, 일본 시장 진출 시도 (Grab Financial, Sea Money 등) 와 같은 글로벌 리스크 관리가 선행되지 않으면 자본 손실이 발생합니다. 또한 BOK, 한국은행 의 금리 정책 변화는 자금 조달 비용을 변동시키고, 특정 사례 (김범수, sm 엔터 관련 사건) 의 영향으로 인해 브랜드 가치 하락 시 복구 비용이 발생합니다. 외부 요소 (미국, 동남아, CHIPS Act) 와 무관하게 내부 재무 건전성이 최우선이며, 고위험 투자보다 통합된 서비스로 유지하는 것이 적절합니다. 따라서 가격 인하나 공격적 확장보다 데이터 기반 서비스 연동이 필요합니다. 
 
 ##### Phase 3 — CEO 종합
 
@@ -846,12 +846,12 @@
   - changed `CFO/COO 제안 (다수 동시 실행)` → because: 자원 분산으로 전환율 목표 미달 위험 제거
 - **CMO**: `Naver Shopping Lock-in`@0.65, `Ecosystem Marketing Push`@0.25, `Cross-Platform Integration`@0.10
 - **CTO**: `Cross-Platform Integration`@0.60, `Ecosystem Marketing Push`@0.40
-  - dissent: 다수안은 외부 파트너십 계약 의존도가 높습니다. 플랫폼 정책 변화나 계약 갱실패 시 유입 경로가 끊길 수 있어 운영 안정성이 떨어집니다. 기술적 인프라와 자체 알고리즘 최적화에 투자해야 장기 체류율이 보장됩니다. 단기 성과 중심 접근은 R&D 예산 침식을 유발해 2 년 이내 경쟁력 하락 위험이 있습니다. 단순 유통망 확보보다 결제 과정의 기술적 매끄러움이 전환율 상승에 더 직접적입니다. C suite mandates 에 부합하려면 기술적 솔루션 우선순위가 높아야 합니다. 파트너 의존도 낮추면서 CAC 도 개선될 수 있는 구조입니다. 계약보다는 코드와 시스템 연동에 재원을 집중하는 것이 리스크 관리 측면에서 안전합니다. 시장 점유율 방어보다 지속 가능한 제품 성장에 중점을 둡니다. 개발 역량을 유지하지 않으면 다른 플레이어에게 추월당할 수밖에 없습니다. 외부 변수에 의한 중단 가능성이 항상 존재합니다. 내부 기술 역량 강화가最根本인 해결책입니다. 팀 대안을 수용하더라도 R&D 비중은
+  - dissent: 다수안은 외부 파트너십 계약 의존도가 높습니다. 플랫폼 정책 변화나 계약 갱실패 시 유입 경로가 끊길 수 있어 운영 안정성이 떨어집니다. 기술적 인프라와 자체 알고리즘 최적화에 투자해야 장기 체류율이 보장됩니다. 단기 성과 중심 접근은 R&D 예산 침식을 유발해 2 년 이내 경쟁력 하락 위험이 있습니다. 단순 유통망 확보보다 결제 과정의 기술적 매끄러움이 전환율 상승에 더 직접적입니다. C suite mandates 에 부합하려면 기술적 솔루션 우선순위가 높아야 합니다. 파트너 의존도 낮추면서 CAC 도 개선될 수 있는 구조입니다. 계약보다는 코드와 시스템 연동에 재원을 집중하는 것이 리스크 관리 측면에서 안전합니다. 시장 점유율 방어보다 지속 가능한 제품 성장에 중점을 둡니다. 개발 역량을 유지하지 않으면 다른 플레이어에게 추월당할 수밖에 없습니다. 외부 변수에 의한 중단 가능성이 항상 존재합니다. 내부 기술 역량 강화가가장 근본적인 해결책입니다. 팀 대안을 수용하더라도 R&D 비중은
 - **CEO**: `Naver Shopping Lock-in`@0.60, `Ecosystem Marketing Push`@0.40
 
 **Position changes:**
 - COO: /COO 제안 (다수 동시 실행) → Naver Shopping Lock-in+Ecosystem Marketing Push (자원 분산으로 전환율 목표 미달 위험 제거)
-- [반대] CTO: 다수안은 외부 파트너십 계약 의존도가 높습니다. 플랫폼 정책 변화나 계약 갱실패 시 유입 경로가 끊길 수 있어 운영 안정성이 떨어집니다. 기술적 인프라와 자체 알고리즘 최적화에 투자해야 장기 체류율이 보장됩니다. 단기 성과 중심 접근은 R&D 예산 침식을 유발해 2 년 이내 경쟁력 하락 위험이 있습니다. 단순 유통망 확보보다 결제 과정의 기술적 매끄러움이 전환율 상승에 더 직접적입니다. C suite mandates 에 부합하려면 기술적 솔루션 우선순위가 높아야 합니다. 파트너 의존도 낮추면서 CAC 도 개선될 수 있는 구조입니다. 계약보다는 코드와 시스템 연동에 재원을 집중하는 것이 리스크 관리 측면에서 안전합니다. 시장 점유율 방어보다 지속 가능한 제품 성장에 중점을 둡니다. 개발 역량을 유지하지 않으면 다른 플레이어에게 추월당할 수밖에 없습니다. 외부 변수에 의한 중단 가능성이 항상 존재합니다. 내부 기술 역량 강화가最根本인 해결책입니다. 팀 대안을 수용하더라도 R&D 비중은 
+- [반대] CTO: 다수안은 외부 파트너십 계약 의존도가 높습니다. 플랫폼 정책 변화나 계약 갱실패 시 유입 경로가 끊길 수 있어 운영 안정성이 떨어집니다. 기술적 인프라와 자체 알고리즘 최적화에 투자해야 장기 체류율이 보장됩니다. 단기 성과 중심 접근은 R&D 예산 침식을 유발해 2 년 이내 경쟁력 하락 위험이 있습니다. 단순 유통망 확보보다 결제 과정의 기술적 매끄러움이 전환율 상승에 더 직접적입니다. C suite mandates 에 부합하려면 기술적 솔루션 우선순위가 높아야 합니다. 파트너 의존도 낮추면서 CAC 도 개선될 수 있는 구조입니다. 계약보다는 코드와 시스템 연동에 재원을 집중하는 것이 리스크 관리 측면에서 안전합니다. 시장 점유율 방어보다 지속 가능한 제품 성장에 중점을 둡니다. 개발 역량을 유지하지 않으면 다른 플레이어에게 추월당할 수밖에 없습니다. 외부 변수에 의한 중단 가능성이 항상 존재합니다. 내부 기술 역량 강화가가장 근본적인 해결책입니다. 팀 대안을 수용하더라도 R&D 비중은 
 
 ##### Phase 3 — CEO 종합
 

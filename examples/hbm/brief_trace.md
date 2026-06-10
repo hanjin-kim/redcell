@@ -60,13 +60,13 @@ capex 인센티브에 영향.
 - **CMO**: `SK Hynix Yield Optimization`@0.45, `SK Hynix NVIDIA Lock-in`@0.35, `CoWoS Allocation Push`@0.20
   - changed `SK Hynix Capacity Ramp` → because: 수율 확보가 선행되지 않은 양산은 마진 훼손
 - **CTO**: `Breakthrough R&D Bet`@0.50
-  - dissent: SK Hynix Yield Optimization 는 단기 생산 효율만 강조하여 차세대 기술 검증 자원을 고갈시킵니다. HBM3E 12-Hi 기준 수율 향상 지연 시 블랙웰 울트라 수요 대응이 가능하나, M16 라인 가동률 95% 에만 매몰되면 삼성 Electronics DS 의 HBM4 스펙 추격을 피할 수 없습니다. 수율 자체는 시간이 지나면 따라잡히지만, 기술적 혁신 속도는 복구 불가능합니다. 또한 청주 M15X 추가 가동과 병행할 경우 인력 중복 투입 비용이 발생합니다. 경쟁사 대비 지속 가능한 우위를 확보하려면 단순 공정의 완성도가 아닌 기술적 격차를 먼저 확보해야 합니다. 따라서 이천 M16 라인 가동률 제고보다 차세대 기술 집중 투자가 장기적 생존율을 높입니다. 현재 R&D 투자율 50.0% 를 하향 조정하면 2~3 년 내 경쟁력이 하락하는 구조적 위험이 존재합니다. 수율 최적화에는 Capex 보다 OpsEx 중심 비용이 소요되나, 이는 미래 시장 점유율 확보를 위한研發
+  - dissent: SK Hynix Yield Optimization 는 단기 생산 효율만 강조하여 차세대 기술 검증 자원을 고갈시킵니다. HBM3E 12-Hi 기준 수율 향상 지연 시 블랙웰 울트라 수요 대응이 가능하나, M16 라인 가동률 95% 에만 매몰되면 삼성 Electronics DS 의 HBM4 스펙 추격을 피할 수 없습니다. 수율 자체는 시간이 지나면 따라잡히지만, 기술적 혁신 속도는 복구 불가능합니다. 또한 청주 M15X 추가 가동과 병행할 경우 인력 중복 투입 비용이 발생합니다. 경쟁사 대비 지속 가능한 우위를 확보하려면 단순 공정의 완성도가 아닌 기술적 격차를 먼저 확보해야 합니다. 따라서 이천 M16 라인 가동률 제고보다 차세대 기술 집중 투자가 장기적 생존율을 높입니다. 현재 R&D 투자율 50.0% 를 하향 조정하면 2~3 년 내 경쟁력이 하락하는 구조적 위험이 존재합니다. 수율 최적화에는 Capex 보다 OpsEx 중심 비용이 소요되나, 이는 미래 시장 점유율 확보를 위한연구개발
 - **CEO**: `SK Hynix Yield Optimization`@0.60, `SK Hynix Capacity Ramp`@0.25, `CoWoS Allocation Push`@0.15
 
 **Position changes:**
 - COO: SK Hynix NVIDIA Lock-in → SK Hynix Yield Optimization+CoWoS Allocation Push+SK Hynix Capacity Ramp (리스크 분산을 위한 실행 우선순위 조정)
 - CMO: SK Hynix Capacity Ramp → SK Hynix Yield Optimization+SK Hynix NVIDIA Lock-in+CoWoS Allocation Push (수율 확보가 선행되지 않은 양산은 마진 훼손)
-- [반대] CTO: SK Hynix Yield Optimization 는 단기 생산 효율만 강조하여 차세대 기술 검증 자원을 고갈시킵니다. HBM3E 12-Hi 기준 수율 향상 지연 시 블랙웰 울트라 수요 대응이 가능하나, M16 라인 가동률 95% 에만 매몰되면 삼성 Electronics DS 의 HBM4 스펙 추격을 피할 수 없습니다. 수율 자체는 시간이 지나면 따라잡히지만, 기술적 혁신 속도는 복구 불가능합니다. 또한 청주 M15X 추가 가동과 병행할 경우 인력 중복 투입 비용이 발생합니다. 경쟁사 대비 지속 가능한 우위를 확보하려면 단순 공정의 완성도가 아닌 기술적 격차를 먼저 확보해야 합니다. 따라서 이천 M16 라인 가동률 제고보다 차세대 기술 집중 투자가 장기적 생존율을 높입니다. 현재 R&D 투자율 50.0% 를 하향 조정하면 2~3 년 내 경쟁력이 하락하는 구조적 위험이 존재합니다. 수율 최적화에는 Capex 보다 OpsEx 중심 비용이 소요되나, 이는 미래 시장 점유율 확보를 위한研發
+- [반대] CTO: SK Hynix Yield Optimization 는 단기 생산 효율만 강조하여 차세대 기술 검증 자원을 고갈시킵니다. HBM3E 12-Hi 기준 수율 향상 지연 시 블랙웰 울트라 수요 대응이 가능하나, M16 라인 가동률 95% 에만 매몰되면 삼성 Electronics DS 의 HBM4 스펙 추격을 피할 수 없습니다. 수율 자체는 시간이 지나면 따라잡히지만, 기술적 혁신 속도는 복구 불가능합니다. 또한 청주 M15X 추가 가동과 병행할 경우 인력 중복 투입 비용이 발생합니다. 경쟁사 대비 지속 가능한 우위를 확보하려면 단순 공정의 완성도가 아닌 기술적 격차를 먼저 확보해야 합니다. 따라서 이천 M16 라인 가동률 제고보다 차세대 기술 집중 투자가 장기적 생존율을 높입니다. 현재 R&D 투자율 50.0% 를 하향 조정하면 2~3 년 내 경쟁력이 하락하는 구조적 위험이 존재합니다. 수율 최적화에는 Capex 보다 OpsEx 중심 비용이 소요되나, 이는 미래 시장 점유율 확보를 위한연구개발
 
 ##### Phase 3 — CEO 종합
 
@@ -136,7 +136,7 @@ capex 인센티브에 영향.
   - rationale: 현재 전략인 '미국 내 생산 기지 확충'과 'SK 하이닉스 타격'을 실행하기 위해 Boise 확장 (US Fab) 과 정부 지원 (Subsidy) 에 자원을 집중합니다. SK 하이닉스의 독점적 지위를 무너뜨리기 위해서는 단순 가격 경쟁이 아닌, AMD 및 클라우드 업체가 신뢰할 수 있는 '기술력 입증 (Tech Credibility)'과 안정적인 미국 내 공급망 구축이 필수적이므로 이를 병행합니다.
   - risk: HBM4 전환기 기술 격차 심화 시 시장 점유율 추가 하락 가능성
 - **CMO**: `Micron US Fab Expansion`@0.45, `Micron Tech Credibility`@0.35, `Regulatory Subsidy Hunt`@0.20
-  - rationale: 현재 약세(weak) 위치에서 SK Hynix의 독점적 지위를 타격하기 위해선 단순 가격 경쟁보다는 '미국 내 생산 기지 확충'을 통한 공급망 안정성과 'NVIDIA 자격증명'이라는 기술 신뢰도 확보가 필수적입니다. Seed 전략의 핵심인 '미국 정부 협력'과 'AMD/클라우드 다변화'를 실행하는 유일한 경로이며, TSMC CoWoS 병목 문제를 우회하기 위한 근본적인产能 확보와 기술적 입지가 선행되어야 합니다.
+  - rationale: 현재 약세(weak) 위치에서 SK Hynix의 독점적 지위를 타격하기 위해선 단순 가격 경쟁보다는 '미국 내 생산 기지 확충'을 통한 공급망 안정성과 'NVIDIA 자격증명'이라는 기술 신뢰도 확보가 필수적입니다. Seed 전략의 핵심인 '미국 정부 협력'과 'AMD/클라우드 다변화'를 실행하는 유일한 경로이며, TSMC CoWoS 병목 문제를 우회하기 위한 근본적인캐파 확보와 기술적 입지가 선행되어야 합니다.
   - risk: HBM4 전환기 도중 미국 내 생산 라인 지연 시 시장 기회 상실
 - **CFO**: `Micron US Fab Expansion`@0.60, `Regulatory Subsidy Hunt`@0.30, `Micron Tech Credibility`@0.10
   - rationale: 현재 캠페인 (미국 내 생산 기지 확충, SK 하이닉스 타격) 의 핵심은 '물량'과 '정부 지원'입니다. 현금 60% 수준에서 고위험 R&D(Breakthrough R&D Bet) 는 자살행위로 간주되므로, SK 하이닉스의 독점적 지위를 무너뜨리기 위해 TSMC CoWoS 병목 없이 미국 내 자체 공급망을 구축하는 것이 최우선입니다. Micron US Fab Expansion(0.6) 으로 CHIPS Act 수혜를 확정하고, Regulatory Subsidy Hunt(0.3) 로 K-Chips 등 한국 정책의 불확실성을 관리하며, 최소한의 리스크로 NVIDIA 인증을 유지(Micron Tech Credibility) 하는 전략이 가장 합리적입니다.
@@ -150,15 +150,15 @@ capex 인센티브에 영향.
 - **CTO**: `Micron US Fab Expansion`@0.50, `Regulatory Subsidy Hunt`@0.30, `Micron Tech Credibility`@0.20
 - **CMO**: `Micron Tech Credibility`@0.45, `Micron US Fab Expansion`@0.35, `Regulatory Subsidy Hunt`@0.20
 - **CFO**: `Micron US Fab Expansion`@0.65, `Regulatory Subsidy Hunt`@0.30, `Micron Tech Credibility`@0.05
-  - changed `CFO 제안 (Fab 60%+Subsidy 30%+Tech 10%)` → because: 현금 60% 한계로 R&D/인증 지연 허용, CHIPS Act 기반产能 확보 우선
+  - changed `CFO 제안 (Fab 60%+Subsidy 30%+Tech 10%)` → because: 현금 60% 한계로 R&D/인증 지연 허용, CHIPS Act 기반캐파 확보 우선
 - **COO**: `Micron Cost Efficiency`@0.80
-  - dissent: 현재 Micron Technology 의 현금 60% 한계는 Idaho와 Boise 의 새로운 Fab 확장을 감당하기에 부족합니다. 고정비 증가로 인해 HBM4 개발 자금 확보가 어려워지고, CHIPS Act 보조금 수령 불확실성까지 겹치면 현금 유동성 위기가 가속화됩니다. 이는 기술 주도권을 놓치는 주된 요인이 됩니다. 대신 기존 공정의 효율성 강화가 현금 소진 속도를 낮추고 안정성을 높입니다. SK Hynix 대시보드가 확인하는 시장 흐름 속에서 신속한 대응이 필요합니다. 추가적인 부채 리스크 없이 운영해야 합니다. TSMC CoWoS 협력 없이도 내부 역량 강화가 우선입니다. 다른 패키징 업체와의 협력도 고려되지만 비용 부담이 적어야 합니다. AMD 나 NVIDIA 관련 공급망 문제도 해결해야 하지만 단기 생존이 중요합니다. 삼성전자의 가격 정책도 참고하되 우리 편익을 최우선으로 합니다. ASML 장비 도입 계획보다는 유지보수에 의존합니다. 이천이나 청주 사업장은 관련 없고,陝
+  - dissent: 현재 Micron Technology 의 현금 60% 한계는 Idaho와 Boise 의 새로운 Fab 확장을 감당하기에 부족합니다. 고정비 증가로 인해 HBM4 개발 자금 확보가 어려워지고, CHIPS Act 보조금 수령 불확실성까지 겹치면 현금 유동성 위기가 가속화됩니다. 이는 기술 주도권을 놓치는 주된 요인이 됩니다. 대신 기존 공정의 효율성 강화가 현금 소진 속도를 낮추고 안정성을 높입니다. SK Hynix 대시보드가 확인하는 시장 흐름 속에서 신속한 대응이 필요합니다. 추가적인 부채 리스크 없이 운영해야 합니다. TSMC CoWoS 협력 없이도 내부 역량 강화가 우선입니다. 다른 패키징 업체와의 협력도 고려되지만 비용 부담이 적어야 합니다. AMD 나 NVIDIA 관련 공급망 문제도 해결해야 하지만 단기 생존이 중요합니다. 삼성전자의 가격 정책도 참고하되 우리 편익을 최우선으로 합니다. ASML 장비 도입 계획보다는 유지보수에 의존합니다. 이천이나 청주 사업장은 관련 없습니다.
 - **CEO**: `Micron US Fab Expansion`@0.55, `Regulatory Subsidy Hunt`@0.25, `Micron Tech Credibility`@0.20
   - changed `Micron US Fab Expansion` → because: 캠페인 전략 우선순위 반영
 
 **Position changes:**
-- CFO: 제안 (Fab 60%+Subsidy 30%+Tech 10%) → Micron US Fab Expansion+Regulatory Subsidy Hunt+Micron Tech Credibility (현금 60% 한계로 R&D/인증 지연 허용, CHIPS Act 기반产能 확보 우선)
-- [반대] COO: 현재 Micron Technology 의 현금 60% 한계는 Idaho와 Boise 의 새로운 Fab 확장을 감당하기에 부족합니다. 고정비 증가로 인해 HBM4 개발 자금 확보가 어려워지고, CHIPS Act 보조금 수령 불확실성까지 겹치면 현금 유동성 위기가 가속화됩니다. 이는 기술 주도권을 놓치는 주된 요인이 됩니다. 대신 기존 공정의 효율성 강화가 현금 소진 속도를 낮추고 안정성을 높입니다. SK Hynix 대시보드가 확인하는 시장 흐름 속에서 신속한 대응이 필요합니다. 추가적인 부채 리스크 없이 운영해야 합니다. TSMC CoWoS 협력 없이도 내부 역량 강화가 우선입니다. 다른 패키징 업체와의 협력도 고려되지만 비용 부담이 적어야 합니다. AMD 나 NVIDIA 관련 공급망 문제도 해결해야 하지만 단기 생존이 중요합니다. 삼성전자의 가격 정책도 참고하되 우리 편익을 최우선으로 합니다. ASML 장비 도입 계획보다는 유지보수에 의존합니다. 이천이나 청주 사업장은 관련 없고,陝
+- CFO: 제안 (Fab 60%+Subsidy 30%+Tech 10%) → Micron US Fab Expansion+Regulatory Subsidy Hunt+Micron Tech Credibility (현금 60% 한계로 R&D/인증 지연 허용, CHIPS Act 기반캐파 확보 우선)
+- [반대] COO: 현재 Micron Technology 의 현금 60% 한계는 Idaho와 Boise 의 새로운 Fab 확장을 감당하기에 부족합니다. 고정비 증가로 인해 HBM4 개발 자금 확보가 어려워지고, CHIPS Act 보조금 수령 불확실성까지 겹치면 현금 유동성 위기가 가속화됩니다. 이는 기술 주도권을 놓치는 주된 요인이 됩니다. 대신 기존 공정의 효율성 강화가 현금 소진 속도를 낮추고 안정성을 높입니다. SK Hynix 대시보드가 확인하는 시장 흐름 속에서 신속한 대응이 필요합니다. 추가적인 부채 리스크 없이 운영해야 합니다. TSMC CoWoS 협력 없이도 내부 역량 강화가 우선입니다. 다른 패키징 업체와의 협력도 고려되지만 비용 부담이 적어야 합니다. AMD 나 NVIDIA 관련 공급망 문제도 해결해야 하지만 단기 생존이 중요합니다. 삼성전자의 가격 정책도 참고하되 우리 편익을 최우선으로 합니다. ASML 장비 도입 계획보다는 유지보수에 의존합니다. 이천이나 청주 사업장은 관련 없습니다.
 - CEO: Micron US Fab Expansion → Micron US Fab Expansion+Regulatory Subsidy Hunt+Micron Tech Credibility (캠페인 전략 우선순위 반영)
 
 ##### Phase 3 — CEO 종합
@@ -283,13 +283,13 @@ capex 인센티브에 영향.
 - **CEO**: `Samsung Quality Catch-up`@0.70, `Samsung Foundry Integration`@0.30
   - changed `CoWoS Allocation Push` → because: 외부 의존 감소 및 내부 역량 강화
 - **CTO**: `Samsung Quality Catch-up`@0.60, `Breakthrough R&D Bet`@0.40
-  - dissent: CoWoS Allocation Push 를 따른다면 TSMC CoWoS 등 외부 용량 의존도가 심해지며, 이로 인해 삼성 전자 DS 내부 칩스 수율이 Blackwell B200 수요 충족에 한계를 보이게 됩니다. HBM3E 12-Hi 품질 이슈가 해결되지 않은 상태에서 AM D 나 ASML 에 의한 후속 처리만으로는 근본적 경쟁력 저하를 막기 어렵습니다. SK 하이닉스 기준치의 기술 표준화에 부합하려면 외부 패키징보다 내부 셀 공정 최적화가 필수적입니다. 특히 CHIPS Act 나 K-Chips 정책 인센티브 역시 단순 보조금 수령에 그칠 수 있으며, 이천, 청주, Boise, Hsinchu 등 글로벌 제조 거점 간의 연계성이 부족하면 통합 솔루션 제공이 늦어집니다. 최종적으로 경쟁 사인 Micron Technology 가 더 낮은 코스트 구조로 진입할 때 삼성전자는 가격 경쟁력을 잃게 될 것입니다. 따라서 단기 현금 확보보다 질적 우위 선점이 필요합니다. SK 하이닉스는 우리側의強
+  - dissent: CoWoS Allocation Push 를 따른다면 TSMC CoWoS 등 외부 용량 의존도가 심해지며, 이로 인해 삼성 전자 DS 내부 칩스 수율이 Blackwell B200 수요 충족에 한계를 보이게 됩니다. HBM3E 12-Hi 품질 이슈가 해결되지 않은 상태에서 AM D 나 ASML 에 의한 후속 처리만으로는 근본적 경쟁력 저하를 막기 어렵습니다. SK 하이닉스 기준치의 기술 표준화에 부합하려면 외부 패키징보다 내부 셀 공정 최적화가 필수적입니다. 특히 CHIPS Act 나 K-Chips 정책 인센티브 역시 단순 보조금 수령에 그칠 수 있으며, 이천, 청주, Boise, Hsinchu 등 글로벌 제조 거점 간의 연계성이 부족하면 통합 솔루션 제공이 늦어집니다. 최종적으로 경쟁 사인 Micron Technology 가 더 낮은 코스트 구조로 진입할 때 삼성전자는 가격 경쟁력을 잃게 될 것입니다. 따라서 단기 현금 확보보다 질적 우위 선점이 필요합니다. SK 하이닉스는 우리 측의 강력한 입지를 위협하는 요인이 됩니다
 
 **Position changes:**
 - COO: Samsung Quality Catch-up, CoWoS Allocation Push, Samsung Custom HBM Dev → Samsung Quality Catch-up+CoWoS Allocation Push (동시 투자 과부하 방지 및 품질 우선순위에 집중)
 - CFO: Samsung Quality Catch-up+CoWoS Allocation Push+Samsung Foundry Integration → Samsung Quality Catch-up+CoWoS Allocation Push (파운드리 통합은 ROI 불명확, 현금 위험 증가)
 - CEO: CoWoS Allocation Push → Samsung Quality Catch-up+Samsung Foundry Integration (외부 의존 감소 및 내부 역량 강화)
-- [반대] CTO: CoWoS Allocation Push 를 따른다면 TSMC CoWoS 등 외부 용량 의존도가 심해지며, 이로 인해 삼성 전자 DS 내부 칩스 수율이 Blackwell B200 수요 충족에 한계를 보이게 됩니다. HBM3E 12-Hi 품질 이슈가 해결되지 않은 상태에서 AM D 나 ASML 에 의한 후속 처리만으로는 근본적 경쟁력 저하를 막기 어렵습니다. SK 하이닉스 기준치의 기술 표준화에 부합하려면 외부 패키징보다 내부 셀 공정 최적화가 필수적입니다. 특히 CHIPS Act 나 K-Chips 정책 인센티브 역시 단순 보조금 수령에 그칠 수 있으며, 이천, 청주, Boise, Hsinchu 등 글로벌 제조 거점 간의 연계성이 부족하면 통합 솔루션 제공이 늦어집니다. 최종적으로 경쟁 사인 Micron Technology 가 더 낮은 코스트 구조로 진입할 때 삼성전자는 가격 경쟁력을 잃게 될 것입니다. 따라서 단기 현금 확보보다 질적 우위 선점이 필요합니다. SK 하이닉스는 우리側의強
+- [반대] CTO: CoWoS Allocation Push 를 따른다면 TSMC CoWoS 등 외부 용량 의존도가 심해지며, 이로 인해 삼성 전자 DS 내부 칩스 수율이 Blackwell B200 수요 충족에 한계를 보이게 됩니다. HBM3E 12-Hi 품질 이슈가 해결되지 않은 상태에서 AM D 나 ASML 에 의한 후속 처리만으로는 근본적 경쟁력 저하를 막기 어렵습니다. SK 하이닉스 기준치의 기술 표준화에 부합하려면 외부 패키징보다 내부 셀 공정 최적화가 필수적입니다. 특히 CHIPS Act 나 K-Chips 정책 인센티브 역시 단순 보조금 수령에 그칠 수 있으며, 이천, 청주, Boise, Hsinchu 등 글로벌 제조 거점 간의 연계성이 부족하면 통합 솔루션 제공이 늦어집니다. 최종적으로 경쟁 사인 Micron Technology 가 더 낮은 코스트 구조로 진입할 때 삼성전자는 가격 경쟁력을 잃게 될 것입니다. 따라서 단기 현금 확보보다 질적 우위 선점이 필요합니다. SK 하이닉스는 우리 측의 강력한 입지를 위협하는 요인이 됩니다
 
 ##### Phase 3 — CEO 종합
 
@@ -330,14 +330,14 @@ capex 인센티브에 영향.
 - **COO**: `Micron Tech Credibility`@0.45, `Breakthrough R&D Bet`@0.35, `Regulatory Subsidy Hunt`@0.20
   - changed `Micron US Fab Expansion` → because: R&D 자금 전환 mandates 준수
 - **CFO**: `Micron Tech Credibility`@0.50
-  - dissent: 팀의 제안은 HBM4 등 차세대 기술 전사에 자원 집중 시 48% 인 현금 보유고가 급감할 확률이 높아 기업 생존성을 위협하나, 현재 시장 진입 장벽은 검증 기반 신뢰도가 더 중요하다. SK 하이닉스 기술 수준 정렬은 예측 불가능한 투자보다 검증된 인증 절차를 통해 달성해야 한다. Idaho/Boise 공장扩建 계획과 병행하되 내부 자금 낭비를 막아야 한다. R&D 대신 검증 비용 선제 투자로 유동성 확보가 선행되어야 한다. CHIPS Act 보조금은 외부 자원 확보 수단으로 활용할 수 있으나 먼저 자체 역량 입증 여지가 있어야 한다. 가격 민감 고객 확보도 필요하지만 현재 단계는 제품 기술력 신뢰가 전제되어야 한다. TSMC CoWoS 용량 선점 경쟁 역시 신뢰 확보 이후에 유효하다. SK 하이닉스 시장 점유율 확대 대응은 단순 확장이 아닌 기술적 증명 능력 배양으로 접근해야 안전하다. 삼성전자 DS 기술력 비교 또한 현행 라인업 가용성 확보를 통한 점진적 추격이 타당하다. 과거와
+  - dissent: 팀의 제안은 HBM4 등 차세대 기술 전사에 자원 집중 시 48% 인 현금 보유고가 급감할 확률이 높아 기업 생존성을 위협하나, 현재 시장 진입 장벽은 검증 기반 신뢰도가 더 중요하다. SK 하이닉스 기술 수준 정렬은 예측 불가능한 투자보다 검증된 인증 절차를 통해 달성해야 한다. Idaho/Boise 공장증설 계획과 병행하되 내부 자금 낭비를 막아야 한다. R&D 대신 검증 비용 선제 투자로 유동성 확보가 선행되어야 한다. CHIPS Act 보조금은 외부 자원 확보 수단으로 활용할 수 있으나 먼저 자체 역량 입증 여지가 있어야 한다. 가격 민감 고객 확보도 필요하지만 현재 단계는 제품 기술력 신뢰가 전제되어야 한다. TSMC CoWoS 용량 선점 경쟁 역시 신뢰 확보 이후에 유효하다. SK 하이닉스 시장 점유율 확대 대응은 단순 확장이 아닌 기술적 증명 능력 배양으로 접근해야 안전하다. 삼성전자 DS 기술력 비교 또한 현행 라인업 가용성 확보를 통한 점진적 추격이 타당하다. 과거와
 - **CEO**: `Breakthrough R&D Bet`@0.55, `Micron Tech Credibility`@0.35, `Regulatory Subsidy Hunt`@0.10
   - changed `Micron US Fab Expansion` → because: 보드 지시 R&D 강제 증액
 
 **Position changes:**
 - CMO: Micron Tech Credibility → Breakthrough R&D Bet+Micron US Fab Expansion+Regulatory Subsidy Hunt (R&D 전환 강제)
 - COO: Micron US Fab Expansion → Micron Tech Credibility+Breakthrough R&D Bet+Regulatory Subsidy Hunt (R&D 자금 전환 mandates 준수)
-- [반대] CFO: 팀의 제안은 HBM4 등 차세대 기술 전사에 자원 집중 시 48% 인 현금 보유고가 급감할 확률이 높아 기업 생존성을 위협하나, 현재 시장 진입 장벽은 검증 기반 신뢰도가 더 중요하다. SK 하이닉스 기술 수준 정렬은 예측 불가능한 투자보다 검증된 인증 절차를 통해 달성해야 한다. Idaho/Boise 공장扩建 계획과 병행하되 내부 자금 낭비를 막아야 한다. R&D 대신 검증 비용 선제 투자로 유동성 확보가 선행되어야 한다. CHIPS Act 보조금은 외부 자원 확보 수단으로 활용할 수 있으나 먼저 자체 역량 입증 여지가 있어야 한다. 가격 민감 고객 확보도 필요하지만 현재 단계는 제품 기술력 신뢰가 전제되어야 한다. TSMC CoWoS 용량 선점 경쟁 역시 신뢰 확보 이후에 유효하다. SK 하이닉스 시장 점유율 확대 대응은 단순 확장이 아닌 기술적 증명 능력 배양으로 접근해야 안전하다. 삼성전자 DS 기술력 비교 또한 현행 라인업 가용성 확보를 통한 점진적 추격이 타당하다. 과거와
+- [반대] CFO: 팀의 제안은 HBM4 등 차세대 기술 전사에 자원 집중 시 48% 인 현금 보유고가 급감할 확률이 높아 기업 생존성을 위협하나, 현재 시장 진입 장벽은 검증 기반 신뢰도가 더 중요하다. SK 하이닉스 기술 수준 정렬은 예측 불가능한 투자보다 검증된 인증 절차를 통해 달성해야 한다. Idaho/Boise 공장증설 계획과 병행하되 내부 자금 낭비를 막아야 한다. R&D 대신 검증 비용 선제 투자로 유동성 확보가 선행되어야 한다. CHIPS Act 보조금은 외부 자원 확보 수단으로 활용할 수 있으나 먼저 자체 역량 입증 여지가 있어야 한다. 가격 민감 고객 확보도 필요하지만 현재 단계는 제품 기술력 신뢰가 전제되어야 한다. TSMC CoWoS 용량 선점 경쟁 역시 신뢰 확보 이후에 유효하다. SK 하이닉스 시장 점유율 확대 대응은 단순 확장이 아닌 기술적 증명 능력 배양으로 접근해야 안전하다. 삼성전자 DS 기술력 비교 또한 현행 라인업 가용성 확보를 통한 점진적 추격이 타당하다. 과거와
 - CEO: Micron US Fab Expansion → Breakthrough R&D Bet+Micron Tech Credibility+Regulatory Subsidy Hunt (보드 지시 R&D 강제 증액)
 
 ##### Phase 3 — CEO 종합
@@ -465,13 +465,13 @@ capex 인센티브에 영향.
 - **CEO**: `Breakthrough R&D Bet`@0.50, `CoWoS Allocation Push`@0.30, `Samsung Quality Catch-up`@0.20
   - changed `Samsung Quality Catch-up` → because: 수율 중심 프로세스 강화
 - **CTO**: `Breakthrough R&D Bet`@0.60, `CoWoS Allocation Push`@0.40
-  - dissent: 대다수안이 제시한 'Samsung Quality Catch-up' 전략은 보드가 Turn 2 에서 명시적으로 폐기를 지시한 방향이다. HBM3E 12-Hi 자격증명 완수와 같은 단순追趕 행위는 현재 시장 지위 하락의 주원인이며, 장기 R&D 예산 부족으로 인해 2~3 년 내 핵심 기술 경쟁력이 붕괴될 수 있다. 즉각적인 공정 혁신과 수율 중심의 전환이 필수적이다. 이천, 청주, Boise, Hsinchu 등의 현지 법인 투자보다는 기술 파이프라인 선점이 더 시급하다. HBM4 등 차세대 기술 투자를 늘려야 가격 경쟁력을 지속할 수 있다. 또한 보조금 승인 지연 시 자본 부담 증가 위험이 있으나, 자체 자금으로 R&D를 먼저 추진하는 것이 안전하다. 현금 보유량은 충분하므로 즉시 전략 전환이 가능하다. 주요 경쟁사가 주도권을 잡았으므로, 우리가 다시 질주를 해야 하지만 그것은 추격이 아닌 선도다. AMD, NVIDIA, Blackwell B200 등 파트너사의 요구에는 맞서면서도 우리
+  - dissent: 대다수안이 제시한 'Samsung Quality Catch-up' 전략은 보드가 Turn 2 에서 명시적으로 폐기를 지시한 방향이다. HBM3E 12-Hi 자격증명 완수와 같은 단순추격 행위는 현재 시장 지위 하락의 주원인이며, 장기 R&D 예산 부족으로 인해 2~3 년 내 핵심 기술 경쟁력이 붕괴될 수 있다. 즉각적인 공정 혁신과 수율 중심의 전환이 필수적이다. 이천, 청주, Boise, Hsinchu 등의 현지 법인 투자보다는 기술 파이프라인 선점이 더 시급하다. HBM4 등 차세대 기술 투자를 늘려야 가격 경쟁력을 지속할 수 있다. 또한 보조금 승인 지연 시 자본 부담 증가 위험이 있으나, 자체 자금으로 R&D를 먼저 추진하는 것이 안전하다. 현금 보유량은 충분하므로 즉시 전략 전환이 가능하다. 주요 경쟁사가 주도권을 잡았으므로, 우리가 다시 질주를 해야 하지만 그것은 추격이 아닌 선도다. AMD, NVIDIA, Blackwell B200 등 파트너사의 요구에는 맞서면서도 우리
 
 **Position changes:**
 - CFO: Samsung Quality Catch-up → Samsung Quality Catch-up+Regulatory Subsidy Hunt (R&D 예산 공정 혁신 재배정 요구 반영)
 - COO: Samsung Quality Catch-up+Regulatory Subsidy Hunt+CoWoS Allocation Push → Samsung Quality Catch-up+CoWoS Allocation Push+Regulatory Subsidy Hunt (R&D 예산 재배정 지연 방지 및 수율 개선 최우선)
 - CEO: Samsung Quality Catch-up → Breakthrough R&D Bet+CoWoS Allocation Push+Samsung Quality Catch-up (수율 중심 프로세스 강화)
-- [반대] CTO: 대다수안이 제시한 'Samsung Quality Catch-up' 전략은 보드가 Turn 2 에서 명시적으로 폐기를 지시한 방향이다. HBM3E 12-Hi 자격증명 완수와 같은 단순追趕 행위는 현재 시장 지위 하락의 주원인이며, 장기 R&D 예산 부족으로 인해 2~3 년 내 핵심 기술 경쟁력이 붕괴될 수 있다. 즉각적인 공정 혁신과 수율 중심의 전환이 필수적이다. 이천, 청주, Boise, Hsinchu 등의 현지 법인 투자보다는 기술 파이프라인 선점이 더 시급하다. HBM4 등 차세대 기술 투자를 늘려야 가격 경쟁력을 지속할 수 있다. 또한 보조금 승인 지연 시 자본 부담 증가 위험이 있으나, 자체 자금으로 R&D를 먼저 추진하는 것이 안전하다. 현금 보유량은 충분하므로 즉시 전략 전환이 가능하다. 주요 경쟁사가 주도권을 잡았으므로, 우리가 다시 질주를 해야 하지만 그것은 추격이 아닌 선도다. AMD, NVIDIA, Blackwell B200 등 파트너사의 요구에는 맞서면서도 우리
+- [반대] CTO: 대다수안이 제시한 'Samsung Quality Catch-up' 전략은 보드가 Turn 2 에서 명시적으로 폐기를 지시한 방향이다. HBM3E 12-Hi 자격증명 완수와 같은 단순추격 행위는 현재 시장 지위 하락의 주원인이며, 장기 R&D 예산 부족으로 인해 2~3 년 내 핵심 기술 경쟁력이 붕괴될 수 있다. 즉각적인 공정 혁신과 수율 중심의 전환이 필수적이다. 이천, 청주, Boise, Hsinchu 등의 현지 법인 투자보다는 기술 파이프라인 선점이 더 시급하다. HBM4 등 차세대 기술 투자를 늘려야 가격 경쟁력을 지속할 수 있다. 또한 보조금 승인 지연 시 자본 부담 증가 위험이 있으나, 자체 자금으로 R&D를 먼저 추진하는 것이 안전하다. 현금 보유량은 충분하므로 즉시 전략 전환이 가능하다. 주요 경쟁사가 주도권을 잡았으므로, 우리가 다시 질주를 해야 하지만 그것은 추격이 아닌 선도다. AMD, NVIDIA, Blackwell B200 등 파트너사의 요구에는 맞서면서도 우리
 
 ##### Phase 3 — CEO 종합
 
@@ -583,7 +583,7 @@ capex 인센티브에 영향.
   - rationale: 삼성 강세와 마이크론 반등에 대응하기 위해 단순 증설 (Capacity Ramp) 은 자제하고, 현재 캠페인 '수율 극대화'의 핵심인 이천 M16 라인의 생산 효율성 (Yield) 을 최우선으로 배치했습니다. 이는 보드 mandates 의 '생산 단가 10% 절감'을 충족하는 유일한 실행 경로입니다. 동시에 TSMC CoWoS 용량 부족과 삼성의 재qualification 시도를 차단하기 위해 패키징 선점과 NVIDIA lock-in 전략을 병행하되, R&D 과투자 (Breakthrough R&D Bet) 는 이번 분기에는 배제하여 실행 가능성을 확보했습니다.
   - risk: 동시 다발 투자로 인한 현금 소진 가속 및 실행 리스크 집중
 - **CEO**: `SK Hynix Yield Optimization`@0.50, `SK Hynix NVIDIA Lock-in`@0.30, `Regulatory Subsidy Hunt`@0.20
-  - rationale: 턴 3 보드 평가 회복 필요. HBM3E 12-Hi 수율 95% 달성 및 단가 10% 절감 목표 수행 위해 이천 M16 집중. Samsung Electronics DS 의 역습对冲 위해 Blackwell B200契約 고착화 및 CHIPS Act·K-Chips 인센티브 확보 필수. 현재 캠페인 유지하되 원가 구조 고도화.
+  - rationale: 턴 3 보드 평가 회복 필요. HBM3E 12-Hi 수율 95% 달성 및 단가 10% 절감 목표 수행 위해 이천 M16 집중. Samsung Electronics DS 의 역습헤지 위해 Blackwell B200계약 고착화 및 CHIPS Act·K-Chips 인센티브 확보 필수. 현재 캠페인 유지하되 원가 구조 고도화.
   - risk: 수율 지연 또는 보조금 승인 지연
 
 ##### Phase 2 — 비판적 검토 (다수안: `SK Hynix Yield Optimization`, DA: `CTO`)
@@ -643,13 +643,13 @@ capex 인센티브에 영향.
   - changed `Samsung Quality Catch-up` → because: 수율 개선만으로는 점유율 회복 불가, 고객 특화 솔루션으로 SK 하이닉스 우위 타격 필요
 - **CFO**: `Samsung Quality Catch-up`@0.60, `CoWoS Allocation Push`@0.30, `Regulatory Subsidy Hunt`@0.10
 - **CTO**: `Breakthrough R&D Bet`@0.60, `Samsung Custom HBM Dev`@0.30, `Regulatory Subsidy Hunt`@0.10
-  - dissent: 팀 제안은 HBM3E 12-Hi 인증 지연이라는 기존 과제를 수동적으로 해결하려는 후진형 태세입니다. 이는 팀의 생존 전략인 R&D 투자 우선순위와 상충하며, 이천 공장의 양산 역량을 과거 제품 유지에 소모시킵니다. 경쟁사의 혁신 속도를 따라잡는 것은 장기적인 우위를 보장할 수 없으며, 이미 2-3 년 내 경합력이 훼손될 위험이 있습니다. 또한 보드 mandaate 는 'SK 하이닉스의 우위를 타격하는 구체적 기술 대체 솔루션'을 요구하지만, 품질 개선만으로는 이를 달성할 수 없습니다. HBM4 와 같은 신기술 독점을 통한 마켓 스탠다드 변화가 필요합니다. 따라서 기존 전술 반복에 의존하지 않고, 근본적인 기술 대안 개발에 자원을 쏠아야 합니다. 단순한 양산追赶 가 아닌 미래 표준 선점 투자가 필수적입니다.
+  - dissent: 팀 제안은 HBM3E 12-Hi 인증 지연이라는 기존 과제를 수동적으로 해결하려는 후진형 태세입니다. 이는 팀의 생존 전략인 R&D 투자 우선순위와 상충하며, 이천 공장의 양산 역량을 과거 제품 유지에 소모시킵니다. 경쟁사의 혁신 속도를 따라잡는 것은 장기적인 우위를 보장할 수 없으며, 이미 2-3 년 내 경합력이 훼손될 위험이 있습니다. 또한 보드 mandaate 는 'SK 하이닉스의 우위를 타격하는 구체적 기술 대체 솔루션'을 요구하지만, 품질 개선만으로는 이를 달성할 수 없습니다. HBM4 와 같은 신기술 독점을 통한 마켓 스탠다드 변화가 필요합니다. 따라서 기존 전술 반복에 의존하지 않고, 근본적인 기술 대안 개발에 자원을 쏠아야 합니다. 단순한 양산추격 가 아닌 미래 표준 선점 투자가 필수적입니다.
 - **CEO**: `Breakthrough R&D Bet`@0.65, `Regulatory Subsidy Hunt`@0.25, `Samsung Quality Catch-up`@0.10
 
 **Position changes:**
 - COO: Samsung Quality Catch-up, Regulatory Subsidy Hunt, CoWoS Allocation Push → Samsung Quality Catch-up+Regulatory Subsidy Hunt (동시 실행 리스크 제거 및 현금 보존)
 - CMO: Samsung Quality Catch-up → Samsung Custom HBM Dev+CoWoS Allocation Push+Regulatory Subsidy Hunt (수율 개선만으로는 점유율 회복 불가, 고객 특화 솔루션으로 SK 하이닉스 우위 타격 필요)
-- [반대] CTO: 팀 제안은 HBM3E 12-Hi 인증 지연이라는 기존 과제를 수동적으로 해결하려는 후진형 태세입니다. 이는 팀의 생존 전략인 R&D 투자 우선순위와 상충하며, 이천 공장의 양산 역량을 과거 제품 유지에 소모시킵니다. 경쟁사의 혁신 속도를 따라잡는 것은 장기적인 우위를 보장할 수 없으며, 이미 2-3 년 내 경합력이 훼손될 위험이 있습니다. 또한 보드 mandaate 는 'SK 하이닉스의 우위를 타격하는 구체적 기술 대체 솔루션'을 요구하지만, 품질 개선만으로는 이를 달성할 수 없습니다. HBM4 와 같은 신기술 독점을 통한 마켓 스탠다드 변화가 필요합니다. 따라서 기존 전술 반복에 의존하지 않고, 근본적인 기술 대안 개발에 자원을 쏠아야 합니다. 단순한 양산追赶 가 아닌 미래 표준 선점 투자가 필수적입니다.
+- [반대] CTO: 팀 제안은 HBM3E 12-Hi 인증 지연이라는 기존 과제를 수동적으로 해결하려는 후진형 태세입니다. 이는 팀의 생존 전략인 R&D 투자 우선순위와 상충하며, 이천 공장의 양산 역량을 과거 제품 유지에 소모시킵니다. 경쟁사의 혁신 속도를 따라잡는 것은 장기적인 우위를 보장할 수 없으며, 이미 2-3 년 내 경합력이 훼손될 위험이 있습니다. 또한 보드 mandaate 는 'SK 하이닉스의 우위를 타격하는 구체적 기술 대체 솔루션'을 요구하지만, 품질 개선만으로는 이를 달성할 수 없습니다. HBM4 와 같은 신기술 독점을 통한 마켓 스탠다드 변화가 필요합니다. 따라서 기존 전술 반복에 의존하지 않고, 근본적인 기술 대안 개발에 자원을 쏠아야 합니다. 단순한 양산추격 가 아닌 미래 표준 선점 투자가 필수적입니다.
 
 ##### Phase 3 — CEO 종합
 
@@ -774,13 +774,13 @@ capex 인센티브에 영향.
 - **CEO**: `SK Hynix Yield Optimization`@0.50, `SK Hynix NVIDIA Lock-in`@0.30, `Regulatory Subsidy Hunt`@0.20
   - changed `CoWoS Allocation Push` → because: 수율 중심의 현금 흐름 극대화
 - **CTO**: `Breakthrough R&D Bet`@0.40, `SK Hynix Capacity Ramp`@0.30, `SK Hynix Yield Optimization`@0.30
-  - dissent: 단기 수율 최적화와 현금 흐름 편중은 삼성·마이크론의 HBM4 기술 추격을 허용합니다. 이천 M16 기반 운영을 지속하면 HBM4 생산 기회窗을 놓치게 되며, 이후 경쟁력 회복에 막대한 비용이 소요됩니다. CHIPS Act 지원 등을 활용한 차세대 투자가 장기 생존의 핵심입니다. TSMC CoWoS 협력 없이는 NVIDIA Blackwell 검증에 불리합니다. 삼성·마이크론의 공세를 단기 수율 개선만으로 막기 어렵습니다. 시장 주도권을 상실한 뒤에는 수익성 확보가 불가능해집니다. R&D 투자율 50% 유지만으로는 기술 격차 해소에 부족합니다. HBM3E/4 전환 시점을 놓칠 경우 재구성 불가능한 피해를 봅니다. 청주 M15X 증설 중단은 수요 성장 곡선과 충돌합니다. 이천 라인 효율화는 한계가 명백합니다. 최종적으로 시장 점유율 감소는 돌이킬 수 없는 손실입니다. 삼성·마이크론과의 격차는 시간이 지날수록 벌어집니다. 따라서 현금 최대화를 우선시하는 이번 결정을 반대합니다. 기술 리더
+  - dissent: 단기 수율 최적화와 현금 흐름 편중은 삼성·마이크론의 HBM4 기술 추격을 허용합니다. 이천 M16 기반 운영을 지속하면 HBM4 생산 기회 창을 놓치게 되며, 이후 경쟁력 회복에 막대한 비용이 소요됩니다. CHIPS Act 지원 등을 활용한 차세대 투자가 장기 생존의 핵심입니다. TSMC CoWoS 협력 없이는 NVIDIA Blackwell 검증에 불리합니다. 삼성·마이크론의 공세를 단기 수율 개선만으로 막기 어렵습니다. 시장 주도권을 상실한 뒤에는 수익성 확보가 불가능해집니다. R&D 투자율 50% 유지만으로는 기술 격차 해소에 부족합니다. HBM3E/4 전환 시점을 놓칠 경우 재구성 불가능한 피해를 봅니다. 청주 M15X 증설 중단은 수요 성장 곡선과 충돌합니다. 이천 라인 효율화는 한계가 명백합니다. 최종적으로 시장 점유율 감소는 돌이킬 수 없는 손실입니다. 삼성·마이크론과의 격차는 시간이 지날수록 벌어집니다. 따라서 현금 최대화를 우선시하는 이번 결정을 반대합니다. 기술 리더
 
 **Position changes:**
 - CFO: SK Hynix Yield Optimization, CoWoS Allocation Push, Regulatory Subsidy Hunt → SK Hynix Yield Optimization+CoWoS Allocation Push (수익성 중심 재배치)
 - COO: SK Hynix Capacity Ramp → SK Hynix Yield Optimization+SK Hynix NVIDIA Lock-in (보arding 명령에 따른 생산 중단 및 현금 집중)
 - CEO: CoWoS Allocation Push → SK Hynix Yield Optimization+SK Hynix NVIDIA Lock-in+Regulatory Subsidy Hunt (수율 중심의 현금 흐름 극대화)
-- [반대] CTO: 단기 수율 최적화와 현금 흐름 편중은 삼성·마이크론의 HBM4 기술 추격을 허용합니다. 이천 M16 기반 운영을 지속하면 HBM4 생산 기회窗을 놓치게 되며, 이후 경쟁력 회복에 막대한 비용이 소요됩니다. CHIPS Act 지원 등을 활용한 차세대 투자가 장기 생존의 핵심입니다. TSMC CoWoS 협력 없이는 NVIDIA Blackwell 검증에 불리합니다. 삼성·마이크론의 공세를 단기 수율 개선만으로 막기 어렵습니다. 시장 주도권을 상실한 뒤에는 수익성 확보가 불가능해집니다. R&D 투자율 50% 유지만으로는 기술 격차 해소에 부족합니다. HBM3E/4 전환 시점을 놓칠 경우 재구성 불가능한 피해를 봅니다. 청주 M15X 증설 중단은 수요 성장 곡선과 충돌합니다. 이천 라인 효율화는 한계가 명백합니다. 최종적으로 시장 점유율 감소는 돌이킬 수 없는 손실입니다. 삼성·마이크론과의 격차는 시간이 지날수록 벌어집니다. 따라서 현금 최대화를 우선시하는 이번 결정을 반대합니다. 기술 리더
+- [반대] CTO: 단기 수율 최적화와 현금 흐름 편중은 삼성·마이크론의 HBM4 기술 추격을 허용합니다. 이천 M16 기반 운영을 지속하면 HBM4 생산 기회 창을 놓치게 되며, 이후 경쟁력 회복에 막대한 비용이 소요됩니다. CHIPS Act 지원 등을 활용한 차세대 투자가 장기 생존의 핵심입니다. TSMC CoWoS 협력 없이는 NVIDIA Blackwell 검증에 불리합니다. 삼성·마이크론의 공세를 단기 수율 개선만으로 막기 어렵습니다. 시장 주도권을 상실한 뒤에는 수익성 확보가 불가능해집니다. R&D 투자율 50% 유지만으로는 기술 격차 해소에 부족합니다. HBM3E/4 전환 시점을 놓칠 경우 재구성 불가능한 피해를 봅니다. 청주 M15X 증설 중단은 수요 성장 곡선과 충돌합니다. 이천 라인 효율화는 한계가 명백합니다. 최종적으로 시장 점유율 감소는 돌이킬 수 없는 손실입니다. 삼성·마이크론과의 격차는 시간이 지날수록 벌어집니다. 따라서 현금 최대화를 우선시하는 이번 결정을 반대합니다. 기술 리더
 
 ##### Phase 3 — CEO 종합
 
