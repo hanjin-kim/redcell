@@ -16,6 +16,7 @@ import yaml
 from .config import RunConfig, load_llm_settings
 from .engine import make_llm, run_linear_scenario
 from .render import render_brief, render_trace
+from .scrub import scrub_cjk_leakage
 
 
 def _extract_cast(scenario: dict) -> tuple[str, str, list[str]]:
@@ -114,11 +115,20 @@ def run_and_render(config: RunConfig, *, output: str,
     trace_path = out_path.with_name(f"{out_path.stem}_trace{out_path.suffix}")
     trace_link = trace_path.name  # relative path for the markdown link
 
+    # CJK-leak scrub: a fresh LLM client (cheap — just an OpenAI SDK
+    # instance) for the final pass that rewrites any Chinese/Japanese
+    # token leakage Qwen tends to emit in Korean output. See
+    # ``redcell/scrub.py`` for the detector + rewrite logic. Paragraphs
+    # without leakage skip the LLM entirely so cost stays minimal.
+    scrub_llm = make_llm(load_llm_settings())
+
     brief = render_brief(data, trace_link=trace_link)
+    brief = scrub_cjk_leakage(brief, scrub_llm, log=log)
     out_path.write_text(brief, encoding="utf-8")
     log(f"[redcell] brief → {out_path} ({len(brief)} chars)")
 
     trace = render_trace(data)
+    trace = scrub_cjk_leakage(trace, scrub_llm, log=log)
     trace_path.write_text(trace, encoding="utf-8")
     log(f"[redcell] trace → {trace_path} ({len(trace)} chars)")
 
