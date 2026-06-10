@@ -30,7 +30,7 @@ Shiseido 채널 확장과 동시 진행.
 
 ## 2. 턴별 전개
 
-### Turn 1
+### Turn 1  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-1))
 
 **Events fired:** —
 
@@ -44,7 +44,7 @@ Shiseido 채널 확장과 동시 진행.
 
 **경쟁 상호작용 분석:** 시세이도의 공격적 가격 공세는 AURIE의 현금 소모를 가속화하여 R&D 투자 지속성을 위협하는 동시에, 아모레퍼시픽의 시너지 전략도 규제 비용 상승으로 인해 그 효과가 상쇄되는 구조를 형성했습니다. 이로 인해 AURIE는 규제 준수 모션을 취하면서도 시장 점유율 방어에 어려움을 겪고, 시세이도는 현금력을 앞세워 시장 구조를 재편하고 있습니다.
 
-### Turn 2
+### Turn 2  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-2))
 
 **Events fired:** 중국 수입 규제 강화 및 자국 브랜드 우대, MZ 세대 미니멀리즘 트렌드 전환
 
@@ -58,7 +58,7 @@ Shiseido 채널 확장과 동시 진행.
 
 **경쟁 상호작용 분석:** Shiseido의 막대한 현금 보유력은 Amore Pacific의 가격 인하 공세를 무력화시키며 시장 주도권을 확고히 했습니다. 반면 AURIE는 규제 강화라는 외부 환경 변화로 인해 기술적 진입 장벽은 높았으나, 누적된 현금 부족으로 이를 성장 동력으로 전환하지 못해 정체 상태에 머물렀습니다.
 
-### Turn 3
+### Turn 3  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-3))
 
 **Events fired:** —
 
@@ -72,7 +72,7 @@ Shiseido 채널 확장과 동시 진행.
 
 **경쟁 상호작용 분석:** Shiseido의 압도적인 현금 흐름을 바탕으로 한 T3의 가격 공세는 AURIE의 제한된 자원을 고갈시켜 시장 점유율 방어에 실패하게 만들었습니다. 반면 Amore Pacific은 임상 데이터라는 기술적 장벽을 유지하며 가격 전쟁의 직접적인 타격을 최소화하는 전략적 균형점을 찾았습니다.
 
-### Turn 4
+### Turn 4  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-4))
 
 **Events fired:** 글로벌 물류 병목 현상 심화
 
@@ -86,7 +86,7 @@ Shiseido 채널 확장과 동시 진행.
 
 **경쟁 상호작용 분석:** AURIE의 과도한 현금 소진과 Shiseido의 자본 우위가 맞물려 시장 격차가 극대화되었습니다. Shiseido는 AURIE의 유동성 위기를 기회로 삼아 오프라인 채널을 확장하는 반면, Amore Pacific은 리스크 분산 전략으로 중립적인 위치를 유지하며 양측의 공방을 견뎌냈습니다.
 
-### Turn 5
+### Turn 5  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-5))
 
 **Events fired:** —
 

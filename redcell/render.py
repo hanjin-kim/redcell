@@ -96,7 +96,7 @@ def _summary(d: dict) -> str:
     return "\n".join(lines)
 
 
-def _turn_section(d: dict) -> str:
+def _turn_section(d: dict, trace_link: str | None = None) -> str:
     trace = d.get("trace", [])
     side_map = _side_map(d)
     lines = ["## 2. 턴별 전개", ""]
@@ -106,7 +106,10 @@ def _turn_section(d: dict) -> str:
     for t in trace:
         turn_num = t["turn"]
         events = ", ".join(t.get("events", [])) or "—"
-        lines.append(f"### Turn {turn_num}")
+        header = f"### Turn {turn_num}"
+        if trace_link:
+            header += f"  ([C-suite 토론 상세 →]({trace_link}#turn-{turn_num}))"
+        lines.append(header)
         lines.append("")
         lines.append(f"**Events fired:** {events}")
         lines.append("")
@@ -159,6 +162,180 @@ def _our_drivers(d: dict) -> str:
     return "\n".join(lines)
 
 
-def render_brief(data: dict) -> str:
-    parts = [_header(data), _summary(data), _turn_section(data), _our_drivers(data)]
+def render_brief(data: dict, *, trace_link: str | None = None) -> str:
+    """Render the headline brief. If ``trace_link`` (relative path to a
+    companion trace.md) is given, each turn header gets a link to its
+    anchor in that file."""
+    parts = [
+        _header(data),
+        _summary(data),
+        _turn_section(data, trace_link=trace_link),
+        _our_drivers(data),
+    ]
     return "\n".join(parts)
+
+
+# ----------------------------------------------------------------------
+# Trace renderer — per-turn × per-side C-suite deliberation dump
+# ----------------------------------------------------------------------
+
+def _role_block(role_key: str, role_data: dict) -> list[str]:
+    """One role's propose/challenge data → 2-3 markdown lines."""
+    actions = role_data.get("actions") or []
+    actions_str = ", ".join(
+        f"`{a.get('action', '?')}`@{a.get('allocation', 0):.2f}"
+        for a in actions
+    ) or "—"
+    out = [f"- **{role_key}**: {actions_str}"]
+    risk = (role_data.get("risk") or "").strip()
+    reason = (role_data.get("reason") or "").strip()
+    cf = (role_data.get("changed_from") or "").strip()
+    cb = (role_data.get("changed_because") or "").strip()
+    dissent = (role_data.get("dissent_argument") or "").strip()
+    if reason:
+        out.append(f"  - rationale: {reason}")
+    if risk:
+        out.append(f"  - risk: {risk}")
+    if cf and cb:
+        out.append(f"  - changed `{cf}` → because: {cb}")
+    if dissent:
+        out.append(f"  - dissent: {dissent}")
+    return out
+
+
+def _deliberation_block(d: dict) -> list[str]:
+    """Render one side's deliberation (phases 1-3)."""
+    lines: list[str] = []
+    phase1 = d.get("phase1") or {}
+    phase2 = d.get("phase2") or {}
+    phase3 = d.get("phase3") or {}
+    da = d.get("devils_advocate") or ""
+    majority = d.get("majority_action") or ""
+    changes = d.get("position_changes") or []
+
+    if phase1:
+        lines.append("##### Phase 1 — 독립 제안")
+        lines.append("")
+        for role_key in phase1:
+            lines.extend(_role_block(role_key, phase1[role_key]))
+        lines.append("")
+
+    if phase2:
+        lines.append(f"##### Phase 2 — 비판적 검토 (다수안: `{majority or '?'}`"
+                     + (f", DA: `{da}`" if da else "") + ")")
+        lines.append("")
+        for role_key in phase2:
+            lines.extend(_role_block(role_key, phase2[role_key]))
+        lines.append("")
+        if changes:
+            lines.append("**Position changes:**")
+            for c in changes:
+                lines.append(f"- {c}")
+            lines.append("")
+
+    if phase3:
+        lines.append("##### Phase 3 — CEO 종합")
+        lines.append("")
+        decision = (phase3.get("decision") or "").strip()
+        reasoning = (phase3.get("reasoning") or "").strip()
+        if decision:
+            lines.append(f"**Decision:** {decision}")
+            lines.append("")
+        if reasoning:
+            lines.append(f"**Reasoning:** {reasoning}")
+            lines.append("")
+    return lines
+
+
+def _expert_block(experts: list) -> list[str]:
+    """Render the adjudicator panel's 3 experts + their key observations."""
+    if not experts:
+        return []
+    lines = ["#### Adjudicator panel (3 experts)", ""]
+    for er in experts:
+        role = er.get("role") or er.get("role_id") or "?"
+        obs = (er.get("key_observation") or "").strip()
+        lines.append(f"**{role}**: {obs}")
+        lines.append("")
+        assessments = er.get("assessments") or {}
+        for sid, a in assessments.items():
+            lines.append(
+                f"- {sid}: `{a.get('position', '?')}` "
+                f"{a.get('momentum', '')} — {(a.get('rationale') or '').strip()}"
+            )
+        lines.append("")
+    return lines
+
+
+def render_trace(data: dict) -> str:
+    """Per-turn × per-side C-suite deliberation dump. Each turn has an
+    anchor (``#turn-N``) the brief can link to."""
+    trace = data.get("trace", [])
+    side_map = _side_map(data)
+    lines = [
+        "# Deliberation Trace",
+        "",
+        "각 턴의 C-suite 토론 (CEO/CFO/CTO/CMO/COO 제안 / 검토 / 종합) 과 "
+        "adjudicator 패널 평가를 펼친 trace 입니다. 헤드라인 결과는 "
+        "[브리프](.) 참조.",
+        "",
+        f"**산업:** `{data.get('industry', '?')}`  ·  "
+        f"**우리 회사:** {data.get('our_company', '?')}",
+        "",
+        f"**검증 대상 전략:**\n> {data.get('user_strategy', '').strip()}",
+        "",
+        f"**주어진 환경:**\n> {data.get('environment', '').strip()}",
+        "",
+    ]
+
+    if not trace:
+        lines.append("*(시뮬 결과 없음)*")
+        return "\n".join(lines)
+
+    for t in trace:
+        turn_num = t["turn"]
+        events = ", ".join(t.get("events", [])) or "—"
+        # Anchor for cross-link from brief.
+        lines.append(f'<a id="turn-{turn_num}"></a>')
+        lines.append(f"## Turn {turn_num}")
+        lines.append("")
+        lines.append(f"**Events fired:** {events}")
+        lines.append("")
+
+        for sid, side in t.get("sides", {}).items():
+            name = side_map.get(sid, sid)
+            mark = "**" if sid == "side_a" else ""
+            lines.append(f"### {mark}{name}{mark} ({sid})")
+            lines.append("")
+            lines.append(
+                f"- Final action: "
+                f"`{side.get('action_type', '?')}`"
+                f"@{side.get('action_intensity', 0):.2f}"
+            )
+            lines.append(f"- Position: `{side.get('position', '?')}` "
+                         f"{side.get('momentum', '')}")
+            lines.append(f"- Cash: {_fmt_cash(side.get('cash', 0.0))}")
+            rat = (side.get("rationale") or "").strip()
+            if rat:
+                lines.append(f"- Adjudicator rationale: {rat}")
+            lines.append("")
+            # Deliberation phases
+            delib = (t.get("deliberations") or {}).get(sid) or {}
+            lines.extend(_deliberation_block(delib))
+
+        # Adjudicator panel
+        lines.extend(_expert_block(t.get("experts") or []))
+
+        narrative = (t.get("narrative") or "").strip()
+        if narrative:
+            lines.append("#### Adjudicator synthesis")
+            lines.append("")
+            lines.append(f"> {narrative}")
+            lines.append("")
+        interaction = (t.get("interaction") or "").strip()
+        if interaction:
+            lines.append(f"**Interaction analysis:** {interaction}")
+            lines.append("")
+        lines.append("---")
+        lines.append("")
+    return "\n".join(lines)

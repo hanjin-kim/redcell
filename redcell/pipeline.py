@@ -15,7 +15,7 @@ import yaml
 
 from .config import RunConfig, load_llm_settings
 from .engine import make_llm, run_linear_scenario
-from .render import render_brief
+from .render import render_brief, render_trace
 
 
 def _extract_cast(scenario: dict) -> tuple[str, str, list[str]]:
@@ -92,8 +92,28 @@ def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
 
 def run_and_render(config: RunConfig, *, output: str,
                    cache_dir: str = ".redcell_cache", log=print) -> str:
+    """Run the simulation and emit two files side-by-side:
+
+      - ``{output}``                — headline brief (compact)
+      - ``{output_stem}_trace.md``  — full per-turn deliberation dump
+
+    The brief links into the trace via ``#turn-N`` anchors so a reader can
+    drill into any turn's C-suite reasoning without bloating the
+    top-level brief.
+    """
     data = run(config, cache_dir=cache_dir, log=log)
-    brief = render_brief(data)
-    Path(output).write_text(brief, encoding="utf-8")
-    log(f"[redcell] brief → {output} ({len(brief)} chars)")
+
+    out_path = Path(output)
+    # Companion trace sits next to the brief with a `_trace` suffix.
+    trace_path = out_path.with_name(f"{out_path.stem}_trace{out_path.suffix}")
+    trace_link = trace_path.name  # relative path for the markdown link
+
+    brief = render_brief(data, trace_link=trace_link)
+    out_path.write_text(brief, encoding="utf-8")
+    log(f"[redcell] brief → {out_path} ({len(brief)} chars)")
+
+    trace = render_trace(data)
+    trace_path.write_text(trace, encoding="utf-8")
+    log(f"[redcell] trace → {trace_path} ({len(trace)} chars)")
+
     return brief

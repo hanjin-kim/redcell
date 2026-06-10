@@ -106,6 +106,14 @@ def _linearize(leaf, our_side: str) -> list[dict]:
                     dict((n.cash_attribution or {}).get(sid) or {}),
                 "is_us": sid == our_side,
             }
+        # Full deliberation phases per side (CEO/CFO/CTO/CMO/COO proposals,
+        # challenges, devil's-advocate, synthesis). Carried for the trace
+        # renderer; not used by the headline brief.
+        deliberations = {sid: dict(d or {})
+                         for sid, d in (n.deliberations or {}).items()}
+        # Adjudicator panel — three experts + synthesis. Used by trace.
+        experts = list((n.adjudication or {}).get("expert_results") or [])
+
         out.append({
             "turn": n.turn,
             "events": [e.get("label_ko", e.get("name", "?"))
@@ -113,5 +121,7 @@ def _linearize(leaf, our_side: str) -> list[dict]:
             "narrative": (n.adjudication or {}).get("turn_narrative", "")[:600],
             "interaction": (n.adjudication or {}).get("interaction_analysis", "")[:400],
             "sides": sides_data,
+            "deliberations": deliberations,
+            "experts": experts,
         })
     return out
