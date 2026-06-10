@@ -77,7 +77,7 @@ redcell run redcell_config.yaml -o brief.md
 |---|---|---|
 | **sglang 로컬** (Qwen) | `localhost` / `10.*` / `192.168.*` + 모델명에 `qwen` | ✅ 개발 환경 권장. `guided_json`이 토큰 단위로 스키마를 강제 |
 | **DashScope** (알리바바 Qwen) | URL에 `dashscope` / `aliyuncs.com` | ✅ E2E 스모크 검증 완료. 스키마는 권고 수준이지만 프롬프트로 보완. 드물게 reasoning이 폭주하면 어댑터가 thinking을 끄고 자동 재시도 |
-| **OpenAI** (api.openai.com) | base_url 없거나 `openai.com` 포함 | ⚠ 실 테스트 미진행. `json_schema strict`는 진짜로 동작. `enable_thinking` 인자는 무시되며, reasoning은 o1/o3/gpt-5 같은 모델명으로 활성화 |
+| **OpenAI** (api.openai.com) | base_url 없거나 `openai.com` 포함 | ⚠ 실 테스트 미진행. `json_schema strict` 활성화. `enable_thinking` 인자는 무시되며, reasoning은 o1/o3/gpt-5 같은 모델명으로 활성화 |
 | **OpenAI-compatible** (Groq, Together, vLLM-direct 등) | 그 외 모든 endpoint | ⚠ 보수적 패스스루. Qwen 전용 옵션은 모두 비활성. 스키마 강제가 약한 서버에서는 프롬프트의 명시적 필드 나열에 의존 |
 
 지금 endpoint가 어떤 provider로 잡히는지는 `redcell doctor`로 확인할 수 있습니다.
