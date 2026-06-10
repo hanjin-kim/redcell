@@ -6,14 +6,14 @@
 
 Built for strategy teams running pre-mortems, and consultants checking blind spots before drafting the deck. The point is to surface scenarios the user did *not* name.
 
-**Example scenarios + output** (4 industries)
+**Example scenarios + output** (4 industries, each dir holds `config.yaml` + generated brief)
 
-| Scenario | Our side | Environment |
-|---|---|---|
-| [aurie](examples/aurie.yaml) → [brief](examples/aurie_brief.md) | AURIE (K-beauty mid-cap) | Shiseido cuts mass-premium prices 30% |
-| [hbm](examples/hbm.yaml) | SK Hynix | NVIDIA Blackwell + supplier diversification |
-| [streaming](examples/streaming.yaml) | Coupang Play | Netflix Korea hikes prices |
-| [fintech](examples/fintech.yaml) | Toss | Korean regulator pushes payment-fee cap down |
+| Scenario | Our side | Environment | Output |
+|---|---|---|---|
+| [aurie](examples/aurie/) | AURIE (K-beauty mid-cap) | Shiseido cuts mass-premium prices 30% | [brief](examples/aurie/brief.md) · [trace](examples/aurie/brief_trace.md) |
+| [hbm](examples/hbm/) | SK Hynix | NVIDIA Blackwell + supplier diversification | [brief](examples/hbm/brief.md) · [trace](examples/hbm/brief_trace.md) |
+| [streaming](examples/streaming/) | Coupang Play | Netflix Korea hikes prices | [brief](examples/streaming/brief.md) · [trace](examples/streaming/brief_trace.md) |
+| [fintech](examples/fintech/) | Toss | Korean regulator caps payment fees | [brief](examples/fintech/brief.md) · [trace](examples/fintech/brief_trace.md) |
 
 ## What it does
 

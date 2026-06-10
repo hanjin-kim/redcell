@@ -6,14 +6,14 @@
 
 전략기획팀이 사전 점검을 돌리거나, 컨설턴트가 보고서 초안을 잡기 전에 *환경 가정 하 양측 반응*을 미리 보기 위한 용도.
 
-**예시 시나리오 + 결과물** (4개 산업)
+**예시 시나리오 + 결과물** (4개 산업, 각 디렉토리에 `config.yaml` + 생성된 brief)
 
-| 시나리오 | 우리 측 | 환경 |
-|---|---|---|
-| [aurie](examples/aurie.yaml) → [brief](examples/aurie_brief.md) | AURIE (K-beauty mid-cap) | Shiseido 30% 가격 인하 |
-| [hbm](examples/hbm.yaml) | SK Hynix | NVIDIA Blackwell + supplier 다변화 |
-| [streaming](examples/streaming.yaml) | Coupang Play | Netflix Korea 가격 인상 |
-| [fintech](examples/fintech.yaml) | Toss | 금감원 수수료 인하 권고 |
+| 시나리오 | 우리 측 | 환경 | 산물 |
+|---|---|---|---|
+| [aurie](examples/aurie/) | AURIE (K-beauty mid-cap) | Shiseido 30% 가격 인하 | [brief](examples/aurie/brief.md) · [trace](examples/aurie/brief_trace.md) |
+| [hbm](examples/hbm/) | SK Hynix | NVIDIA Blackwell + supplier 다변화 | [brief](examples/hbm/brief.md) · [trace](examples/hbm/brief_trace.md) |
+| [streaming](examples/streaming/) | Coupang Play | Netflix Korea 가격 인상 | [brief](examples/streaming/brief.md) · [trace](examples/streaming/brief_trace.md) |
+| [fintech](examples/fintech/) | Toss | 금감원 수수료 인하 권고 | [brief](examples/fintech/brief.md) · [trace](examples/fintech/brief_trace.md) |
 
 ## 동작 방식
 
