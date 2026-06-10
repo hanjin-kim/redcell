@@ -106,8 +106,6 @@ Counting LLM calls from a real cache for a 5-turn 3-side run gives about **217 c
 | **qwen3.5-plus** (DashScope) | ~$0.25-0.40 |
 | sglang local | $0 |
 
-> Input tokens are estimated from prompt-template string lengths in code (the cache only stores parsed outputs), so the actual figure varies ±50% with scenario context size. Pricing assumed: qwen-plus $0.40/$1.20, qwen-turbo $0.05/$0.20 per 1M input/output as of 2026. Confirm with your DashScope bill.
-
 The initial setup (rulebook + event_deck + competitor_strategies LLM generation) is cached per scenario hash. See `CLAUDE.md` for override hooks that bypass LLM generation when you have your own data.
 
 ## Status

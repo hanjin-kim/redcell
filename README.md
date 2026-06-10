@@ -92,8 +92,6 @@ redcell run redcell_config.yaml -o brief.md
 | **qwen3.5-plus** (DashScope) | ~$0.25-0.40 |
 | sglang 로컬 | $0 |
 
-> 입력 토큰은 캐시에 안 남아있어서 prompt 코드 문자열 길이 + 사이즈 가정으로 추정 — 시나리오 컨텍스트 크기에 따라 ±50% 변동 가능. 단가는 2026년 기준 DashScope 표준 가격 가정 (qwen-plus $0.40/$1.20, qwen-turbo $0.05/$0.20 per 1M in/out). 정확한 비용은 직접 청구서로 확인하세요.
-
 초기 셋업 (rulebook + event_deck + competitor_strategies LLM 생성) 은 scenario hash 단위로 캐시되어, 같은 scenario.yaml 을 다시 돌리면 그 부분만큼 비용이 줄어듭니다. CLAUDE.md 의 override hook 으로 LLM 생성 자체를 끄면 더 줄어듭니다.
 
 ## Run config 예시
