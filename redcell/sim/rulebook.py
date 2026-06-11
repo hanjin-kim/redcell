@@ -154,33 +154,22 @@ Respond with ONLY JSON:
   }}
 }}"""
 
-    try:
-        response = llm.complete(
-            system=prompt,
-            user="Generate the rulebook.",
-            temperature=0.3,
-            max_tokens=4000,
+    response = llm.complete(
+        system=prompt,
+        user="Generate the rulebook.",
+        temperature=0.3,
+        max_tokens=4000,
+    )
+    data = _safe_parse_json(response)
+    if not data or "rules" not in data:
+        raise RuntimeError(
+            f"Rulebook generation failed for industry={industry!r}: "
+            f"LLM returned no parseable 'rules' field. "
+            f"Either fix the LLM connection, or supply `rulebook:` at the "
+            f"top level of scenario.yaml to skip generation."
         )
-        data = _safe_parse_json(response)
-        if data and "rules" in data:
-            logger.info("Rulebook generated: %d rules for %s", len(data["rules"]), industry)
-            return data
-    except Exception as e:
-        logger.warning("Rulebook generation failed: %s", e)
-
-    # Fallback: minimal generic rulebook (all shared)
-    return {
-        "industry": industry,
-        "revenue_coefficient": 0.08,
-        "rules": [
-            {"action_type": "Price Cut", "description": "Aggressive pricing", "share_delta_range": [2, 6], "cash_cost_range": [-0.06, -0.02], "delay_turns": 0, "available_to": ["all"]},
-            {"action_type": "R&D Investment", "description": "Technology investment", "share_delta_range": [3, 10], "cash_cost_range": [-0.09, -0.04], "delay_turns": 1, "available_to": ["all"]},
-            {"action_type": "Partnership", "description": "Strategic alliance", "share_delta_range": [2, 5], "cash_cost_range": [-0.03, -0.01], "delay_turns": 0, "available_to": ["all"]},
-            {"action_type": "Marketing Push", "description": "Brand/marketing campaign", "share_delta_range": [1, 4], "cash_cost_range": [-0.05, -0.02], "delay_turns": 0, "available_to": ["all"]},
-            {"action_type": "Regulatory Play", "description": "Regulatory compliance advantage", "share_delta_range": [3, 8], "cash_cost_range": [-0.03, -0.01], "delay_turns": 1, "available_to": ["all"]},
-        ],
-        "market_characteristics": {"switching_cost": "medium", "winner_take_all_tendency": "medium", "regulation_impact": "medium", "innovation_cycle": "medium"},
-    }
+    logger.info("Rulebook generated: %d rules for %s", len(data["rules"]), industry)
+    return data
 
 
 def _rulebook_to_prompt(rulebook: dict) -> str:
@@ -332,89 +321,20 @@ Respond with ONLY JSON:
   ]
 }}"""
 
-    try:
-        response = llm.complete(
-            system=prompt,
-            user="Generate the event deck.",
-            temperature=0.4,
-            max_tokens=4000,
+    response = llm.complete(
+        system=prompt,
+        user="Generate the event deck.",
+        temperature=0.4,
+        max_tokens=4000,
+    )
+    data = _safe_parse_json(response)
+    if not data or "event_deck" not in data:
+        raise RuntimeError(
+            f"Event deck generation failed for industry={industry!r}: "
+            f"LLM returned no parseable 'event_deck' field. "
+            f"Either fix the LLM connection, or supply `event_deck:` at the "
+            f"top level of scenario.yaml to skip generation."
         )
-        data = _safe_parse_json(response)
-        if data and "event_deck" in data:
-            deck = data["event_deck"]
-            logger.info("Event deck generated: %d events for %s", len(deck), industry)
-            return deck
-    except Exception as e:
-        logger.warning("Event deck generation failed: %s", e)
-
-    # Fallback: minimal generic event deck
-    return _fallback_event_deck(side_ids)
-
-
-def _fallback_event_deck(side_ids: list[str]) -> list[dict]:
-    """Minimal generic event deck when LLM generation fails."""
-    return [
-        {
-            "id": "evt_fallback_01",
-            "name": "Demand Surge",
-            "label_ko": "수요 급증",
-            "description": "시장 전체 수요 급증으로 모든 플레이어 수혜",
-            "category": "demand_shock",
-            "effects": {"mode": "uniform", "uniform_attraction_delta": 0.02, "uniform_cash_delta": 0.01},
-            "probability": 0.15,
-            "eligible_turns": [2, 3, 4],
-            "max_occurrences": 1,
-            "mutex_group": "demand",
-        },
-        {
-            "id": "evt_fallback_02",
-            "name": "Demand Contraction",
-            "label_ko": "수요 위축",
-            "description": "거시경제 악화로 시장 전체 수요 감소",
-            "category": "demand_shock",
-            "effects": {"mode": "uniform", "uniform_attraction_delta": -0.02, "uniform_cash_delta": -0.02},
-            "probability": 0.12,
-            "eligible_turns": [3, 4, 5, 6],
-            "max_occurrences": 1,
-            "mutex_group": "demand",
-        },
-        {
-            "id": "evt_fallback_03",
-            "name": "Regulatory Change",
-            "label_ko": "규제 변경",
-            "description": "새로운 규제 도입으로 준수 비용 발생",
-            "category": "regulatory",
-            "effects": {"mode": "uniform", "uniform_attraction_delta": 0.0, "uniform_cash_delta": -0.03},
-            "probability": 0.10,
-            "eligible_turns": [2, 3, 4, 5, 6, 7, 8],
-            "max_occurrences": 1,
-            "mutex_group": None,
-        },
-        {
-            "id": "evt_fallback_04",
-            "name": "Supply Disruption",
-            "label_ko": "공급망 차질",
-            "description": "핵심 부품 공급 차질로 생산 지연",
-            "category": "supply_shock",
-            "effects": {"mode": "uniform", "uniform_attraction_delta": -0.01, "uniform_cash_delta": -0.02},
-            "probability": 0.12,
-            "eligible_turns": [3, 4, 5],
-            "max_occurrences": 1,
-            "mutex_group": None,
-        },
-        {
-            "id": "evt_fallback_05",
-            "name": "Technology Breakthrough",
-            "label_ko": "기술 돌파",
-            "description": "차세대 기술 표준이 확정되며 선도 기업에 유리",
-            "category": "technology",
-            "effects": {
-                "mode": "per_side",
-                "side_effects": {side_ids[0]: {"attraction_delta": 0.03, "cash_delta": -0.01}},
-            },
-            "probability": 0.10,
-            "eligible_turns": [4, 5, 6, 7],
-            "max_occurrences": 1,
-            "mutex_group": None,
-        },
-    ]
+    deck = data["event_deck"]
+    logger.info("Event deck generated: %d events for %s", len(deck), industry)
+    return deck

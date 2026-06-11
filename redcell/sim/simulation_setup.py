@@ -238,7 +238,69 @@ def load_or_generate_run_inputs(
             "event_deck": event_deck,
             "competitor_strategies": competitor_strategies,
         })
+
+    # Write a human-readable YAML of the current effective rulebook /
+    # event_deck / competitor_strategies next to the cache so users can
+    # inspect what the LLM generated and paste any block back into
+    # scenario.yaml to pin it (see CLAUDE.md → Override hooks).
+    _write_generated_overrides_yaml(
+        ctx, scenario, event_deck, competitor_strategies,
+    )
     return event_deck, competitor_strategies
+
+
+def _write_generated_overrides_yaml(
+    ctx: SimulationContext,
+    scenario: dict,
+    event_deck: list[dict],
+    competitor_strategies: dict[str, str],
+) -> None:
+    """Dump the resolved rulebook + event_deck + competitor_strategies
+    to ``<cache_dir>/generated_overrides.yaml`` for user inspection.
+
+    The dump always reflects what the engine is currently using, regardless
+    of whether each piece came from a user override, the cache, or fresh
+    LLM generation. A header comment labels the source of each block so
+    users know which were auto-generated and would change next run.
+    """
+    import yaml as _yaml
+
+    cache_dir = Path(ctx.cache_dir)
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    path = cache_dir / "generated_overrides.yaml"
+
+    sources = {
+        "rulebook": "user-supplied" if scenario.get("rulebook") else "auto-generated",
+        "event_deck": "user-supplied" if scenario.get("event_deck") else "auto-generated",
+        "competitor_strategies": (
+            "user-supplied" if scenario.get("competitor_strategies") else "auto-generated"
+        ),
+    }
+    header = (
+        "# redcell — current effective rulebook / event_deck / competitor_strategies.\n"
+        "#\n"
+        "# Paste any block at the top level of scenario.yaml to pin it and\n"
+        "# skip LLM regeneration on subsequent runs (see CLAUDE.md →\n"
+        "# Override hooks). Edit freely — your version wins.\n"
+        "#\n"
+        f"# Sources:\n"
+        f"#   rulebook:              {sources['rulebook']}\n"
+        f"#   event_deck:            {sources['event_deck']}\n"
+        f"#   competitor_strategies: {sources['competitor_strategies']}\n"
+        "\n"
+    )
+    body = _yaml.dump(
+        {
+            "rulebook": ctx.rulebook,
+            "event_deck": event_deck,
+            "competitor_strategies": competitor_strategies,
+        },
+        allow_unicode=True,
+        sort_keys=False,
+        default_flow_style=False,
+        indent=2,
+    )
+    path.write_text(header + body, encoding="utf-8")
 
 
 def build_agent_factory(ctx: SimulationContext, scenario: dict, llm: Any):

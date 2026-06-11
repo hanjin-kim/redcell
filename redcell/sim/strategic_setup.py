@@ -174,27 +174,26 @@ Write in Korean. Each strategy must be genuinely different — reflecting that c
 Respond with ONLY JSON:
 {{{", ".join(f'"{sid}": "전략 방향 1-2문장"' for sd in sides_data if (sid := sd["id"]) != our_side)}}}"""
 
-    try:
-        response = llm.complete(
-            system=prompt, user="Generate competitor strategic directions.",
-            temperature=0.4, max_tokens=2000,
+    response = llm.complete(
+        system=prompt, user="Generate competitor strategic directions.",
+        temperature=0.4, max_tokens=2000,
+    )
+    data = _safe_parse_json(response)
+    if not data or not isinstance(data, dict):
+        raise RuntimeError(
+            "Competitor strategy generation failed: LLM returned no parseable "
+            "object. Either fix the LLM connection, or supply "
+            "`competitor_strategies:` (dict of side_id → strategy text) at the "
+            "top level of scenario.yaml to skip generation."
         )
-        data = _safe_parse_json(response)
-        if data and isinstance(data, dict):
-            return {k: v for k, v in data.items() if k != our_side and isinstance(v, str)}
-    except Exception as e:
-        logger.warning("Competitor strategy generation failed: %s", e)
-
-    # Fallback: use management_style from persona
-    fallback: dict[str, str] = {}
-    for sd in sides_data:
-        sid = sd["id"]
-        if sid == our_side:
-            continue
-        cmds = sd.get("commanders", [])
-        cmd = cmds[0] if cmds else {}
-        fallback[sid] = cmd.get("management_style", "") or cmd.get("strategic_tendency", "")
-    return fallback
+    out = {k: v for k, v in data.items() if k != our_side and isinstance(v, str)}
+    if not out:
+        raise RuntimeError(
+            "Competitor strategy generation failed: parsed object had no "
+            "valid string entries for any non-our side. "
+            f"Raw keys: {list(data.keys())}"
+        )
+    return out
 
 
 def _generate_initial_deliberation(

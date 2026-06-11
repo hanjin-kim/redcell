@@ -11,6 +11,17 @@ redcell 은 `(전략, 환경) → multi-turn 시뮬레이션 → 양측 반응 t
 
 `scenario.yaml` 의 *top-level* 에 아래 키를 채우면 해당 단계 LLM 생성을 *건너뜁니다*. 일부만 채우는 부분 override 도 가능 — 채운 것은 사용자 데이터, 비운 것은 LLM 생성.
 
+### 권장 워크플로 — 처음부터 손으로 쓰지 말 것
+
+`rulebook` / `event_deck` (12-18 이벤트) / `competitor_strategies` 를 백지에서 손으로 쓰는 건 비효율. 표준 흐름:
+
+1. **첫 실행** — scenario.yaml 의 override 키들을 비워두고 `redcell run` 실행. LLM 이 산업별로 모두 자동 생성.
+2. **결과 확인** — `<cache_dir>/generated_overrides.yaml` 에 현재 사용 중인 rulebook + event_deck + competitor_strategies 가 한 파일에 사람이 읽을 수 있는 YAML 로 dump 됨. 헤더에 각 블록이 *user-supplied* 인지 *auto-generated* 인지 표시.
+3. **검토 / 편집** — 그 파일을 열어 LLM 이 산업 특성을 잘못 잡은 부분 (확률, side_effects 비대칭, 누락 이벤트) 수정.
+4. **paste-back** — 편집한 블록 (예: `event_deck:` 전체) 을 scenario.yaml 의 top-level 로 복사. 다음 실행부터 override 활성화 → 그 부분 LLM 호출 0회.
+
+> LLM 생성이 *실패* 하면 silent fallback 없이 즉시 `RuntimeError` 로 종료합니다. 에러 메시지가 "scenario.yaml 에 그 블록을 직접 채우라" 고 안내합니다 — 분석이 fallback 으로 조용히 망가지는 일은 없습니다.
+
 ### 1) `rulebook` — 액션 효과 범위 (가장 유용)
 
 산업별로 `Price Cut` 이 share 를 몇 pp 흔드는지, cash 를 얼마나 쓰는지의 *범위*. 사내에 이 데이터가 있다면 LLM 짐작보다 훨씬 정확.
