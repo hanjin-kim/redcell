@@ -1,0 +1,570 @@
+# redcell — current effective rulebook / event_deck / competitor_strategies.
+#
+# This file sits next to scenario.yaml and is auto-loaded by
+# redcell at the start of every run (its keys override scenario.yaml).
+# Edit freely — your edits flow into the next run automatically.
+#
+# Sources reflect what each block was for THIS run:
+#   rulebook:              auto-generated
+#   event_deck:            auto-generated
+#   competitor_strategies: auto-generated
+
+rulebook:
+  industry: fintech_korea_payments
+  revenue_coefficient: 0.09
+  rules:
+  - action_type: Aggressive Price Cut
+    label_ko: 가맹점 수수료 인하
+    description: 가맹점 수수료 대폭 인하로 거래액 점유율 선점
+    share_delta_range:
+    - 2
+    - 5
+    cash_cost_range:
+    - -0.06
+    - -0.03
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Ecosystem Marketing Push
+    label_ko: 메신저 마케팅 강화
+    description: 기존 메신저/쇼핑 생태계 내 광고 노출을 통한 신규 유입
+    share_delta_range:
+    - 3
+    - 7
+    cash_cost_range:
+    - -0.04
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Regulatory Compliance Upgrade
+    label_ko: 규제 대응 시스템 고도화
+    description: 금융당국 규제 강화에 선제적 대응으로 신뢰도 및 안정성 확보
+    share_delta_range:
+    - 1
+    - 3
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Cross-Platform Integration
+    label_ko: 서비스 통합 고도화
+    description: 결제, 송금, 투자 등 핵심 서비스 간 원스톱 경험 개선
+    share_delta_range:
+    - 2
+    - 6
+    cash_cost_range:
+    - -0.03
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Global Market Entry
+    label_ko: 해외 시장 진출
+    description: 베트남/일본 등 해외 시장 초기 진출 시도 — 장기 성장 기반 마련
+    share_delta_range:
+    - -3
+    - 8
+    cash_cost_range:
+    - -0.1
+    - -0.05
+    delay_turns: 2
+    available_to:
+    - all
+  - action_type: Super App Ecosystem Lock-in
+    label_ko: 슈퍼앱 생태계 잠금
+    description: Toss 증권/뱅킹/보험 연동 강화로 MZ세대 충성도 극대화
+    share_delta_range:
+    - 4
+    - 12
+    cash_cost_range:
+    - -0.08
+    - -0.04
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: IPO Preparation Sprint
+    label_ko: 미국 IPO 준비 가속
+    description: 2026 H2 미국 IPO를 위한 재무 구조 최적화 및 투자자 관계 관리
+    share_delta_range:
+    - -5
+    - 15
+    cash_cost_range:
+    - -0.15
+    - -0.08
+    delay_turns: 1
+    available_to:
+    - side_a
+  - action_type: High-Risk Product Innovation
+    label_ko: 파격적 신상품 출시
+    description: MZ 타겟 초고속 결제/투자 상품 개발 — 성공 시 시장 재편, 실패 시 브랜드 훼손
+    share_delta_range:
+    - -4
+    - 18
+    cash_cost_range:
+    - -0.12
+    - -0.06
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: Cash Reserve Optimization
+    label_ko: 현금 보유량 효율화
+    description: 높은 현금 보유량 (55%) 을 수익 창출 자산으로 전환하여 burn rate 감소
+    share_delta_range:
+    - 1
+    - 4
+    cash_cost_range:
+    - -0.01
+    - 0.0
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: Messenger Ecosystem Leverage
+    label_ko: 카카오톡 채널 활용
+    description: 카카오톡 메신저 내 결제 유도 및 친구 추천 기능 강화로 MAU 기반 확장
+    share_delta_range:
+    - 3
+    - 8
+    cash_cost_range:
+    - -0.03
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_b
+  - action_type: Group Governance Stabilization
+    label_ko: 거버넌스 리스크 해소
+    description: 그룹 내 사법 리스크 및 거버넌스 이슈 해결로 기업 가치 방어
+    share_delta_range:
+    - 2
+    - 5
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 1
+    available_to:
+    - side_b
+  - action_type: Ad-Supported Monetization
+    label_ko: 광고 기반 수익화
+    description: 쇼핑/콘텐츠 연동 광고 ARPU 증대를 통해 낮은 결제 수수료 보완
+    share_delta_range:
+    - 2
+    - 6
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_b
+  - action_type: Fast-Track Product Launch
+    label_ko: 신속한 신제품 출시
+    description: 복잡한 그룹 결재 라인 단축으로 Toss 대비 빠른 신상품 출시 속도 회복
+    share_delta_range:
+    - -2
+    - 7
+    cash_cost_range:
+    - -0.05
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - side_b
+  - action_type: Shopping Deep Integration
+    label_ko: 네이버 쇼핑 연동 강화
+    description: 네이버 쇼핑 검색/구매 흐름과 결제 프로세스 완전 통합으로 가맹점 락인
+    share_delta_range:
+    - 3
+    - 7
+    cash_cost_range:
+    - -0.03
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - side_c
+  - action_type: Search-to-Pay Funnel
+    label_ko: 검색-결제 파이프라인 구축
+    description: 네이버 검색 결과에서 직접 결제 유도하여 전환율 극대화
+    share_delta_range:
+    - 2
+    - 6
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_c
+  - action_type: Plus Membership Bundling
+    label_ko: 멤버십 패키지 결합
+    description: Naver Plus 멤버십과 결제 혜택을 결합하여 콘텐츠/쇼핑 교차 판매
+    share_delta_range:
+    - 2
+    - 5
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_c
+  - action_type: Investment Service Expansion
+    label_ko: 투자 서비스 확대
+    description: 송금/투자 영역 사용 비중 약점을 보완하기 위한 금융 상품 다양화
+    share_delta_range:
+    - -3
+    - 9
+    cash_cost_range:
+    - -0.08
+    - -0.04
+    delay_turns: 1
+    available_to:
+    - side_c
+  - action_type: Monolith Architecture Shift
+    label_ko: 모놀리식 아키텍처 전환
+    description: 단일 앱 통합도 약점을 극복하기 위한 슈퍼앱 구조 개편 시도
+    share_delta_range:
+    - -4
+    - 10
+    cash_cost_range:
+    - -0.1
+    - -0.05
+    delay_turns: 2
+    available_to:
+    - side_c
+  - action_type: Acquisition Cost Reduction
+    label_ko: 유료 획득 비용 절감
+    description: 메신저 부재로 인한 높은 신규 가입 비용을 자연 유입 전략으로 대체
+    share_delta_range:
+    - 1
+    - 4
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: Gaming & Entertainment Tie-up
+    label_ko: 게임/엔터 제휴
+    description: MZ 세대 선호 게임/엔터테인먼트 플랫폼과 결제 연동으로 일상 결제 비중 확대
+    share_delta_range:
+    - 2
+    - 6
+    cash_cost_range:
+    - -0.03
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: Corporate Governance Reform
+    label_ko: 기업 지배구조 개혁
+    description: 소수 주주 권리 강화 및 투명성 제고로 외부 투자자 신뢰 회복
+    share_delta_range:
+    - 1
+    - 3
+    cash_cost_range:
+    - -0.01
+    - 0.0
+    delay_turns: 1
+    available_to:
+    - side_b
+  market_characteristics:
+    switching_cost: medium
+    winner_take_all_tendency: high
+    regulation_impact: high
+    innovation_cycle: fast
+  intensity_jitter: 0.15
+event_deck:
+- id: evt_01
+  name: Fintech Capital Gains Tax Reform
+  label_ko: 금융투자소득세 (FIS) 확대 및 결제 수수료 과세 강화
+  description: 정부가 증권/송금 수익에 대한 세제를 강화하고, 결제 수수료 인센티브를 축소하여 플랫폼의 순이익 마진을 압박.
+  category: regulatory
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.04
+      side_b:
+        cash_delta: -0.02
+      side_c:
+        cash_delta: -0.03
+  probability: 0.18
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: tax_policy
+- id: evt_02
+  name: Real-time Settlement System Overhaul
+  label_ko: 실시간 대량결제 시스템 (KRP) 고도화 의무화
+  description: 한국은행이 초저지연 실시간 결제를 위한 인프라 표준을 변경하며, 기존 아키텍처를 가진 기업들의 기술 재구축 비용 발생.
+  category: regulatory
+  effects:
+    mode: uniform
+    uniform_cash_delta: -0.03
+  probability: 0.15
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: infra_compliance
+- id: evt_03
+  name: MZ Generation Cashless Shift Acceleration
+  label_ko: MZ 세대 현금 사용 급감 및 디지털 지갑 의존도 폭발
+  description: 소셜 트렌드 변화로 인해 MZ 세대의 오프라인 결제가 완전히 디지털로 전환되며, Super-app 통합도가 높은 플레이어에게
+    트래픽 폭증.
+  category: demand_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: 0.05
+      side_b:
+        cash_delta: 0.04
+      side_c:
+        cash_delta: 0.02
+  probability: 0.22
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: demographic_trend
+- id: evt_04
+  name: E-commerce Platform Lock-in Policy Change
+  label_ko: 대형 이커머스 '오픈마켓' 결제 독점 해제
+  description: 공정위 가이드라인 변경으로 네이버 쇼핑 등 대형 플랫폼이 특정 페이먼트사 독점 계약을 강제할 수 없게 되어 가맹점 이탈
+    가속화.
+  category: regulatory
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: 0.03
+      side_b:
+        cash_delta: 0.02
+      side_c:
+        cash_delta: -0.04
+  probability: 0.16
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: antitrust
+- id: evt_05
+  name: AI-Powered Fraud Detection Standard
+  label_ko: AI 기반 사기 탐지 알고리즘 의무 적용
+  description: 금융당국이 AI 기반 실시간 사기 탐지 시스템을 도입하도록 의무화하여, R&D 투자 부족 기업들의 운영비 증가.
+  category: technology
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.03
+      side_c:
+        cash_delta: -0.02
+  probability: 0.19
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: security_std
+- id: evt_06
+  name: Global IPO Market Freeze
+  label_ko: 글로벌 IPO 시장 동결 및 밸류에이션 하락
+  description: 미국 금리 장기 고공행진으로 해외 상장 시장이 얼어붙으며, 미국 IPO를 추진 중인 기업의 자금 조달 계획 차질.
+  category: geopolitical
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.07
+      side_b:
+        cash_delta: -0.01
+      side_c:
+        cash_delta: 0.0
+  probability: 0.12
+  eligible_turns:
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: capital_market
+- id: evt_07
+  name: Messaging App Privacy Crackdown
+  label_ko: 메신저 기반 타겟 광고 데이터 수집 제한
+  description: 개인정보보호법 강화로 메신저 내 결제 연동 시 타겟팅 광고 데이터 활용이 제한되어 ARPU 감소.
+  category: regulatory
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: 0.01
+      side_b:
+        cash_delta: -0.04
+      side_c:
+        cash_delta: -0.03
+  probability: 0.2
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: privacy_law
+- id: evt_08
+  name: Cross-Border Payment Corridor Expansion
+  label_ko: 한-베트남/일본 간 송금 수수료 면제 협정 체결
+  description: 양국 정부 간 협력으로 해외 송금 수수료가 대폭 인하되나, 초기 진출 기업들이 현지 파트너십 구축 비용을 먼저 부담해야
+    함.
+  category: geopolitical
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.03
+      side_b:
+        cash_delta: 0.0
+      side_c:
+        cash_delta: 0.0
+  probability: 0.14
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: trade_agreement
+- id: evt_09
+  name: Super-App Monopoly Investigation
+  label_ko: 슈퍼앱 독과점 사전 규제 조사 개시
+  description: 거래액 상위 2개사가 시장 지배적 지위를 남용했다는 의혹으로 공정위가 사전 조사에 착수하여 경영 리스크 증폭.
+  category: black_swan
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.05
+      side_b:
+        cash_delta: -0.06
+      side_c:
+        cash_delta: -0.02
+  probability: 0.1
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: antitrust_investigation
+- id: evt_10
+  name: Biometric Authentication Standard Shift
+  label_ko: 생체 인증 표준 (FaceID/TouchID) 호환성 문제 발생
+  description: 새로운 OS 업데이트로 인해 주요 생체 인증 프로토콜이 일시적으로 호환되지 않아 결제 중단 시간 발생.
+  category: technology
+  effects:
+    mode: uniform
+    uniform_cash_delta: -0.02
+  probability: 0.18
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: tech_disruption
+- id: evt_11
+  name: Corporate Loyalty Program Consolidation
+  label_ko: 기업 포인트 통합 서비스 출시 경쟁 심화
+  description: 대형 카드사들이 자체 포인트를 통합하는 서비스를 출시하며, 기존 핀테크 앱의 포인트 적립 혜택 경쟁력 약화.
+  category: demand_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.03
+      side_b:
+        cash_delta: -0.02
+      side_c:
+        cash_delta: -0.03
+  probability: 0.15
+  eligible_turns:
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: loyalty_war
+- id: evt_12
+  name: Leadership Scandal at Parent Group
+  label_ko: 모그룹 임원 비리 스캔들 및 주가 급락
+  description: 카카오 그룹의 거버넌스 이슈가 불거지며 자사주 매입 불가 및 자금 조달 비용 상승.
+  category: black_swan
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: 0.0
+      side_b:
+        cash_delta: -0.05
+      side_c:
+        cash_delta: 0.0
+  probability: 0.08
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: governance_crisis
+- id: evt_13
+  name: Digital Wallet Interoperability Mandate
+  label_ko: 페이간 연계 (Interoperability) 의무화
+  description: 정부 주도 하에 모든 페이먼트 앱 간 상호 연동이 의무화되며, 생태계 폐쇄성을 통한 유입 차단 전략 무효화.
+  category: regulatory
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.01
+      side_c:
+        cash_delta: -0.02
+  probability: 0.17
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: interoperability
+- id: evt_14
+  name: Inflation-Driven Micro-Transaction Surge
+  label_ko: 물가 상승에 따른 소액 결제 빈도 폭발
+  description: 고물가로 인해 소비자들이 고가 구매를 줄이고 소액·빈번 결제로 전환하며, 거래 건수 중심의 비즈니스 모델이 우위.
+  category: demand_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: 0.03
+      side_b:
+        cash_delta: 0.04
+      side_c:
+        cash_delta: 0.02
+  probability: 0.21
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: inflation_cycle
+competitor_strategies:
+  side_b: 금감원 수수료 가이드라인으로 인한 마진 압박을 극복하기 위해, 김범수 전 대표의 사법 리스크로 인해 보수화된 의사결정 구조 하에서
+    메신저 MAU 기반의 '소액·高频' 결제 트래픽을 극대화하여 가맹점 이탈을 방지하고, 그룹 내 콘텐츠 및 금융 상품 연동을 통한 ARPU 점진적
+    개선에 집중할 것.
+  side_c: 쇼핑 거래액 잠금 (lock-in) 전략을 가속화하여 결제 자체의 직접 마진 손실을 쇼핑 생태계 내 재구매율 및 로열티 강화로 상쇄하되,
+    단독 슈퍼앱 확장은 자제하고 네이버 쇼핑과의 시너지를 최우선으로 하여 가맹점 수수료 인하 압력을 '고객 경험 최적화'라는 명분으로 전환할 것.

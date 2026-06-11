@@ -50,13 +50,40 @@ def _augmented_strategy(strategy: str, environment: str) -> str:
     )
 
 
+def _load_scenario_with_overrides(
+    scenario_path: Path, log=print,
+) -> tuple[dict, Path]:
+    """Load scenario.yaml and merge sibling scenario.overrides.yaml on top.
+
+    The override file is auto-generated next to scenario.yaml on every
+    successful run (see ``simulation_setup._write_generated_overrides_yaml``).
+    Users edit it in place to pin rulebook / event_deck /
+    competitor_strategies values across runs — those edits flow back into
+    the next run via this merge step.
+
+    Returns (merged_scenario_dict, scenario_dir).
+    """
+    scenario = yaml.safe_load(scenario_path.read_text(encoding="utf-8"))
+    scenario_dir = scenario_path.parent
+    overrides_path = scenario_dir / "scenario.overrides.yaml"
+    if overrides_path.exists():
+        overrides = yaml.safe_load(overrides_path.read_text(encoding="utf-8")) or {}
+        applied = []
+        for key in ("rulebook", "event_deck", "competitor_strategies"):
+            if overrides.get(key):
+                scenario[key] = overrides[key]
+                applied.append(key)
+        if applied:
+            log(f"[redcell] scenario.overrides.yaml applied: {', '.join(applied)}")
+    return scenario, scenario_dir
+
+
 def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
         log=print) -> dict:
     """Execute a redcell job. Returns the renderable run dict."""
     llm = make_llm(load_llm_settings())
-    scenario = yaml.safe_load(
-        Path(config.scenario_path).read_text(encoding="utf-8")
-    )
+    scenario_path = Path(config.scenario_path)
+    scenario, scenario_dir = _load_scenario_with_overrides(scenario_path, log=log)
     industry, our_company, competitors = _extract_cast(scenario)
     log(f"[redcell] cast: {our_company} vs {', '.join(competitors)} "
         f"({industry})")
@@ -81,6 +108,7 @@ def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
         max_turns=config.max_turns,
         n_runs=config.n_runs,
         cache_dir=cache_dir,
+        scenario_dir=scenario_dir,
         callback=lambda msg, pct=0.0: log(
             f"  [{pct:5.1%}] {msg[:80]}"
         ),

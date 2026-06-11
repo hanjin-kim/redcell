@@ -19,4 +19,4 @@ environment: |
   핀테크 카피 전략으로 빠르게 따라오는 중.
 
 max_turns: 5
-scenario_path: scenarios/fintech_payments.yaml
+scenario_path: scenario.yaml

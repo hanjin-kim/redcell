@@ -14,4 +14,4 @@ environment: |
   Shiseido 채널 확장과 동시 진행.
 
 max_turns: 5
-scenario_path: scenarios/kbeauty_aurie.yaml
+scenario_path: scenario.yaml

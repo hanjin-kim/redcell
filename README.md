@@ -96,16 +96,19 @@ redcell run redcell_config.yaml -o brief.md
 
 ## Run config 예시
 
+각 예제 폴더는 self-contained — `config.yaml`(전략/환경) + `scenario.yaml`(시장 명단) + 실행 결과(`brief.md`/`brief_trace.md`) + 자동 생성된 override(`scenario.overrides.yaml`) 가 한 곳에 모입니다.
+
 ```yaml
+# examples/aurie/config.yaml
 strategy: |
   <우리가 수행하는 전략 — 시뮬 전체에 걸쳐 정적>
 environment: |
   <시뮬 시작 시점의 시장/위협 조건. 모든 측 deliberation 컨텍스트에 주입됨>
 max_turns: 5
-scenario_path: scenarios/kbeauty_aurie.yaml
+scenario_path: scenario.yaml   # config.yaml 옆 파일로 자동 resolve
 ```
 
-산업·우리 회사·경쟁사 정보는 `scenario_path`가 가리키는 시나리오 YAML 안의 `sides`에서 읽어옵니다.
+산업·우리 회사·경쟁사 정보는 `scenario.yaml` 안의 `sides`에서 읽어옵니다. 첫 실행 후 `scenario.overrides.yaml` 이 자동 생성되며, 거기 들어있는 rulebook/event_deck/competitor_strategies 를 *제자리에서 편집*하면 다음 실행에 자동 반영됩니다(자세한 흐름은 [CLAUDE.md](CLAUDE.md) 참고).
 
 ## 구성
 

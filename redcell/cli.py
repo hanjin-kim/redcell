@@ -61,10 +61,11 @@ scenario_path: {scenario_name}
 """
 
 _SCENARIO_TEMPLATE = """# Scenario context — industry parameters + competitor seats.
-# Reference: see github.com/.../redcell/scenarios/kbeauty_aurie.yaml for a
-# full example. The minimum stub below lets the engine bootstrap a rulebook
-# from the industry name; for higher fidelity, add competitor strategies,
-# event deck overrides, etc.
+# Reference: see github.com/hanjin-kim/redcell/blob/main/examples/aurie/scenario.yaml
+# for a full example. The minimum stub below lets the engine bootstrap a
+# rulebook from the industry name; for higher fidelity, edit the
+# auto-generated scenario.overrides.yaml that appears next to this file
+# after the first run (see CLAUDE.md → Override hooks).
 
 industry: <industry_name>
 
@@ -246,8 +247,8 @@ def run(
     if not scn_path.exists():
         typer.secho(
             f"❌ scenario_path not found: {cfg.scenario_path}\n"
-            f"  (resolved from config field. Check the path is correct "
-            f"relative to your current directory.)",
+            f"  (resolved from config.scenario_path relative to the "
+            f"config.yaml's directory.)",
             fg=typer.colors.RED, err=True,
         )
         raise typer.Exit(code=1)

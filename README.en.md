@@ -85,16 +85,19 @@ Run `redcell doctor` to confirm the detected provider for your endpoint.
 
 ## Run config
 
+Each example folder is self-contained — `config.yaml` (strategy + environment), `scenario.yaml` (market roster), the rendered `brief.md` / `brief_trace.md`, and an auto-generated `scenario.overrides.yaml` all live side by side.
+
 ```yaml
+# examples/aurie/config.yaml
 strategy: |
   <your strategy in prose>
 environment: |
   <initial exogenous condition the strategy executes under; injected into all sides>
 max_turns: 5
-scenario_path: scenarios/kbeauty_aurie.yaml
+scenario_path: scenario.yaml   # resolved relative to config.yaml
 ```
 
-Industry, our company, and competitors are read from the scenario YAML's `sides` — single source of truth for the market cast.
+Industry, our company, and competitors are read from `scenario.yaml`'s `sides`. After the first run, `scenario.overrides.yaml` appears next to it — edit that file in place to pin the rulebook / event_deck / competitor_strategies (see [CLAUDE.md](CLAUDE.md) for the full override workflow).
 
 ## Cost
 

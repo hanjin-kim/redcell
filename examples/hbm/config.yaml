@@ -19,4 +19,4 @@ environment: |
   capex 인센티브에 영향.
 
 max_turns: 5
-scenario_path: scenarios/semiconductor_hbm.yaml
+scenario_path: scenario.yaml

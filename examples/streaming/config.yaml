@@ -18,4 +18,4 @@ environment: |
   마케팅 확대.
 
 max_turns: 5
-scenario_path: scenarios/streaming_korea.yaml
+scenario_path: scenario.yaml

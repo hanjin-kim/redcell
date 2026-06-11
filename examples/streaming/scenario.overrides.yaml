@@ -1,0 +1,517 @@
+# redcell — current effective rulebook / event_deck / competitor_strategies.
+#
+# This file sits next to scenario.yaml and is auto-loaded by
+# redcell at the start of every run (its keys override scenario.yaml).
+# Edit freely — your edits flow into the next run automatically.
+#
+# Sources reflect what each block was for THIS run:
+#   rulebook:              auto-generated
+#   event_deck:            auto-generated
+#   competitor_strategies: auto-generated
+
+rulebook:
+  industry: streaming_korea_ott
+  revenue_coefficient: 0.08
+  rules:
+  - action_type: Aggressive Price Cut
+    label_ko: 공격적 가격 인하
+    description: 가격 민감 계층을 빠르게 유입하기 위한 단기간 가격 할인 실행
+    share_delta_range:
+    - 2
+    - 5
+    cash_cost_range:
+    - -0.06
+    - -0.03
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Premium Content Acquisition
+    label_ko: 프리미엄 콘텐츠 확보
+    description: 차별화된 인기 드라마나 예능 포맷의 독점 라이선스 계약 체결
+    share_delta_range:
+    - 3
+    - 7
+    cash_cost_range:
+    - -0.1
+    - -0.05
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Ad-Tier Optimization
+    label_ko: 광고 tiers 최적화
+    description: 저가 광고 tier의 인벤토리 확대 및 타겟팅 정확도 개선으로 ARPU 증대
+    share_delta_range:
+    - 1
+    - 4
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Global Hit Investment
+    label_ko: 글로벌 히트 투자
+    description: 전 세계적으로 통할 수 있는 초거대 제작비 오리지널 시리즈 개발 베팅
+    share_delta_range:
+    - -5
+    - 20
+    cash_cost_range:
+    - -0.15
+    - -0.08
+    delay_turns: 1
+    available_to:
+    - all
+  - action_type: Ecosystem Bundle Push
+    label_ko: 생태계 번들 강화
+    description: 타 서비스 (이커머스, 통신 등) 와의 통합 멤버십 혜택 대폭 확대
+    share_delta_range:
+    - 4
+    - 9
+    cash_cost_range:
+    - -0.08
+    - -0.04
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Rocket Wow Integration
+    label_ko: 로켓와우 연동
+    description: 로켓와우 멤버십 가입자에게 OTT 구독권 자동 부여하여 MAU 급증 유도
+    share_delta_range:
+    - 5
+    - 12
+    cash_cost_range:
+    - -0.05
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: Live Sports Exclusive
+    label_ko: 라이브 스포츠 독점
+    description: MLB 또는 UFC 등 라이브 스포츠 중계권을 독점 확보하여 시즌성 트래픽 폭발
+    share_delta_range:
+    - 6
+    - 15
+    cash_cost_range:
+    - -0.12
+    - -0.06
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: Data Monetization Boost
+    label_ko: 데이터 모네타제이션
+    description: 이커머스 구매 데이터와 OTT 시청 데이터를 결합한 고단가 광고 상품 판매
+    share_delta_range:
+    - 2
+    - 6
+    cash_cost_range:
+    - -0.03
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: Original Library Expansion
+    label_ko: 오리지널 풀 확장
+    description: 글로벌 투자금을 바탕으로 한국 오리지널 콘텐츠 라인업을 대폭 보강
+    share_delta_range:
+    - 4
+    - 10
+    cash_cost_range:
+    - -0.1
+    - -0.05
+    delay_turns: 0
+    available_to:
+    - side_b
+  - action_type: Global Ad Server Leverage
+    label_ko: 글로벌 광고 인프라 활용
+    description: 전 세계 광고 서버 인프라를 활용해 한국 내 광고주 유치 효율 극대화
+    share_delta_range:
+    - 3
+    - 7
+    cash_cost_range:
+    - -0.04
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - side_b
+  - action_type: Cultural IP Dominance
+    label_ko: 문화 IP 독점
+    description: JTBC/CJ ENM의 방대한 지상파 포트폴리오를 활용한 한국 특화 콘텐츠 우위 확보
+    share_delta_range:
+    - 5
+    - 11
+    cash_cost_range:
+    - -0.08
+    - -0.04
+    delay_turns: 0
+    available_to:
+    - side_c
+  - action_type: KBO Season Spike
+    label_ko: KBO 시즌 공략
+    description: 야구 시즌 기간 집중 마케팅과 특별 패키지로 사용자 이탈 방지 및 신규 유입
+    share_delta_range:
+    - 4
+    - 9
+    cash_cost_range:
+    - -0.06
+    - -0.03
+    delay_turns: 0
+    available_to:
+    - side_c
+  - action_type: Naver Plus Synergy
+    label_ko: 네이버 플러스 시너지
+    description: 네이버 플러스 멤버십과의 통합을 통해 고객 획득 비용 (CAC) 절감 및 충성도 향상
+    share_delta_range:
+    - 3
+    - 8
+    cash_cost_range:
+    - -0.05
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - side_c
+  - action_type: Wavve Integration Cost Cut
+    label_ko: 웨이브 통합 비용 절감
+    description: Wavve 합병 후 중복 콘텐츠 정리 및 운영 효율화로 마진 개선 및 재투자 여력 확보
+    share_delta_range:
+    - 1
+    - 3
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_c
+  - action_type: Churn Prevention Campaign
+    label_ko: 이탈 방지 캠페인
+    description: 가격 인상이나 경쟁사 공격에 대비한 기존 회원 대상 맞춤형 리텐션 프로모션
+    share_delta_range:
+    - 1
+    - 4
+    cash_cost_range:
+    - -0.03
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Brand Trust Building
+    label_ko: 브랜드 신뢰도 제고
+    description: 콘텐츠 품질과 플랫폼 안정성을 강조하는 장기 브랜드 이미지 캠페인
+    share_delta_range:
+    - 2
+    - 5
+    cash_cost_range:
+    - -0.04
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Tech Infrastructure Upgrade
+    label_ko: 기술 인프라 고도화
+    description: 스트리밍 화질 및 로딩 속도 개선을 통한 사용자 경험 (UX) 질적 향상
+    share_delta_range:
+    - 1
+    - 3
+    cash_cost_range:
+    - -0.05
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Regulatory Compliance Shift
+    label_ko: 규제 대응 전략
+    description: 새로운 방송법이나 데이터 규제에 선제적으로 대응하여 리스크 최소화
+    share_delta_range:
+    - 1
+    - 2
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Talent Scandal Mitigation
+    label_ko: 스타 스캔들 위기 관리
+    description: 주요 출연진 관련 부정적 이슈 발생 시 즉각적인 콘텐츠 교체 및公关 활동
+    share_delta_range:
+    - -3
+    - 2
+    cash_cost_range:
+    - -0.03
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: International Co-Production
+    label_ko: 해외 공동 제작
+    description: 글로벌 파트너십을 통한 해외 시장 진출 시도 및 콘텐츠 다양성 확보
+    share_delta_range:
+    - -2
+    - 8
+    cash_cost_range:
+    - -0.08
+    - -0.04
+    delay_turns: 1
+    available_to:
+    - all
+  market_characteristics:
+    switching_cost: low
+    winner_take_all_tendency: medium
+    regulation_impact: medium
+    innovation_cycle: fast
+  intensity_jitter: 0.15
+event_deck:
+- id: evt_01
+  name: OTT Content Taxation Proposal
+  label_ko: OTT 콘텐츠 과세안 도입 논의
+  description: 국회에서 글로벌 OTT 플랫폼에 대한 별도 법인세 및 콘텐츠 제작 지원금 부과 안건이 상정됨. 한국 내 수익의 5% 추가
+    부담 예상.
+  category: regulatory
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.04
+      side_c:
+        cash_delta: -0.03
+  probability: 0.18
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: tax_policy
+- id: evt_02
+  name: Korean Drama Global Viral Hit
+  label_ko: 한국 드라마 글로벌 바이럴 현상
+  description: 한편의 한국 오리지널 드라마가 전 세계적으로 폭발적인 인기를 끌며, 관련 콘텐츠 구독 수요가 급증하고 광고 단가가 상승함.
+  category: demand_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: 0.01
+      side_b:
+        cash_delta: 0.05
+      side_c:
+        cash_delta: 0.03
+  probability: 0.15
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: content_viral
+- id: evt_03
+  name: Production Cost Inflation Spike
+  label_ko: 제작비 인플레이션 급등
+  description: 배우 및 스태프 임금 상승과 촬영지 임대료 폭등으로 인해 한국 오리지널 콘텐츠 제작비가 전년 대비 20% 이상 증가함.
+  category: supply_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.04
+      side_c:
+        cash_delta: -0.03
+  probability: 0.2
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: cost_inflation
+- id: evt_04
+  name: AI-Driven Personalization Standard
+  label_ko: AI 기반 초개인화 추천 표준화
+  description: 글로벌 기술 표준 기구에서 AI 기반 맞춤형 추천 알고리즘을 의무화하는 새로운 산업 표준이 발표되어, 레거시 시스템 유지
+    비용이 급증함.
+  category: technology
+  effects:
+    mode: uniform
+    uniform_cash_delta: -0.03
+  probability: 0.12
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: tech_standard
+- id: evt_05
+  name: US-Korea Trade Friction on Digital Services
+  label_ko: 미-한 디지털 서비스 무역 마찰
+  description: 미국 정부가 한국 내 데이터 로컬라이제이션 요구를 완화하지 않을 경우 관세 보복을 시사하며, 한국 OTT 기업의 미국 시장
+    진출 계획에 불확실성 가중.
+  category: geopolitical
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.01
+      side_b:
+        cash_delta: -0.06
+      side_c:
+        cash_delta: -0.01
+  probability: 0.1
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: trade_tension
+- id: evt_06
+  name: Major IP Rights Dispute
+  label_ko: 주요 IP 저작권 분쟁 발생
+  description: 유명 웹툰 원작 드라마의 저작권 소유권 분쟁으로 인해 주요 콘텐츠 방영이 일시 중단되고 법적 비용이 발생함.
+  category: black_swan
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.03
+      side_c:
+        cash_delta: -0.05
+  probability: 0.08
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: legal_dispute
+- id: evt_07
+  name: Subscription Fatigue & Churn Wave
+  label_ko: 구독 피로도 및 이탈 대량 발생
+  description: 경제 침체로 인해 소비자들이 OTT 구독을 줄이는 '구독 피로도' 현상이 심화되며, 월간 구독자 수 평균 5% 감소.
+  category: demand_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.03
+      side_b:
+        cash_delta: -0.04
+      side_c:
+        cash_delta: -0.04
+  probability: 0.22
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: churn_wave
+- id: evt_08
+  name: Live Sports Broadcasting Rights Auction
+  label_ko: 라이브 스포츠 중계권 경매 열풍
+  description: 다음 시즌 주요 스포츠 리그 중계권을 두고 경쟁이 치열해지며, 입찰 가격이 예상보다 30% 급등함.
+  category: supply_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.04
+      side_b:
+        cash_delta: -0.02
+      side_c:
+        cash_delta: -0.05
+  probability: 0.14
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: sports_rights
+- id: evt_09
+  name: 5G/6G Streaming Quality Leap
+  label_ko: 초고속 네트워크로 인한 화질 혁신
+  description: 5G 상용화 확대와 6G 연구 개발 진전으로 고화질 스트리밍 접근성이 극대화되어, 프리미엄 요금제 전환율이 높아짐.
+  category: technology
+  effects:
+    mode: uniform
+    uniform_cash_delta: 0.02
+  probability: 0.16
+  eligible_turns:
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: network_quality
+- id: evt_10
+  name: Celebrity Scandal Impact
+  label_ko: 주요 배우 스캔들로 인한 콘텐츠 가치 하락
+  description: 각사 주요 오리지널 시리즈의 주연 배우가 성범죄 혐의 등으로 체포되면서 해당 작품들의 방영이 취소되고 마케팅 비용이 낭비됨.
+  category: black_swan
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.04
+      side_c:
+        cash_delta: -0.03
+  probability: 0.11
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: scandal_impact
+- id: evt_11
+  name: E-commerce Integration Synergy Boost
+  label_ko: 이커머스 연동 시너지 효과 극대화
+  description: 소비자들이 OTT 시청과 쇼핑을 동시에 즐기는 '쇼피핑' 트렌드가 확산되며, 이커머스 연계 OTT 서비스의 사용자 유지율이
+    크게 상승함.
+  category: demand_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: 0.04
+      side_b:
+        cash_delta: 0.01
+      side_c:
+        cash_delta: 0.02
+  probability: 0.13
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: ecommerce_synergy
+- id: evt_12
+  name: Global Streaming Platform Consolidation
+  label_ko: 글로벌 OTT 플랫폼 통합 가속화
+  description: 해외 대형 OTT 기업들이 인수합병을 통해 시장 지배력을 강화하며, 한국 시장 진입 장벽이 더욱 높아지고 경쟁이 격화됨.
+  category: geopolitical
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.01
+      side_c:
+        cash_delta: -0.04
+  probability: 0.17
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: market_consolidation
+competitor_strategies:
+  side_b: 강동한 CEO의 글로벌 ARPU 회복 mandate 에 따라, 오징어게임 시즌 3 의 글로벌 히트 효과를 극대화하여 프리미엄 구독층을
+    유지하면서 광고 기반 베이직 요금 인상을 단행하고, 한국 오리지널 투자 확대를 통해 가격 민감도 높은 사용자의 이탈을 방어해야 합니다.
+  side_c: 이덕재 CEO 의 보수적 Capex 관리와 CJ ENM/JTBC 자산 활용 경향을 반영하여, KBO 야구 시즌의 트래픽 급증과 네이버
+    플러스 통합 마케팅을 결합해 지역 밀착형 콘텐츠 모형을 강화하고, 고가 정책으로 인한 시장 공백을 틈타 저가 세그먼트에서의 점유율 선점을 도모해야
+    합니다.

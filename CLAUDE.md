@@ -15,12 +15,14 @@ redcell 은 `(전략, 환경) → multi-turn 시뮬레이션 → 양측 반응 t
 
 `rulebook` / `event_deck` (12-18 이벤트) / `competitor_strategies` 를 백지에서 손으로 쓰는 건 비효율. 표준 흐름:
 
-1. **첫 실행** — scenario.yaml 의 override 키들을 비워두고 `redcell run` 실행. LLM 이 산업별로 모두 자동 생성.
-2. **결과 확인** — `<cache_dir>/generated_overrides.yaml` 에 현재 사용 중인 rulebook + event_deck + competitor_strategies 가 한 파일에 사람이 읽을 수 있는 YAML 로 dump 됨. 헤더에 각 블록이 *user-supplied* 인지 *auto-generated* 인지 표시.
-3. **검토 / 편집** — 그 파일을 열어 LLM 이 산업 특성을 잘못 잡은 부분 (확률, side_effects 비대칭, 누락 이벤트) 수정.
-4. **paste-back** — 편집한 블록 (예: `event_deck:` 전체) 을 scenario.yaml 의 top-level 로 복사. 다음 실행부터 override 활성화 → 그 부분 LLM 호출 0회.
+1. **첫 실행** — `scenario.yaml` 의 override 키들을 비워두고 `redcell run config.yaml` 실행. LLM 이 산업별로 모두 자동 생성.
+2. **dump 자동 생성** — 같은 폴더에 **`scenario.overrides.yaml`** 가 만들어집니다 (scenario.yaml 의 sibling). 현재 사용 중인 rulebook + event_deck + competitor_strategies 가 한 파일에 사람이 읽을 수 있는 YAML 로 들어 있고, 헤더가 각 블록이 *user-supplied* 인지 *auto-generated* 인지 표시.
+3. **그 파일을 직접 편집** — `scenario.overrides.yaml` 의 내용을 열어 LLM 이 산업 특성을 잘못 잡은 부분 (확률, side_effects 비대칭, 누락 이벤트) 수정. paste-back 불필요.
+4. **다음 실행** — 엔진이 `scenario.overrides.yaml` 을 자동 로드해서 그 키들로 scenario 를 override. 편집한 부분은 LLM 호출 0회로 그대로 사용됨.
 
-> LLM 생성이 *실패* 하면 silent fallback 없이 즉시 `RuntimeError` 로 종료합니다. 에러 메시지가 "scenario.yaml 에 그 블록을 직접 채우라" 고 안내합니다 — 분석이 fallback 으로 조용히 망가지는 일은 없습니다.
+> `scenario.overrides.yaml` 와 `scenario.yaml` 둘 다 같은 키를 가지면 *overrides 파일이 이긴다*. scenario.yaml 은 시장 명단(`sides`)·페르소나 같은 *구조적* 정보 전용, overrides 파일은 *튜닝 가능한* rulebook/event_deck/competitor_strategies 전용 — 이렇게 역할을 분리하면 깔끔.
+>
+> LLM 생성이 *실패* 하면 silent fallback 없이 즉시 `RuntimeError` 로 종료합니다. 에러 메시지가 "scenario.overrides.yaml (또는 scenario.yaml top-level) 에 그 블록을 직접 채우라" 고 안내합니다 — 분석이 fallback 으로 조용히 망가지는 일은 없습니다.
 
 ### 1) `rulebook` — 액션 효과 범위 (가장 유용)
 
@@ -134,19 +136,21 @@ override 가 진짜 먹히는지 확인:
 
 ```bash
 redcell run config.yaml -o brief.md
-# 로그에서 다음 줄 확인:
+# 로그에서 다음 줄 확인 (scenario.overrides.yaml 자동 로드):
+#   [redcell] scenario.overrides.yaml applied: rulebook, event_deck, competitor_strategies
+#
+# scenario.yaml top-level 에 직접 박았을 때는:
 #   [  0.0%] Rulebook: using user override (scenario.rulebook)
-# 안 보이면 override 가 안 잡힌 것. scenario.yaml top-level 인지 확인.
 ```
 
-캐시는 `.redcell_cache_*/` 에 저장됩니다 — override 를 바꾸면 scenario hash 가 변해서 자동으로 새 캐시. 캐시를 강제로 비우려면 디렉토리 삭제.
+LLM 응답 캐시는 `.redcell_cache_*/` 에 저장됩니다 (사용자가 손댈 필요 없음). scenario.yaml 또는 scenario.overrides.yaml 을 바꾸면 scenario hash 가 변해서 자동으로 새 캐시 — 캐시를 직접 비울 필요 없음.
 
 ## Module map — 어디를 만질지
 
 | 파일 | 무엇이 들어있나 | 자주 손대는가 |
 |---|---|---|
 | `redcell/sim/simulation_setup.py` | 캐시 / LLM 생성 / **user override** 분기 | override hook 확장 시 |
-| `redcell/sim/rulebook.py` | rulebook + event_deck LLM 생성 + fallback | 스키마 reference |
+| `redcell/sim/rulebook.py` | rulebook + event_deck LLM 생성 (실패 시 fail-fast) | 스키마 reference |
 | `redcell/sim/strategic_setup.py` | competitor_strategies LLM 생성 | 경쟁사 추론 로직 |
 | `redcell/sim/deliberation_v2.py` | C-suite 3-phase 토론, reassess | 토론 프롬프트 수정 |
 | `redcell/sim/event_tree.py` | per-turn 진행 + per-side reassess 호출부 | 턴 흐름 수정 |

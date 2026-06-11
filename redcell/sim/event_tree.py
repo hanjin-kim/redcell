@@ -1059,6 +1059,7 @@ def run_event_tree_simulation(
     branch_budget: int = 2,
     callback=None,
     cache_dir=None,
+    scenario_dir=None,
     regenerate: bool = False,
 ) -> TreeResult:
     """Event-branch tree simulation: M Monte Carlo trees per campaign.
@@ -1079,7 +1080,8 @@ def run_event_tree_simulation(
 
     ctx = build_simulation_context(
         scenario, strategy, our_side, llm, max_depth_or_turns=max_turns,
-        cache_dir=cache_dir, regenerate=regenerate, callback=callback,
+        cache_dir=cache_dir, scenario_dir=scenario_dir,
+        regenerate=regenerate, callback=callback,
     )
     our_side = ctx.our_side
 

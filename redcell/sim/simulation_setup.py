@@ -41,6 +41,7 @@ class SimulationContext:
     our_side: str
     strategy: str
     cache_dir: Path
+    scenario_dir: Path | None
     scenario_hash: str
     paths_hash: str
 
@@ -52,6 +53,7 @@ def build_simulation_context(
     llm: Any,
     max_depth_or_turns: int,
     cache_dir: Path | None = None,
+    scenario_dir: Path | None = None,
     regenerate: bool = False,
     callback=None,
 ) -> SimulationContext:
@@ -157,6 +159,7 @@ def build_simulation_context(
         our_side=our_side,
         strategy=strategy,
         cache_dir=_cache_dir,
+        scenario_dir=Path(scenario_dir) if scenario_dir else None,
         scenario_hash=_s_hash,
         paths_hash=_p_hash,
     )
@@ -256,18 +259,25 @@ def _write_generated_overrides_yaml(
     competitor_strategies: dict[str, str],
 ) -> None:
     """Dump the resolved rulebook + event_deck + competitor_strategies
-    to ``<cache_dir>/generated_overrides.yaml`` for user inspection.
+    to ``<scenario_dir>/scenario.overrides.yaml`` (or cache_dir as a
+    legacy fallback when scenario_dir isn't set, e.g. from old test paths).
 
     The dump always reflects what the engine is currently using, regardless
-    of whether each piece came from a user override, the cache, or fresh
-    LLM generation. A header comment labels the source of each block so
-    users know which were auto-generated and would change next run.
+    of whether each piece came from the override file, the cache, or
+    fresh LLM generation. Pipeline auto-loads this same file at the start
+    of the next run, so user edits flow back as overrides without any
+    copy-paste.
     """
     import yaml as _yaml
 
-    cache_dir = Path(ctx.cache_dir)
-    cache_dir.mkdir(parents=True, exist_ok=True)
-    path = cache_dir / "generated_overrides.yaml"
+    if ctx.scenario_dir is not None:
+        out_dir = Path(ctx.scenario_dir)
+        filename = "scenario.overrides.yaml"
+    else:
+        out_dir = Path(ctx.cache_dir)
+        filename = "generated_overrides.yaml"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / filename
 
     sources = {
         "rulebook": "user-supplied" if scenario.get("rulebook") else "auto-generated",
@@ -279,11 +289,11 @@ def _write_generated_overrides_yaml(
     header = (
         "# redcell — current effective rulebook / event_deck / competitor_strategies.\n"
         "#\n"
-        "# Paste any block at the top level of scenario.yaml to pin it and\n"
-        "# skip LLM regeneration on subsequent runs (see CLAUDE.md →\n"
-        "# Override hooks). Edit freely — your version wins.\n"
+        "# This file sits next to scenario.yaml and is auto-loaded by\n"
+        "# redcell at the start of every run (its keys override scenario.yaml).\n"
+        "# Edit freely — your edits flow into the next run automatically.\n"
         "#\n"
-        f"# Sources:\n"
+        "# Sources reflect what each block was for THIS run:\n"
         f"#   rulebook:              {sources['rulebook']}\n"
         f"#   event_deck:            {sources['event_deck']}\n"
         f"#   competitor_strategies: {sources['competitor_strategies']}\n"

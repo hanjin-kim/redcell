@@ -40,6 +40,7 @@ def run_linear_scenario(
     max_turns: int = 5,
     n_runs: int = 1,
     cache_dir: str | Path = ".redcell_cache",
+    scenario_dir: str | Path | None = None,
     callback=None,
 ) -> list[dict]:
     """Run ONE linear simulation (no branching) and return our side's
@@ -74,6 +75,7 @@ def run_linear_scenario(
         branch_budget=0,  # LINEAR — no tree, no counterfactual
         callback=callback,
         cache_dir=Path(cache_dir),
+        scenario_dir=Path(scenario_dir) if scenario_dir else None,
         regenerate=False,
     )
     leaves = result.leaves

@@ -97,7 +97,8 @@ class RunConfig(BaseModel):
 
     @classmethod
     def from_yaml(cls, path: str | Path) -> "RunConfig":
-        data = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
+        config_path = Path(path).resolve()
+        data = yaml.safe_load(config_path.read_text(encoding="utf-8"))
         # Tolerate legacy configs that still have any of these — drop them
         # silently. industry/our_company/competitors → scenario YAML wins.
         # worried_risk / n_scenarios → v0.3 dropped LLM scenario generation;
@@ -105,6 +106,15 @@ class RunConfig(BaseModel):
         for k in ("industry", "our_company", "competitors",
                   "worried_risk", "n_scenarios"):
             data.pop(k, None)
+        # Resolve scenario_path relative to the config.yaml's directory so
+        # each example folder is self-contained (its config refers to a
+        # sibling scenario.yaml, not a top-level scenarios/ dir).
+        raw = data.get("scenario_path")
+        if raw:
+            scn = Path(raw)
+            if not scn.is_absolute():
+                scn = (config_path.parent / scn).resolve()
+            data["scenario_path"] = str(scn)
         return cls(**data)
 
 

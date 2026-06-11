@@ -1,0 +1,435 @@
+# redcell — current effective rulebook / event_deck / competitor_strategies.
+#
+# This file sits next to scenario.yaml and is auto-loaded by
+# redcell at the start of every run (its keys override scenario.yaml).
+# Edit freely — your edits flow into the next run automatically.
+#
+# Sources reflect what each block was for THIS run:
+#   rulebook:              auto-generated
+#   event_deck:            auto-generated
+#   competitor_strategies: auto-generated
+
+rulebook:
+  industry: semiconductor_memory_hbm
+  revenue_coefficient: 0.04
+  rules:
+  - action_type: Aggressive Price Cut
+    label_ko: 공격적 가격 인하
+    description: 가격 민감 고객 확보를 위한 단기간 마진 희생 전략
+    share_delta_range:
+    - 2
+    - 5
+    cash_cost_range:
+    - -0.06
+    - -0.03
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: CoWoS Allocation Push
+    label_ko: 패키징 할당 확보
+    description: TSMC CoWoS 등 핵심 패키징 용량 선점 경쟁
+    share_delta_range:
+    - 3
+    - 7
+    cash_cost_range:
+    - -0.04
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Commodity Diversification
+    label_ko: 일반 DRAM 다변화
+    description: HBM 의존도 완화를 위한 일반 메모리 시장 공략
+    share_delta_range:
+    - 1
+    - 3
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Regulatory Subsidy Hunt
+    label_ko: 정부 보조금 수혜
+    description: CHIPS Act 등 지역별 보조금 및 세제 혜택 적극 활용
+    share_delta_range:
+    - 1
+    - 4
+    cash_cost_range:
+    - -0.01
+    - 0
+    delay_turns: 0
+    available_to:
+    - all
+  - action_type: Next-Gen R&D Bet
+    label_ko: 차세대 기술 도박
+    description: HBM4 등 차세대 표준 선점을 위한 대규모 R&D 베팅
+    share_delta_range:
+    - -5
+    - 20
+    cash_cost_range:
+    - -0.15
+    - -0.08
+    delay_turns: 2
+    available_to:
+    - all
+  - action_type: SK Hynix Yield Optimization
+    label_ko: 수율 극대화 운영
+    description: 이천 M16 라인 가동률 95% 이상 유지를 통한 공급 안정성 강화
+    share_delta_range:
+    - 2
+    - 4
+    cash_cost_range:
+    - -0.03
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: SK Hynix Capacity Ramp
+    label_ko: 청주 M15X 증설
+    description: 청주 M15X 라인 추가 가동으로 HBM3E/4 생산 능력 대폭 확장
+    share_delta_range:
+    - 5
+    - 12
+    cash_cost_range:
+    - -0.12
+    - -0.07
+    delay_turns: 1
+    available_to:
+    - side_a
+  - action_type: SK Hynix NVIDIA Lock-in
+    label_ko: NVIDIA 우선 공급
+    description: Blackwell Ultra 시점 NVIDIA 전용 공급 계약 고도화
+    share_delta_range:
+    - 8
+    - 15
+    cash_cost_range:
+    - -0.05
+    - -0.03
+    delay_turns: 0
+    available_to:
+    - side_a
+  - action_type: Samsung Foundry Integration
+    label_ko: 파운드리 통합 마케팅
+    description: AI 가속기 전반의 파운드리+메모리 통합 솔루션 제안
+    share_delta_range:
+    - 3
+    - 6
+    cash_cost_range:
+    - -0.04
+    - -0.02
+    delay_turns: 0
+    available_to:
+    - side_b
+  - action_type: Samsung HBM Leapfrog
+    label_ko: HBM4 기술 도약
+    description: 지연된 qualification 추적을 위해 HBM4 개발에 전사 자원 집중
+    share_delta_range:
+    - -3
+    - 10
+    cash_cost_range:
+    - -0.1
+    - -0.05
+    delay_turns: 1
+    available_to:
+    - side_b
+  - action_type: Samsung Custom HBM Pitch
+    label_ko: 맞춤형 HBM 제안
+    description: 대규모 자본력을 바탕으로 한 고객 맞춤형 HBM 사업 추진
+    share_delta_range:
+    - 4
+    - 9
+    cash_cost_range:
+    - -0.06
+    - -0.03
+    delay_turns: 0
+    available_to:
+    - side_b
+  - action_type: Micron Tech Credibility
+    label_ko: 기술 신뢰도 회복
+    description: NVIDIA 자격 인증 통과 후 기술력 재평가 및 브랜드 이미지 개선
+    share_delta_range:
+    - 3
+    - 6
+    cash_cost_range:
+    - -0.03
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_c
+  - action_type: Micron US Fab Expansion
+    label_ko: 미국 공장 증설
+    description: Idaho/Boise 및 일본 히로시마 신규 fab 투자로 생산 기반 확대
+    share_delta_range:
+    - 2
+    - 5
+    cash_cost_range:
+    - -0.08
+    - -0.04
+    delay_turns: 1
+    available_to:
+    - side_c
+  - action_type: Micron Supply Chain Hedge
+    label_ko: 공급망 리스크 헤지
+    description: CoWoS 할당 후순위 대응을 위한 대체 패키징 파트너십 구축
+    share_delta_range:
+    - 1
+    - 3
+    cash_cost_range:
+    - -0.02
+    - -0.01
+    delay_turns: 0
+    available_to:
+    - side_c
+  market_characteristics:
+    switching_cost: high
+    winner_take_all_tendency: medium
+    regulation_impact: high
+    innovation_cycle: fast
+  intensity_jitter: 0.15
+event_deck:
+- id: evt_01
+  name: US CHIPS Act Subsidy Expansion
+  label_ko: 미국 칩스법 보조금 확대
+  description: 미국 정부가 HBM 생산 시설에 대한 추가 보조금을 발표하여 미국 내 fab 투자 비용 대폭 경감.
+  category: regulatory
+  effects:
+    mode: per_side
+    side_effects:
+      side_c:
+        cash_delta: 0.06
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.01
+  probability: 0.18
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  max_occurrences: 1
+  mutex_group: subsidy_policy
+- id: evt_02
+  name: NVIDIA Supply Chain Diversification Mandate
+  label_ko: 엔비디아 공급망 다변화 강제
+  description: NVIDIA가 단일 공급사 의존도 해소를 위해 SK Hynix의 할당량을 20% 강제로 축소하고 Samsung/Micron으로
+    재배분 지시.
+  category: demand_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.05
+      side_b:
+        cash_delta: 0.03
+      side_c:
+        cash_delta: 0.03
+  probability: 0.22
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: nvidia_allocation
+- id: evt_03
+  name: TSMC CoWoS Packaging Bottleneck
+  label_ko: TSMC CoWoS 패키징 병목 현상
+  description: CoWoS 패키징 용량 부족으로 인해 HBM 출하량이 전 세계적으로 15% 제한되며, 후순위 공급사(Micron)는 더
+    큰 타격.
+  category: supply_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.03
+      side_b:
+        cash_delta: -0.04
+      side_c:
+        cash_delta: -0.06
+  probability: 0.2
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: packaging_capacity
+- id: evt_04
+  name: HBM4 Standard Finalization Delay
+  label_ko: HBM4 표준화 지연
+  description: JEDEC에서 HBM4 인터페이스 표준이 1년 이상 지연되면서 R&D 투자 효율성이 급락하고 선두 주자 우위가 약화됨.
+  category: technology
+  effects:
+    mode: uniform
+    uniform_cash_delta: -0.04
+  probability: 0.15
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: standard_delay
+- id: evt_05
+  name: Japan-Korea Semiconductor Export Restrictions
+  label_ko: 한일 반도체 수출 규제 갈등
+  description: 일본이 한국산 고순도 불소화합물 등 핵심 소재 수출을 추가로 제한하여 SK Hynix 및 삼성의 생산 라인 가동률 저하.
+  category: geopolitical
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.05
+      side_b:
+        cash_delta: -0.04
+      side_c:
+        cash_delta: 0.01
+  probability: 0.12
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  max_occurrences: 1
+  mutex_group: trade_tension
+- id: evt_06
+  name: AI Data Center Capex Correction
+  label_ko: AI 데이터센터 자본지출 조정
+  description: 글로벌 AI 인프라 투자가 예상보다 둔화되며 HBM 수요 성장이 일시적으로 정체되는 시장 조정 발생.
+  category: demand_shock
+  effects:
+    mode: uniform
+    uniform_cash_delta: -0.03
+  probability: 0.18
+  eligible_turns:
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: demand_cycle
+- id: evt_07
+  name: Samsung Foundry Yield Crisis
+  label_ko: 삼성 파운드리 수율 위기
+  description: 삼성 전자 DS 부문의 파운드리 수율이 급락하여 전체 DS 부문 수익성이 악화되고 HBM 투자 여력이 감소.
+  category: black_swan
+  effects:
+    mode: per_side
+    side_effects:
+      side_b:
+        cash_delta: -0.06
+      side_a:
+        cash_delta: 0.02
+      side_c:
+        cash_delta: 0.01
+  probability: 0.1
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: internal_crisis
+- id: evt_08
+  name: Micron Japan Fab Completion Acceleration
+  label_ko: 마이크론 일본 공장 조기 완공
+  description: 미국 정부의 지원과 현지 협력 강화로 마이크론의 히로시마 공장이 계획보다 6개월 앞당겨져 HBM3E 양산 능력 확보.
+  category: technology
+  effects:
+    mode: per_side
+    side_effects:
+      side_c:
+        cash_delta: 0.04
+      side_a:
+        cash_delta: -0.02
+      side_b:
+        cash_delta: -0.02
+  probability: 0.14
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: capacity_ramp
+- id: evt_09
+  name: Global DRAM Commodity Price Crash
+  label_ko: DRAM 일반 가격 폭락
+  description: PC/서버 수요 부진으로 일반 DRAM 가격이 급락하여 SK Hynix와 삼성의 현금 흐름에 직접적인 타격.
+  category: market
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.05
+      side_b:
+        cash_delta: -0.04
+      side_c:
+        cash_delta: -0.02
+  probability: 0.16
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: commodity_price
+- id: evt_10
+  name: SK Hynix M15X Cleanroom Contamination
+  label_ko: SK 하이닉스 청주 M15X 클린룸 오염
+  description: 청주 M15X 라인 가동 중 미세 입자 오염으로 인한 생산 중단 및 재가동 지연 발생.
+  category: supply_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: -0.06
+      side_b:
+        cash_delta: 0.01
+      side_c:
+        cash_delta: 0.01
+  probability: 0.09
+  eligible_turns:
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: production_disruption
+- id: evt_11
+  name: EU Digital Sovereignty Chip Initiative
+  label_ko: EU 디지털 주권 칩 이니셔티브
+  description: 유럽 연합이 자체 HBM 생태계 조성을 위한 대규모 보조금과 규제 우대를 발표하여 글로벌 경쟁 구도 변화.
+  category: regulatory
+  effects:
+    mode: uniform
+    uniform_cash_delta: -0.02
+  probability: 0.11
+  eligible_turns:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: global_regulation
+- id: evt_12
+  name: NVIDIA Blackwell Ultra Demand Surge
+  label_ko: 엔비디아 블랙웰 울트라 수요 폭발
+  description: 차세대 AI 칩 'Blackwell Ultra'의 출시 일정 앞당겨짐에 따라 HBM3E 12-Hi 수요가 예측을 초과하여
+    급증.
+  category: demand_shock
+  effects:
+    mode: per_side
+    side_effects:
+      side_a:
+        cash_delta: 0.05
+      side_b:
+        cash_delta: 0.03
+      side_c:
+        cash_delta: 0.04
+  probability: 0.19
+  eligible_turns:
+  - 4
+  - 5
+  max_occurrences: 1
+  mutex_group: demand_cycle
+competitor_strategies:
+  side_b: 전영현 CEO의 시장 점유율 회복 의지를 반영, SK 하이닉스의 기술 격차를 우회하기 위해 NVIDIA의 재검증 기회를 활용해 HBM3E
+    12-Hi 양산 신뢰도를 선제적으로 입증하고, K-Chips 세액공제 혜택을 극대화하여 CoWoS-L 패키징 용량 확보에 집중함으로써 2026년
+    H2 공급망 다변화 수요를 선점할 것.
+  side_c: Sanjay Mehrotra CEO의 안정적인 설비 확장 성향을 바탕으로, 15%라는 소수 지위를 극복하기 위해 대량 생산 효율성이
+    검증된 HBM3E 12-Hi 라인업의 가동률을 극한으로 높여 가격 경쟁력을 강화하고, CHIPS Act 보조금과 TSMC CoWoS-L 확대
+    계획을 연계하여 AMD 및 클라우드 업체와의 직접 계약을 통해 틈새 시장을 공략할 것.
