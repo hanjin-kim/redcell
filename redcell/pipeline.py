@@ -125,6 +125,65 @@ def run(config: RunConfig, *, cache_dir: str = ".redcell_cache",
     }
 
 
+def init_scenario(
+    config: RunConfig,
+    *,
+    cache_dir: str = ".redcell_cache",
+    regenerate: bool = False,
+    log=print,
+) -> Path:
+    """Run ONLY the setup-phase LLM generation and write
+    ``scenario.overrides.yaml`` next to ``scenario.yaml``.
+
+    Lets users prepare / edit the override file *before* committing to a
+    full multi-turn run. A normal ``redcell run`` would do this same
+    setup but then also burn ~200 LLM calls on deliberation + adjudication
+    that the user isn't ready for yet.
+
+    Returns the path to the written ``scenario.overrides.yaml``.
+    """
+    llm = make_llm(load_llm_settings())
+    scenario_path = Path(config.scenario_path)
+    scenario, scenario_dir = _load_scenario_with_overrides(scenario_path, log=log)
+
+    from .sim.simulation_setup import (
+        build_simulation_context,
+        load_or_generate_run_inputs,
+    )
+
+    log("[redcell] setup-only run (no turn simulation)...")
+    t0 = time.time()
+    # strategy is stored on ctx but no setup-stage LLM call reads it,
+    # so a placeholder is fine. our_side defaults to side_a (the
+    # roster convention used by every example scenario).
+    ctx = build_simulation_context(
+        scenario=scenario,
+        strategy="(setup-only — strategy unused at this stage)",
+        our_side="side_a",
+        llm=llm,
+        max_depth_or_turns=config.max_turns,
+        cache_dir=Path(cache_dir),
+        scenario_dir=scenario_dir,
+        regenerate=regenerate,
+        callback=lambda msg, pct=0.0: log(f"  [{pct:5.1%}] {msg[:80]}"),
+    )
+    event_deck, competitor_strategies = load_or_generate_run_inputs(
+        ctx, scenario, llm, regenerate=regenerate,
+    )
+    overrides_path = scenario_dir / "scenario.overrides.yaml"
+    log(f"[redcell] setup done in {time.time() - t0:.1f}s")
+    log(f"[redcell] scenario.overrides.yaml → {overrides_path}")
+    log(f"  rulebook:              {len(ctx.rulebook.get('rules', []))} rules")
+    log(f"  event_deck:            {len(event_deck)} events")
+    log(f"  competitor_strategies: {len(competitor_strategies)} sides")
+    log("")
+    log("Next steps:")
+    log(f"  1. Open {overrides_path.name} and edit any block "
+        "(probabilities, side_effects, rule deltas, …) for fidelity.")
+    log(f"  2. Run: redcell run {scenario_dir.name}/config.yaml -o brief.md")
+    return overrides_path
+
+
 def run_and_render(config: RunConfig, *, output: str,
                    cache_dir: str = ".redcell_cache", log=print) -> str:
     """Run the simulation and emit two files side-by-side:

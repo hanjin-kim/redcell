@@ -16,7 +16,7 @@ from pathlib import Path
 import typer
 
 from .config import RunConfig, load_llm_settings
-from .pipeline import run_and_render
+from .pipeline import init_scenario as _init_scenario_pipeline, run_and_render
 
 app = typer.Typer(
     help="redcell — adversarial strategy scenario generator.",
@@ -269,6 +269,68 @@ def run(
         run_and_render(cfg, output=output, cache_dir=cache_dir, log=log)
     except Exception as e:
         typer.secho(f"\n❌ Run failed: {type(e).__name__}: {e}",
+                    fg=typer.colors.RED, err=True)
+        raise typer.Exit(code=2)
+
+
+@app.command(name="init-scenario")
+def init_scenario_cmd(
+    config: str = typer.Argument(..., help="Path to run config YAML."),
+    cache_dir: str = typer.Option(".redcell_cache", "--cache-dir",
+                                  help="Simulation cache directory."),
+    regenerate: bool = typer.Option(
+        False, "--regenerate", "-r",
+        help="Force fresh LLM generation even if cached / overrides exist.",
+    ),
+    quiet: bool = typer.Option(False, "--quiet", "-q",
+                               help="Suppress progress output."),
+):
+    """LLM-generate scenario.overrides.yaml (rulebook + event_deck +
+    competitor_strategies) and exit — no turn simulation.
+
+    Use this BEFORE the first full ``redcell run`` so you can review and
+    edit the generated overrides without paying for ~200 deliberation +
+    adjudication calls on values you haven't validated yet.
+    """
+    cfg_path = Path(config)
+    if not cfg_path.exists():
+        typer.secho(f"❌ config not found: {config}",
+                    fg=typer.colors.RED, err=True)
+        typer.echo("Run `redcell init` to scaffold a starter config.")
+        raise typer.Exit(code=1)
+
+    try:
+        cfg = RunConfig.from_yaml(config)
+    except Exception as e:
+        typer.secho(f"❌ failed to parse config {config}:\n  {e}",
+                    fg=typer.colors.RED, err=True)
+        raise typer.Exit(code=1)
+
+    scn_path = Path(cfg.scenario_path)
+    if not scn_path.exists():
+        typer.secho(
+            f"❌ scenario_path not found: {cfg.scenario_path}",
+            fg=typer.colors.RED, err=True,
+        )
+        raise typer.Exit(code=1)
+
+    settings = load_llm_settings()
+    if not settings.api_key:
+        typer.secho(
+            "❌ No LLM API key. Set SF_QWEN_API_KEY (or OPENAI_API_KEY).\n"
+            "  Run `redcell doctor` to verify your setup.",
+            fg=typer.colors.RED, err=True,
+        )
+        raise typer.Exit(code=1)
+
+    log = (lambda *a, **k: None) if quiet else typer.echo
+
+    try:
+        _init_scenario_pipeline(
+            cfg, cache_dir=cache_dir, regenerate=regenerate, log=log,
+        )
+    except Exception as e:
+        typer.secho(f"\n❌ init-scenario failed: {type(e).__name__}: {e}",
                     fg=typer.colors.RED, err=True)
         raise typer.Exit(code=2)
 
