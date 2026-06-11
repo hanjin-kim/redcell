@@ -58,7 +58,15 @@ redcell init
 # 5. Pre-flight check (verifies creds + connectivity)
 redcell doctor
 
-# 6. Generate the brief
+# 6. (recommended) LLM-generate scenario.overrides.yaml only — rulebook / event_deck /
+#    competitor_strategies. Separates the cheap setup (~5 LLM calls) from the
+#    expensive full run so you can review and edit before committing.
+redcell init-scenario redcell_config.yaml
+
+# 7. (optional) Open scenario.overrides.yaml and tighten probabilities,
+#    side_effects, rules, etc. against your own data.
+
+# 8. Generate the brief (full 5-turn sim; auto-loads scenario.overrides.yaml)
 redcell run redcell_config.yaml -o brief.md
 ```
 
@@ -68,7 +76,8 @@ redcell run redcell_config.yaml -o brief.md
 |---|---|
 | `redcell init [-o config.yaml]` | Scaffold a starter config + scenario stub |
 | `redcell doctor` | Pre-flight: LLM creds, provider detection, ping, optional deps |
-| `redcell run <config.yaml> -o brief.md` | Generate the adversarial scenario brief |
+| `redcell init-scenario <config.yaml>` | LLM-fill `scenario.overrides.yaml` only and exit — review before paying for a full run (~5 calls) |
+| `redcell run <config.yaml> -o brief.md` | Generate the adversarial scenario brief (full 5-turn sim) |
 
 ## Supported LLM providers
 

@@ -11,14 +11,22 @@ redcell 은 `(전략, 환경) → multi-turn 시뮬레이션 → 양측 반응 t
 
 `scenario.yaml` 의 *top-level* 에 아래 키를 채우면 해당 단계 LLM 생성을 *건너뜁니다*. 일부만 채우는 부분 override 도 가능 — 채운 것은 사용자 데이터, 비운 것은 LLM 생성.
 
-### 권장 워크플로 — 처음부터 손으로 쓰지 말 것
+### 권장 워크플로 — 최소 scenario.yaml → LLM 으로 빈 곳 채우기
 
-`rulebook` / `event_deck` (12-18 이벤트) / `competitor_strategies` 를 백지에서 손으로 쓰는 건 비효율. 표준 흐름:
+`rulebook` / `event_deck` (12-18 이벤트) / `competitor_strategies` 를 백지에서 손으로 쓰는 건 비효율. 사용자가 *최소 baseline* 만 적으면 LLM 이 나머지를 채워줍니다.
 
-1. **첫 실행** — `scenario.yaml` 의 override 키들을 비워두고 `redcell run config.yaml` 실행. LLM 이 산업별로 모두 자동 생성.
-2. **dump 자동 생성** — 같은 폴더에 **`scenario.overrides.yaml`** 가 만들어집니다 (scenario.yaml 의 sibling). 현재 사용 중인 rulebook + event_deck + competitor_strategies 가 한 파일에 사람이 읽을 수 있는 YAML 로 들어 있고, 헤더가 각 블록이 *user-supplied* 인지 *auto-generated* 인지 표시.
-3. **그 파일을 직접 편집** — `scenario.overrides.yaml` 의 내용을 열어 LLM 이 산업 특성을 잘못 잡은 부분 (확률, side_effects 비대칭, 누락 이벤트) 수정. paste-back 불필요.
-4. **다음 실행** — 엔진이 `scenario.overrides.yaml` 을 자동 로드해서 그 키들로 scenario 를 override. 편집한 부분은 LLM 호출 0회로 그대로 사용됨.
+**최소 baseline (`scenario.yaml`)** — 다음 정보만 있으면 됩니다 (LLM 이 추론할 수 없는 *구조적* 사실들):
+
+- `industry` — 산업명 (rulebook/event_deck 톤 결정)
+- `sides[]` — 시장 명단: `id` (side_a/b/c), `company.name`, `structural_advantages`/`structural_disadvantages`, CEO `personality.aggression`/`risk_tolerance`/`leadership_constraints`
+- (옵션) 사용자가 이미 가진 `rulebook` 안의 일부 rule 만 — 나머지는 비워둬도 LLM 이 보충하지 않습니다(rulebook 키가 있으면 그대로 사용, 없으면 통째로 LLM 생성).
+
+**채우는 단계:**
+
+1. **`redcell init-scenario config.yaml`** — *설정 단계만* LLM 으로 돌립니다 (~5 calls, ~10-30s, 턴 시뮬레이션 안 함). 같은 폴더에 **`scenario.overrides.yaml`** 가 생성되며 헤더에 각 블록이 *user-supplied* 인지 *auto-generated* 인지 표시.
+2. **그 파일을 직접 편집** — LLM 이 산업 특성을 잘못 잡은 부분 (확률, side_effects 비대칭, 누락 이벤트, 비현실적인 cash_delta) 을 자기 데이터로 수정. paste-back 불필요.
+3. **`redcell run config.yaml -o brief.md`** — 본 시뮬레이션 (5턴 × 3측 × deliberation/adjudication, ~200 calls). 엔진이 `scenario.overrides.yaml` 을 자동 로드해서 편집한 그대로 사용 — 설정 단계 LLM 호출 0회.
+4. (선택) **`redcell init-scenario --regenerate`** — 산업 변경 등 큰 변동 후 *override 파일을 폐기하고 처음부터 재생성*. 기존 캐시도 무시.
 
 > `scenario.overrides.yaml` 와 `scenario.yaml` 둘 다 같은 키를 가지면 *overrides 파일이 이긴다*. scenario.yaml 은 시장 명단(`sides`)·페르소나 같은 *구조적* 정보 전용, overrides 파일은 *튜닝 가능한* rulebook/event_deck/competitor_strategies 전용 — 이렇게 역할을 분리하면 깔끔.
 >

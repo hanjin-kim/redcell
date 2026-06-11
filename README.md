@@ -57,7 +57,13 @@ redcell init
 # 5. Pre-flight check (creds + 연결성 점검)
 redcell doctor
 
-# 6. Brief 생성
+# 6. (권장) scenario.overrides.yaml LLM 생성 — rulebook / event_deck / competitor_strategies.
+#    full 시뮬레이션 전에 검토·편집할 수 있게 미리 분리해서 만듭니다 (~5 LLM call).
+redcell init-scenario redcell_config.yaml
+
+# 7. (선택) scenario.overrides.yaml 열어서 확률·side_effects 등 자기 데이터로 보정
+
+# 8. Brief 생성 (full 5턴 시뮬, scenario.overrides.yaml 자동 반영)
 redcell run redcell_config.yaml -o brief.md
 ```
 
@@ -67,7 +73,8 @@ redcell run redcell_config.yaml -o brief.md
 |---|---|
 | `redcell init [-o config.yaml]` | 시작 config + scenario stub scaffold |
 | `redcell doctor` | LLM 자격증명 / provider 자동 감지 / ping / optional dep 점검 |
-| `redcell run <config.yaml> -o brief.md` | Adversary scenario brief 생성 |
+| `redcell init-scenario <config.yaml>` | scenario.overrides.yaml 만 LLM 생성하고 종료 (full 시뮬 전 검토용, ~5 calls) |
+| `redcell run <config.yaml> -o brief.md` | Adversary scenario brief 생성 (full 5턴 시뮬) |
 
 ## 지원 LLM provider
 
