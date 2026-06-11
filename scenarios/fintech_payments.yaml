@@ -99,6 +99,10 @@ sides:
         personality:
           aggression: 0.80
           risk_tolerance: 0.75
+          leadership_constraints:
+            - "Founder mode — IPO valuation 방어를 위해 무리한 수익화 전략 강행 가능성 (가맹점·고객 push-back 무시)"
+            - "Super-app vision 자존심: 수수료 인하만으로는 부족하다며 자체 금융 상품(증권/보험) 확장 강행, 본업 결제 마진 회복은 후순위"
+            - "창업자 직속 의사결정 — CFO/리스크 부서의 견제가 약함, 자본 효율 검증 없이 신규 BU 출시"
         management_style: "founder-CEO, super-app 일관 vision, aggressive product 확장"
         ceo_profile: "치과의사 → 핀테크 창업, 10년 super-app 빌드 mission 명확"
         strategic_tendency: super_app_aggressive_expansion
@@ -137,6 +141,10 @@ sides:
         personality:
           aggression: 0.55
           risk_tolerance: 0.50
+          leadership_constraints:
+            - "카카오 그룹 사법리스크(김범수·sm엔터 사건) 여파로 board 보수화 — 공격적 마케팅·M&A 결재 지연"
+            - "그룹 정치 navigate 능력이 강점이지만 동시에 제약: 메신저 데이터 활용 결정은 그룹 PR/규제 합의 없이 단독 추진 어려움"
+            - "Toss 대비 출시 속도 열세를 인정 대신 'ARPU 점진 개선' narrative 로 대체 — 단기 점유율 방어 의지 약함"
         management_style: "그룹 ecosystem 동조, 보수적 capex, ARPU 점진 개선 추구"
         ceo_profile: "금융권 출신, 카카오 그룹 정치 navigate 능력 강함"
         strategic_tendency: ecosystem_steady_monetization
@@ -175,6 +183,10 @@ sides:
         personality:
           aggression: 0.55
           risk_tolerance: 0.50
+          leadership_constraints:
+            - "네이버 본사 검색/커머스 우선순위 — 결제 단독 차별화 투자는 그룹 KPI에서 후순위로 항상 밀림"
+            - "일본 LINE 통합 관성: 한국 fintech 단독 의사결정 권한이 약해 신상품 출시 결정이 본사 협의 단계에서 지연"
+            - "MZ세대 일상 결제 약세를 인정 대신 '쇼핑 lock-in' 논리로 우회 — 송금/투자 BU 강화 결정 회피"
         management_style: "쇼핑 ecosystem leverage 우선, 단독 super-app 무리하지 않음"
         ceo_profile: "네이버 출신, 커머스 + 페이 통합 모델 설계"
         strategic_tendency: ecosystem_lockin_steady

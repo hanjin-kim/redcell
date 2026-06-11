@@ -95,6 +95,10 @@ sides:
         personality:
           aggression: 0.70
           risk_tolerance: 0.65
+          leadership_constraints:
+            - "모회사 쿠팡 retail KPI 와 동조 — 멤버십 가격 인상은 retail 전체 churn risk 라며 사실상 동결"
+            - "MAU/가입자 수 narrative 가 손익보다 우선 — 단기 적자 감수하고 콘텐츠 라이선스 공격적 확장"
+            - "WOW 멤버십 통합 효과에 과신: OTT 독립 가치 평가를 회피하고 retail 시너지로만 정당화"
         management_style: "PMF 모델 우선, e-commerce ecosystem 통합 추진"
         ceo_profile: "쿠팡 출신, 스포츠 콘텐츠 + 멤버십 통합 모델 설계"
         strategic_tendency: ecosystem_bundling
@@ -133,6 +137,10 @@ sides:
         personality:
           aggression: 0.65
           risk_tolerance: 0.60
+          leadership_constraints:
+            - "글로벌 본사 가격 정책 추종 — 한국 시장 가격 민감 cohort 특수성을 본사 보고에서 약하게 전달"
+            - "한국 콘텐츠 1조 투자 narrative 유지 압박: 효율보다 절대 투자 규모로 정당화"
+            - "라이브 스포츠 부재라는 구조적 약점을 글로벌 hit 의존으로 대체 — 한국 KBO/EPL 권리 확보 결정 지연"
         management_style: "글로벌 본사 metrics 우선, 한국 시장 ARPU 회복 mandate"
         ceo_profile: "글로벌 미디어 executive, 한국 콘텐츠 sourcing 8년"
         strategic_tendency: arpu_growth_global_synergy
@@ -171,6 +179,10 @@ sides:
         personality:
           aggression: 0.55
           risk_tolerance: 0.50
+          leadership_constraints:
+            - "CJ ENM 모회사 정치: KBO 중계권 포기 결정은 임원진 정치 충돌 비용이 커서 채산성과 무관하게 사수"
+            - "Wavve 합병 매몰 비용 인식 거부 — 통합 단절 시 모회사 IR narrative 훼손"
+            - "글로벌 자산 부재라는 약점을 인정 대신 '한국 시장 stickiness' 논리로 대체 — 글로벌 진출 결정 지연"
         management_style: "CJ ENM/JTBC 콘텐츠 자산 활용, 보수적 capex 관리"
         ceo_profile: "방송계 출신, 한국 콘텐츠 sourcing 깊은 네트워크"
         strategic_tendency: content_moat_defense

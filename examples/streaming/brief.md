@@ -28,9 +28,9 @@
 
 | 측 | 초기 cash | T-final cash | Δ cash | T-final position |
 |---|---|---|---|---|
-| **Coupang Play** | 65.0% | 64.4% | -0.6pp | `dominant` |
-| Netflix Korea | 80.0% | 89.2% | +9.2pp | `dominant` |
-| Tving | 50.0% | 28.2% | -21.8pp | `weak` |
+| **Coupang Play** | 65.0% | 47.9% | -17.1pp | `dominant` |
+| Netflix Korea | 80.0% | 66.0% | -14.0pp | `dominant` |
+| Tving | 50.0% | 0.0% | -50.0pp | `weak` |
 
 ## 2. 턴별 전개
 
@@ -40,13 +40,13 @@
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **Coupang Play** | `Ecosystem Bundle Push`@0.80 | `strong` ↗ | 67.7% |
-| Netflix Korea | `Global Hit Investment`@0.80 | `dominant` ↑ | 78.0% |
-| Tving | `Live Sports Integration`@0.85 | `contested` ↘ | 42.3% |
+| **Coupang Play** | `Live Sports Exclusive`@0.85 | `strong` ↑ | 60.0% |
+| Netflix Korea | `Ad-Tier Optimization`@0.70 | `dominant` ↗ | 80.3% |
+| Tving | `KBO Season Spike`@0.85 | `contested` ↘ | 44.0% |
 
-**Adjudicator narrative:** 쿠팡플레이는 로켓 WOW 멤버십 연동을 통해 기존 OTT 시장의 전환 비용 구조를 재편하며 저비용으로 사용자 기반을 빠르게 확장했습니다.동시에, 넷플릭스는 풍부한 현금 여유와 글로벌 히트 콘텐츠를 무기로 가격 인상에도 불구하고 시장 지배력을 공고히 하며 전체 시장을 견인하는 지위를 유지했습니다. 반면 티빙은 KBO 리그 등 지역 특화 전략을 펼쳤으나, Wavve 합병으로 인한 자금 부담과 낮은 현금 보유량이 누적되어 경쟁 지속성에 심각한 불안요인이 발생했습니다. 이로 인해 쿠팡플레이와 넷플릭스의 양강 구도가 더욱 강화되는 반면, 티빙은 생존을 위협받는 contested 상태로 밀려나고 있습니다.
+**Adjudicator narrative:** Coupang Play 는 Rocket WOW 멤버십과의 결합을 통해 기존 이커머스 사용자 기반을 OTT 구독으로 전환시키며 시장 점유율을 빠르게 높이고 있습니다. 반면 Netflix Korea 는 글로벌 자본력을 바탕으로 고품질 콘텐츠를 지속적으로 투자하며 가격 민감 계층을 제외한 충성도 높은 사용자층을 유지하고 있습니다. Tving 은 KBO 시즌을 활용한 단기 트래픽 증가에 성공했으나, 낮은 현금 보유량과 계절성 의존도가 누적되어 장기적인 성장 동력이 약화되는 양상을 보이고 있습니다.
 
-**경쟁 상호작용 분석:** 쿠팡플레이의 이커머스 연계 모델은 기존 OTT 규제 프레임워크를 우회하며 시장 진입 장벽을 낮추는 반면, 넷플릭스의 강력한 자본력은 이러한 새로운 경쟁 구도에서도 시장 지배력을 유지하는 방어막 역할을 합니다. 티빙은 생방송 콘텐츠로 차별화를 꾀했으나, 합병 비용과 현금 부족이라는 구조적 약점으로 인해 쿠팡플레이의 확장 속도와 넷플릭스의 가격 경쟁력 앞에서 고전하고 있습니다.
+**경쟁 상호작용 분석:** Coupang Play 의 이커머스 결합 모델이 시장 진입 장벽을 높이는 반면, Netflix Korea 는 자본 우위로 이를 견제하며 시장을 주도하고 있습니다. Tving 은 특정 시즌의 트래픽 급증으로 일시적 점유율을 얻었으나, 지속적인 현금 소모와 계절성 의존도가 경쟁력을 약화시키는 요인으로 작용하고 있습니다.
 
 ### Turn 2  ([C-suite 토론 상세 →](brief_trace.md#turn-2))
 
@@ -54,55 +54,55 @@
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **Coupang Play** | `Global Hit Investment`@0.90 | `dominant` ↑ | 65.7% |
-| Netflix Korea | `Premium Original Production`@0.75 | `dominant` ↑ | 76.0% |
-| Tving | `CJ ENM Content Leverage`@0.85 | `weak` ↓ | 40.6% |
+| **Coupang Play** | `Rocket Wow Integration`@0.85 | `dominant` ↑ | 58.0% |
+| Netflix Korea | `Ad-Tier Optimization`@0.80 | `dominant` ↗ | 78.3% |
+| Tving | `Cultural IP Dominance`@0.80 | `contested` ↘ | 37.7% |
 
-**Adjudicator narrative:** T1에서 Coupang Play가 구축한 Rocket WOW 기반의 사용자 층은 이번 턴에 콘텐츠 투자 효과를 극대화하며 시장 지배력을 확립하는 계기가 되었습니다. 반면 Netflix Korea는 T1부터 유지해 온 높은 현금 흐름을 바탕으로 광고 계층 최적화를 병행하며 선두 위치를 더욱 공고히 했습니다. Tving은 T1의 Live Sports Integration 전략이 계절성 자산 의존도를 높이는 부작용을 낳아, 양대 강자의 동시 공격에 구조적 취약점이 노출되었습니다. 이로 인해 T1 이후 누적된 자본 효율성 격차가 이번 턴에 결정적인 승패를 가르는 요인으로 작용했습니다.
+**Adjudicator narrative:** Coupang Play 는 T1 에서 시작한 라이브 스포츠 독점 전략을 로켓와우 멤버십과 결합하며 시장 진입 장벽을 사실상 완성했습니다. Netflix Korea 는 T1 의 광고 tiers 최적화 성과를 바탕으로 현금 보유량을 활용해 점유율 방어와 성장을 동시에 추구하고 있습니다. 반면 Tving 은 T1 의 KBO 시즌 상승세를 일시적 반등으로만 활용했을 뿐, 와브 통합 비용과 자금 부족으로 인해 격차가 벌어지고 있습니다. 결과적으로 커머스 기반의 락인 효과와 글로벌 자본력의 차이가 시장 구조를 재편하며 Tving 은 생존을 위한 추가 자금이 절실한 상황입니다.
 
-**경쟁 상호작용 분석:** Coupang Play의 이커머스 결합 판매 전략과 Netflix Korea의 광고 인센티브 강화가 동시에 작용하며 시장 양극화를 가속화했습니다. Tving은 이러한 양대 강자의 공격적 자원 투입과 규제 리스크 관리 격차로 인해 상대적으로 고립된 위치로 밀려났습니다.
+**경쟁 상호작용 분석:** 로켓와우의 락인 효과로 인해 Tving은 순수 콘텐츠 경쟁사로서 마케팅 여력이 극도로 축소된 반면, Netflix 는 글로벌 인프라를 활용해 가격 변동성을 흡수하며 방어에 집중하고 있습니다. 이로 인해 시장 양극화가 심화되어 Tving 의 자본 효율성 저하가 규제 리스크와 맞물려 약세 국면으로 진입했습니다.
 
 ### Turn 3  ([C-suite 토론 상세 →](brief_trace.md#turn-3))
 
-**Events fired:** —
+**Events fired:** 제작비 인플레이션 급등, 구독 피로도 및 이탈 대량 발생
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **Coupang Play** | `Ecosystem Bundle Push`@0.80 | `dominant` ↗ | 71.4% |
-| Netflix Korea | `Premium Original Production`@0.80 | `dominant` → | 74.0% |
-| Tving | `Global Hit Investment`@0.80 | `contested` ↗ | 32.6% |
+| **Coupang Play** | `Rocket Wow Integration`@0.80 | `dominant` ↑ | 56.9% |
+| Netflix Korea | `Original Library Expansion`@0.85 | `dominant` ↗ | 68.3% |
+| Tving | `Wavve Integration Cost Cut`@0.80 | `weak` ↓ | 25.8% |
 
-**Adjudicator narrative:** Coupang Play 는 T1 의 생태계 번들 전략과 T2 의 글로벌 히트 투자를 바탕으로 Rocket WOW 와의 결합을 심화시켜 전환율과 락인을 가속화했습니다. Netflix Korea 는 T2 의 프리미엄 오리지널 생산과 광고 tiers 전환을 통해 가격 인상 충격을 흡수하며 현금 흐름을 안정화시켰으나, 국내 라이브 스포츠 부재는 Tving 이 점유하는 틈새시장을 방치했습니다. Tving 은 T1 의 라이브 스포츠 통합과 T2 의 CJ ENM 콘텐츠 활용으로 국소적 충성도를 회복하며 격차를 좁혔지만, 낮은 현금 보유량이 자본 적정성 우려를 해소하지 못해 구조적 취약성이 고착화되었습니다.
+**Adjudicator narrative:** Coupang Play 는 T1 의 라이브 스포츠 독점과 T2 의 Rocket Wow 통합을 통해 물류 및 데이터 인프라를 구독 유지의 핵심 자산으로 전환하며, 규제 리스크에도 불구하고 시장 지배력을 공고히 했습니다. Netflix Korea 는 T1 과 T2 의 Ad-Tier 최적화로 안정적인 현금 흐름을 확보한 뒤, 글로벌 인프라를 활용해 제작비 인플레이션을 관리하며 콘텐츠 경쟁력을 확장했습니다. 반면 Tving 은 T1 의 KBO 시즌과 T2 의 문화 IP 우위를 바탕으로 유입을 늘렸으나, Wavve 통합 후에도 현금 소진과 낮은 자본 효율성으로 인해 외부 자본 의존도가 높아지며 시장 주도권을 잃었습니다.
 
-**경쟁 상호작용 분석:** Coupang Play 의 이커머스 생태계 결합 전략은 사용자의 이탈을 원천 차단하며 Netflix 의 콘텐츠 우위를 상쇄하는 효과를 낳았습니다. 반면 Tving 은 라이브 스포츠와 자사 콘텐츠로 틈새시장을 공략했으나, 낮은 현금 비율이 글로벌 투자와 자본 효율성 측면에서 경쟁력을 제한했습니다.
+**경쟁 상호작용 분석:** Coupang Play 의 생태계 연동 전략과 Netflix 의 글로벌 인프라 활용이 시장 양극화를 심화시키며, Tving 은 자본 효율성 부족으로 인해 양측의 압력 사이에서 고립되었습니다. 특히 Coupang Play 의 Rocket Wow 통합이 규제 감시 대상이 되면서 시장 진입 장벽이 높아진 반면, Tving 은 내부 구조 조정 실패로 인해 이러한 장벽을 넘지 못했습니다.
 
 ### Turn 4  ([C-suite 토론 상세 →](brief_trace.md#turn-4))
 
-**Events fired:** OTT 과다 보조금 규제 강화, 넷플릭스 글로벌 히트작의 한국 내 폭발적 인기
+**Events fired:** OTT 콘텐츠 과세안 도입 논의, 글로벌 OTT 플랫폼 통합 가속화
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **Coupang Play** | `Global Hit Investment`@0.80 | `dominant` ↗ | 62.4% |
-| Netflix Korea | `Ad-Tier Optimization`@0.75 | `dominant` ↑ | 87.2% |
-| Tving | `CJ ENM Content Leverage`@0.90 | `weak` ↓ | 25.8% |
+| **Coupang Play** | `Rocket Wow Integration`@0.80 | `dominant` ↗ | 50.9% |
+| Netflix Korea | `Original Library Expansion`@0.80 | `dominant` ↗ | 62.6% |
+| Tving | `Premium Content Acquisition`@0.80 | `weak` ↓ | 7.8% |
 
-**Adjudicator narrative:** Coupang Play 는 T1 과 T3 의 생태계 번들 전략이 T4 에 MLB Korea 독점권 확보와 결합하며 규제 리스크를 상쇄하는 강력한 락인 효과를 만들어냈습니다. 반면 Netflix Korea 는 T2 와 T3 의 프리미엄 오리지널 투자와 글로벌 히트작 전략이 누적되어 현금 흐름과 마케팅 시너지를 극대화하며 점유율을 계속 끌어올리고 있습니다. Tving 은 T1 의 스포츠 통합과 T3 의 글로벌 히트 투자에도 불구하고 T2 의 합병 비용과 현금 고갈이 누적되어 콘텐츠 투자 주기를 감당하지 못해 급격히 약화되었습니다. 이로 인해 시장 양극화가 심화되며 Tving 은 생존을 위한 자금 조달 압박에 직면하게 되었습니다.
+**Adjudicator narrative:** T1부터 T3까지 지속된 제작비 인플레이션과 구독 피로도는 모든 플랫폼에 부정적 영향을 미쳤으나, Coupang Play는 T2와 T3의 로켓와우 통합을 통해 콘텐츠 단점을 상쇄하며 시장 선점 우위를 더욱 견고하게 다졌습니다. 반면 Netflix Korea는 T3의 오리지널 라이브러리 확장으로 글로벌 아카이브와 프리미엄 광고 인프라를 결합하여 가격 민감도를 관리하며 지배적 지위를 유지했습니다. Tving은 T1의 KBO 시즌과 T2의 문화적 IP 공세에도 불구하고 T3의 비용 절감 노력이 늦게 시작되어 현금 고갈 속도가 빨라졌고, 이로 인해 구조적 생존 위험이 극대화되었습니다.
 
-**경쟁 상호작용 분석:** Coupang Play 와 Netflix Korea 는 각각 생태계 락인과 글로벌 콘텐츠 우위를 통해 시장 양극화를 심화시키며, Tving 은 현금 부족과 규제 리스크로 인해 양쪽의 공세에 밀려 위축된 포지셔닝을 벗어나지 못하고 있습니다. 특히 Tving 의 현금 고갈은 이전 턴들의 투자 집중도가 누적된 결과로, 현재 콘텐츠 생산력 유지조차 어려운 상황으로 이어졌습니다.
+**경쟁 상호작용 분석:** Coupang Play와 Netflix Korea는 각각 로켓와우 통합과 글로벌 자본력을 바탕으로 규제 환경 변화에도 불구하고 시장 지배력을 강화하는 반면, Tving은 고비용 콘텐츠 확보 전략이 현금 고갈을 가속화하며 경쟁사들과의 격차가 벌어지고 있습니다. 특히 제작비 인플레이션과 구독 이탈이라는 공통된 외부 충격 앞에서 자본력과 생태계 결합도가 높은 두 강자는 방어선을 유지하는 반면, 자본이 약한 Tving은 구조적 악순환에 빠지게 되었습니다.
 
 ### Turn 5  ([C-suite 토론 상세 →](brief_trace.md#turn-5))
 
-**Events fired:** 초개인화 AI 추천 알고리즘 상용화
+**Events fired:** 한국 드라마 글로벌 바이럴 현상, 주요 IP 저작권 분쟁 발생
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **Coupang Play** | `Ecosystem Bundle Push`@0.80 | `dominant` ↗ | 64.4% |
-| Netflix Korea | `Global Investment Scaling`@0.80 | `dominant` ↑ | 89.2% |
-| Tving | `Ad-Tier Optimization`@0.85 | `weak` → | 28.2% |
+| **Coupang Play** | `Rocket Wow Integration`@0.90 | `dominant` ↑ | 47.9% |
+| Netflix Korea | `Ad-Tier Optimization`@0.80 | `dominant` ↗ | 66.0% |
+| Tving | `Wavve Integration Cost Cut`@0.80 | `weak` ↓ | 0.0% |
 
-**Adjudicator narrative:** 쿠팡플레이는 T2와 T4의 글로벌 히트 투자와 T3의 생태계 번들 전략이 누적되어 로켓와우 번들 효과를 극대화하며 시장 지배력을 강화했습니다. 넷플릭스는 T2와 T3의 프리미엄 오리지널 제작과 T4의 광고 tiers 최적화로 현금 흐름을 극대화, 규제 강화와 경쟁 심화 속에서도 리더십을 유지했습니다. 틱빙은 T2와 T4의 CJ ENM 콘텐츠 활용이 자본 부족으로 인해 공격적 성장으로 이어지지 못해, 쿠팡플레이의 포괄적 제휴 공격에 밀려 위축 추이를 멈추지 못했습니다. 결과적으로 자본과 기술 혜택를 가진 양강 구도에서 틱빙의 고립화 구조가 더욱 뚜렷해졌습니다.
+**Adjudicator narrative:** 쿠팡플레이는 T2부터 T4까지 지속된 로켓와우 통합과 MLB 독점 전략이 T5에 이르러 생태계 잠금 효과를 극대화하며 시장 지배력을 강화했습니다. 넷플릭스는 T2와 T3의 광고 tiers 최적화와 콘텐츠 확장으로 안정적인 현금 흐름을 유지하며 우위를 지키고 있으나, 쿠팡플레이의 성장세에 밀려 격차가 좁혀지고 있습니다. 티빙은 T3와 T4의 비용 절감 및 콘텐츠 확보 시도가 현금 소진 속도를 늦추지 못해 구조적 위기가 심화되어 생존 자체가 위협받는 상황입니다.
 
-**경쟁 상호작용 분석:** 쿠팡플레이의 로켓와우 번들과 스포츠 라이선스 확장이 틱빙의 내수 자산인 CJ ENM 콘텐츠와 KBO 중계권을 상대적으로 약화시키는 구조적 압력으로 작용했습니다. 반면 넷플릭스는 막대한 현금과 글로벌 히트작을 바탕으로 쿠팡플레이의 규제 리스크와 틱빙의 자본 부족이라는 시장 격차를 이용해 우위를 더욱 공고히 했습니다.
+**경쟁 상호작용 분석:** 쿠팡플레이의 생태계 통합과 넷플릭스의 수익성 개선 전략이 양강 체제를 형성하며 시장을 양분하고 있습니다. 반면 티빙의 현금 고갈은 콘텐츠 투자 위축으로 이어져 경쟁사들과의 격차가 더욱 벌어지고 있습니다.
 
 ## 3. 우리 측 현금 동인
 
@@ -110,8 +110,8 @@
 
 | Turn | Start | Action | Events | Position rev | End |
 |------|-------|--------|--------|--------------|-----|
-| T1 | 65.0% | -4.3pp | +0.0pp | +7.0pp | 67.7% |
-| T2 | 67.7% | -12.0pp | +0.0pp | +10.0pp | 65.7% |
-| T3 | 65.7% | -4.3pp | +0.0pp | +10.0pp | 71.4% |
-| T4 | 71.4% | -12.0pp | -7.0pp | +10.0pp | 62.4% |
-| T5 | 62.4% | -12.0pp | +4.0pp | +10.0pp | 64.4% |
+| T1 | 65.0% | -12.0pp | +0.0pp | +7.0pp | 60.0% |
+| T2 | 60.0% | -12.0pp | +0.0pp | +10.0pp | 58.0% |
+| T3 | 58.0% | -6.1pp | -5.0pp | +10.0pp | 56.9% |
+| T4 | 56.9% | -12.0pp | -4.0pp | +10.0pp | 50.9% |
+| T5 | 50.9% | -12.0pp | -1.0pp | +10.0pp | 47.9% |

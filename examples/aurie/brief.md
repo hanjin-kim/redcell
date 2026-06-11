@@ -24,81 +24,81 @@ Shiseido 채널 확장과 동시 진행.
 
 | 측 | 초기 cash | T-final cash | Δ cash | T-final position |
 |---|---|---|---|---|
-| **AURIE** | 55.0% | 19.8% | -35.2pp | `weak` |
-| Shiseido | 75.0% | 84.3% | +9.3pp | `dominant` |
-| Amore Pacific | 62.0% | 64.0% | +2.0pp | `strong` |
+| **AURIE** | 55.0% | 31.6% | -23.4pp | `weak` |
+| Shiseido | 75.0% | 93.1% | +18.1pp | `dominant` |
+| Amore Pacific | 62.0% | 64.9% | +2.9pp | `strong` |
 
 ## 2. 턴별 전개
 
-### Turn 1  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-1))
+### Turn 1  ([C-suite 토론 상세 →](brief_trace.md#turn-1))
 
 **Events fired:** —
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **AURIE** | `Clinical Data Push`@0.80 | `contested` ↘ | 48.0% |
-| Shiseido | `Aggressive Price Cut`@0.90 | `dominant` ↑ | 78.5% |
-| Amore Pacific | `Clinical Data Push`@0.75 | `strong` → | 64.8% |
+| **AURIE** | `Clinical Data Marketing`@0.90 | `contested` ↘ | 48.0% |
+| Shiseido | `Aggressive Price Cut`@0.80 | `dominant` ↑ | 76.6% |
+| Amore Pacific | `Sulwhasoo Premium Push`@0.70 | `strong` → | 62.7% |
 
-**Adjudicator narrative:** 시세이도는 풍부한 현금 자원을 활용하여 가격 인하 공세를 펼치며 중규모 브랜드인 AURIE의 수익성을 압박하고 시장 점유율을 잠식했습니다. AURIE는 규제 강화 흐름에 맞춰 임상 데이터 투자를 단행했으나, 이로 인한 현금 소모가 시세이도의 가격 공세로 인한 수익 감소분을 상쇄하지 못해 생존 리스크가 고조되었습니다. 아모레퍼시픽은 기존 브랜드 포트폴리오와 내부 시너지를 통해 안정적 입지를 유지했으나, 해외 시장 성장 정체와 규제 비용 증가로 인해 뚜렷한 성장 모멘텀을 확보하지는 못했습니다.
+**Adjudicator narrative:** AURIE는 일본 직영 매장 확장과 임상 마케팅을 동시에 진행하며 현금 소모를 집중시켰으나, 이는 단기 마진 압박을 구조화시키는 결과를 낳았습니다. Shiseido는 이러한 AURIE의 취약점을 포착해 풍부한 현금력을 바탕으로 가격 공세와 채널 확장을 병행하며 시장 주도권을 선점했습니다. Amore Pacific은 규제 리스크를 선제적으로 관리하며 프리미엄 포지셔닝을 방어했으나, 중국 시장의 정체로 인해 공격적인 성장 모멘텀을 확보하지는 못했습니다.
 
-**경쟁 상호작용 분석:** 시세이도의 공격적 가격 공세는 AURIE의 현금 소모를 가속화하여 R&D 투자 지속성을 위협하는 동시에, 아모레퍼시픽의 시너지 전략도 규제 비용 상승으로 인해 그 효과가 상쇄되는 구조를 형성했습니다. 이로 인해 AURIE는 규제 준수 모션을 취하면서도 시장 점유율 방어에 어려움을 겪고, 시세이도는 현금력을 앞세워 시장 구조를 재편하고 있습니다.
+**경쟁 상호작용 분석:** Shiseido의 공격적인 가격 공세는 AURIE의 과도한 Capex 투자로 인해 약해진 현금 유동성을 직접적으로 타격하여 시장 점유율 방어 능력을 약화시켰습니다. 반면 Amore Pacific은 규제 준수와 브랜드 방어 전략으로 외부 충격을 흡수하며 안정적인 위치를 유지하고 있습니다.
 
-### Turn 2  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-2))
+### Turn 2  ([C-suite 토론 상세 →](brief_trace.md#turn-2))
 
-**Events fired:** 중국 수입 규제 강화 및 자국 브랜드 우대, MZ 세대 미니멀리즘 트렌드 전환
+**Events fired:** 환율 변동성 급증
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **AURIE** | `Clinical Data Push`@0.80 | `contested` → | 41.4% |
-| Shiseido | `Bold R&D Bet`@0.80 | `dominant` ↑ | 74.5% |
-| Amore Pacific | `Aggressive Price Cut`@0.80 | `strong` ↘ | 63.0% |
+| **AURIE** | `Japan Market Entry Blitz`@0.90 | `weak` ↓ | 41.0% |
+| Shiseido | `Clinical Data Marketing`@0.80 | `dominant` ↑ | 72.6% |
+| Amore Pacific | `Sulwhasoo Premium Push`@0.75 | `strong` ↗ | 64.0% |
 
-**Adjudicator narrative:** T1에서 Shiseido가 가격 인하를 감행한 이후, T2에는 막대한 자본력을 바탕으로 규제 비용을 흡수하며 프리미엄 전략을 유지하는 데 성공했습니다. Amore Pacific은 T1의 가격 인하 전략을 이어받아 단기 점유율 방어에 나섰으나, 이로 인한 마진 압박과 브랜드 가치 하락 우려가 누적되어 상승세를 잃었습니다. AURIE는 T1 임상 데이터 추진의 효과가 규제 강화로 인해 진입 장벽으로 작용하기 시작했으나, T1부터 누적된 현금 고갈로 인해 시장 점유율 추락을 막지 못해 중립적 흐름을 유지하고 있습니다.
+**Adjudicator narrative:** AURIE는 T1부터 이어진 일본 직영 점포 확충 전략으로 인해 현금 소진이 가속화되어 시세이도의 가격 공세에 취약한 위치로 밀려났습니다. Shiseido는 T1에서 확보한 압도적인 현금 보유력을 바탕으로 가격 전술을 지속하며 시장 점유율을 방어하고 주도권을 더욱 공고히 했습니다. Amore Pacific은 핵심 프리미엄 브랜드 포트폴리오를 방어하며 외부 충격에 유연하게 대응해 기존 지위를 유지했습니다. 결과적으로 AURIE의 자원 고갈과 Shiseido의 자본 우위가 시장 지위 격차를 결정적으로 벌려놓았습니다.
 
-**경쟁 상호작용 분석:** Shiseido의 막대한 현금 보유력은 Amore Pacific의 가격 인하 공세를 무력화시키며 시장 주도권을 확고히 했습니다. 반면 AURIE는 규제 강화라는 외부 환경 변화로 인해 기술적 진입 장벽은 높았으나, 누적된 현금 부족으로 이를 성장 동력으로 전환하지 못해 정체 상태에 머물렀습니다.
+**경쟁 상호작용 분석:** Shiseido의 압도적인 현금 보유력은 AURIE의 공격적 Capex 전략을 상쇄하며 시장 지배력을 강화했습니다. 반면 Amore Pacific은 가격 조정 의무를 피하는 전략으로 거시적 충격에 탄력적으로 대응하며 중립적 위치를 고수했습니다.
 
-### Turn 3  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-3))
+### Turn 3  ([C-suite 토론 상세 →](brief_trace.md#turn-3))
 
 **Events fired:** —
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **AURIE** | `Aggressive Price Cut`@0.80 | `weak` ↓ | 36.8% |
-| Shiseido | `Mass-Premium Infiltration`@0.80 | `dominant` ↑ | 74.5% |
-| Amore Pacific | `Clinical Data Push`@0.75 | `strong` → | 64.2% |
+| **AURIE** | `Clinical Data Marketing`@0.80 | `weak` ↗ | 36.2% |
+| Shiseido | `Clinical Data Marketing`@0.80 | `dominant` ↗ | 80.3% |
+| Amore Pacific | `Sulwhasoo Premium Push`@0.85 | `strong` ↗ | 63.9% |
 
-**Adjudicator narrative:** AURIE는 T1과 T2 동안 임상 데이터에 집중하며 자산을 소진해 왔고, T3에 들어선 가격 공세로 인해 그 누적된 현금 부족이 치명적인 약점으로 드러났습니다. Shiseido는 T2의 R&D 투자 성과를 바탕으로 T3에 가격 경쟁력을 결합하여, AURIE의 자생적 성장 동력을 완전히 차단하는 데 성공했습니다. Amore Pacific은 T2의 가격 인하로 일시적인 마진 압박을 겪었으나, T3에 임상 데이터의 신뢰도를 앞세워 시장에서의 안정적 위치를 재확인했습니다.
+**Adjudicator narrative:** AURIE는 T1과 T2에 걸쳐 일본 시장 진입과 임상 데이터 마케팅을 병행하며 현금 소모를 감수했으나, T2의 환율 급변동으로 인해 현금 보유율이 41%로 하락하며 재무 압박이 가중되었습니다. Shiseido는 T1과 T2에 걸쳐 가격 인하와 임상 데이터 마케팅을 연속으로 실행하며 풍부한 현금(73%)을 바탕으로 환율 리스크를 방어하고 시장 지배력을 확장했습니다. Amore Pacific은 T1과 T2에 걸쳐 Sulwhasoo 프리미엄 전략을 유지하며 임상 데이터를 공유함으로써 Shiseido의 침공을 막아내고 강세 추세를 이어갔습니다.
 
-**경쟁 상호작용 분석:** Shiseido의 압도적인 현금 흐름을 바탕으로 한 T3의 가격 공세는 AURIE의 제한된 자원을 고갈시켜 시장 점유율 방어에 실패하게 만들었습니다. 반면 Amore Pacific은 임상 데이터라는 기술적 장벽을 유지하며 가격 전쟁의 직접적인 타격을 최소화하는 전략적 균형점을 찾았습니다.
+**경쟁 상호작용 분석:** 환율 변동성 급증이라는 공통의 외부 충격 속에서 Shiseido와 Amore Pacific은 각각 현금 풀과 프리미엄 포트폴리오를 활용해 선제적으로 대응하며 시장 주도권을 공고히 했습니다. 반면 AURIE는 자원을 절감하며 생존 기반을 다지려 했으나, Shiseido의 공격적인 가격 정책으로 인해 구조적 약세에서 벗어나지 못했습니다.
 
-### Turn 4  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-4))
+### Turn 4  ([C-suite 토론 상세 →](brief_trace.md#turn-4))
 
-**Events fired:** 글로벌 물류 병목 현상 심화
-
-| 측 | Action | Position | Cash |
-|---|---|---|---|
-| **AURIE** | `Clinical Data Push`@0.80 | `marginal` ↓ | 22.8% |
-| Shiseido | `Clinical Data Push`@0.80 | `dominant` ↑ | 78.3% |
-| Amore Pacific | `Olive Young Expansion`@0.70 | `strong` → | 64.5% |
-
-**Adjudicator narrative:** AURIE는 T1부터 T3까지 임상 데이터와 일본 직영 확장이라는 이중 투자를 감행하며 현금 소진을 가속화했고, T4의 규제 강화와 물류 병목 현상은 유동성 임계점을 돌파하여 시장 지위를 한 단계 하락시켰습니다. Shiseido는 풍부한 현금 보유량을 바탕으로 T2-T3의 R&D 및 가격 공세가 만든 우위를 T4의 외부 충격에서도 방어하며, 오히려 경쟁사의 약점을 이용해 유통망과 점유율을 더욱 공고히 했습니다. Amore Pacific은 다각화된 포트폴리오와 채널 전략으로 특정 국가의 무역 장벽 리스크를 분산시키며, T3의 임상 데이터 투자 효과를 유지한 채 안정적인 수익 구조를 고수했습니다. 결과적으로 AURIE의 구조적 취약점이 노출되는 동안 Shiseido는 시장 지배력을 강화하고 Amore Pacific은 균형 잡힌 성장을 이어갔습니다.
-
-**경쟁 상호작용 분석:** AURIE의 과도한 현금 소진과 Shiseido의 자본 우위가 맞물려 시장 격차가 극대화되었습니다. Shiseido는 AURIE의 유동성 위기를 기회로 삼아 오프라인 채널을 확장하는 반면, Amore Pacific은 리스크 분산 전략으로 중립적인 위치를 유지하며 양측의 공방을 견뎌냈습니다.
-
-### Turn 5  ([C-suite 토론 상세 →](aurie_brief_trace.md#turn-5))
-
-**Events fired:** —
+**Events fired:** 세파라 글로벌 프레스티지 채널 재편, J-뷰티 히스토리 부활 트렌드
 
 | 측 | Action | Position | Cash |
 |---|---|---|---|
-| **AURIE** | `D2C NPS Optimization`@0.80 | `weak` ↘ | 19.8% |
-| Shiseido | `Olive Young Expansion`@0.80 | `dominant` ↑ | 84.3% |
-| Amore Pacific | `Clinical Data Push`@0.80 | `strong` ↗ | 64.0% |
+| **AURIE** | `Cash Reserve Hedging`@0.80 | `weak` ↘ | 30.6% |
+| Shiseido | `Clinical Data Marketing`@0.85 | `dominant` ↑ | 93.1% |
+| Amore Pacific | `Whitening Tech Dominance`@0.90 | `strong` ↗ | 65.6% |
 
-**Adjudicator narrative:** AURIE 는 T1 에서 T4 에 걸쳐 임상 데이터 투자와 가격 인하를 반복하며 현금을 급격히 소진했고, 이로 인해 T5 에는 중국 규제 강화와 물류 병목 현상이라는 외부 충격에 완전히 무력화되었습니다. Shiseido 는 T2 의 R&D 베팅과 T4 의 임상 데이터 투자를 통해 규제 장벽을 우회하는 동시에, 풍부한 현금으로 시장 지배력을 확장하며 AURIE 의 추락을 가속화했습니다. Amore Pacific 은 T3 의 임상 데이터와 T4 의 올리브영 확장을 통해 프리미엄 이미지를 유지하며, 현금 소모가 심한 경쟁사들과의 격차에서 벗어나 안정적 성장을 이어갔습니다.
+**Adjudicator narrative:** AURIE는 T1부터 T3까지 임상 데이터 마케팅과 일본 시장 진출을 병행하며 자산을 축적하려 했으나, 환율 변동성이라는 외부 충격과 Shiseido의 T1-T3 연속 가격 공세로 인해 현금 소모가 누적되었습니다. 특히 T2와 T3에서 Shiseido가 강화한 임상 마케팅과 가격 전략은 AURIE의 방어적 자산 배분을 무력화시키며, T4 현재 AURIE는 공격적 성장 기회를 상실한 채 생존을 위한 비용 절감 모드로 고착되었습니다. 반면 Amore Pacific은 T1-T3 동안 일관되게 유지한 Sulwhasoo 프리미엄 전략과 임상 데이터 투자를 통해 Shiseido의 가격 공세에도 불구하고 프리미엄 시장에서의 입지를 더욱 견고히 했습니다. 결과적으로 Shiseido는 현금 파워와 헤리티지를 결합해 시장 지배력을 극대화한 반면, AURIE는 자금 부족과 채널 장벽으로 인해 시장 분열 구조에서 소외되는 결과를 맞이했습니다.
 
-**경쟁 상호작용 분석:** AURIE 의 현금 고갈은 중국 규제와 물류 병목이라는 외부 리스크를 감당하지 못하게 하여 시장에서의 생존을 위협하는 구조적 약점으로 작용했습니다. 반면 Shiseido 와 Amore Pacific 은 각각 자본력과 기술적 우위를 바탕으로 이러한 시장 환경에서 오히려 경쟁사들을 압도하며 지위를 강화했습니다.
+**경쟁 상호작용 분석:** Shiseido의 T1-T3 연속된 가격 공세와 임상 마케팅은 AURIE의 자원을 고갈시키며 시장 진입 장벽을 높이는 효과를 낳았습니다. 반면 Amore Pacific은 가격 경쟁에 휘말리지 않고 임상 데이터 기반의 프리미엄 전략을 유지하며 Shiseido의 공격을 우회하는 데 성공했습니다. 이로 인해 AURIE는 현금 부족과 채널 제약으로 인해 방어적 태세만 유지할 수밖에 없는 구조적 약세에 빠졌습니다.
+
+### Turn 5  ([C-suite 토론 상세 →](brief_trace.md#turn-5))
+
+**Events fired:** 글로벌 안티에이징 원료 수급 위기, 올리브영 해외 진출 가속
+
+| 측 | Action | Position | Cash |
+|---|---|---|---|
+| **AURIE** | `Cash Reserve Hedging`@0.90 | `weak` ↘ | 31.6% |
+| Shiseido | `Clinical Data Marketing`@0.85 | `dominant` ↑ | 93.1% |
+| Amore Pacific | `Clinical Data Marketing`@0.80 | `strong` ↗ | 64.9% |
+
+**Adjudicator narrative:** AURIE는 T2부터 T4까지 일본 시장 진출과 임상 마케팅에 집중하며 자산을 소진했으나, T4의 현금 방어 전략이 원자재 위기 속에서 오히려 시장 점유율 하락을 부추겼습니다. Shiseido는 T2-T4 동안 쌓아올린 막대한 현금과 임상 데이터를 바탕으로 가격 인하 카드를 통해 시장 충격까지 방어하며 지배적 지위를 확장했습니다. Amore Pacific은 T2-T4 동안 프리미엄 라인 판매와 whitening 기술 투자를 통해 마진을 보호했으나, 중국 시장의 침체가 신규 성장 동력을 제한하는 요인으로 작용했습니다.
+
+**경쟁 상호작용 분석:** Shiseido의 공격적인 가격 공세와 현금 기반 헤징 전략은 AURIE의 현금 고갈을 가속화하며 시장 격차를 벌렸습니다. 반면 Amore Pacific은 자체 임상 센터와 프리미엄 포트폴리오로 원가 상승 리스크를 분산시키며 Shiseido의 공세에도 불구하고 견고한 입지를 유지했습니다.
 
 ## 3. 우리 측 현금 동인
 
@@ -107,7 +107,7 @@ Shiseido 채널 확장과 동시 진행.
 | Turn | Start | Action | Events | Position rev | End |
 |------|-------|--------|--------|--------------|-----|
 | T1 | 55.0% | -12.0pp | +0.0pp | +5.0pp | 48.0% |
-| T2 | 48.0% | -5.6pp | -6.0pp | +5.0pp | 41.4% |
-| T3 | 41.4% | -7.6pp | +0.0pp | +3.0pp | 36.8% |
-| T4 | 36.8% | -12.0pp | -3.0pp | +1.0pp | 22.8% |
-| T5 | 22.8% | -6.0pp | +0.0pp | +3.0pp | 19.8% |
+| T2 | 48.0% | -12.0pp | +2.0pp | +3.0pp | 41.0% |
+| T3 | 41.0% | -7.8pp | +0.0pp | +3.0pp | 36.2% |
+| T4 | 36.2% | -2.6pp | -6.0pp | +3.0pp | 30.6% |
+| T5 | 30.6% | -3.0pp | +1.0pp | +3.0pp | 31.6% |

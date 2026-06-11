@@ -101,6 +101,10 @@ sides:
         personality:
           aggression: 0.65
           risk_tolerance: 0.55
+          leadership_constraints:
+            - "일본 직영 50개 확장은 본인이 IR에서 공언한 시그니처 프로젝트라 손익이 악화돼도 축소 결정을 못 내림"
+            - "가격 인하는 '브랜드 격하'라며 거부 — 시장 점유율을 잃어도 임상 마케팅으로 대응하려 함"
+            - "R&D 출신 자존심: 마케팅·채널 투자보다 제품력 우선이라는 narrative에 갇혀 있음"
         management_style: "founder-CEO 출신, 브랜드 일관성과 R&D 우선, 단기 매출 압박에 흔들리지 않는 편"
         ceo_profile: "화학 연구원 출신, 임상 데이터 신뢰, 디스플레이/광고보다 제품력 중심"
         strategic_tendency: brand_premium_driven
@@ -140,6 +144,10 @@ sides:
         personality:
           aggression: 0.70
           risk_tolerance: 0.60
+          leadership_constraints:
+            - "Shiseido 130년 헤리티지를 손상시키는 결정은 장기근속 임원진의 정치적 저항으로 통과되기 어려움"
+            - "한국식 빠른 마케팅·SNS 전술을 'AURIE·Amore 따라하기'로 폄하 — 본사 자존심상 채택 거부"
+            - "일본 본사 중심 의사결정: 중국·동남아 현지 적응형 전략보다 글로벌 표준화를 우선시"
         management_style: "global multinational executive, 시장 점유 회복에 공격적, 단기 마진 희생 용인"
         ceo_profile: "재무 출신, 데이터 기반 의사결정, 다년간 글로벌 prestige 사업 운영"
         strategic_tendency: market_share_recovery
@@ -177,6 +185,10 @@ sides:
         personality:
           aggression: 0.55
           risk_tolerance: 0.50
+          leadership_constraints:
+            - "오너家 (서경배 회장) 직접 관할: 단기 영업이익보다 '아모레가家 신뢰도' 유지가 우선시되어 과감한 가격·M&A 결정 지연"
+            - "중국 시장 회복에 집착 — 과거 사드 트라우마로 인해 동남아·일본 비중 확대 결정을 미룸"
+            - "설화수 등 프리미엄 라인 자존심: 매스 채널 확장은 브랜드 위상 훼손이라며 내부 반발"
         management_style: "오너 경영, 장기 brand 자산 우선, 단기 점유 변동에 둔감"
         ceo_profile: "창업주 가문, 다년간 브랜드 포트폴리오 운영 경험"
         strategic_tendency: brand_portfolio_stewardship

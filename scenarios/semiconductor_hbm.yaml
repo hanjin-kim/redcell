@@ -99,6 +99,10 @@ sides:
         personality:
           aggression: 0.65
           risk_tolerance: 0.60
+          leadership_constraints:
+            - "NVIDIA 단일고객 의존도가 매출의 다수지만, 분산 전략은 단기 마진 훼손 우려로 board 보고에서 매번 후순위로 밀림"
+            - "이천/청주 캐파에 자부심 — 미국·일본 fab 신설 자본 분산 결정 지연"
+            - "HBM3E 12-Hi 기술 리더십 narrative 유지 압박: 수율 안정화보다 차세대 design-in 선점 우선이라는 사내 합의로 단기 손익 악화 수용"
         management_style: "엔지니어 출신 CEO, R&D 우선·기술 leadership 사수 의지 강함"
         ceo_profile: "메모리 엔지니어 30년 경력, HBM 사업화 직접 주도"
         strategic_tendency: tech_leadership_defense
@@ -137,6 +141,10 @@ sides:
         personality:
           aggression: 0.70
           risk_tolerance: 0.65
+          leadership_constraints:
+            - "전사 회장 직속 mandate: 적자라도 HBM4 design-in 회복을 위한 무리한 가격·일정 양보 가능성"
+            - "Foundry 적자 정상화 압박 — DS 부문 자원 배분에서 HBM이 항상 우선순위 1번은 아님"
+            - "조직 의사결정 속도 인식하면서도 부문장급 결재 라인을 단축하지 못함 — '대기업 병' 자체를 정치적으로 깨기 어려움"
         management_style: "메모리 베테랑, HBM 추격 추진 의지 + 회사 정치 navigate"
         ceo_profile: "메모리 엔지니어 출신, DS 부문 회생 mandate 수행 중"
         strategic_tendency: market_share_recovery
@@ -175,6 +183,9 @@ sides:
         personality:
           aggression: 0.60
           risk_tolerance: 0.55
-        management_style: "long-term tech investment, capacity 확대 신중 + 미국 정부 협력 적극"
+          leadership_constraints:
+            - "CHIPS Act 보조금 의존도가 가시화되지만, 워싱턴 정치 risk(보조금 클로백·정권 교체) 를 board 보고에서 의도적으로 축소"
+            - "Idaho/Boise 신규 fab capex 본인 임기 시그니처 — 시장 둔화 시에도 일정 축소 결정 지연"
+            - "TSMC CoWoS allocation 후순위라는 구조적 약점을 외부 협상력 부족 인정 대신 '기술 차별화로 극복' narrative 로 우회"
         ceo_profile: "SanDisk 공동창업자, 메모리 산업 30년"
         strategic_tendency: capacity_buildout_steady

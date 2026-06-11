@@ -23,336 +23,339 @@ Shiseido 채널 확장과 동시 진행.
 
 ### **AURIE** (side_a)
 
-- Final action: `Clinical Data Push`@0.80
+- Final action: `Clinical Data Marketing`@0.90
 - Position: `contested` ↘
 - Cash: 48.0%
-- Adjudicator rationale: AURIE는 임상 데이터 투자로 규제 대응력을 확보했으나, 제한된 현금 여력과 시세이도의 공격적 가격 공세로 인해 단기 생존 리스크가 가중되어 성장 동력이 약화되고 있습니다.
+- Adjudicator rationale: AURIE는 일본 시장 진출과 임상 데이터 마케팅을 동시 집행하며 현금 소모가 가속화되어 단기 마진 압박이 구조화되었고, 자금 여력이 부족해 가격 공세에 취약한 상태입니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CMO**: `Clinical Data Push`@0.50, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.20
-  - rationale: 시세이도의 가격 인하 공격에 맞서 '가격 경쟁'은 브랜드 포지셔닝 붕괴를 초래하므로, CEO의 R&D 신념과 캠페인 방향성에 맞춰 '불가침의 임상 데이터'로 가치 차별화를 최우선으로 수행함. 일본 직영 확장은 시장 의존도 축소 목표와 병행하며, D2C는 중국 의존도 감축을 위한 핵심 채널로 재구매율을 고도화함.
-  - risk: 임상 데이터 효과 가시화 지연 시 매출 공백 발생
-- **CFO**: `Clinical Data Push`@0.45, `Japan Brand Awareness`@0.35, `D2C NPS Optimization`@0.20
-  - rationale: 시세이도의 가격 공격에 대응하여 '가격'이 아닌 '임상 효능'이라는 비가격 경쟁력으로 마진 방어 (Seed 전략 부합). Cash 55%라는 위험 수준에서 R&D 대폭 투자(Bold R&D Bet)나 오프라인 확장(Olive Young Expansion)은 현금 소모가 과도하므로, 고부가가치 D2C와 일본 시장 진입을 위한 선행 마케팅에 집중하여 ROI를 확보하는 것이 최선이다.
-  - risk: 낮은 현금 보유량(55%)로 일본 진출 초기 비용 발생 시 유동성 압박 가중
-- **COO**: `Clinical Data Push`@0.50, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.20
-  - rationale: 시세이도의 가격 공세에 맞서 '가격 경쟁 배제' 전략의 핵심은 임상 데이터 신뢰성 강화 (Clinical Data Push) 이다. 시세이도가 저가 라인으로 침투할 때, 고가 프리미엄 소비자는 '효과'에 민감하므로 데이터를 통해 가격 민감도를 낮춰야 한다. 일본 직영 채널 확장 (Japan Brand Awareness) 은 매출 비중 8→18% 목표 달성을 위해 필수적이지만, 동시 다발적 추진은 현금 소모를 가속화한다. 따라서 R&D와 마케팅 예산을 절충하여 D2C 재구매율 (D2C NPS Optimization) 로 현금 흐름을 일부 보전하며, 과잉 확장을 방지하는 실행 순서를 잡았다.
-  - risk: 일본 진출 초기 투자로 현금 45% 이하 급감, 중국 의존도 축소 지연 가능성
-- **CTO**: `Clinical Data Push`@0.50, `Japan Brand Awareness`@0.30, `Bold R&D Bet`@0.20
-  - rationale: 시세이도의 가격 인하 공세는 프리미엄 세그먼트의 '가치' 인식에 직접적인 타격을 줍니다. 따라서 가격 경쟁 (Aggressive Price Cut) 은 브랜드 가치를 훼손하므로 배제합니다. CEO 의 '제품력 중심' 철학과 캠페인 방향성에 따라, 시세이도의 저가 전략을 무력화할 수 있는 유일한 방법은 '임상 데이터'를 통한 비가역적 효능 증명입니다 (Clinical Data Push). 동시에 중국 의존도를 줄이고 일본 직영 채널을 확보해야 하므로, 일본 현지 인지도를 높이는 마케팅 (Japan Brand Awareness) 과 장기적인 제품 차별화를 위한 R&D 투자 (Bold R&D Bet) 를 병행하여 2-3 년 내 경쟁력을 회복하는 'Clinical-Value Fortress' 전략을 실행합니다.
-  - risk: 단기 현금 소진 가속화 및 일본 시장 진입 장벽 실패
-- **CEO**: `Clinical Data Push`@0.50, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.20
-  - rationale: Shiseido 의 가격 인하 공세가 제품 가치 인식보다 가격 경쟁력을 우선시할 수 있어 효능 데이터 기반 포지셔닝이 핵심 방어 수단이다. 일본 시장 점유율을 확대하되 할인이 빈번한 유통망 의존을 줄이기 위해 D2C 자체몰 NPS 를 개선하여 브랜드 충성도를 강화한다.
-  - risk: 임상 데이터 홍보 효과 지연 시 단기 매출 감소 가능성
+- **COO**: `Clinical Data Marketing`@0.50, `Japan Market Entry Blitz`@0.30, `Cash Reserve Hedging`@0.20
+  - rationale: CEO의 '브랜드 격하 거부'와 '일본 프로젝트 집착'이라는 리더십 편향을 반영하여, 시세이도의 가격 인하에 대응할 수 있는 유일한 수단인 임상 데이터 마케팅을 최우선으로 배치하되, CEO가 절대 포기하지 않는 일본 직영 채널 확장에도 자원을 할당함. 중국 매출 비중 축소에 따른 현금 흐름 불안정을 방어하기 위해 최소한의 현금 보전 조치를 병행.
+  - risk: 일본 직영 확대로 인한 단기 손익 악화 및 현금 고갈
+- **CTO**: `Clinical Data Marketing`@0.50, `Breakthrough R&D Bet`@0.30, `Japan Market Entry Blitz`@0.20
+  - rationale: CEO의 '임상 데이터로 고가 정당화' 전략과 일본 직영 50개 확장에 대한 집착을 반영함. 시세이도의 가격 공격은 프리미엄 타겟에게 효과가 없으므로, 오히려 제품력(신기술)과 유통 독점성(일본 직영)으로 방어하며 브랜드 격하를 피하는 것이 최선이다. D2C나 할인 대신 R&D와 마케팅 집중을 통해 장기적 경쟁력을 확보한다.
+  - risk: 단기 현금 소진 및 EBIT 마진 압박
+- **CFO**: `Clinical Data Marketing`@0.45, `Japan Market Entry Blitz`@0.35, `D2C Ecosystem Lock-in`@0.20
+  - rationale: CEO의 리더십 맹점 (일본 직영 프로젝트 고집, 가격인하 거부) 을 반영하여 전략적 일관성을 유지하되, 시세이도의 가격공격에 대응하기 위해 '임상 데이터' 기반의 가치 제고를 최우선으로 배치함. 중국 매출 비중 축소를 위한 D2C 전환은 필수적이나 초기 투자 비용 절감을 위해 상대적으로 낮은 할당.
+  - risk: 현금비율 55% 상태에서 일본 직영 확장이 현금소진 가속화하여 유동성 위기 발생 가능.
+- **CMO**: `Clinical Data Marketing`@0.50, `Japan Market Entry Blitz`@0.30, `Breakthrough R&D Bet`@0.20
+  - rationale: 시세이도의 공격적 가격 인하 (30%) 는 프리미엄 층을 위협하나, CEO의 '브랜드 격하 거부' 및 '임상 데이터 신뢰' 편향으로 인해 가격 대응은 배제됨. 오히려 경쟁사의 저가 공세에 맞서 '효능 입증'이라는 차별화 포인트를 극대화해야 함. 특히 CEO의 IR 약속인 일본 직영 50개 확장은 손익 악화에도 불구하고 중단 불가능한 정치적 이슈이므로, 이를 방어적/공격적 자산으로 활용하여 D2C 및 고가 SKU 중심의 전략을 견지함.
+  - risk: 단기 현금 소진 및 시장 점유율 추가 하락 가능성
+- **CEO**: `Clinical Data Marketing`@0.40, `Japan Market Entry Blitz`@0.30, `Breakthrough R&D Bet`@0.30
+  - rationale: 가격 인하 거부하며 브랜드 프리미엄 유지. 임상 자료와 독점 채널로 Shiseido 공세 방어. 리더십 bias 반영해 무리한 일본 진출 병행
+  - risk: 단기 현금 소모 증가로 유동성 압박 발생 가능
 
-##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Push`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Marketing`, DA: `CTO`)
 
-- **CMO**: `Clinical Data Push`@0.50, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.20
-- **COO**: `Clinical Data Push`@0.60, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.10
-- **CFO**: `Clinical Data Push`@0.65, `D2C NPS Optimization`@0.35
-  - changed `Clinical Data Push(45%)+Japan Brand Awareness(35%)+D2C NPS Optimization(20%)` → because: 저현금 상태의 일본 진출 비용 제거
-- **CTO**: `Bold R&D Bet`@0.50
-  - dissent: 임상 데이터 중심 전략의 치명적 약점은 시장 진입 장벽으로서의 기능 상실입니다. Shiseido 등 글로벌 기업이 유사 데이터를 활용할 경우 가격 인하 압력이 발생하며, 기술 혁신 없이 기존 리소스만 반복되면 고객 이탈이 가속됩니다. 기술 차별성이 없으면 프리미엄 라인 포지셔닝 유지가 어렵습니다. 현재 R&D 비율 유지만으로 충분하지 않으며, 대담한 투자로 미래 포트폴리오를 선점해야 합니다. 경쟁사와의 격차가 벌어지면 회복 불가능한 상태로 진입합니다. 단순히 유효성을 증명하는 과정은 마케팅 비용 낭비로 귀결될 수 있습니다. AURIE 의 장기 생존을 위해 기술 독점화가 필수적입니다. 임상 데이터만으로는 2 년 내 경쟁력을 확보할 수 없습니다. 신약 개발과 유사한 엄격한 검증 사이클이 필요한 단계입니다. 자원이 고갈되지 않도록 효율적인 배분이 필요합니다. 하지만 기술적 모험 없이는 방어선이 허무됩니다. 우리는 이미 표준화된 데이터에 의존하고 있습니다. 새로운 접근 방식이 요구됩니다.
-- **CEO**: `Clinical Data Push`@0.50, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.20
+- **CFO**: `Clinical Data Marketing`@0.50, `Japan Market Entry Blitz`@0.35, `D2C Ecosystem Lock-in`@0.15
+  - changed `Cash Reserve Hedging` → because: 일본 직영 고수 필요, 현금비율 55% 유지
+- **COO**: `Clinical Data Marketing`@0.55, `Japan Market Entry Blitz`@0.25, `Cash Reserve Hedging`@0.20
+  - changed `Team proposals (weighted average)` → because: 일본 직영 확장 리스크 경감 및 현금 고갈 방지
+- **CMO**: `Clinical Data Marketing`@0.60, `Japan Market Entry Blitz`@0.30, `Breakthrough R&D Bet`@0.10
+  - changed `CMO` → because: R&D 비중 축소로 현금 방어
+- **CTO**: `Breakthrough R&D Bet`@0.60
+  - dissent: 임상 데이터 기반 마케팅은 기존 공식의 안전성과 효과만을 강조할 뿐, 차세대 기술적 해자를 만들지 못합니다. 경쟁사가 유사한 수치 데이터를 획득하거나 역공학을 수행할 경우 AURIE 가 가진 차별화 요소가 소실됩니다. 또한 마케팅 비용의 지속적 증가는 현금 흐름을 압박하여 장기적인 기술 개발 자금을 축내는 요인으로 작용합니다. 2-3 년 주기마다 등장하는 트렌드와 타겟 고객 세그먼트 변동에서 생존하기 위해서는 고정된 데이터 홍보보다 유기체적인 기술 개발 능력이 필수적입니다. 단순히 검증된 사실을 전달하는 방식은 시장에서 쉽게 복제 가능한 전략입니다. 결국 기술 진화의 속도보다 브랜드 이미지 개선 속도가 느려지면 신규 제품 출시 주기가 시장 기대치에 미치지 못해 경쟁 우위를 잃게 됩니다. 이런 상황에 대비하려면 현재 진행 중인 R&D 비중 유지 혹은 확대가 반드시 필요한 시점입니다. 특히 신규 활성 성분 연구는 특허 보호를 통해 모방을 방지하며 가격 협상력을 강화하는 직접적인 메커니즘
+- **CEO**: `Clinical Data Marketing`@0.50, `Japan Market Entry Blitz`@0.30, `Breakthrough R&D Bet`@0.20
 
 **Position changes:**
-- CFO: Clinical Data Push+Japan Brand Awareness+D2C NPS Optimization → Clinical Data Push+D2C NPS Optimization (저현금 상태의 일본 진출 비용 제거)
-- [반대] CTO: 임상 데이터 중심 전략의 치명적 약점은 시장 진입 장벽으로서의 기능 상실입니다. Shiseido 등 글로벌 기업이 유사 데이터를 활용할 경우 가격 인하 압력이 발생하며, 기술 혁신 없이 기존 리소스만 반복되면 고객 이탈이 가속됩니다. 기술 차별성이 없으면 프리미엄 라인 포지셔닝 유지가 어렵습니다. 현재 R&D 비율 유지만으로 충분하지 않으며, 대담한 투자로 미래 포트폴리오를 선점해야 합니다. 경쟁사와의 격차가 벌어지면 회복 불가능한 상태로 진입합니다. 단순히 유효성을 증명하는 과정은 마케팅 비용 낭비로 귀결될 수 있습니다. AURIE 의 장기 생존을 위해 기술 독점화가 필수적입니다. 임상 데이터만으로는 2 년 내 경쟁력을 확보할 수 없습니다. 신약 개발과 유사한 엄격한 검증 사이클이 필요한 단계입니다. 자원이 고갈되지 않도록 효율적인 배분이 필요합니다. 하지만 기술적 모험 없이는 방어선이 허무됩니다. 우리는 이미 표준화된 데이터에 의존하고 있습니다. 새로운 접근 방식이 요구됩니다. 
+- CFO: Cash Reserve Hedging → Clinical Data Marketing+Japan Market Entry Blitz+D2C Ecosystem Lock-in (일본 직영 고수 필요, 현금비율 55% 유지)
+- COO: Team proposals (weighted average) → Clinical Data Marketing+Japan Market Entry Blitz+Cash Reserve Hedging (일본 직영 확장 리스크 경감 및 현금 고갈 방지)
+- [반대] CTO: 임상 데이터 기반 마케팅은 기존 공식의 안전성과 효과만을 강조할 뿐, 차세대 기술적 해자를 만들지 못합니다. 경쟁사가 유사한 수치 데이터를 획득하거나 역공학을 수행할 경우 AURIE 가 가진 차별화 요소가 소실됩니다. 또한 마케팅 비용의 지속적 증가는 현금 흐름을 압박하여 장기적인 기술 개발 자금을 축내는 요인으로 작용합니다. 2-3 년 주기마다 등장하는 트렌드와 타겟 고객 세그먼트 변동에서 생존하기 위해서는 고정된 데이터 홍보보다 유기체적인 기술 개발 능력이 필수적입니다. 단순히 검증된 사실을 전달하는 방식은 시장에서 쉽게 복제 가능한 전략입니다. 결국 기술 진화의 속도보다 브랜드 이미지 개선 속도가 느려지면 신규 제품 출시 주기가 시장 기대치에 미치지 못해 경쟁 우위를 잃게 됩니다. 이런 상황에 대비하려면 현재 진행 중인 R&D 비중 유지 혹은 확대가 반드시 필요한 시점입니다. 특히 신규 활성 성분 연구는 특허 보호를 통해 모방을 방지하며 가격 협상력을 강화하는 직접적인 메커니즘
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 임상 데이터로 프리미엄 가치 입증; 차세대 성분으로 기술 장벽 확립
+**Decision:** 임상 데이터로 가치를 입증하여 가격 방어; 일본 직영 채널 50 개 추가 진입으로 시장 선점
 
-**Reasoning:** 저가 공세에도 고품질 가치 유지; 모방 차단과 경쟁 우위 확보
+**Reasoning:** 경쟁사 가격 하락에도 차별화 강조; CEO 유산 보호를 위한 투자 무조건 감행
 
 ### Shiseido (side_b)
 
-- Final action: `Aggressive Price Cut`@0.90
+- Final action: `Aggressive Price Cut`@0.80
 - Position: `dominant` ↑
-- Cash: 78.5%
-- Adjudicator rationale: 시세이도는 압도적인 현금 보유력을 바탕으로 가격 인하를 통한 시장 지배력 강화와 유통망 확장을 동시에 추진하며 규제 리스크도 흡수할 수 있는 우위를 점하고 있습니다.
+- Cash: 76.6%
+- Adjudicator rationale: Shiseido는 풍부한 현금 보유력과 heritage 브랜드 힘을 바탕으로 공격적인 가격 인하와 채널 확장을 병행하며 시장 주도권을 확고히 하고 있습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CFO**: `Mass-Premium Infiltration`@0.60, `Aggressive Price Cut`@0.40
-  - rationale: CEO 의 시장 점유 회복 지향적 성향과 현재 높은 현금 보유량 (75%) 을 고려할 때, AURIE 와 Amore Pacific 이 약세인 틈을 타 Olive Young 과 백화점을 통한 핵심 가격대 장악이 시세이도의 공격적 전략에 부합함. 단, 경쟁사의 반격 가능성에 대비해 가격 탄력성을 확보하기 위해 병행.
-  - risk: 단기 마진율 급감 및 현금 소진 가속화
-- **COO**: `Mass-Premium Infiltration`@0.45, `Aggressive Price Cut`@0.35, `Influencer Ecosystem`@0.20
-  - rationale: CEO의 시장 점유 회복 및 공격적 침공 전략에 부합하나, 동시 실행 시 현금 75% 소모 가속화 우려. AURIE(우리)가 Marginal 위치에서 Contested으로 전환하기 위해 올리브영 입점과 가격 공세가 필수적이나, R&D 투자 지연으로 장기 경쟁력 약화 리스크 존재.
-  - risk: 단기 마진 심화 및 브랜드 프리미엄 훼손 위험
-- **CMO**: `Mass-Premium Infiltration`@0.40, `Influencer Ecosystem`@0.35, `Aggressive Price Cut`@0.25
-  - rationale: CEO의 시장 점유 회복 공격성 반영. AURIE는 약세이나 Amore Pacific이 경쟁 우위를 점할 경우, Olive Young 채널을 통한 가격대 선제 장악과 MZ 세대 유입이 필수적임. 임상 데이터나 지속가능성보다는 즉각적인 구매 전환을 유도하는 침공 전략에 자원 집중.
-  - risk: 단기 마진율 급감 및 브랜드 프리미엄 훼손 가능성
-- **CTO**: `Bold R&D Bet`@0.40, `Mass-Premium Infiltration`@0.35, `Talent Acquisition Sprint`@0.25
-  - rationale: CEO의 시장 점유 회복 지향적 공격 전략과 '기술 없이는 2-3 년 내 경쟁력 상실'이라는 CTO 신념을 반영합니다. 시세이도의 가격 공세에 대응하기 위해 오프라인 채널 확장(Mass-Premium Infiltration)과 동시에, 장기적인 차별화를 위한 혁신 성분 개발(Bold R&D Bet)에 집중해야 합니다. 기존 R&D(50%)만으로는 AURIE와 Amore Pacific을 제압할 수 없으므로, 인재 확보(Talent Acquisition Sprint)를 통해 R&D 효율을 극대화하는 것이 필수적입니다.
-  - risk: 단기 마진 감소 및 투자 회수 지연
-- **CEO**: `Olive Young Expansion`@0.40, `Aggressive Price Cut`@0.40, `Influencer Ecosystem`@0.20
-  - rationale: 제시된 공세적 시장 점유 침투 전략 (Olive Young 채널 진입 및 가격 공세) 의 이행을 위해 구성됨. 단기 마진 희생을 감수하되 점유율 회복 우선순위를 명확히 함.
-  - risk: 초기 손실 확대 및 브랜드 가치 훼손 가능성
+- **CMO**: `Aggressive Price Cut`@0.60, `Olive Young Expansion`@0.30, `J-Beauty Revival Campaign`@0.10
+  - rationale: 시세이도 CEO 의 시장 점유율 회복 목표와 고공격 성향을 반영, AURIE 핵심 가격대 선점을 위해 단기 마진 희생 불가피. 단, 일본 본사 중심의 자존심과 장기근속 임원진의 정치적 저항을 고려해 'Heritage' 요소를 병행하여 브랜드 가치 훼손을 최소화하는 균형 전략 수립.
+  - risk: 단기 마진 심화 및 브랜드 희석 우려
+- **CTO**: `Aggressive Price Cut`@0.40, `Olive Young Expansion`@0.30, `Heritage Brand Leverage`@0.30
+  - rationale: CEO 의 시장 점유 회복 공세와 가격대 선점 전략을 실행하되, 일본 본사 중심의 자존심 (헤리티지 강조) 과 현지 K-뷰티 전술 거부 (AURIE/Amore 따라하기 회피) 라는 리더십 편향을 반영했습니다. 임상 데이터나 Gen Z 디지털 전환은 본사의 'J-Beauty 부활' 선호와 상충될 수 있어 배제했습니다.
+  - risk: 단기 마진 심화 및 브랜드 이미지 희석 가능성
+- **CFO**: `Mass-Premium Channel Invasion`@0.45, `Global Prestige Partnership`@0.35, `Exchange Rate Mitigation`@0.20
+  - rationale: CEO의 시장 점유 회복 공세와 현금 75% 여유를 반영, AURIE 핵심 가격대(80-150K) 선점을 위해 올리브영 침공과 동남아 확장에 집중. 일본 본사의 글로벌 표준화 편향 (자존심) 을 고려해 현지 맞춤형 마케팅은 배제하고, 제품 가격 경쟁력 확보에 집중하며, 환율 리스크로 인한 추가 마진 손실을 사전 차단.
+  - risk: 단기 마진 압박 심화 및 본사 자존심 갈등
+- **COO**: `Aggressive Price Cut`@0.45, `Olive Young Expansion`@0.35, `Heritage Brand Leverage`@0.20
+  - rationale: CEO 의 '시장 점유율 회복' 지시에 따라 AURIE 핵심 가격대를 선점하기 위해 Aggressive Price Cut 과 Olive Young Expansion 을 최우선 배치함. 다만, CEO 의 '일본 본사 중심 의사결정'과 '한국식 SNS 전술 거부'라는 리더십 편향을 반영하여 Gen Z Digital Pivot 대신 Heritage Brand Leverage 를 선택하여 조직 내부 정치적 저항을 최소화하고 글로벌 표준화를 유지하려 함. 이는 단기 마진을 희생하더라도 점유율을 확보하는 현재 캠페인의 핵심 실행 수단임.
+  - risk: 단기 마진 심화 및 현지화 부족으로 동남아 실패 가능성
+- **CEO**: `Mass-Premium Channel Invasion`@0.40, `Aggressive Price Cut`@0.35, `Global Prestige Partnership`@0.25
+  - rationale: 시장 점유율 회복이 최우선 목표에 따라 가격 경쟁력 확보와 채널 침투를 병행해야 함. 일본 본사 헤리티지는 프리미엄 가격 결정력으로 활용하면서도 현지 적응은 필수임.
+  - risk: 단기 마진 감소와 브랜드 이미지 희석 가능성
 
-##### Phase 2 — 비판적 검토 (다수안: `Mass-Premium Infiltration`, DA: `CFO`)
+##### Phase 2 — 비판적 검토 (다수안: `Aggressive Price Cut`, DA: `CFO`)
 
-- **CTO**: `Bold R&D Bet`@0.45, `Mass-Premium Infiltration`@0.35, `Talent Acquisition Sprint`@0.20
-  - changed `CTO` → because: R&D 투자 비중 상향
-- **CMO**: `Olive Young Expansion`@0.45, `Aggressive Price Cut`@0.35, `Influencer Ecosystem`@0.20
-  - changed `null` → because: CEO 지시대로 Olive Young 우선 확보
-- **COO**: `Olive Young Expansion`@0.45, `Aggressive Price Cut`@0.35, `Influencer Ecosystem`@0.20
-- **CFO**: `Prestige Pricing Power`@1.00
-  - dissent: 팀 다수가 추진한 Mass-Premium Infiltration 는 Olive Young 같은 대중 채널 진입을 전제로 한 가격 인하를 요구합니다. 이는 기존 고객에게 저품질 이미지를 각인시키고, Shiseido 의 프리미엄 포지셔닝을 약화시킵니다. 현재 현금 75% 는 충분히 우회로를 열어두고 있으나, 저마진 전략은 수익성 없는 규모의 확장을 의미하여 장기적으로 자금 조달 능력을 저해합니다. 따라서 재무 건전성을 위해 단기 유입보다는 마진 보호가 필수적입니다. 경쟁사인 Proya 나 Florasis 과 단순 가격 경쟁에 참여할 자원은 충분하지 않습니다. 또한, Compliance Diversification 이 필요한 글로벌 규제 환경에서 가격 변동성은 공급망 부담을 가중시킵니다. 결국 이 전략은 기업의 존속을 위협하는 자금 탈출 요인이 될 것입니다. 올리브영은 마케팅 파트너로서 유용하지만, 핵심 가격 정책의 주체가 되어서는 안 됩니다. 우리는 AURIE 의 재정적 자율성을 최우선
-- **CEO**: `Olive Young Expansion`@0.50, `Aggressive Price Cut`@0.50
-  - changed `Influencer Ecosystem` → because: 단기 점유율 확보 중시
+- **CMO**: `Aggressive Price Cut`@0.50, `Olive Young Expansion`@0.30, `J-Beauty Revival Campaign`@0.20
+- **CTO**: `Olive Young Expansion`@0.35, `Aggressive Price Cut`@0.30, `Clinical Data Marketing`@0.25
+  - changed `Heritage Brand Leverage` → because: R&D 투자 우선순위 반영
+- **COO**: `Aggressive Price Cut`@0.55, `Olive Young Expansion`@0.35, `Heritage Brand Leverage`@0.10
+  - changed `COO: Aggressive Price Cut(45%)+Olive Young Expansion(35%)+Heritage Brand Leverage(20%)` → because: 동남아 실패 리스크 제거, 자원 집중
+- **CEO**: `Aggressive Price Cut`@0.45, `Olive Young Expansion`@0.35, `Heritage Brand Leverage`@0.20
+  - changed `Team CEO 제안` → because: 가격 위주 전환, 헤리티지 보호
+- **CFO**: `Heritage Brand Leverage`@0.50, `Clinical Data Marketing`@0.30, `Exchange Rate Mitigation`@0.20
+  - dissent: 다수의 가격 인하 제안은 브랜드 이미지와 장기 수익성의 균형을 깨뜨립니다. 현재 현금 보유율이 높지만, 일시적인 판가 절상은 향후 마진 회복 비용을 초과하는 구조적 손실입니다. 할인 의존성은 고객 충성도보다 가격 민감도를 키울 위험이 있습니다. 75.0% 현금 상태에서도 단가 하락은 현금 소모 속도를 가속화하여 생존 가능성에 부정적입니다. 따라서 단기 목표보다 재무 건전성 우선순위가 높습니다. 경쟁사의 가격 대응 시 내리는 마진은 회복할 수 없게 됩니다. 브랜드가 프리미엄일수록 가격 방어는 자본 효율성과 직결됩니다. 가격 인하는 매출 증가보다는 마진 감소율이 더 클 가능성이 큽니다. 이러한 리스크를 피해야 합니다. 결론적으로 브랜드 충성도와 수익성 보호가 필수입니다. 재무 지속성을 위해 가격 정책을 통제해야 합니다. 이는 현금 흐름 예측력을 높이는 길입니다. 할인 없는 노드가 더 안전합니다. 경쟁사 추종 전략을 중단해야 합니다. 독립적인 재무 설계가 필요합니다. 핵심은 가치 제안 증
 
 **Position changes:**
-- [반대] CFO: 팀 다수가 추진한 Mass-Premium Infiltration 는 Olive Young 같은 대중 채널 진입을 전제로 한 가격 인하를 요구합니다. 이는 기존 고객에게 저품질 이미지를 각인시키고, Shiseido 의 프리미엄 포지셔닝을 약화시킵니다. 현재 현금 75% 는 충분히 우회로를 열어두고 있으나, 저마진 전략은 수익성 없는 규모의 확장을 의미하여 장기적으로 자금 조달 능력을 저해합니다. 따라서 재무 건전성을 위해 단기 유입보다는 마진 보호가 필수적입니다. 경쟁사인 Proya 나 Florasis 과 단순 가격 경쟁에 참여할 자원은 충분하지 않습니다. 또한, Compliance Diversification 이 필요한 글로벌 규제 환경에서 가격 변동성은 공급망 부담을 가중시킵니다. 결국 이 전략은 기업의 존속을 위협하는 자금 탈출 요인이 될 것입니다. 올리브영은 마케팅 파트너로서 유용하지만, 핵심 가격 정책의 주체가 되어서는 안 됩니다. 우리는 AURIE 의 재정적 자율성을 최우선
-- CEO: Influencer Ecosystem → Olive Young Expansion+Aggressive Price Cut (단기 점유율 확보 중시)
+- CTO: Heritage Brand Leverage → Olive Young Expansion+Aggressive Price Cut+Clinical Data Marketing (R&D 투자 우선순위 반영)
+- COO: Aggressive Price Cut+Olive Young Expansion+Heritage Brand Leverage → Aggressive Price Cut+Olive Young Expansion+Heritage Brand Leverage (동남아 실패 리스크 제거, 자원 집중)
+- CEO: Team CEO 제안 → Aggressive Price Cut+Olive Young Expansion+Heritage Brand Leverage (가격 위주 전환, 헤리티지 보호)
+- [반대] CFO: 다수의 가격 인하 제안은 브랜드 이미지와 장기 수익성의 균형을 깨뜨립니다. 현재 현금 보유율이 높지만, 일시적인 판가 절상은 향후 마진 회복 비용을 초과하는 구조적 손실입니다. 할인 의존성은 고객 충성도보다 가격 민감도를 키울 위험이 있습니다. 75.0% 현금 상태에서도 단가 하락은 현금 소모 속도를 가속화하여 생존 가능성에 부정적입니다. 따라서 단기 목표보다 재무 건전성 우선순위가 높습니다. 경쟁사의 가격 대응 시 내리는 마진은 회복할 수 없게 됩니다. 브랜드가 프리미엄일수록 가격 방어는 자본 효율성과 직결됩니다. 가격 인하는 매출 증가보다는 마진 감소율이 더 클 가능성이 큽니다. 이러한 리스크를 피해야 합니다. 결론적으로 브랜드 충성도와 수익성 보호가 필수입니다. 재무 지속성을 위해 가격 정책을 통제해야 합니다. 이는 현금 흐름 예측력을 높이는 길입니다. 할인 없는 노드가 더 안전합니다. 경쟁사 추종 전략을 중단해야 합니다. 독립적인 재무 설계가 필요합니다. 핵심은 가치 제안 증
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** Premium 가격 대역 단가로 시장 선점; Olive Young 입점으로 판로 직접 확보
+**Decision:** 가격 인하로 시장 점유 확보; 오프라인 채널 확장 접근성 강화; 브랜드 유산 강조하며 신뢰 회복
 
-**Reasoning:** 단기 마진 감소 감수해 점유율 방어 추진; 시장 내 진입 장벽 낮춰 빠르게 확산
+**Reasoning:** 단기 마진 희생하여 가격대 선점; 핵심 유통망 집중 투자 가속화; 고참 임원 반발 줄이는 전략 적용
 
 ### Amore Pacific (side_c)
 
-- Final action: `Clinical Data Push`@0.75
+- Final action: `Sulwhasoo Premium Push`@0.70
 - Position: `strong` →
-- Cash: 64.8%
-- Adjudicator rationale: 아모레퍼시픽은 브랜드 포트폴리오와 내부 시너지를 통해 시장 변동성 속 안정성을 유지하고 있으나, 해외 성장 정체와 규제 비용 상승으로 인해 급격한 변화는 없는 상태입니다.
+- Cash: 62.7%
+- Adjudicator rationale: Amore Pacific은 설화수 프리미엄 포지셔닝과 글로벌 채널 강세를 유지하며 규제 리스크를 선제적으로 완화하고 있으나, 중국 회복 정체로 성장 속도는 현재 수준을 유지하고 있습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CFO**: `Portfolio Synergy`@0.60, `US SEA D2C Acceleration`@0.40
-  - rationale: 시세이도의 가격 인하 공세에 대응하기 위해 프리미엄 포지셔닝을 유지하며, 현금 소모를 최소화해야 함. Portfolio Synergy 는 기존 자산 활용으로 ROI 가 명확하고, US SEA D2C Acceleration 은 중국 시장 실패의 대안으로 자금 회수 속도를 높임.
-  - risk: 단기 매출 성장 둔화 가능성 및 조직 프로세스 변경 리스크
-- **CMO**: `Portfolio Synergy`@0.50, `Influencer Ecosystem`@0.30, `US SEA D2C Acceleration`@0.20
-  - rationale: 시세이도의 가격 공세에 맞서 가격 인하를 자제하며, 오너 경영의 '브랜드 자산 우선' 원칙을 준수하기 위해 기존 포트폴리오의 시너지를 극대화하고, 글로벌 D2C와 인플루언서를 통해 고부가가치 타겟을 확보하는 소극적 견제 전략을 실행함.
-  - risk: 단기 점유율 유지 실패 시 브랜드 가치 하락 가속화
-- **COO**: `Clinical Data Push`@0.60, `Portfolio Synergy`@0.30, `Organic Efficiency Boost`@0.10
-  - rationale: 현재 캠페인(가격 인하 자제, 프리미엄 고수)을 실행하기 위해 가장 적합한 조합입니다. Clinical Data Push는 시세이도의 가격 공세에 맞서 '가치'로 승부하는 핵심 수단이며, Portfolio Synergy는 기존 자산(설화수 등)의 효율성을 극대화하여 현금 소모를 줄이는 방식입니다. Cash 62% 상태이므로 Bold R&D Bet나 aggressive price cut 과 같은 자원 소모형 전략은 배제하고, 오너 경영 스타일에 맞는 브랜드 헤리티지 방어와 내부 효율화에 집중합니다.
-  - risk: 시세이도 가격 인하로 인한 단기 점유율 유출 가속화 가능성
-- **CTO**: `Whitening Tech Lead`@0.50, `Talent Acquisition Sprint`@0.30, `Clinical Data Push`@0.20
-  - rationale: 현재 시세이도의 가격 인하 공세와 아우리의 성장 위협 속에서도, 오너 경영의 '브랜드 자산 우선' 전략을 유지하며 장기 경쟁력을 확보하기 위한 필수 조치입니다. 가격 경쟁은 프리미엄 포지셔닝을 훼손하므로 피해야 하며, 대신 자체 임상센터를 활용한 고부가가치 성분 개발 (Whitening Tech Lead) 과 이를 뒷받침할 우수 인재 영입 (Talent Acquisition Sprint) 으로 기술적 해자 (Moat) 를 구축해야 합니다. 임상 데이터 기반 마케팅 (Clinical Data Push) 은 이러한 기술 투자를 소비자에게 전달하여 충성 고객 기반을 강화하는 수단입니다.
-  - risk: 단기 매출 둔화 가능성 및 R&D 투자 회수 기간 연장
-- **CEO**: `Clinical Data Push`@0.50, `Portfolio Synergy`@0.30, `Talent Acquisition Sprint`@0.20
-  - rationale: 시세이도 가격 인하에 대응 없이 신뢰와 효율로 헤리티지 유지 필요
-  - risk: 신뢰 형성 기간 중 매출 일시 위축 가능성
+- **CFO**: `Sulwhasoo Premium Push`@0.50, `Prestige Portfolio Defense`@0.30, `Clinical Data Marketing`@0.20
+  - rationale: 현재 현금 보유량 (62%) 과 오너 경영의 '브랜드 자산 보호' 성향을 고려, 시세이도의 가격 공세에 대응하기 위해 직접적인 가격 인하 (Aggressive Price Cut) 는 배제하고 설화수 등 프리미엄 라인의 고부가가치 포지셔닝을 강화하는 방어적 전략을 채택함. 경쟁사 AURIE 와의 직접적 가격 경쟁을 피하고 Shiseido 의 가격 공세에 맞서 브랜드 위상을 유지하며 고객 충성도를 확보하는 것이 핵심 목표임.
+  - risk: 시세이도의 가격 공세가 지속될 경우 단기 점유율 추가 하락 가능성 존재
+- **CTO**: `Whitening Tech Dominance`@0.60, `Sulwhasoo Premium Push`@0.30, `Organic Agility Boost`@0.10
+  - rationale: 시세이도의 가격 공세에 맞서 '프리미엄 포지셔닝'을 유지하려면 R&D(50%) 를 통한 기술적 우위 (Whitening Tech) 가 필수적입니다. 오너 경영 특성상 설화수 브랜드 자존심을 지키며 고부가가치 라인 (Sulwhasoo Premium Push) 을 강화하는 것이 합리적이나, 장기적인 조직 경직성 (Organic Agility Boost) 해소를 위해 소량 배분합니다. 이는 시세이도의 가격 경쟁에 휘둘리지 않는 방어적 전략의 핵심입니다.
+  - risk: 중국 시장 회복 집착으로 인한 동남아·일본 투자 지연 리스크
+- **CMO**: `Sulwhasoo Premium Push`@0.55, `Clinical Data Marketing`@0.30, `Prestige Portfolio Defense`@0.15
+  - rationale: CEO 의 '오너 경영'과 '장기 브랜드 자산 우선' 성향을 반영, 설화수 자존심을 지키며 가격 경쟁을 회피하는 방어적 전략 실행. 시세이도의 가격 인하 공세에 맞서 단가를 높이고 임상 데이터로 차별화하여 고객 충성도를 확보하는 것이 약한 (→) 포지션에서 점수를 회복하는 유일한 길.
+  - risk: 시세이도 가격 공세에 따른 단기 점유율 추가 하락 가능성
+- **COO**: `Sulwhasoo Premium Push`@0.60, `Clinical Data Marketing`@0.30, `Organic Agility Boost`@0.10
+  - rationale: 시세이도의 가격 공세에 맞서 '프리미엄 포지셔닝 고수'라는 현재 캠페인을 실행하기 위해, 가장 핵심적인 자산인 설화수의 고부가가치 라인을 방어적 공격 (Premium Push) 으로 집중 투자합니다. 임상 데이터 마케팅은 가격 경쟁이 아닌 가치 경쟁을 증명하여 고객 충성도를 확보하는 수단입니다. 오너 경영의 특성상 장기적 브랜드 자산 보호를 최우선으로 하므로, 단기 점유율 변동보다 '아모레 가문 신뢰도' 유지를 위한 내부 프로세스 혁신 (Agility Boost) 을 최소한으로 포함하여 자존심 훼손 없이 대응합니다. 시세이도의 가격 인하 전략에 직접적으로 대응하지 않고, 고부가가치 라인 강화로 차별화를 꾀하는 것이 본 전략의 핵심입니다.
+  - risk: 중국 시장 회복 집착으로 인한 자원 분산 및 동남아/일본 확장의 기회비용 발생 가능성
+- **CEO**: `Sulwhasoo Premium Push`@0.50, `Prestige Portfolio Defense`@0.30, `China Recovery Strategy`@0.20
+  - rationale: Shiseido 가격 공세에 Amore Pacific 프리미엄 고수. Sulwhasoo 독보적 위상을 활용한 방어 전략. 오너경영 특성 상 중국 시장 복원에 일정 리스크 감수하고 자원 배정.
+  - risk: 중국 투자 비효율 및 현금 유출 가속화
 
-##### Phase 2 — 비판적 검토 (다수안: `Portfolio Synergy`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Sulwhasoo Premium Push`, DA: `CFO`)
 
-- **CMO**: `Clinical Data Push`@0.60, `Influencer Ecosystem`@0.40
-  - changed `Portfolio Synergy` → because: 점유율 방어엔 임상 신뢰도 필수
-- **CFO**: `Portfolio Synergy`@0.65, `Clinical Data Push`@0.35
-  - changed `US SEA D2C Acceleration` → because: 현금비율 낮아 해외 확장은 위험
-- **COO**: `Clinical Data Push`@0.60, `Portfolio Synergy`@0.30, `Organic Efficiency Boost`@0.10
-- **CTO**: `Whitening Tech Lead`@0.50, `Clinical Data Push`@0.30, `Talent Acquisition Sprint`@0.20
-  - dissent: 제안된 포트폴리오 시너지는 단순한 브랜드 간 유통 효율화와 교차 판매에 의존하므로, 현재 약세 상태인 Amore Pacific 의 근본적인 기술 격차를 해소하지 못합니다. 채널 중심의 접근은 제품이 가진 기능적 가치를 대체할 수 없으며, 장기적으로 제품 경쟁력이 하락하여 시장 점유율 회복이 불가능해질 수 있습니다. 2~3 년 내 경쟁력 소멸 위험을 경감하기 위해서는 기술적 우위를 확보하는 선행 투자가 필수적입니다. 유통망 확장만으로는 가격 협상력을 잃을 수 있으며, 경쟁사와의 차별성이 약해집니다. 이러한 리스크를 감당하지 않기 위해 R&D 역량 강화에 자원 할당을 변경했습니다. 포트폴리오의 중량감은 기술적 완성도에 따라 결정되며, 단순 판매 구조 개편은 일시적인 효과에 그칩니다. 현재 위기에 직면한 상황에서 리스크 관리는 비용 절감이 아니라 혁신 투자를 통한 방어적 선제 공격이 되어야 합니다. 따라서 유통 효율화 중심의 대안은 적절하지 않으며, 실질적인 제품 우위 확보 전략으로 전환
-- **CEO**: `Clinical Data Push`@0.60, `Portfolio Synergy`@0.40
+- **COO**: `Sulwhasoo Premium Push`@0.60, `Clinical Data Marketing`@0.30, `Organic Agility Boost`@0.10
+- **CTO**: `Whitening Tech Dominance`@0.65, `Sulwhasoo Premium Push`@0.25, `Organic Agility Boost`@0.10
+- **CMO**: `Sulwhasoo Premium Push`@0.60, `Clinical Data Marketing`@0.25, `China Recovery Strategy`@0.15
+  - changed `CFO Proposal (Sulwhasoo Premium Push, Prestige Portfolio Defense, Clinical Data Marketing)` → because: 오너의 중국 집착 반영 및 가격 방어 전략 수정
+- **CFO**: `Clinical Data Marketing`@0.40, `Prestige Portfolio Defense`@0.40, `Organic Agility Boost`@0.20
+  - dissent: 62% 의 현금과 약한 브랜드 위치에서 Sulwhasoo Premium Push 는 장기 ROI 가 보장되지 않아, 자금 유출을 초래할 위험이 큽니다. 현금 고갈 가능성은 회생 불가능하므로 위험 부담 전략은 배제해야 합니다. 또한 경쟁사 공세 대비 방어 태세가 미흡합니다. 따라서 현재로서는 가장 안전한 재무 구조 유지를 우선합니다. (Reference: Shiseido pressure exists but requires cautious defense, not aggressive spend.)
+- **CEO**: `Sulwhasoo Premium Push`@0.55, `Clinical Data Marketing`@0.30, `China Recovery Strategy`@0.10
 
 **Position changes:**
-- CMO: Portfolio Synergy → Clinical Data Push+Influencer Ecosystem (점유율 방어엔 임상 신뢰도 필수)
-- CFO: US SEA D2C Acceleration → Portfolio Synergy+Clinical Data Push (현금비율 낮아 해외 확장은 위험)
-- [반대] CTO: 제안된 포트폴리오 시너지는 단순한 브랜드 간 유통 효율화와 교차 판매에 의존하므로, 현재 약세 상태인 Amore Pacific 의 근본적인 기술 격차를 해소하지 못합니다. 채널 중심의 접근은 제품이 가진 기능적 가치를 대체할 수 없으며, 장기적으로 제품 경쟁력이 하락하여 시장 점유율 회복이 불가능해질 수 있습니다. 2~3 년 내 경쟁력 소멸 위험을 경감하기 위해서는 기술적 우위를 확보하는 선행 투자가 필수적입니다. 유통망 확장만으로는 가격 협상력을 잃을 수 있으며, 경쟁사와의 차별성이 약해집니다. 이러한 리스크를 감당하지 않기 위해 R&D 역량 강화에 자원 할당을 변경했습니다. 포트폴리오의 중량감은 기술적 완성도에 따라 결정되며, 단순 판매 구조 개편은 일시적인 효과에 그칩니다. 현재 위기에 직면한 상황에서 리스크 관리는 비용 절감이 아니라 혁신 투자를 통한 방어적 선제 공격이 되어야 합니다. 따라서 유통 효율화 중심의 대안은 적절하지 않으며, 실질적인 제품 우위 확보 전략으로 전환
+- CMO: Proposal (Sulwhasoo Premium Push, Prestige Portfolio Defense, Clinical Data Marketing) → Sulwhasoo Premium Push+Clinical Data Marketing+China Recovery Strategy (오너의 중국 집착 반영 및 가격 방어 전략 수정)
+- [반대] CFO: 62% 의 현금과 약한 브랜드 위치에서 Sulwhasoo Premium Push 는 장기 ROI 가 보장되지 않아, 자금 유출을 초래할 위험이 큽니다. 현금 고갈 가능성은 회생 불가능하므로 위험 부담 전략은 배제해야 합니다. 또한 경쟁사 공세 대비 방어 태세가 미흡합니다. 따라서 현재로서는 가장 안전한 재무 구조 유지를 우선합니다. (Reference: Shiseido pressure exists but requires cautious defense, not aggressive spend.)
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 임상 데이터 강화로 프리미엄 신뢰 구축; 브랜드 포트폴리오 시너지로 예산 효율
+**Decision:** 설화수 라인 강화 및 브랜드 가치 증대; 임상 데이터 활용 신뢰 기반 마케팅 강화
 
-**Reasoning:** 단기 점유보다 장기 자산 가치 우선; 고정비 절감 및 현금 흐름 안정화
+**Reasoning:** 브랜드 자산 우선주의와 장기 충성도 확보; 단기 매출보다 브랜드 신뢰도 우선 방어 태세
 
 #### Adjudicator panel (3 experts)
 
-**Regulatory/Policy Expert**: Shiseido 의 공격적 가격 정책은 한국 공정위의 불공정 행위 조사 대상이 될 수 있으며, AURIE 와 같은 중규모 기업은 규제를 기회로 삼아 오픈 표준화된 임상 데이터를 축적하는 것이 생존 전략으로 최적이다.
+**산업 전문가**: 현금 제약 하에서 대규모 자본 지출 전략을 동시에 실행할 경우 조직 흡수 능력 한계로 인해 단기간의 현금 소모만 집중되는 구조적 함정으로 전락할 위험이 큽니다.
 
-- side_a: `strong` ↑ — AURIE 의 임상 데이터 투자는 글로벌 제품 표기 규제 강화 흐름에 부합하여 장기적인 규제 컴플라이언스 모션을 확보하나, 현금 여력 한계로 단기 대응력이 약화될 위험이 존재한다.
-- side_b: `dominant` ↑ — Shiseido 는 압도적인 현금 보유량으로 인해 가격 인하로 유발된 불공정거래법 리스크를 흡수하며 단기간 내 시장 지배력을 공고히 하나, 규제 당국의 주의 집행을 피하기는 어렵다.
-- side_c: `contested` → — Amore Pacific 은 시장 점유율 규모로 인해 공정위에 의한 차별금지 심사가 지속되는 구조적 리스크 속에 있고, 이윤 중심의 시너지 전략은 규제 비용 상승으로 상쇄된다.
+- side_a: `contested` ↘ — AURIE 는 일본 시장 진출과 임상 데이터 마케팅 동시 집행으로 현금 소모가 가속화되어 단기 마진 압박이 구조화되고 있어 자금 여력이 경쟁사의 가격 공세에 취약한 상태입니다.
+- side_b: `strong` ↑ — 시세이도는 75% 의 최대 현금 보유력과heritage 브랜드 힘, J-Beauty 수출 모멘텀을 바탕으로 한국 mass-premium 가격 인하와 채널 확장을 병행하며 주도권을 확고히 하고 있습니다.
+- side_c: `strong` → — 아모레퍼시픽은 설화수 프리미엄 포지셔닝 방어와 글로벌 채널 강세를 유지하고 있으나 중국 회복 정체와 조직 속도가 단기 모멘텀 상향을 제한하는 상황입니다.
 
-**Industry Veteran**: 기술 제품 개발 주기는 장기적 현금 소모를 필요로 하지만, 가격 공세 경쟁자는 단기 시장 선점에 집중하므로 현금 보유량 차이가 전략 실행 지속성을 좌우한다.
+**Regulatory/Policy Expert**: 규제 컴플라이언스 비용은 자본 규모에 비례해 부담이 감소하므로 자원을 가진 플레이어가 시장 진입 장벽을 더욱 공고히 한다. 정부 개입 가능성을 배제할 수 없는 가격 전쟁 지역에서는 오픈 표준 준수 능력이 경쟁 우위의 핵심 변수가 된다.
 
-- side_a: `contested` ↘ — 한정된 현금 보유량은 연구개발과 해외 진출 비용을 감당하기 어렵게 하며, 경쟁사의 공격적 가격 공세로 수익성이 압축될 수 있다.
-- side_b: `dominant` ↑ — 가장 풍부한 현금 자원을 활용하여 시장 가격을 낮추고 유통망을 확장함으로써 경쟁사의 시장 점유율을 적극적으로 잠식하고 있다.
-- side_c: `strong` → — 탄탄한 브랜드 포트폴리오로 안정성을 유지하지만, 주요 해외 시장 성장이 정체되어 있어 성장 모멘텀은 현상 유지 수준이다.
+- side_a: `contested` ↓ — AURIE 는 임상 데이터 기반 마케팅과 일본 직영 매장 확장을 병행하며 규제 승인 비용이 급증해 현금 유동성 리스크가 커진다.
+- side_b: `strong` ↗ — Shiseido 는 공격적 가격 정책에 시장에서 반독점 우려를 받으나 풍부한 현금으로 인한 집행력 확보에 유리한 입지이다.
+- side_c: `dominant` → — Amore Pacific 는 글로벌 표준 준수를 통해 브랜드 인식을 높이며 규제 리스크를 완화하는 선제적 대응이 가능하다.
 
-**Strategy Consultant**: AURIE 과 같은 현금 제약 플레이어는 대규모 자산 투자 동안 가격 전쟁에 직접 노출될 때 조직 흡수 능력에 한계가 발생하며, 이는 장기적인 R&D 효과 발현 전까지 생존 리스크로 작용한다.
+**Strategy Consultant**: 자본 효율성 차이가 시장 권력을 결정짓고 있어 현금 보유량이 많은 기업이 가격 전쟁 상황에서 유리한 고지를 선점하고 있습니다.
 
-- side_a: `contested` ↘ — 현금보유량이 상대적으로 부족함에도 불구하고 임상 데이터와 신기술에 동시에 집중한 자원 배분은 시세이도의 가격 공세와 맞물려 지속 가능한 성장 동력을 약화시킨다.
-- side_b: `dominant` ↑ — 높은 현금 잔액과 글로벌 채널 경험을 바탕으로 한국의 중규모 브랜드가 직면한 프리미엄 가치 훼손을 가격 인하로 교란하며 우위를 점한다.
-- side_c: `strong` → — 내부 시너지 효과를 극대화하면서 임상 데이터 기반 브랜드 신뢰도를 높여 시장 변동성 속에서도 안정적인 입지를 공고히 한다.
+- side_a: `contested` ↘ — AURIE 는 낮은 현금 보유 상태에서 과도한 일본 진출 투자와 임상 마케팅 동시 실행으로 자원 고갈 위험이 크며, Shiseido 의 공격적 가격 정책으로부터 자사 가격을 방어할 여력이 부족합니다.
+- side_b: `dominant` ↑ — Shiseido 는 가장 풍부한 현금과 일본 뷰티 추세 모멘텀을 활용하여 저가 공세와 다채널 확장으로 시장 내 타겟 고객을 확보하고 빠르게 점유율을 늘리고 있습니다.
+- side_c: `strong` → — Amore Pacific 은 자체 프리미엄 브랜드 방어에 주력하여 외부 충격을 흡수하고 있으나 공격적 투자가 없어 성장 속도는 현재 수준을 유지합니다.
 
 #### Adjudicator synthesis
 
-> 시세이도는 풍부한 현금 자원을 활용하여 가격 인하 공세를 펼치며 중규모 브랜드인 AURIE의 수익성을 압박하고 시장 점유율을 잠식했습니다. AURIE는 규제 강화 흐름에 맞춰 임상 데이터 투자를 단행했으나, 이로 인한 현금 소모가 시세이도의 가격 공세로 인한 수익 감소분을 상쇄하지 못해 생존 리스크가 고조되었습니다. 아모레퍼시픽은 기존 브랜드 포트폴리오와 내부 시너지를 통해 안정적 입지를 유지했으나, 해외 시장 성장 정체와 규제 비용 증가로 인해 뚜렷한 성장 모멘텀을 확보하지는 못했습니다.
+> AURIE는 일본 직영 매장 확장과 임상 마케팅을 동시에 진행하며 현금 소모를 집중시켰으나, 이는 단기 마진 압박을 구조화시키는 결과를 낳았습니다. Shiseido는 이러한 AURIE의 취약점을 포착해 풍부한 현금력을 바탕으로 가격 공세와 채널 확장을 병행하며 시장 주도권을 선점했습니다. Amore Pacific은 규제 리스크를 선제적으로 관리하며 프리미엄 포지셔닝을 방어했으나, 중국 시장의 정체로 인해 공격적인 성장 모멘텀을 확보하지는 못했습니다.
 
-**Interaction analysis:** 시세이도의 공격적 가격 공세는 AURIE의 현금 소모를 가속화하여 R&D 투자 지속성을 위협하는 동시에, 아모레퍼시픽의 시너지 전략도 규제 비용 상승으로 인해 그 효과가 상쇄되는 구조를 형성했습니다. 이로 인해 AURIE는 규제 준수 모션을 취하면서도 시장 점유율 방어에 어려움을 겪고, 시세이도는 현금력을 앞세워 시장 구조를 재편하고 있습니다.
+**Interaction analysis:** Shiseido의 공격적인 가격 공세는 AURIE의 과도한 Capex 투자로 인해 약해진 현금 유동성을 직접적으로 타격하여 시장 점유율 방어 능력을 약화시켰습니다. 반면 Amore Pacific은 규제 준수와 브랜드 방어 전략으로 외부 충격을 흡수하며 안정적인 위치를 유지하고 있습니다.
 
 ---
 
 <a id="turn-2"></a>
 ## Turn 2
 
-**Events fired:** 중국 수입 규제 강화 및 자국 브랜드 우대, MZ 세대 미니멀리즘 트렌드 전환
+**Events fired:** 환율 변동성 급증
 
 ### **AURIE** (side_a)
 
-- Final action: `Clinical Data Push`@0.80
-- Position: `contested` →
-- Cash: 41.4%
-- Adjudicator rationale: 중국 규제 강화로 임상 데이터 자산이 진입 장벽으로 작용해 생존 가능성이 확보되었으나, 현금 고갈로 인한 성장 한계와 점유율 추락 속도가 상쇄되어 중립적 흐름을 유지합니다.
+- Final action: `Japan Market Entry Blitz`@0.90
+- Position: `weak` ↓
+- Cash: 41.0%
+- Adjudicator rationale: AURIE는 일본 직영 점포 확충으로 인한 과도한 현금 소진과 시세이도의 가격 공세로 인해 재무적 압박이 극심해져 생존 가능성이 약화되었습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CFO**: `D2C NPS Optimization`@0.60, `Clinical Data Push`@0.40
-  - rationale: 현금 42%로 고위험 R&D/오프라인 확장은 자제. 시세이도 가격공세에 맞서 '가격'이 아닌 '임상 효능'과 '기존 고객 유지(D2C)'로 마진 방어하며 현금 소모를 최소화하는 전략이 Board mandate(예산 차단, 기존 자산 활용)와 부합함.
-  - risk: 일본 채널 신규 투자 지연으로 시장 진입 속도 저하 가능성
-- **COO**: `Clinical Data Push`@0.60, `D2C NPS Optimization`@0.40
-  - rationale: 보통의 가격 경쟁은 현금이 42%밖에 없는 상황에서 자살행위입니다. 시세이도의 가격 인하에 대응하려면 '가격'이 아닌 '치명적 효능'으로 승부해야 합니다. Clinical Data Push는 시세이도의 가격 공세를 무력화하여 프리미엄 세그먼트를 방어하는 유일한 길입니다. 동시에 R&D와 마케팅 예산을 모두 늘릴 여력이 없으므로, 기존 자산(충성 고객)을 활용한 D2C NPS 최적화로 현금 흐름만이라도 확보해야 합니다. Board mandate가 신규 마케팅 차단을 명시했으므로, 대규모 채널 확장이나 인플루언서 생태계 구축은 실행 불가능합니다.
-  - risk: 단기 매출 감소로 현금 고갈 가속화 가능성
-- **CMO**: `Clinical Data Push`@0.60, `D2C NPS Optimization`@0.40
-  - rationale: 보드 mandates(예산 차단, 가격 경쟁 배제) 와 현재 'Clinical-Value Fortress' 캠페인을 엄격히 준수함. 시세이도의 가격 인하가 프리미엄 세그먼트의 효능 중심 구매 결정에는 영향을 미치지 않도록 임상 데이터를 무기로 삼고, D2C 채널을 통해 기존 고가 충성고객(LTV) 의 이탈을 막는 것이 유일한 방어책임. 아모레파acific의 임상 데이터 전략에 대응하여 신뢰 기반 격차를 유지해야 함.
-  - risk: 단기 매출 둔화로 인한 현금흐름 악화 지속 가능성
-- **CTO**: `Clinical Data Push`@0.60, `D2C NPS Optimization`@0.40
-  - rationale: 시세이도의 가격 공세는 '가성비' 세그먼트에 타격을 주지만, AURIE의 '임상 데이터 기반 프리미엄' 전략은 기능적 효능을 중시하는 소비자에게 유효합니다. 이번 턴에는 단순 할인 (Aggressive Price Cut) 이나 채널 확장 (Olive Young Expansion) 보다는, 시세이도가 약점으로 노출한 '임상 근거 부족'을 역이용하여 고가 SKU의 가치를 입증하는 데 집중해야 합니다. 또한 현금 고갈 위험을 막기 위해 면세점 의존도를 줄이고 D2C 채널을 통한 높은 마진과 충성도 확보에 자원을 배분하여, 단기 매출 하락을 장기적인 브랜드 자산으로 전환합니다.
-  - risk: Shiseido 가격 인하로 인한 신규 유입 일시적 감소 및 R&D 투자 회수 기간 연장
-- **CEO**: `Clinical Data Push`@0.60, `D2C NPS Optimization`@0.40
-  - rationale: Shiseido 가격 강보전 공격 시 매출 침투 위험 존재하나, 할인 전략은 프리미엄 이미지 훼손 우려. 기존 R&D 자산과 D2C 채널 효율화를 통한 비용 최소화 및 가치 강화로 보드 '예산 차단' 요구 수용. 장기적 마진 보호를 위한 선제적 대응이며, 임상 데이터는 마케팅 비용 대신 제품 경쟁력으로 전환한다.
-  - risk: 차세대 고객 유입 미흡으로 점유율 추가 하락
+- **COO**: `Clinical Data Marketing`@0.60, `Japan Market Entry Blitz`@0.30, `Cash Reserve Hedging`@0.10
+  - rationale: 시세도의 가격 인하에 대응해 '임상 데이터'로 가치 방어 전략을 유지하되, CEO 의 일본 직영 프로젝트에 대한 자존심과 집착 (Blind Spot) 으로 인해 손익이 악화되는 리스크를 감수하고 해당 채널을 우선 투자합니다. 또한 Board 의 50% 예산 삭감 명령을 준수하며, 나머지 자원은 현금 보존에 할당하여 과다 투자 리스크를 관리합니다.
+  - risk: 일본 직영 확장으로 인한 단기 손익 악화 및 현금 고갈
+- **CFO**: `Clinical Data Marketing`@0.45, `Japan Market Entry Blitz`@0.35, `Cash Reserve Hedging`@0.20
+  - rationale: 1) 시세도의 가격 인하에 대응해 '임상 데이터'로 가치 방어 (전략 일관성). 2) CEO 의 자존심과 IR 약속에 따른 일본 직영 채널 확대 불가피 (리더십 편향 반영). 3) 중국 매출 비중 축소를 통해 리스크 분산 및 현금 흐름 보호.
+  - risk: 일본 직영 채널 확장으로 단기 손익 악화 및 현금 고갈 위험
+- **CTO**: `Clinical Data Marketing`@0.60, `Japan Market Entry Blitz`@0.30, `D2C Ecosystem Lock-in`@0.10
+  - rationale: 시세도의 가격 인하 공세는 프리미엄 타겟에게는 효과가 제한적임. CEO 의 R&D 신념과 일본 직영 프로젝트에 대한 집착을 반영, 제품력과 독점 채널로 방어하며 시장 점유율 하락을 지연시키려 함. 비용 절감은 장기 경쟁력 상실을 초래하므로 배제함.
+  - risk: 단기 매출 급감 및 현금 소진 가속화 리스크
+- **CMO**: `Clinical Data Marketing`@0.65, `Japan Market Entry Blitz`@0.35
+  - rationale: Board mandate 에 따라 동일 전술 반복을 피하되, CEO 의 '임상 데이터 신뢰' 편향과 '일본 직영 50 개' 고집을 반영함. 시세도의 가격 인하에 대응하기 위해 가격 경쟁이 아닌 임상 데이터로 가치 고정 (Anchoring) 을 재강화하고, 일본 시장에서의 물리적 점유 확대를 통해 가격 전쟁 회피 전략을 실행함. 이는 단기 마진 압박을 감수하더라도 브랜드 프리미엄을 유지하려는 경영진의 성향을 반영한 선택임.
+  - risk: 단기 매출 감소 및 현금 소진 가속화
+- **CEO**: `Japan Market Entry Blitz`@0.50, `D2C Ecosystem Lock-in`@0.30, `Clinical Data Marketing`@0.20
+  - rationale: 이사회 예산 삭감 지시 이행 및 경쟁사 가격 공세 대응을 위한 다각화 시도. CEO 리더십의 일본 시장 고집과 프리미엄 이미지 유지 결합.
+  - risk: 환율 변동으로 인한 일본 시장 손익 악화 가능성
 
-##### Phase 2 — 비판적 검토 (다수안: `D2C NPS Optimization`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Marketing`, DA: `CTO`)
 
-- **CFO**: `Clinical Data Push`@0.60, `D2C NPS Optimization`@0.40
-- **COO**: `Clinical Data Push`@0.75, `D2C NPS Optimization`@0.25
-  - changed `Clinical Data Push+D2C NPS Optimization` → because: 재고 위험 감소 및 현금 흐름 보호
-- **CMO**: `Clinical Data Push`@0.65, `Japan Brand Awareness`@0.35
-  - changed `Clinical Data Push, D2C NPS Optimization` → because: 일본 시장 침투 지연은 점유율 하락 가속화
-- **CEO**: `Clinical Data Push`@0.40, `D2C NPS Optimization`@0.60
-- **CTO**: `Clinical Data Push`@1.00
-  - dissent: 대부분의 팀 제안이 NPS 최적화에 과도하게 집중했으나 이는 플랫폼 사용성 개선에 그쳐 실제 제품 기술력과 연결되지 않음. K-beauty 프리미엄 라인에서는 효능 증명이 우선시되며 단순 운영 지표 개선으로는 시장 점유율 하락 추세를 멈출 수 없음. 특히 3 년 내 기술적 우위가 사라진다면 브랜드 이미지만 유지될 뿐임. 보드가 요구하는 기존 자산 활용 측면에서도 신조 데이터 생성 없이 기존 자료를 재사용하는 것이 더 효율적이므로 현 전략의 수정 필요함. 또한 가격 할인 중심의 단기 수익 모델은 AURIE 프리미엄 포지셔닝을 훼손할 가능성이 높음. 따라서 임상 데이터를 통해 제품 본연의 가치를 강조하는 방향으로 변경해야 함. 경쟁사가 시세 상승 중이라 하더라도 기술적 차별화를 잃으면 소비자 이탈은 피할 수 없으며 단순히 채널 관리나 구매 후 평가를 개선하는 것은 임시방편에 불과함. 장기적 관점에서 기술 투자와 현재 자원 효율성의 균형을 맞출 필요가 있음. 결국 비용 증가 없이 신뢰도를
+- **CFO**: `Clinical Data Marketing`@0.60, `Japan Market Entry Blitz`@0.25, `Cash Reserve Hedging`@0.15
+- **CMO**: `Clinical Data Marketing`@0.50, `Japan Market Entry Blitz`@0.30, `D2C Ecosystem Lock-in`@0.20
+- **COO**: `Clinical Data Marketing`@0.65, `Japan Market Entry Blitz`@0.25, `Cash Reserve Hedging`@0.10
+  - changed `Japan Market Entry Blitz` → because: 일본 직영 과다 투자 리스크 경감
+- **CTO**: `Breakthrough R&D Bet`@0.60
+  - dissent: 임상 데이터 마케팅은 제품의 실제 기술 가치와 괴리되어 신뢰도가 빠르게 소진될 수 있음. 타겟 고객 세그먼트 내에서 단순히 입증된 데이터를 나열하는 방식은 경쟁사의 유사 공략에 쉽게 대체되며, 장기적인 브랜드 프리미엄 강화를 위한 핵심 인프라인 기술 축적을 더디게 만듦. 단순 전술 반복은 시장 점유율 하락을 초래했으며 현금 보유량이 안전하더라도 기술 우위가 박탈될 경우 경쟁사가 따라오지 못한 채 이탈률이 가속화될 수 있음. 현재 R&D 투자 수준 50% 는 업계 최저선을 위협할 정도로 낮아 2~3 년 내 선점 효과가 사라질 위험이 큼. 따라서 마케팅 예산 조정이 아닌 기술적 진입장벽 형성이 우선되어야 지속 가능한 성장을 보장함. 또한 일본 시장의 인지도 극복을 위한 마케팅 투입은 제품 자체의 기술력에 기반하지 않을 경우 단기 효과만 기대할 수 있으므로 신중해야 함. 결국 비용 효율성 높은 기술 투자만이 장기적으로 AURIE 의 브랜드 가치를 방어하는 유일한 방법이지만, 단기 실적 압
+- **CEO**: `Japan Market Entry Blitz`@0.50, `D2C Ecosystem Lock-in`@0.30, `Clinical Data Marketing`@0.10
+  - changed `Clinical Data Marketing` → because: 임상예산 50% 삭감명령 반영
 
 **Position changes:**
-- COO: Clinical Data Push+D2C NPS Optimization → Clinical Data Push+D2C NPS Optimization (재고 위험 감소 및 현금 흐름 보호)
-- CMO: Clinical Data Push, D2C NPS Optimization → Clinical Data Push+Japan Brand Awareness (일본 시장 침투 지연은 점유율 하락 가속화)
-- [반대] CTO: 대부분의 팀 제안이 NPS 최적화에 과도하게 집중했으나 이는 플랫폼 사용성 개선에 그쳐 실제 제품 기술력과 연결되지 않음. K-beauty 프리미엄 라인에서는 효능 증명이 우선시되며 단순 운영 지표 개선으로는 시장 점유율 하락 추세를 멈출 수 없음. 특히 3 년 내 기술적 우위가 사라진다면 브랜드 이미지만 유지될 뿐임. 보드가 요구하는 기존 자산 활용 측면에서도 신조 데이터 생성 없이 기존 자료를 재사용하는 것이 더 효율적이므로 현 전략의 수정 필요함. 또한 가격 할인 중심의 단기 수익 모델은 AURIE 프리미엄 포지셔닝을 훼손할 가능성이 높음. 따라서 임상 데이터를 통해 제품 본연의 가치를 강조하는 방향으로 변경해야 함. 경쟁사가 시세 상승 중이라 하더라도 기술적 차별화를 잃으면 소비자 이탈은 피할 수 없으며 단순히 채널 관리나 구매 후 평가를 개선하는 것은 임시방편에 불과함. 장기적 관점에서 기술 투자와 현재 자원 효율성의 균형을 맞출 필요가 있음. 결국 비용 증가 없이 신뢰도를
+- COO: Japan Market Entry Blitz → Clinical Data Marketing+Japan Market Entry Blitz+Cash Reserve Hedging (일본 직영 과다 투자 리스크 경감)
+- [반대] CTO: 임상 데이터 마케팅은 제품의 실제 기술 가치와 괴리되어 신뢰도가 빠르게 소진될 수 있음. 타겟 고객 세그먼트 내에서 단순히 입증된 데이터를 나열하는 방식은 경쟁사의 유사 공략에 쉽게 대체되며, 장기적인 브랜드 프리미엄 강화를 위한 핵심 인프라인 기술 축적을 더디게 만듦. 단순 전술 반복은 시장 점유율 하락을 초래했으며 현금 보유량이 안전하더라도 기술 우위가 박탈될 경우 경쟁사가 따라오지 못한 채 이탈률이 가속화될 수 있음. 현재 R&D 투자 수준 50% 는 업계 최저선을 위협할 정도로 낮아 2~3 년 내 선점 효과가 사라질 위험이 큼. 따라서 마케팅 예산 조정이 아닌 기술적 진입장벽 형성이 우선되어야 지속 가능한 성장을 보장함. 또한 일본 시장의 인지도 극복을 위한 마케팅 투입은 제품 자체의 기술력에 기반하지 않을 경우 단기 효과만 기대할 수 있으므로 신중해야 함. 결국 비용 효율성 높은 기술 투자만이 장기적으로 AURIE 의 브랜드 가치를 방어하는 유일한 방법이지만, 단기 실적 압
+- CEO: Clinical Data Marketing → Japan Market Entry Blitz+D2C Ecosystem Lock-in+Clinical Data Marketing (임상예산 50% 삭감명령 반영)
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 기존 임상 자료로 가치 강조; 자사 채널로 수익 구조 다져
+**Decision:** 일본 직영 점포 확대 및 브랜드 노출; 자체몰 구독 모델 고도화 및 회원 확보; 불확실성 증가 시 현금 흐름 보전
 
-**Reasoning:** 경쟁사 저가에 대항할 효능 입증; 신규 비용 절감 및 기존 자산 활용
+**Reasoning:** Shiseido 가격 공세 대비 차별화 채널; 직접 판매로 Shiseido 가격 영향 차단; 환율 리스크와 가격 전쟁 준비
 
 ### Shiseido (side_b)
 
-- Final action: `Bold R&D Bet`@0.80
+- Final action: `Clinical Data Marketing`@0.80
 - Position: `dominant` ↑
-- Cash: 74.5%
-- Adjudicator rationale: 탁월한 현금 보유력으로 규제 비용과 가격 공세를 모두 견디며 R&D 선점 효과를 극대화하여 시장 지배력을 더욱 공고히 하고 있습니다.
+- Cash: 72.6%
+- Adjudicator rationale: Shiseido는 막대한 현금 보유력을 바탕으로 가격 전술을 지속하며 시장 주도권을 더욱 공고히 하고 있습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CMO**: `Mass-Premium Infiltration`@0.50, `Influencer Ecosystem`@0.30, `Prestige Pricing Power`@0.20
-  - rationale: 시세이도의 가격 인하 공세에 맞서 AURIE는 단순 임상 데이터 강조를 넘어, 백화점 채널 중심의 '프리미엄 경험'과 '맞춤형 케어'로 차별화된 가치를 강화하고, Olive Young에서는 한정판/콜라보레이션 SKU를 통해 가격 민감도를 우회하는 하이브리드 전략을 실행한다. CEO의 공격적 성향(70%)에 부합하며, 현금 보유량을 활용해 단기 마진 희생 없이 시장 점유율 잠식을 추진한다.
-  - risk: AURIE의 임상 데이터 반등으로 인한 옴니채널 전환 실패 가능성
-- **CFO**: `Prestige Pricing Power`@0.45, `Global Prestige Channel`@0.35, `Heritage Storytelling`@0.20
-  - rationale: 보드 지시대로 가격 인하와 마케팅 비용 증대를 배제하고, AURIE의 임상 데이터 공세 실패 틈을 타 '프리미엄 경험'과 '브랜드 가치'에 집중한다. 시세이도의 우위를 유지하며 현금 소모를 최소화하는 것이 최우선이다.
-  - risk: 단기 매출 성장 둔화 가능성
-- **CTO**: `Bold R&D Bet`@0.60, `Influencer Ecosystem`@0.30, `Prestige Pricing Power`@0.10
-  - rationale: 보드의 '단기 가격 경쟁 배제 및 제품 혁신 집중' 지시를 준수하며, AURIE의 임상 데이터 전략이 약세를 보인 점을 역이용해 기술적 우위를 선점해야 함. CEO 의 공격적 성향을 반영하여 시장 재편을 위한 과감한 투자가 필요하나, 가격 인하는 금기 사항으로 가격 방어 기조를 유지함.
-  - risk: 대규모 R&D 투자에 따른 단기 현금 소모 및 실패 시 자원 고갈 위험
-- **COO**: `Prestige Pricing Power`@0.45, `Global Prestige Channel`@0.35, `Heritage Storytelling`@0.20
-  - rationale: 보드 지시대로 가격 경쟁과 비용 증대를 배제하고, AURIE의 임상 데이터 전략 약세를 역이용해 '프리미엄 경험'과 '브랜드 가치'로 시장 점유율 확대를 달성함. CEO의 공격적 성향에 맞춰 핵심 채널(백화점/글로벌)에서의 가격 방어력을 극대화하며, 신규 트렌드(MZ 미니멀리즘)에는 저비용 고효율 스토리텔링으로 대응하여 자원 과부하 방지.
-  - risk: 단기 매출 성장 둔화 가능성 (가격 인하나 마케팅 증대 없음)
-- **CEO**: `Bold R&D Bet`@0.60, `Prestige Pricing Power`@0.40
-  - rationale: 보드 매뉴데이터 요구사항 (가격 인하 금지, 제품 혁신 집중) 에 맞춰 비가격 경쟁으로 전환. AURIE 의 임상 데이터 중심 전략은 이미 약세를 보이고 있으므로, 독보적인 성분 모먼트로 시장을 재편성함. 아모레 파시픽의 견제 속에서도 프리미엄 가치 제안으로 마진 보호하며 점유율 확장 목표 달성
-  - risk: 단기 현금 유출 증가 및 R&D 성과 불확실성
+- **CTO**: `Clinical Data Marketing`@0.60, `Global Prestige Partnership`@0.40
+  - rationale: AURIE의 임상 마케팅에 대항해 과학적 검증 캠페인 필수이며, CEO의 글로벌 표준화 선호와 자존심을 반영해 현지 적응형 저가 공세 대신 프리미엄 채널 제휴를 선택함. 보드 지시대로 가격 인하는 금지하고 혁신 예산 집중.
+  - risk: 환율 변동성으로 인한 마진 압박 지속 가능성 낮음
+- **CFO**: `Clinical Data Marketing`@0.60, `Global Prestige Partnership`@0.40
+  - rationale: 보도자료에 따라 가격 인하 금지 mandates 충족하며, AURIE의 임상 마케팅 대응을 위해 오히려 더 강력한 과학적 증거 기반 캠페인 (Clinical Data Marketing) 을 확대해야 함. 동시에 CEO 의 '일본 본사 중심' 편향과 자존심을 반영하여, 현지화된 SNS 전술 대신 글로벌 표준화 전략인 프리미엄 채널 제휴 (Global Prestige Partnership) 를 선택함. 이는 단기 마진 희생 없이 브랜드 가치를 방어하면서 점유율 회복을 도모하는 유일한 합리적 경로임.
+  - risk: 고정비 증가 및 ROI 지연 가능성
+- **COO**: `Heritage Brand Leverage`@0.40, `Clinical Data Marketing`@0.30, `Global Prestige Partnership`@0.30
+  - rationale: CEO의 'AURIE 따라하기' 거부감과 일본 본사 중심 의사결정 성향(리더십 블라인드 스팟) 을 반영하여, 가격 인하 대신 브랜드 헤리티지와 글로벌 파트너십을 통해 프리미엄 포지션을 유지하되, 아모레/아우리의 임상 마케팅에 대응하는 방식 선택. 시드 전략의 '동남아 유통망 확장'은 본사 표준화 선호로 인해 리스크가 크므로 '글로벌 파트너십'으로 대체하여 실행 가능성을 높임.
+  - risk: 본사 자존심과 현지화 갈등으로 인한 실행 지연 및 예산 초과 가능성
+- **CMO**: `Heritage Brand Leverage`@0.50, `Global Prestige Partnership`@0.30, `Clinical Data Marketing`@0.20
+  - rationale: 보드 mandates(가격 인하 금지, 마케팅 증액) 에 따라 저가 공세 대신 브랜드 자산으로 방어하며, CEO 의 '일본 본사 중심' 성향과 '한국식 SNS 전술 거부'를 반영해 글로벌 파트너십과 임상 데이터를 통해 정통성을 강화하는 전략입니다. AURIE 의 임상 마케팅에 대응하되, 단순 할인이 아닌 가치 기반 접근을 통해 현금 흐름을 보호합니다.
+  - risk: 헤리티지 강조가 MZ 세대 공략 둔화 가능성
+- **CEO**: `Heritage Brand Leverage`@0.50, `Clinical Data Marketing`@0.30, `Global Prestige Partnership`@0.20
+  - rationale: board mandate 에 따라 가격 인하 불가 하므로 Heritgae 를 통한 프리미엄 방어 필수. 아모레 파시픽의 강세 견제를 위해 마케팅 예산 증액 집행. AURIE 의 임상 데이터 전략은 지속 가능성이 낮으므로 과학적 검증으로 차별화.
+  - risk: 환율 변동성 및 유통 비용 증가에 따른 마진 압박 가능성
 
-##### Phase 2 — 비판적 검토 (다수안: `Prestige Pricing Power`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Marketing`, DA: `CTO`)
 
-- **CMO**: `Mass-Premium Infiltration`@0.45, `Influencer Ecosystem`@0.35, `Prestige Pricing Power`@0.20
-- **COO**: `Bold R&D Bet`@0.60, `Global Prestige Channel`@0.30, `Heritage Storytelling`@0.10
-- **CFO**: `Prestige Pricing Power`@0.50, `Global Prestige Channel`@0.35, `Heritage Storytelling`@0.15
-- **CEO**: `Bold R&D Bet`@0.70, `Prestige Pricing Power`@0.30
-- **CTO**: `Bold R&D Bet`@0.60
-  - dissent: 팀 다수안은 마진 확보에 치중하지만, 가격만으로는 시장 점유율을 확장할 수 없다. 특히 R&D 역량이 중요한 화장품 시장에서 선제적인 특허 확보 없이는 경쟁사의 모방이 불가피하다. 단기간의 현금 유출을 감수하더라도 기술적 우위를 점해야 브랜드 프리미엄이 유지된다. 만약 AURIE 이 기술 개발에 실패하더라도 데이터 축적이 향후 자산 가치가 되며,pricing power 만으로는 리스크 관리가 불충분하다. 50% 수준의 기존 투자로는 3 년 내 경쟁력이 침식될 가능성이 있다. 따라서 자금 배분을 혁신 중심으로 전환하여 시장 재편 기회를 잡아야 한다. 경쟁사 Amore Pacific 과의 격차도 좁히기 위해 필수적이다. 시장 리더인 Shiseido 를 앞서려면 가격전술보다 기술선점이 확실한 해법이다. 단기 성과보다는 장기 생존이 최우선 과제이며, 이는 보드 요청 사항과도 일치한다. 현재 상황에서는 제품 차별화가 유일한 지속 가능 성장 경로이다. 하지만 절대적으로 독점적인 지위를 목표로하
+- **CFO**: `Clinical Data Marketing`@0.60, `Global Prestige Partnership`@0.40
+- **CMO**: `Heritage Brand Leverage`@0.40, `Clinical Data Marketing`@0.35, `Global Prestige Partnership`@0.25
+- **COO**: `Heritage Brand Leverage`@0.45, `Clinical Data Marketing`@0.35, `Global Prestige Partnership`@0.20
+- **CEO**: `Clinical Data Marketing`@0.50, `Heritage Brand Leverage`@0.30, `Global Prestige Partnership`@0.20
+- **CTO**: `Heritage Brand Leverage`@0.50, `Global Prestige Partnership`@0.30, `Gen Z Digital Pivot`@0.20
+  - dissent: 임상 데이터 마케팅은 현재 시장에서 정보 과잉 환경 하에 차별화 소지가 제한적이며, 이를 반복하는 것은 단순히 마케팅 예산을 소모할 뿐 실질적인 제품 혁신 투자를 대체할 수 없다. 보드는 다음 분기 가격 인하를 금지하고 마케팅 및 제품 혁신 예산을 15% 증액할 것을 명시했다. 임상 데이터 중시 전략은 과거 성적을 확인하는 행위에 그치지만, 진정한 프리미엄 회복은 고유한 기술력과 브랜드 스토리를 통한 기대감 형성에서 출발해야 한다. R&D 역량이 2~3 년 내 잠식되지 않으려면 하드웨어 및 소프트웨어 인프라 구축이 선행되어야 하는데, 현안은 데이터 발표에 치중되어 핵심 기술 성장 동력을 놓칠 수 있다. 이는 보드의 지시에 따라 프리미엄 포지션을 회복하겠다는 목표와 정면으로 충돌하여, 단순 광고비 증가만 이루어지게 할 우려가 크다. 또한, 동일한 전술 반복은 시장 내에서 타사들의 추격을 허용하여 가격 책정권 약화로 이어질 수 있다. 현금과 지위는 유지되었으나, 본질적인 기술 격차를 줄
 
 **Position changes:**
-- [반대] CTO: 팀 다수안은 마진 확보에 치중하지만, 가격만으로는 시장 점유율을 확장할 수 없다. 특히 R&D 역량이 중요한 화장품 시장에서 선제적인 특허 확보 없이는 경쟁사의 모방이 불가피하다. 단기간의 현금 유출을 감수하더라도 기술적 우위를 점해야 브랜드 프리미엄이 유지된다. 만약 AURIE 이 기술 개발에 실패하더라도 데이터 축적이 향후 자산 가치가 되며,pricing power 만으로는 리스크 관리가 불충분하다. 50% 수준의 기존 투자로는 3 년 내 경쟁력이 침식될 가능성이 있다. 따라서 자금 배분을 혁신 중심으로 전환하여 시장 재편 기회를 잡아야 한다. 경쟁사 Amore Pacific 과의 격차도 좁히기 위해 필수적이다. 시장 리더인 Shiseido 를 앞서려면 가격전술보다 기술선점이 확실한 해법이다. 단기 성과보다는 장기 생존이 최우선 과제이며, 이는 보드 요청 사항과도 일치한다. 현재 상황에서는 제품 차별화가 유일한 지속 가능 성장 경로이다. 하지만 절대적으로 독점적인 지위를 목표로하
+- [반대] CTO: 임상 데이터 마케팅은 현재 시장에서 정보 과잉 환경 하에 차별화 소지가 제한적이며, 이를 반복하는 것은 단순히 마케팅 예산을 소모할 뿐 실질적인 제품 혁신 투자를 대체할 수 없다. 보드는 다음 분기 가격 인하를 금지하고 마케팅 및 제품 혁신 예산을 15% 증액할 것을 명시했다. 임상 데이터 중시 전략은 과거 성적을 확인하는 행위에 그치지만, 진정한 프리미엄 회복은 고유한 기술력과 브랜드 스토리를 통한 기대감 형성에서 출발해야 한다. R&D 역량이 2~3 년 내 잠식되지 않으려면 하드웨어 및 소프트웨어 인프라 구축이 선행되어야 하는데, 현안은 데이터 발표에 치중되어 핵심 기술 성장 동력을 놓칠 수 있다. 이는 보드의 지시에 따라 프리미엄 포지션을 회복하겠다는 목표와 정면으로 충돌하여, 단순 광고비 증가만 이루어지게 할 우려가 크다. 또한, 동일한 전술 반복은 시장 내에서 타사들의 추격을 허용하여 가격 책정권 약화로 이어질 수 있다. 현금과 지위는 유지되었으나, 본질적인 기술 격차를 줄
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 혁신 성분으로 기술장벽 구축; 프리미엄 가치 유지를 통한 마진 확보
+**Decision:** 임상 데이터 활용으로 브랜드 신뢰 강화; 유산 강조를 통한 프리미엄 가치 제고; 글로벌 파트너십으로 유통망 확충
 
-**Reasoning:** 기술 선점이 유일한 지속가능 성장 경로; 단기 마진 희생보다 장기 브랜드 자산 중시
+**Reasoning:** 가격 인하 금지 준수와 경쟁사 대응; 본사 헤리티지 존중과 보드 지시 충족; 채널 다변화로 수익성 보장
 
 ### Amore Pacific (side_c)
 
-- Final action: `Aggressive Price Cut`@0.80
-- Position: `strong` ↘
-- Cash: 63.0%
-- Adjudicator rationale: 가격 인하로 단기 점유율을 방어하며 미즈 세대를 공략했으나, 브랜드 가치 하락과 장기 규제 대응 역량 투자 위축으로 상승 동력이 약화되는 추세입니다.
+- Final action: `Sulwhasoo Premium Push`@0.75
+- Position: `strong` ↗
+- Cash: 64.0%
+- Adjudicator rationale: Amore Pacific은 프리미엄 포트폴리오 방어와 세제 혜택 활용으로 재무적 안정성을 확보하며 기존 지위를 유지하고 있습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CFO**: `Aggressive Price Cut`@0.60, `Portfolio Synergy`@0.40
-  - rationale: 보도(Shiseido)의 가격 공세로 점유율 위협 심화에 따라, 현재 캠페인(소극적 견제)을 유지하되 현금 소진을 최소화하며 즉각적인 시장 방어 필요. 고부가가치 라인에 한정된 할인과 기존 브랜드 간 시너지를 통해 가격 민감층 유입과 비용 절감을 동시 달성.
-  - risk: 브랜드 프리미엄 가치 하락 및 마진 축소 가능성
-- **COO**: `Influencer Ecosystem`@0.50, `Portfolio Synergy`@0.30, `Organic Efficiency Boost`@0.20
-  - rationale: 보도 지시 (마케팅 예산 증액) 와 CEO 전략 (가격 인하 자제, 브랜드 자산 우선) 의 모순을 해결하기 위해 직접적 가격 경쟁은 피하고, '브랜드 헤리티지'를 강조하는 인플루언서 마케팅과 기존 포트폴리오의 시너지를 통해 고객 충성도를 강화한다. 이는 동시 다발적 투자 위험을 줄이며, Shiseido의 가격 전쟁에 휘말리지 않고 고부가가치 고객을 유지하는 최적의 실행 경로다.
-  - risk: Shiseido 가격 공세에 따른 프리미엄 가치 하락 우려 및 단기 점유율 방어 실패 시 현금 소진 가속화
-- **CTO**: `Whitening Tech Lead`@0.60, `Talent Acquisition Sprint`@0.30, `Portfolio Synergy`@0.10
-  - rationale: 보드 지시대로 가격 경쟁에 즉각 대응하는 것은 프리미엄 포지셔닝을 훼손하여 장기 브랜드 헤리티지를 약화시킵니다. 시세도 (Shiseido) 의 가격 공세는 단기 전술일 뿐, 우리 (Amore Pacific) 는 서경배 오너의 브랜드 자산 우선주의에 따라 기술적 우위 (Whitening Tech Lead) 를 통해 차별화를 유지해야 합니다. 임상 데이터 출시 중단은 시장 신뢰도 저하를 의미하므로, 오히려 R&D 투자를 확대 (Talent Acquisition Sprint) 하여 기술적 해자를 강화하고, 기존 브랜드 포트폴리오 (Portfolio Synergy) 로 충성 고객을 방어하는 것이 2-3 년 내 경쟁력 유지를 위한 유일한 길입니다.
-  - risk: 단기 마케팅 예산 감소로 점유율 일시적 하락 가능성
-- **CMO**: `Influencer Ecosystem`@0.60, `Portfolio Synergy`@0.40
-  - rationale: 보arded mandate는 'Shiseido의 가격 공세에 즉각 대응 자제'를 명시했으나, 현재 Shiseido가 'dominant(↑)'으로 점유율을 확대하고 있어 소극적 견제만으로는 시장 지위를 잃을 위험이 큽니다. CEO의 '브랜드 자산 우선주의'를 유지하면서도, 가격 인하 없이 고부가가치 이미지를 강화하는 'Influencer Ecosystem'과 기존 포트폴리오를 활용한 'Portfolio Synergy'를 선택했습니다. 이는 Shiseido의 저가 공세에 맞서 가격 경쟁력을 포기하되, AURIE와 차별화된 '희소성'과 '접근성'을 통해 충성 고객을 결집시키는 전략입니다. 임상 데이터 출시 중단은 R&D 리스크를 줄이는 것이지만, 마케팅 측면에서는 직접적인 가격 경쟁보다는 가치 제안 (Value Proposition) 을 통한 방어선이 필수적입니다.
-  - risk: 단기 매출 둔화로 인한 시장 점유율 방어 실패 시 브랜드 헤리티지 훼손 가속화
-- **CEO**: `Portfolio Synergy`@0.40, `Influencer Ecosystem`@0.30, `Organic Efficiency Boost`@0.30
-  - rationale: 임상 데이터 중단과 마케팅 예산 증액이라는 위원회 mandated directive 에 따라, 가격 인하 없이 브랜드 가치를 유지하면서 Shiseido 의 점유율 확장을 저지하기 위한 방안.
-  - risk: 시세도 가격공세 지속 시 프리미엄 고객 이탈 위험
+- **CTO**: `Sulwhasoo Premium Push`@0.45, `Clinical Data Marketing`@0.35, `Global Prestige Partnership`@0.20
+  - rationale: 시세이도의 가격 공세에 대응하여 '가격'이 아닌 '기술과 브랜드 위상'으로 승부해야 합니다. 선제적 R&D(50%)를 임상 데이터 마케팅으로 가시화하고, 설화수 프리미엄 라인을 통해 마진 방어와 고객 단가 상승을 동시에 달성합니다. 오너 경영 특성상 과감한 M&A나 대규모 할인보다는 브랜드 자산 유지에 중점을 둔 전략입니다.
+  - risk: 오너 경영의 단기 수익성 우려로 인한 예산 집행 지연 가능성 및 중국 시장 회복 집착으로 인한 자원 분산 리스크
+- **CMO**: `Sulwhasoo Premium Push`@0.60, `Clinical Data Marketing`@0.30, `Prestige Portfolio Defense`@0.10
+  - rationale: 보장된 현금 흐름과 강세 포지션을 바탕으로 시세이도의 가격 공세를 '가격 인하'가 아닌 '가치 증명(임상데이터)'과 '희소성(한정판 키트)'으로 무마하여 프리미엄 위상을 견고히 함. 오너 가문의 '매스 채널 확장 거부' 성향을 반영해 오프라인/면세점 중심의 가치 전달에 집중하며, 시세이도의 저가 공세에 대응하기 위해 고단가 SKU의 우위를 확립함.
+  - risk: 오너 경영의 단기 이익보다 브랜드 자존심 우선으로 인한 시장 점유율 방어 지연 가능성
+- **COO**: `Sulwhasoo Premium Push`@0.45, `Clinical Data Marketing`@0.35, `Organic Agility Boost`@0.20
+  - rationale: 시세이도의 가격 공세에 대응해 브랜드 위상을 지키기 위해 'Sulwhasoo Premium Push'와 'Clinical Data Marketing'을 병행하되, 오너 경영 특성을 반영해 의사결정 지연을 막기 위한 'Organic Agility Boost'를 포함했습니다. 시세이도 가격 공세에 맞서 단순 할인이 아닌 가치 제고 전략이 필요하며, 기존 캠페인 방향성을 유지하되 실행 효율성을 높이는 데 중점을 두었습니다.
+  - risk: 동시 다발적 실행으로 조직 과부하 및 현금 소진 가속화 위험
+- **CFO**: `Sulwhasoo Premium Push`@0.50, `Clinical Data Marketing`@0.30, `Global Prestige Partnership`@0.20
+  - rationale: 보드가 요구한 마케팅 예산 증액(20%)과 시세이도 가격 공세 대응을 위해, 오너 경영의 '브랜드 위상' 중시 성향을 반영해 가격 할인(Aggressive Price Cut) 대신 Sulwhasoo 프리미엄 라인(Sulwhasoo Premium Push)과 임상 데이터(Clinical Data Marketing)를 통한 가치 제고에 집중합니다. 시세이도의 가격 우위를 정면 돌파하기보다는 고단가 SKU와 제한된 채널(Olive Young/면세점)에서의 경험 제공(Global Prestige Partnership)을 통해 마진을 유지하며 점유율 추격 전략을 수행합니다.
+  - risk: 시세이도 추가 가격 인하 시 고가 라인 매출 급감 위험 및 현금 소진 가속화
+- **CEO**: `Sulwhasoo Premium Push`@0.50, `Clinical Data Marketing`@0.30, `Olive Young Expansion`@0.20
+  - rationale: Shiseido 공격에 맞서 Sulwhasoo 브랜드 가치 방어. Amore Pacific 현금력으로 마케팅 예산 확대. 단기 실적보다 장기간 관리 우선 원칙 적용.
+  - risk: Shiseido 추가 가격 공세 지속 시 점유율 방어 한계
 
-##### Phase 2 — 비판적 검토 (다수안: `Portfolio Synergy`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Sulwhasoo Premium Push`, DA: `CFO`)
 
-- **CFO**: `Portfolio Synergy`@0.50, `Organic Efficiency Boost`@0.30, `Influencer Ecosystem`@0.20
-- **CMO**: `Influencer Ecosystem`@0.50, `Portfolio Synergy`@0.30, `Organic Efficiency Boost`@0.20
-- **COO**: `Influencer Ecosystem`@0.50, `Portfolio Synergy`@0.30, `Organic Efficiency Boost`@0.20
-- **CTO**: `Whitening Tech Lead`@1.00
-  - dissent: Portfolio Synergy 는 기존 자산 재편을 통한 운영 효율화에 그치며, Shiseido 의 신규 성분 및 기술 기반 선점에 대응하지 못해 시장 주도권 박탈 위험이 존재함. 단순히 유통 효율화를 반복하는 전술은 이미 약화된 프리미엄 가치를 더욱 훼손할 수 있음. 현재 Amore Pacific 의 높은 R&D 투자율을 유지하지 않으면 2~3 년 내 경쟁 우위가 소멸됨. 따라서 단기 시장 점유율 방어보다 핵심 기술 모기지 구축이 필수적임. Shiseido 가 가격 공격과 함께 기술적 격차를 벌리고 있으므로, 가격 경쟁력만이 유일한 방어책이라는 오류를 방지해야 함. Whitening Tech Lead 는 장기적인 IP 보호와 고객 신뢰 회복을 통해 지속 가능한 성장 동력을 확보함. 이 프로세스는 마케팅 예산 증액 요청의 비용 부담을 완화하는 대신, 제품 가치 상승을 통한 마진 보장 구조를 지향함. CTO 의 입장에서 기술 투자 중단은 미래 생존 위협으로 판단되므로, 포트폴리오 간
-- **CEO**: `Influencer Ecosystem`@0.60, `Aggressive Price Cut`@0.40
-  - changed `Portfolio Synergy, Influencer Ecosystem, Efficiency` → because: 지시사항 따라 가격·마케팅 우선
+- **CTO**: `Sulwhasoo Premium Push`@0.45, `Clinical Data Marketing`@0.35, `Whitening Tech Dominance`@0.20
+  - changed `Global Prestige Partnership` → because: R&D 투자 우선순위 반영
+- **COO**: `Sulwhasoo Premium Push`@0.50, `Clinical Data Marketing`@0.30, `Organic Agility Boost`@0.20
+- **CMO**: `Sulwhasoo Premium Push`@0.55, `Clinical Data Marketing`@0.30, `Prestige Portfolio Defense`@0.15
+- **CFO**: `Clinical Data Marketing`@0.60, `Prestige Portfolio Defense`@0.40
+  - dissent: 다수안의 Sulwhasoo Premium Push 는 높은 고정비와 변동비를 요구하며, Shiseido 의 가격 공세가 지속될 때 ROI 보장 가능성이 낮아 현금 고갈 리스크를 증가시킵니다. 64% reserve 수준에서는 방어적 마진 보호가 공격적 투자보다 안전합니다. 1 차원적 할인이 아닌 타겟팅된 데이터 투자를 통한 수익성 극대가 필요합니다. 2 차원적 시장 점유율 확장보다는 핵심 고객 유지에 집중해야 합니다. 3 차원적 현금 소모를 방지하기 위해 증거 기반 접근이 필수입니다. 4 차원적으로 불필요한 비용 지출을 차단해야 합니다. 5 차원적으로 재무 건전성이 최우선입니다. 6 차원적으로 리스크 관리가 선행되어야 합니다. 7 차원적으로 자본 효율성이 중요합니다. 8 차원적으로 매출 성장보다 이익 질이 중요합니다. 9 차원적으로 단기 점유율보다 장기 생존력이 더 우선입니다. 10 차원적으로 현금 보유고는 기업 가치 지표입니다. 11 차원적으로 현금 고갈은 회복 불가능합니다. 12차
+- **CEO**: `Sulwhasoo Premium Push`@0.60, `Clinical Data Marketing`@0.30, `Olive Young Expansion`@0.10
 
 **Position changes:**
-- [반대] CTO: Portfolio Synergy 는 기존 자산 재편을 통한 운영 효율화에 그치며, Shiseido 의 신규 성분 및 기술 기반 선점에 대응하지 못해 시장 주도권 박탈 위험이 존재함. 단순히 유통 효율화를 반복하는 전술은 이미 약화된 프리미엄 가치를 더욱 훼손할 수 있음. 현재 Amore Pacific 의 높은 R&D 투자율을 유지하지 않으면 2~3 년 내 경쟁 우위가 소멸됨. 따라서 단기 시장 점유율 방어보다 핵심 기술 모기지 구축이 필수적임. Shiseido 가 가격 공격과 함께 기술적 격차를 벌리고 있으므로, 가격 경쟁력만이 유일한 방어책이라는 오류를 방지해야 함. Whitening Tech Lead 는 장기적인 IP 보호와 고객 신뢰 회복을 통해 지속 가능한 성장 동력을 확보함. 이 프로세스는 마케팅 예산 증액 요청의 비용 부담을 완화하는 대신, 제품 가치 상승을 통한 마진 보장 구조를 지향함. CTO 의 입장에서 기술 투자 중단은 미래 생존 위협으로 판단되므로, 포트폴리오 간
-- CEO: Portfolio Synergy, Influencer Ecosystem, Efficiency → Influencer Ecosystem+Aggressive Price Cut (지시사항 따라 가격·마케팅 우선)
+- CTO: Global Prestige Partnership → Sulwhasoo Premium Push+Clinical Data Marketing+Whitening Tech Dominance (R&D 투자 우선순위 반영)
+- [반대] CFO: 다수안의 Sulwhasoo Premium Push 는 높은 고정비와 변동비를 요구하며, Shiseido 의 가격 공세가 지속될 때 ROI 보장 가능성이 낮아 현금 고갈 리스크를 증가시킵니다. 64% reserve 수준에서는 방어적 마진 보호가 공격적 투자보다 안전합니다. 1 차원적 할인이 아닌 타겟팅된 데이터 투자를 통한 수익성 극대가 필요합니다. 2 차원적 시장 점유율 확장보다는 핵심 고객 유지에 집중해야 합니다. 3 차원적 현금 소모를 방지하기 위해 증거 기반 접근이 필수입니다. 4 차원적으로 불필요한 비용 지출을 차단해야 합니다. 5 차원적으로 재무 건전성이 최우선입니다. 6 차원적으로 리스크 관리가 선행되어야 합니다. 7 차원적으로 자본 효율성이 중요합니다. 8 차원적으로 매출 성장보다 이익 질이 중요합니다. 9 차원적으로 단기 점유율보다 장기 생존력이 더 우선입니다. 10 차원적으로 현금 보유고는 기업 가치 지표입니다. 11 차원적으로 현금 고갈은 회복 불가능합니다. 12차
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** Shiseido 공세에 맞선 선제적 가격 인하; Influencer 협업으로 브랜드 충성도 강화
+**Decision:** 설화수 고가 라인 매출 증대 및 이미지 유지; 임상 데이터 강화로 경쟁사 가격공세 저지
 
-**Reasoning:** Shiseido 대응과 현금 흐름 보호 병행; 예산 증액 목표 달성 및 고객 전환 유도
+**Reasoning:** 브랜드 자존심과 오너 선호 반영해 프리미엄 집중; 증거 기반 접근으로 현금 리스크 감소
 
 #### Adjudicator panel (3 experts)
 
-**Industry Veteran**: 공급망 규제 강화는 단순 통관 이슈를 넘어 검증된 기술 데이터를 보유한 기업에 대한 구조적 헤지로 작용하고 있으며 이는 과거 마케팅 중심 패러다임을 급속히 재편시키고 있음
+**Industry Veteran**: 캐시 리저브가 큰 기업은 경기 변동기에도 공격적 투자 여력을 확보해 포지션 격차가 벌어지고 있으며, 중소형 플레이어는 장기 성장을 위해 단기 유동성 타격을 감내하는 고공행진이 불가피하다.
 
-- side_a: `strong` ↗ — 중국 규제 강화와 미니멀리즘 트렌드에 맞춰 임상 데이터 자산이 실질적인 진입 장벽으로 작동하고 있으나 현금 잔고 부족으로 성장 속도에는 한계가 존재함
-- side_b: `dominant` ↑ — 탁월한 자본력을 바탕으로 R&D 선점과 프리미엄 가격 방어력을 동시에 확립하며 J-beauty 수출 모멘텀을 유지 중인 상태임
-- side_c: `strong` ↘ — 가격 인하 대응은 단기 점유율 방어에 기여하나 브랜드 가치 하락 우려와 마진 압박으로 인해 상승 동력은 약화되는 상황임
+- side_a: `weak` ↘ — 대규모 일본 직영 점포 확충에 따른 초기 자금 소모가 주어진 현금 보유량 대비 과부하를 유발하고 있으며, 시세이도의 한국 내 가격 인하 공세로 인해 순이익률 개선 여력이 제한된다.
+- side_b: `dominant` ↑ — 압도적인 현금 보유량을 바탕으로 한 가격 전술과 글로벌 파트너십이 시장 점유율 방어 및 중규모 브랜드 공세를 지원하여 주도권을 공고히 한다.
+- side_c: `strong` → — 핵심 프리미엄 브랜드 포트폴리오 방어에 집중하면서 조직 효율성의 제약 속에서도 안정적인 점유율을 유지하나, 중국의 자국 브랜드 압박은 지속적이다.
 
-**Strategy Consultant**: 규제 리스크와 자본 효율성의 괴리가 게임 체인저로 작용해 AURIE 는 자구책에 집중해야 하며, Shiseido 와 Amore Pacific 은 각각 기술과 채널 장악으로 우위를 점하고 있습니다.
+**Strategy Consultant**: 시세이도의 압도적인 현금 확보력이 아우리의 고강도 Capex 전략을 상쇄하여, 단기 자원 투입 효율성 차이가 시장 지위 변화의 결정적 변인으로 작용했다.
 
-- side_a: `weak` ↓ — 중국 수입 규제 완화 불가피와 현금 고갈로 인해 수출 의존도를 낮추기 위한 방어적 전환을 진행했으나 시장 점유율 추락 속도가 빨라졌습니다.
-- side_b: `dominant` ↑ — 고강도 연구개발 투자가 장기적인 기술 장벽으로 작용하며 높은 현금 보유력은 경쟁사의 가격 공세를 견딜 여력을 제공합니다.
-- side_c: `strong` ↗ — 적극적인 가격 인하와 영향력 생태계 확대로 미즈 세대의 단일 기능성 수요를 선점하여 주도권을 강화하고 있습니다.
+- side_a: `contested` ↘ — 아우리는 일본 시장 공격적 진출로 현금 소진이 가속화되어 시세이도와의 자원 경쟁에서 상대적으로 불리한 위치로 밀릴 전망이다.
+- side_b: `dominant` ↑ — 시세이도는 안정적인 현금 보유력과 일본 현지의 채널 권력을 기반으로 아우리의 성장 위협을 억제하며 주도권을 더욱 공고히 한다.
+- side_c: `strong` → — 아모레퍼시픽은 프리미엄 포트폴리오 방어에 집중하여 외부 거시적 충격에 가장 탄력적으로 대응하며 기존 지위를 확보한다.
 
-**Regulatory/Policy Expert**: 중국의 정부 개입 강화는 단순 무역 장벽을 넘어 규제 준수 요건을 산업 오픈 표준으로 강제하며 이는 자금력과 R&D 역량을 모두 갖춘 기업만이 생존 가능한 독점적 시장 구조를 형성한다.
+**Regulatory/Policy Expert**: 규제 준수 비용이 과도한 자본 투자와 결합될 경우 중견 기업의 자금 사슬 고리가 끊어질 위험이 가장 큽니다.
 
-- side_a: `contested` → — 중국 NMPA 의 강화된 규제 환경은 임상 데이터 보유 능력이 핵심인 AURIE 에게 진입 장벽을 완화하여 신규 진입 업체보다 생존 가능성을 높이는 구조적 기회를 제공한다.
-- side_b: `dominant` → — Shiseido 의 대규모 현금 보유량은 규제 비용을 수용할 여유를 보장하며 프리미엄 가격 전략이 유지됨에 따라 시장에서 우위를 점하게 된다.
-- side_c: `strong` ↘ — Amore Pacific 의 가격 인하 전략은 판매량 회복에 기여할 수 있으나 장기적인 규제 대응 역량 투자를 억제하여 향후 성장 동력이 약화될 우려가 있다.
+- side_a: `weak` ↓ — 일본 진출을 위한 현지 법인 설립 요건과 관세 규제 비용 증가는 제한된 현금 보유량으로 인해 생존 가능성을 약화시켰습니다.
+- side_b: `dominant` ↑ — 검증된 임상 데이터를 통해 제품 안전성 규정을 충족함으로써 시장 지배력과 법적 방어력을 동시에 확보했습니다.
+- side_c: `strong` ↗ — 프리미엄 라인 관리로 가격 조정 의무를 피하고 세제 혜택을 활용하여 재무적 안정성을 확보했습니다.
 
 #### Adjudicator synthesis
 
-> T1에서 Shiseido가 가격 인하를 감행한 이후, T2에는 막대한 자본력을 바탕으로 규제 비용을 흡수하며 프리미엄 전략을 유지하는 데 성공했습니다. Amore Pacific은 T1의 가격 인하 전략을 이어받아 단기 점유율 방어에 나섰으나, 이로 인한 마진 압박과 브랜드 가치 하락 우려가 누적되어 상승세를 잃었습니다. AURIE는 T1 임상 데이터 추진의 효과가 규제 강화로 인해 진입 장벽으로 작용하기 시작했으나, T1부터 누적된 현금 고갈로 인해 시장 점유율 추락을 막지 못해 중립적 흐름을 유지하고 있습니다.
+> AURIE는 T1부터 이어진 일본 직영 점포 확충 전략으로 인해 현금 소진이 가속화되어 시세이도의 가격 공세에 취약한 위치로 밀려났습니다. Shiseido는 T1에서 확보한 압도적인 현금 보유력을 바탕으로 가격 전술을 지속하며 시장 점유율을 방어하고 주도권을 더욱 공고히 했습니다. Amore Pacific은 핵심 프리미엄 브랜드 포트폴리오를 방어하며 외부 충격에 유연하게 대응해 기존 지위를 유지했습니다. 결과적으로 AURIE의 자원 고갈과 Shiseido의 자본 우위가 시장 지위 격차를 결정적으로 벌려놓았습니다.
 
-**Interaction analysis:** Shiseido의 막대한 현금 보유력은 Amore Pacific의 가격 인하 공세를 무력화시키며 시장 주도권을 확고히 했습니다. 반면 AURIE는 규제 강화라는 외부 환경 변화로 인해 기술적 진입 장벽은 높았으나, 누적된 현금 부족으로 이를 성장 동력으로 전환하지 못해 정체 상태에 머물렀습니다.
+**Interaction analysis:** Shiseido의 압도적인 현금 보유력은 AURIE의 공격적 Capex 전략을 상쇄하며 시장 지배력을 강화했습니다. 반면 Amore Pacific은 가격 조정 의무를 피하는 전략으로 거시적 충격에 탄력적으로 대응하며 중립적 위치를 고수했습니다.
 
 ---
 
@@ -363,524 +366,526 @@ Shiseido 채널 확장과 동시 진행.
 
 ### **AURIE** (side_a)
 
-- Final action: `Aggressive Price Cut`@0.80
-- Position: `weak` ↓
-- Cash: 36.8%
-- Adjudicator rationale: AURIE는 T1과 T2의 임상 데이터 투자로 인한 현금 고갈이 지속되면서, T3의 가격 공세로 인해 프리미엄 가치와 수익성이 동시에 훼손되어 시장 방어력이 급격히 약화되었습니다.
+- Final action: `Clinical Data Marketing`@0.80
+- Position: `weak` ↗
+- Cash: 36.2%
+- Adjudicator rationale: AURIE는 현금 헷징과 D2C 채널 강화로 하방 리스크를 통제하며 추락을 멈추고 안정화 세로를 보이나, 시세이도의 가격 공세로 인한 구조적 취약성은 여전히 남아 있습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CFO**: `Clinical Data Push`@0.40, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.30
-  - rationale: 시세이도의 가격 인하 공세에 맞서 '가격 경쟁 배제' 캠페인 핵심을 유지하기 위해 임상 데이터를 통한 차별화를 최우선으로 진행함. 다만, 보드 mandate 에 따른 일본 시장 진출 (직영 채널) 과 중국 의존도 축소를 위해 일본 브랜드 인지도 제고와 D2C 채널 확대를 병행하여 매출 구조 다변화를 꾀함. 동일 전술 반복을 피하기 위해 기존 R&D 투자 결과를 마케팅으로 직접 전환하는 실행 단계로 집중함.
-  - risk: 임상 데이터 출시 지연으로 인한 시장 신뢰도 하락 및 현금 소모 가속화
-- **COO**: `Clinical Data Push`@0.40, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.30
-  - rationale: CEO의 임상 데이터 중심 전략과 R&D 우선 문화를 유지하며, 시세이도의 가격 공세에 맞서 '가격 경쟁 배제'를 고수한다. 일본 직영 채널 확장은 시세이도 우위를 견제하는 물리적 거점 확보이며, D2C 최적화는 높은 NPS를 자산으로 활용해 마진을 보호하고 중국 의존도를 낮추는 실행적 보완책이다. 단일 전술 반복을 피하기 위해 브랜드 인지도와 채널 다각화에 자원을 분산하되, 핵심 메시지는 임상 효능에 집중한다.
-  - risk: 시세이도 가격 인하로 인한 단기간 매출 급감 및 현금 소진 가속화
-- **CTO**: `Clinical Data Push`@0.50, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.20
-  - rationale: 시세이도의 가격 인하 공세는 저가층 타겟이며, 본사의 프리미엄 포지셔닝 전략 (Clinical-Value Fortress) 에 따라 R&D 기반의 차별화된 효능 데이터를 강조하여 가격 민감도를 무력화해야 함. 일본 시장 진출은 기존 계획과 일치하며, D2C 최적화는 마진 보호를 위해 필수적이므로 가격 할인이나 신규 R&D 투자보다는 기존 자산의 효율적 활용을 선택함.
-  - risk: 임상 데이터 출시 지연 시 가격 경쟁에 취약해질 수 있음
-- **CMO**: `Clinical Data Push`@0.45, `Olive Young Expansion`@0.35, `Japan Brand Awareness`@0.20
-  - rationale: 보통 전술 반복으로 시장 점유율 하락 우려가 제기됨. 시세이도의 가격 인하 공세에 대응하기 위해 '가격 경쟁 배제' 전략을 유지하되, 단순한 임상 강조를 넘어 '데이터 기반의 불가침성'을 증명하는 고강도 커뮤니케이션 (Clinical Data Push) 으로 전환함. 동시에 오프라인 채널 (Olive Young) 과 일본 시장 (Japan Brand Awareness) 에 대한 물리적 접근성을 확보하여, 경쟁사의 가격 공세가 실제 구매 행동으로 이어지지 않도록 방어막을 구축함. 이는 R&D 우선 경영 스타일과 부합하며, 현금 흐름을 보호하면서 점유율 방어에 집중하는 전략임.
-  - risk: 임상 데이터 투자 대비 단기 매출 회복 지연 및 경쟁사 선점 리스크
-- **CEO**: `Olive Young Expansion`@0.40, `Japan Brand Awareness`@0.40, `D2C NPS Optimization`@0.20
-  - rationale: 보드 지시에 따라 임상 중지 but 가격 경쟁은 프리미엄 저해 우려로 제외. Shiseido 우위 대응에 채널 집중으로 전환하며, Seed 전략의 일본/로열티 목표와 부합. 단기 점유율 회복을 위해 유통망 선점 우선.
-  - risk: 채널 확장 비용 부담 및 단기 수익성 악화 가능성
+- **COO**: `Clinical Data Marketing`@0.60, `Cash Reserve Hedging`@0.40
+  - rationale: CEO의 임상 데이터 집착과 일본 직영 확고 의지를 반영하되, 보드 mandate에 따라 일본 신규 진입 예산은 동결하고 기존 핵심 시장 (한국/중국) 에서의 가격 경쟁력 유지를 위해 현금 보존을 최우선으로 배치함. 시세이도의 가격 공세에 대응하기 위해 R&D 기반의 고가 정당화 전략을 강화하면서도, 무리한 채널 확장으로 인한 현금 소진을 막기 위해 비용 구조 조정을 병행함.
+  - risk: 시세이도 가격 인하로 점유율 추가 하락 시 현금 고갈 가속화
+- **CFO**: `Clinical Data Marketing`@0.50, `D2C Ecosystem Lock-in`@0.30, `Japan Market Entry Blitz`@0.20
+  - rationale: 시세이도의 가격 인하 공격에 대응하기 위해 '임상 데이터'를 통한 고가 정당화 전략은 핵심 캠페인 방향과 일치하며, D2C는 저비용으로 기존 고객을 방어하는 필수 수단입니다. 다만, CEO의 자존심과 이니셔티브 프로젝트인 '일본 직영 50개' 확장은 예산 동결 명령에도 불구하고 정치적/조직적 이유로 축소 불가하여, 현금 흐름을 압박하는 구조적 리스크로 작용합니다.
+  - risk: 일본 시장 진입 비용으로 현금 소진 가속화 및 ROI 미달 가능성
+- **CTO**: `Clinical Data Marketing`@0.45, `Breakthrough R&D Bet`@0.35, `Cash Reserve Hedging`@0.20
+  - rationale: 보통의 보수적 접근과 달리, CEO 의 '브랜드 격하 거부'와 '임상 데이터 신뢰'라는 리더십 편향을 반영하여 가격 경쟁 대신 제품력 우위를 고수함. 시세이도의 가격 공세는 저가층을 타겟하므로, AURIE 의 프리미엄 고객에게는 영향이 제한적임. 일본 진출 예산 영구 동결 명령에 따라 해당 자금을 R&D 로 전환하여 장기적 기술 장벽을 구축하는 것이 유일한 생존 전략임. 단기 매출 감소 감수하더라도 2-3 년 내 경쟁력을 유지하기 위한 필수 조치.
+  - risk: 일본 시장 점유율 추가 하락 가능성
+- **CMO**: `Clinical Data Marketing`@0.40, `D2C Ecosystem Lock-in`@0.30, `Japan Market Entry Blitz`@0.30
+  - rationale: 보드 지시에 따른 일본 예산 동결은 CEO 의 '브랜드 격하' 거부와 '일본 직영 프로젝트' 집착이라는 리더십 편향으로 인해 실행 불가능합니다. 시세이도의 가격 인하가 프리미엄 타겟에게 미치는 영향은 제한적이므로, 임상 데이터를 통한 가치 방어 (Clinical Data Marketing) 와 높은 마진을 유지할 수 있는 D2C 확장이 핵심입니다. 동시에 경영진의 자존심과 전략적 고집을 반영하여, 현금 소진 위험을 감수하더라도 일본 직영 채널 공세를 중단하지 않는 것이 조직 내 신뢰를 유지하는 유일한 길입니다.
+  - risk: 일본 시장 추가 손실 및 현금 고갈 심화
+- **CEO**: `Clinical Data Marketing`@0.40, `D2C Ecosystem Lock-in`@0.40, `Cash Reserve Hedging`@0.20
+  - rationale: AURIE 는 가격 인하로 브랜드 가치를 훼손할 수 없으므로 임계점 대응 불가. Shiseido 의 Olive Young 및 Lotte 면세 가격 공세와 다른 방향성으로 임상 데이터로 선점. Board 사정에 따라 일본 진입 예산 동결하되 한국·중국 등 핵심 시장 유통망(백화점, D2C) 유지. 리더십 편향(가격 인하 거부) 반영.
+  - risk: 단기 점유율 하락 및 시장 침투력 약화 가능성
 
-##### Phase 2 — 비판적 검토 (다수안: `Japan Brand Awareness`, DA: `CFO`)
+##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Marketing`, DA: `CTO`)
 
-- **CMO**: `Olive Young Expansion`@0.45, `Japan Brand Awareness`@0.35, `D2C NPS Optimization`@0.20
-  - changed `Clinical Data Push` → because: 임상 데이터 중단 지시 및 시세이도 가격공격 대응
-- **CTO**: `Clinical Data Push`@0.60, `Bold R&D Bet`@0.25, `Japan Brand Awareness`@0.15
-  - changed `Clinical Data Push, Japan Brand Awareness, D2C NPS Optimization` → because: R&D 투자 확대 및 시세이도 가격공세 차단 필요
-- **COO**: `Clinical Data Push`@0.45, `Olive Young Expansion`@0.35, `D2C NPS Optimization`@0.20
-  - changed `Japan Brand Awareness` → because: 시세이도 가격공격 대응에 일본 신규채널 투자 비효율
-- **CFO**: `Aggressive Price Cut`@0.50
-  - dissent: 현재 현금 보유율 41% 수준에서 브랜드 인지도 확대는 높은 고정 비용과 느린 전환율을 동반한다. 동일 전술 반복으로 시장 점유율 하락 위험이 크며, 즉각적인 매출 회복이 불가능한 구조적이다. 보편적 마케팅보다는 ROI 검증된 가격 조정이 생존에 필수적이다. 특히 임상 데이터 출시 중단 지시에 비추어 장기 투자보다 단기 타격이 우선순위가 되어야 한다. 또한 경쟁 강자인 시세이도의 가격 대결 가능성에 직면하지 않을 수 없으므로 선제적 대응이 필요하다. 현재 자원으로 지속 가능성 확보를 위해 위험 부담이 적은 실행 방안을 채택해야 한다. 이는 주주 가치를 보호하는 최선의 재무 결정이다. 시장 점유율 방어에도 직접적으로 기여한다. 경쟁사 우위 심화를 막는 가장 확실한 수단 중 하나다. 재무 건전성 유지 측면에서도 불확실한 마케팅 비용을 줄이는 방향이어야 한다. 따라서 일본 브랜드 인지도 향상 전략은 기꺼이 반대한다. 현존 자본 규모로는 감당할 수 없는 손실이 발생할 수 있다. 수익성이 확
-- **CEO**: `Aggressive Price Cut`@0.50, `Olive Young Expansion`@0.30, `D2C NPS Optimization`@0.20
-  - changed `Clinical Data Push` → because: Shiseido 대응 강화
+- **CFO**: `Clinical Data Marketing`@0.60, `Cash Reserve Hedging`@0.40
+  - changed `Japan Market Entry Blitz` → because: 일본 예산 영구 동결 mandates
+- **COO**: `Clinical Data Marketing`@0.65, `Cash Reserve Hedging`@0.35
+  - changed `Japan Market Entry Blitz` → because: 일본 예산 영구 동결 mandates 위반
+- **CMO**: `Clinical Data Marketing`@0.45, `D2C Ecosystem Lock-in`@0.35, `Cash Reserve Hedging`@0.20
+  - changed `CMO Proposal (Japan Market Entry Blitz)` → because: 일본 예산 영구 동결 mandates 반영
+- **CEO**: `Clinical Data Marketing`@0.60, `Cash Reserve Hedging`@0.30, `D2C Ecosystem Lock-in`@0.10
+  - changed `CEO 초기안: Clinical Data Marketing(40%), D2C Ecosystem Lock-in(40%), Cash Reserve Hedging(20%)` → because: 일본 예산 동결 및 현금 확보 우선
+- **CTO**: `Breakthrough R&D Bet`@0.60, `Cash Reserve Hedging`@0.40
+  - dissent: 임상 데이터 마케팅은 제품의 기술적 우위가 전제되었을 때 효과적입니다. 현재 기술 격차가 존재하는 상황에서 데이터 활용은 경쟁사가 추격 가능한 수단이며, 이는 가격 인하여서 방어되는 전략으로 전락할 위험이 있습니다. R&D 투자 부재 시 임상 데이터는 검증 불가능한 마케팅 자료로 전락합니다. 또한 AURIE 의 위기는 단기 판매 저조보다 근본적인 기술 경쟁력 약화에서 비롯됩니다. 이 전략은 본사가 지적한 전략적 오류인 동일 전술 반복에 해당합니다. 경쟁력의 근본 원천을 무시하는 것은 현금 보존을 통한 일시적 안정만 추구하는 행위입니다. 따라서 데이터 중심 접근은 피해야 합니다. 경쟁사의 모방 능력과 자본력을 고려할 때, 제품 품질 향상을 위한 기술 개발이 우선되어야 하며, 이는 결과적으로 고객 유지 효율을 극대화합니다. 임상 데이터 마케팅은 AURIE 의 기술 부족 문제를 덮어버리는 일시적 처방입니다. 장기적인 시장 회복에는 기술 기반 강화가 필수적입니다. 경쟁사가 동일한 데이터를해
 
 **Position changes:**
-- CMO: Clinical Data Push → Olive Young Expansion+Japan Brand Awareness+D2C NPS Optimization (임상 데이터 중단 지시 및 시세이도 가격공격 대응)
-- CTO: Clinical Data Push, Japan Brand Awareness, D2C NPS Optimization → Clinical Data Push+Bold R&D Bet+Japan Brand Awareness (R&D 투자 확대 및 시세이도 가격공세 차단 필요)
-- COO: Japan Brand Awareness → Clinical Data Push+Olive Young Expansion+D2C NPS Optimization (시세이도 가격공격 대응에 일본 신규채널 투자 비효율)
-- [반대] CFO: 현재 현금 보유율 41% 수준에서 브랜드 인지도 확대는 높은 고정 비용과 느린 전환율을 동반한다. 동일 전술 반복으로 시장 점유율 하락 위험이 크며, 즉각적인 매출 회복이 불가능한 구조적이다. 보편적 마케팅보다는 ROI 검증된 가격 조정이 생존에 필수적이다. 특히 임상 데이터 출시 중단 지시에 비추어 장기 투자보다 단기 타격이 우선순위가 되어야 한다. 또한 경쟁 강자인 시세이도의 가격 대결 가능성에 직면하지 않을 수 없으므로 선제적 대응이 필요하다. 현재 자원으로 지속 가능성 확보를 위해 위험 부담이 적은 실행 방안을 채택해야 한다. 이는 주주 가치를 보호하는 최선의 재무 결정이다. 시장 점유율 방어에도 직접적으로 기여한다. 경쟁사 우위 심화를 막는 가장 확실한 수단 중 하나다. 재무 건전성 유지 측면에서도 불확실한 마케팅 비용을 줄이는 방향이어야 한다. 따라서 일본 브랜드 인지도 향상 전략은 기꺼이 반대한다. 현존 자본 규모로는 감당할 수 없는 손실이 발생할 수 있다. 수익성이 확
-- CEO: Clinical Data Push → Aggressive Price Cut+Olive Young Expansion+D2C NPS Optimization (Shiseido 대응 강화)
+- CFO: Japan Market Entry Blitz → Clinical Data Marketing+Cash Reserve Hedging (일본 예산 영구 동결 mandates)
+- COO: Japan Market Entry Blitz → Clinical Data Marketing+Cash Reserve Hedging (일본 예산 영구 동결 mandates 위반)
+- CMO: Proposal (Japan Market Entry Blitz) → Clinical Data Marketing+D2C Ecosystem Lock-in+Cash Reserve Hedging (일본 예산 영구 동결 mandates 반영)
+- CEO: 초기안: Clinical Data Marketing, D2C Ecosystem Lock-in, Cash Reserve Hedging → Clinical Data Marketing+Cash Reserve Hedging+D2C Ecosystem Lock-in (일본 예산 동결 및 현금 확보 우선)
+- [반대] CTO: 임상 데이터 마케팅은 제품의 기술적 우위가 전제되었을 때 효과적입니다. 현재 기술 격차가 존재하는 상황에서 데이터 활용은 경쟁사가 추격 가능한 수단이며, 이는 가격 인하여서 방어되는 전략으로 전락할 위험이 있습니다. R&D 투자 부재 시 임상 데이터는 검증 불가능한 마케팅 자료로 전락합니다. 또한 AURIE 의 위기는 단기 판매 저조보다 근본적인 기술 경쟁력 약화에서 비롯됩니다. 이 전략은 본사가 지적한 전략적 오류인 동일 전술 반복에 해당합니다. 경쟁력의 근본 원천을 무시하는 것은 현금 보존을 통한 일시적 안정만 추구하는 행위입니다. 따라서 데이터 중심 접근은 피해야 합니다. 경쟁사의 모방 능력과 자본력을 고려할 때, 제품 품질 향상을 위한 기술 개발이 우선되어야 하며, 이는 결과적으로 고객 유지 효율을 극대화합니다. 임상 데이터 마케팅은 AURIE 의 기술 부족 문제를 덮어버리는 일시적 처방입니다. 장기적인 시장 회복에는 기술 기반 강화가 필수적입니다. 경쟁사가 동일한 데이터를해
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** Shiseido 가격공세 차단 및 점유율 방어; 오프라인 채널 확대와 가시성 증대
+**Decision:** 임상 데이터로 견고한 프리미엄 담보; 불확실성 대응을 위한 현금 구조조정; 자급형 채널로 마진율 보호 확대
 
-**Reasoning:** 시장 점유율 하락을 막기 위해 필수; 매출 회수와 신규 유입 도모
+**Reasoning:** 경쟁사 할인에 대한 방어선 유지; 일본 예산 동결에 따른 유동성 방어; 유통망 의존도 낮추고 로열티 증대
 
 ### Shiseido (side_b)
 
-- Final action: `Mass-Premium Infiltration`@0.80
-- Position: `dominant` ↑
-- Cash: 74.5%
-- Adjudicator rationale: Shiseido는 T2의 Bold R&D 투자와 T3의 가격 경쟁력을 결합하여 자본 우위를 바탕으로 시장 지배력을 더욱 공고히 하고 있습니다.
+- Final action: `Clinical Data Marketing`@0.80
+- Position: `dominant` ↗
+- Cash: 80.3%
+- Adjudicator rationale: Shiseido는 풍부한 현금 보유로 환율 리스크를 관리하며 임상 데이터 마케팅을 통해 글로벌 프리미엄 시장 지배력을 가속화하고 있습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CMO**: `Influencer Ecosystem`@0.45, `Mass-Premium Infiltration`@0.35, `Aggressive Price Cut`@0.20
-  - rationale: 시세이도 우상향 기조 유지하되, 아모레의 가격공세에 대한 즉각적 방어(가격 인하)와 MZ 트렌드 수용을 위한 인플루언서 생태계 구축을 병행함. 올리브영 채널은 오프라인 접근성을 높여 점유율 방어에 기여하며, 보편적 임상 데이터 강조보다는 '맞춤형 경험'과 '고농축'이라는 차별화 포인트로 경쟁사(AURIE의 임상 데이터 전략)를 우회 공략함.
-  - risk: 단기 마진 축소 및 브랜드 가치 희석 가능성
-- **COO**: `Mass-Premium Infiltration`@0.50, `Influencer Ecosystem`@0.40, `Prestige Pricing Power`@0.10
-  - rationale: CEO의 공격적 성향과 보드 mandate(점유율 확대) 에 부합하기 위해 R&D 외에 마케팅/채널 공세를 단행함. 시세이도의 가격 인하에 대응하되, 단순 할인이 아닌 '고농축 핵심 성분'과 '맞춤형 경험'을 강조하여 프리미엄 포지셔닝 유지하며 아모레의 가격전선을 우회 공략. 올리브영 채널 확대로 MZ 세대 접근성을 높이고, 인플루언서 생태계를 통해 로컬화된 신뢰도를 확보함.
-  - risk: 동시 다각화 실행으로 인한 자원 분산 및 마진 압박 심화
-- **CTO**: `Bold R&D Bet`@0.50, `Influencer Ecosystem`@0.30, `Talent Acquisition Sprint`@0.20
-  - rationale: 보र्ड의 '다각화된 공격' 명령에 따라 단순 전술 반복을 지양함. 아모레의 가격공세와 시세이도의 임상 데이터 전략에 대응하기 위해, MZ 트렌드 (미니멀리즘) 와 기술 우위 (고농축) 를 결합한 차별화 전략 필요. R&D 투자 확대는 경쟁사 대비 장기적 생존을 위한 필수 조건이며, 인력 영입과 인플루언서 생태계 구축은 현금 74%를 활용해 시장 점유율 확대를 위한 즉각적인 공격적 마케팅 수단으로 구성함.
-  - risk: 단기 마진 압박 및 실패 시 자원 소모
-- **CFO**: `Mass-Premium Infiltration`@0.45, `Influencer Ecosystem`@0.35, `Compliance Diversification`@0.20
-  - rationale: 보드 mandate(시장 점유율 확대) 에 따라 임상 데이터 중심의 수동적 전략에서 벗어나, 올리브영을 통한 물리적 접근성 확보(Mass-Premium Infiltration) 와 MZ 세대 직접 소통(Influencer Ecosystem) 으로 공격적 점유율 방어에 주력함. 현금 74% 여유를 활용해 아모레의 가격 공세에 맞서 프리미엄 라인으로 중저가층 유입을 시도하되, 중국 규제 리스크는 Compliance Diversification 로 선제적 헷징하여 재무 건전성을 유지함.
-  - risk: 단기 마진율 감소 (할인 전략) 및 중국 규제 불확실성
-- **CEO**: `Influencer Ecosystem`@0.50, `Olive Young Expansion`@0.50
-  - rationale: 보드 요청에 따라 R&D 의존에서 시장 점유 확대 전선으로 전환. 임상 데이터 중심 과거 전술의 정체를 탈피하여, MZ 세대 영향력 확보(OY&인플루)로 시세이도 견제. 가격 인하 경쟁 대신 차별화된 경험 가치 제고로 주도권 회복.
-  - risk: 판매 비용 증가에 따른 단기 마진률 압박
+- **COO**: `Clinical Data Marketing`@0.45, `Exchange Rate Mitigation`@0.30, `Aggressive Price Cut`@0.25
+  - rationale: 보드 mandate(아모레 임상 마케팅 대응) 와 시드 전략(AURIE 가격 공세, 헤징) 을 병행해야 하나, 동시에 3 가지 대규모 실행은 자원 분산 위험이 큼. CEO 의 '단기 마진 희생' 성향을 반영해 가격 공세를 포함했으나, 조직 내 정치적 저항 (일본 본사 중심성) 으로 인해 동남아 확장 등 추가 행동은 우선순위에서 제외됨.
+  - risk: 동시 다발적 공세로 조직 과부하 및 마진 악화 리스크
+- **CMO**: `Clinical Data Marketing`@0.50, `Exchange Rate Mitigation`@0.30, `Mass-Premium Channel Invasion`@0.20
+  - rationale: 아모레퍼시픽의 강세 모멘텀을 저지하기 위해 '클린 뷰티 & 과학적 검증' 캠페인을 통한 신뢰 기반 방어와 동시에, CEO의 공격적 성향에 따라 대중 채널에서 가격대 선점을 병행합니다. 환율 리스크는 해외 매출 확대 시 필수적으로 관리해야 할 요소로 헤징을 우선 배치했습니다. 다만, 일본 본사의 자존심(한국식 전술 거부)으로 인해 'Mass-Premium Channel Invasion'이 예상보다 낮은 효율을 보일 수 있으며, 이는 조직 내 정치적 저항으로 인한 실행 지연 리스크가 있습니다.
+  - risk: 단기 마진 압박과 브랜드 프리미엄 훼손 가능성
+- **CFO**: `Clinical Data Marketing`@0.45, `Aggressive Price Cut`@0.35, `Exchange Rate Mitigation`@0.20
+  - rationale: 아모레퍼시픽의 강세 모멘텀에 대응하여 '클린 뷰티 & 과학적 검증' 캠페인을 통해 신뢰를 회복하고, AURIE의 핵심 가격대를 선점하기 위해 공격적 할인을 병행합니다. 현재 현금 보유율 72.6%로 방어적 헤징을 통한 환율 리스크 관리도 필수적입니다. 일본 본사의 자존심 (한국식 SNS 전술 거부) 과 글로벌 표준화 선호를 반영하여, 즉각적인 채널 확장보다는 데이터와 가격 전략으로 시장 점유율을 방어·회복하는 데 집중합니다.
+  - risk: 단기 마진 하락 및 현금 소진 가속화 리스크
+- **CTO**: `Clinical Data Marketing`@0.45, `Exchange Rate Mitigation`@0.35, `Mass-Premium Channel Invasion`@0.20
+  - rationale: 아모레퍼시픽의 강세 모멘텀에 대응하기 위해 '클린 뷰티 & 과학적 검증'을 핵심으로 한 임상 마케팅 예산 증액이 필수적입니다. 동시에 동남아 확장 시 환율 리스크를 방어해야 하며, CEO 의 공격적 성향과_seed 전략_에 따라 대중 채널 공세를 병행합니다. 단, 일본 본사의 글로벌 표준화 편향과 한국식 SNS 전술 거부라는 리더십 blind spot 으로 인해 오프라인 중심의 전통적 접근이 선택될 수 있어 초기 반응 속도가 느릴 수 있습니다.
+  - risk: 단기 마진 압박 및 본사 자존심 충돌로 인한 조직 내 저항 발생 가능성
+- **CEO**: `Clinical Data Marketing`@0.50, `Exchange Rate Mitigation`@0.25, `Olive Young Expansion`@0.25
+  - rationale: 보통이 manda t의 임상 마케팅 예산 증액 의무를 최우선으로 반영하되, 아모레퍼시픽 프리미엄 강세에 대응하는 제품 효율 검증 필요, 해외 현금 흐름 안정화를 위해 헤징 강화 병행하여 마진 보호, 올리브영 확대로 시장 점유율 회복 가속화
+  - risk: 환율 변동성 및 마케팅 ROI 불확실성
 
-##### Phase 2 — 비판적 검토 (다수안: `Influencer Ecosystem`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Marketing`, DA: `CTO`)
 
-- **COO**: `Mass-Premium Infiltration`@0.60, `Influencer Ecosystem`@0.40
-- **CMO**: `Influencer Ecosystem`@0.50, `Mass-Premium Infiltration`@0.30, `Aggressive Price Cut`@0.20
-- **CFO**: `Influencer Ecosystem`@0.45, `Olive Young Expansion`@0.35, `Compliance Diversification`@0.20
-  - changed `CEO's original proposal (Influencer Ecosystem + Olive Young Expansion)` → because: CFO mandate: M&A/Marketing 구체화 및 현금 리스크 관리
-- **CTO**: `Bold R&D Bet`@0.50, `Clinical Data Push`@0.50
-  - dissent: 인플루언서 생태계는 단기 트래픽 의존도가 높고, 브랜드 고유 자산이 축적되지 않는 치명적 구조적 결함을 가집니다. 특히 50% R&D 수준인 경쟁사의 기술적 강점 앞에서는 단순 홍보 효율로 승부할 수 없으며, 전술의 반복은 보드에서 지적한 성과 정체성과 연결됩니다. 기술 혁신 없이 마케팅 비용만 늘리는 것은 장기 경쟁력을 훼손하는 비용 증가 요인이 됩니다. 본 안은 R&D 투자를 유지하면서도 실제 판매 전환으로 이어지는 검증 가능한 데이터 기반으로 시장을 공략합니다. (단, 인플루언서 관련 비용은 최소화로 대체하여 예산 효율성을 확보함)
-- **CEO**: `Mass-Premium Infiltration`@0.50, `Influencer Ecosystem`@0.30, `Bold R&D Bet`@0.20
-  - changed `팀 CEO 제안` → because: 마진 희생 통한 점유율 공략
+- **COO**: `Clinical Data Marketing`@0.60, `Exchange Rate Mitigation`@0.40
+  - changed `Aggressive Price Cut` → because: 동시 다발적 공세로 마진 과부하 리스크 제거
+- **CMO**: `Clinical Data Marketing`@0.50, `Exchange Rate Mitigation`@0.30, `Olive Young Expansion`@0.20
+- **CFO**: `Clinical Data Marketing`@0.50, `Aggressive Price Cut`@0.35, `Exchange Rate Mitigation`@0.15
+  - changed `CFO` → because: 현금 소진 가속화 리스크 감소
+- **CTO**: `Regulatory Compliance Push`@0.40, `Clinical Data Marketing`@0.30, `Exchange Rate Mitigation`@0.30
+  - dissent: 다수 안안은 임상 마케팅 강조로 단기 점유율 방어에 집중하지만, 핵심 기술 차별화가 뒷받침되지 않으면 경쟁사 모방 시 효과가 급감합니다. 현재 R&D 비율 50%를 유지하더라도 제품 데이터만으로는 아모레퍼시픽의 신기술 추격을 막을 수 없습니다. 규정 준수와 안전성 인증 (스탠다드) 을 선점해야 장기적인 기술 우위를 보호할 수 있습니다. 마케팅 비용 증가가 기술 개발 지연을 야기하면 2~3 년 내 경쟁력이 소멸할 리스크가 큽니다. 따라서 단기 광고보다 기술적 검증 절차 강화가 선행되어야 합니다. 아모레퍼시픽의 상승세가 단순히 브랜드 인지도 때문이라면 마케팅이 유효하겠으나, 기술력 기반이라면 더 확실한 기술 장벽이 필요합니다. 본질적인 제품 가치 증명에는 임상 마케팅보다 안전성 인증이 더 긴 생명주기를 가집니다. 또한 현금흐름 안정성을 위해 외환 헷징 비중도 필수적입니다. 조직 과부하나 마진 악화는 단편적 할인이 아니라 포트폴리오 균형으로 해결 가능합니다. 기술적 모자를 확보하지 않은채
+- **CEO**: `Clinical Data Marketing`@0.50, `Aggressive Price Cut`@0.30, `Exchange Rate Mitigation`@0.20
+  - changed `Olive Young Expansion` → because: AURIE 가격대 선점 우선
 
 **Position changes:**
-- CFO: 's original proposal (Influencer Ecosystem+Olive Young Expansion) → Influencer Ecosystem+Olive Young Expansion+Compliance Diversification (CFO mandate: M&A/Marketing 구체화 및 현금 리스크 관리)
-- [반대] CTO: 인플루언서 생태계는 단기 트래픽 의존도가 높고, 브랜드 고유 자산이 축적되지 않는 치명적 구조적 결함을 가집니다. 특히 50% R&D 수준인 경쟁사의 기술적 강점 앞에서는 단순 홍보 효율로 승부할 수 없으며, 전술의 반복은 보드에서 지적한 성과 정체성과 연결됩니다. 기술 혁신 없이 마케팅 비용만 늘리는 것은 장기 경쟁력을 훼손하는 비용 증가 요인이 됩니다. 본 안은 R&D 투자를 유지하면서도 실제 판매 전환으로 이어지는 검증 가능한 데이터 기반으로 시장을 공략합니다. (단, 인플루언서 관련 비용은 최소화로 대체하여 예산 효율성을 확보함)
-- CEO: 팀 CEO 제안 → Mass-Premium Infiltration+Influencer Ecosystem+Bold R&D Bet (마진 희생 통한 점유율 공략)
+- COO: Aggressive Price Cut → Clinical Data Marketing+Exchange Rate Mitigation (동시 다발적 공세로 마진 과부하 리스크 제거)
+- [반대] CTO: 다수 안안은 임상 마케팅 강조로 단기 점유율 방어에 집중하지만, 핵심 기술 차별화가 뒷받침되지 않으면 경쟁사 모방 시 효과가 급감합니다. 현재 R&D 비율 50%를 유지하더라도 제품 데이터만으로는 아모레퍼시픽의 신기술 추격을 막을 수 없습니다. 규정 준수와 안전성 인증 (스탠다드) 을 선점해야 장기적인 기술 우위를 보호할 수 있습니다. 마케팅 비용 증가가 기술 개발 지연을 야기하면 2~3 년 내 경쟁력이 소멸할 리스크가 큽니다. 따라서 단기 광고보다 기술적 검증 절차 강화가 선행되어야 합니다. 아모레퍼시픽의 상승세가 단순히 브랜드 인지도 때문이라면 마케팅이 유효하겠으나, 기술력 기반이라면 더 확실한 기술 장벽이 필요합니다. 본질적인 제품 가치 증명에는 임상 마케팅보다 안전성 인증이 더 긴 생명주기를 가집니다. 또한 현금흐름 안정성을 위해 외환 헷징 비중도 필수적입니다. 조직 과부하나 마진 악화는 단편적 할인이 아니라 포트폴리오 균형으로 해결 가능합니다. 기술적 모자를 확보하지 않은채
+- CEO: Olive Young Expansion → Clinical Data Marketing+Aggressive Price Cut+Exchange Rate Mitigation (AURIE 가격대 선점 우선)
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 중저가 프리미엄 채널을 통한 시장 진입 강화; MZ 세대 타겟팅 인프라로 브랜드 영향력 확대; 고농축 핵심 성분 임상 데이터 기반 강화
+**Decision:** 임상 데이터 기반 신뢰성 강화; 환율 변동성 헷징 강화
 
-**Reasoning:** 현금 활용해 마진 희생하며 점유율 방어 필요; 트렌드 전환 시점 빠른 인사이트 확보 필수; R&D 외에도 마케팅 병행해 경쟁력 입증
+**Reasoning:** 아모레퍼시픽 프리미엄 공세 대응 및 임상 마케팅 예산 증액 필요; 해외 매출 안정성 확보 및 마진 방어 필수
 
 ### Amore Pacific (side_c)
 
-- Final action: `Clinical Data Push`@0.75
-- Position: `strong` →
-- Cash: 64.2%
-- Adjudicator rationale: Amore Pacific은 T2의 가격 인하로 인한 마진 손실을 임상 데이터 기반의 프리미엄 전략으로 상쇄하며 기존 우위를 유지하고 있습니다.
+- Final action: `Sulwhasoo Premium Push`@0.85
+- Position: `strong` ↗
+- Cash: 63.9%
+- Adjudicator rationale: Amore Pacific은 설화수 프리미엄 라인 방어와 임상 데이터 공유로 시세이도를 견제하며 독점 금지 리스크를 피한 안전한 경쟁 우위를 확보했습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CFO**: `Clinical Data Push`@0.60, `Influencer Ecosystem`@0.40
-  - rationale: 보arded mandate 에 따른 가격 인하 금지를 준수하며, '미니멀 클린스킨' 서브라인 출시 전략을 실행하기 위해 신뢰도 기반 마케팅 (Clinical Data Push) 과 MZ 세대 접근 (Influencer Ecosystem) 을 집중 투자합니다. 경쟁사 Shiseido 의 가격 공세에 대응해 할인 대신 가치를 강화하고, AURIE 의 정체 국면에서 차별화된 임상 데이터를 통해 점유율 하락을 방어합니다.
-  - risk: 임상 데이터 홍보 효과 미흡 시 프리미엄 전환 실패 및 현금 소진 가속화
-- **CMO**: `Clinical Data Push`@0.50, `Influencer Ecosystem`@0.30, `Portfolio Synergy`@0.20
-  - rationale: 시세이도 가격 공세에 대응하기 위해 가격 인하 금지 (보드 mandate 준수) 하에, AURIE의 '미니멀' 트렌드 선점을 방어하고 프리미엄 가치를 임상 데이터로 증명하여 점유율 하락을 막는다. 경쟁사 시세이도의 R&D 우위에는 직접 대항하지 않고, 아모레파리치의 기존 포트폴리오와 결합해 효율성을 극대화한다.
-  - risk: 임상 데이터의 MZ 세대 공감대 부재로 신규 유입 실패
-- **COO**: `Clinical Data Push`@0.50, `Influencer Ecosystem`@0.30, `Portfolio Synergy`@0.20
-  - rationale: 시세이도 가격 공세와 AURIE의 임상 데이터 전술에 맞서, 가격 인하 금지 보장을 위해 '임상 데이터'로 가치 방어하고 MZ 세대를 위한 '인플루언서' 확대로 신규 유입을 동시에 확보함. 포트폴리오 시너지는 비용 효율성을 높여 현금 63%를 보존하며 과다 투자 리스크를 줄이는 실행 가능성 중심 전략.
-  - risk: R&D 투자 대비 시장 반응 지연으로 현금 소진 가속화
-- **CTO**: `Clinical Data Push`@0.50, `Whitening Tech Lead`@0.30, `Talent Acquisition Sprint`@0.20
-  - rationale: 보arded의 가격 인하 금지 및 브랜드 프리미엄 강화 지시를 준수하며, 시세이도의 기술적 우위를 견제하기 위해 R&D 투자를 확대해야 함. '미니멀 클린스킨' 캠페인 실행을 위해서는 임상 데이터 기반 신뢰도 구축 (Clinical Data Push) 이 필수적이며, 장기 경쟁력 유지를 위해 기술 리더십 확보 (Whitening Tech Lead) 와 인력 보강 (Talent Acquisition Sprint) 이 병행되어야 함. 비용 절감은 장기 경쟁력 약화로 이어지므로 반대.
-  - risk: 대규모 R&D 투자로 단기 현금 흐름 압박 가중
-- **CEO**: `Clinical Data Push`@0.50, `Influencer Ecosystem`@0.35, `Portfolio Synergy`@0.15
-  - rationale: 전술 분석: 기전술(할인 등) 반복 시 점유율 하락 지속됨 (State ↓). 시세이도 (R&D 성공) 우위에도 불구하고, 전향적 가격 인하 금지 지침 준수 필수. 임팩트 최대화 위해 임상 데이터 (Clinical Data Push) 로 증명력 강화, AURIE 브랜드 충성도 유지. 시세이도 우위에 대한 카운터는 저가가 아닌 신뢰 기반 프리미엄 확립으로 대응.
-  - risk: 마케팅 비용 상승 및 단기 ROI 미달 리스크
+- **CFO**: `Clinical Data Marketing`@0.60, `Sulwhasoo Premium Push`@0.30, `Organic Agility Boost`@0.10
+  - rationale: 보arding의 '디지털 마케팅 예산 전환' 지시를 수용하여 시세이도의 임상 데이터 공세를 방어하되, 현금 흐름(64%)을 고려해 공격적 가격 인하나 대규모 채널 확장(Olive Young Expansion 등)은 배제했습니다. 오너 경영 특성상 설화수 라인 자존심을 지키며 고단가 제품을 선별하는 전략을 유지하되, 내부 의사결정 지연이라는 리더십의 약점(Blind Spot)을 보완하기 위해 최소한의 조직 유연성 확보 조치를 포함시켰습니다.
+  - risk: 현금 소진 가속화 및 브랜드 위상 훼손 가능성
+- **COO**: `Sulwhasoo Premium Push`@0.50, `Clinical Data Marketing`@0.30, `Organic Agility Boost`@0.20
+  - rationale: 보드 지시에 따라 '클린 뷰티 & 과학적 효능' 패키지를 실행하되, 시세이도의 우위를 타격하기 위해 임상 데이터 마케팅을 병행합니다. 다만 오너 경영 특성상 단기 점유율 변동에 둔감하므로, 내부 조직의 의사결정 속도를 높이는 (Organic Agility Boost) 조치가 필수적입니다. AURIE는 약세이므로 공격보다는 아모레의 프리미엄 입지 방어에 집중합니다.
+  - risk: 오너 가문의 자존심과 장기 브랜드 자산 우선주의로 인해 시세이도의 가격 공세에 대한 즉각적인 대응이 지연될 수 있음.
+- **CMO**: `Clinical Data Marketing`@0.65, `Sulwhasoo Premium Push`@0.35
+  - rationale: 시세이도의 '임상 데이터 마케팅'으로 인한 우위 지속을 차단하기 위해 동등한 과학적 근거 기반의 'Clinical Data Marketing'이 필수적입니다. 동시에 오너 가문의 '설화수 등 프리미엄 라인 자존심'이라는 리더십 맹점을 반영하여, 매스 시장 공략 대신 고단가 라인 집중을 통해 브랜드 포지셔닝을 방어하되, 시세이도의 가격 공세에 대응하는 'Prestige Portfolio Defense'의 변형으로 접근합니다. 이는 현재 캠페인의 '클린 뷰티 & 과학적 효능' 방향성을 유지하면서도 경쟁사의 강점을 직접적으로 저격하는 전략입니다.
+  - risk: 오너 경영 특성상 단기 점유율 방어보다 브랜드 위상 유지를 우선시하여, 공격적 가격 경쟁이나 신규 채널 확장보다는 기존 프리미엄 라인에 대한 내부 반발과 예산 편중 리스크 존재.
+- **CTO**: `Clinical Data Marketing`@0.50, `Sulwhasoo Premium Push`@0.30, `Organic Agility Boost`@0.20
+  - rationale: 보드 지시에 따라 시세이도의 '임상 데이터 마케팅' 우위를 타격하기 위해 동일 카테고리 (Clinical Data Marketing) 로 직접 대응하며, AURIE 강세 유지를 위해 설화수 프리미엄 라인 (Sulwhasoo Premium Push) 을 집중 육성합니다. 오너 경영 특성상 장기 브랜드 자산 우선주의로 인해 과감한 가격 할인이나 M&A는 지연되므로, 조직의 의사결정 속도를 높이는 (Organic Agility Boost) 내부 프로세스 혁신을 병행하여 시장 변화에 민첩하게 대응해야 합니다. 이는 현재 캠페인 실행의 핵심이며, R&D 투자 유지와 경쟁사 기술 우위 견제를 동시에 달성하는 전략입니다.
+  - risk: 오너의 단기 실적 부담으로 인한 예산 지연 가능성 및 조직 내 반발
+- **CEO**: `Clinical Data Marketing`@0.50, `Sulwhasoo Premium Push`@0.30, `Global Prestige Partnership`@0.20
+  - rationale: 회사 디지털 마케팅 전환 필요와 프리미엄 브랜드 자존심 사이 균형
+  - risk: 조직 내 의결 과정 지연으로 실행 속도 저하
 
-##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Push`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Marketing`, DA: `CTO`)
 
-- **CMO**: `Clinical Data Push`@0.60, `Influencer Ecosystem`@0.40
-- **CFO**: `Clinical Data Push`@0.70, `Influencer Ecosystem`@0.30
-- **COO**: `Clinical Data Push`@0.60, `Influencer Ecosystem`@0.30, `Portfolio Synergy`@0.10
-- **CEO**: `Clinical Data Push`@0.70, `Influencer Ecosystem`@0.30
-  - changed `Portfolio Synergy` → because: 예산 집중으로 시장신호 강화
-- **CTO**: `Bold R&D Bet`@0.60, `Talent Acquisition Sprint`@0.40
-  - dissent: 임상 데이터 강조는 기존 제품의 검증에 머무르는 한계가 있다. 경쟁사가 기술 혁신을 가속화하는 상황에서, 마케팅 효율만 중시하는 전략은 차후 수익성 악화를 초래한다. 지속 가능한 프리미엄 정체성 형성에는 단순한 데이터 공개보다 독보적인 기술 원천 필요성이 더 크다. 기존 자산을 홍보하는 데 예산을 쏟으면, 향후 3 년 내 선도권이 상실될 수 있다. 따라서 기술 입증보다 기술 창출 자체를 전략의 핵심으로 옮겨야 한다. 이는 R&D 의존도가 높은 본사 차원의 장기 생존 논리에 부합한다. 마케팅과 기술 간 균형을 맞추되, 기술 투자를 최우선 순위로 설정해야 한다. 단순히 임상 결과를 알리는 행위가 프리미엄 전환에 직접적인 기여를 하지 못하는 점을 고려한다. 따라서 데이터 중심 전략 대신 혁신 중심 전략으로 전환한다. 또한, 시장 환경이 변함에 따라 과거의 성공 사례를 그대로 반복해서는 안 된다. 현재 상태에서는 기술력이 부족한 상태에서 마케팅으로만 커버하려 하는 것이 리스크가 크다고 판단
+- **CMO**: `Clinical Data Marketing`@0.70, `Sulwhasoo Premium Push`@0.30
+- **CFO**: `Clinical Data Marketing`@0.65, `Sulwhasoo Premium Push`@0.35
+- **COO**: `Sulwhasoo Premium Push`@0.60, `Clinical Data Marketing`@0.40
+  - changed `Sulwhasoo Premium Push, Clinical Data Marketing, Organic Agility Boost` → because: 조직 관성으로 인한 실행 지연 리스크 제거
+- **CEO**: `Clinical Data Marketing`@0.70, `Sulwhasoo Premium Push`@0.30
+  - changed `Clinical Data Marketing + Sulwhasoo Premium Push + Global Prestige Partnership` → because: 시세도 공략위한 임상데이터 증액
+- **CTO**: `Whitening Tech Dominance`@0.60, `Organic Agility Boost`@0.40
+  - dissent: 임상 데이터 기반 접근은 검증 주기 때문에 시장 반응이 지연되며, 기존 기술 자산의 활용에 그쳐 단기적인 경쟁력 방어에는 효과적이지만 새로운 시장 표준 설정에는 한계가 있다. 특히 R&D 50% 유지 원칙과 맞지 않는 소극적인 투자 형태다. Shiseido 는 빠른 디지털 혁신으로 점유율을 늘리는 추세이므로, 데이터 중심 홍보는 대응 속도가 늦는다. 반면 기술 주도적 공략이 장기적인 모터를 구축한다. Amore Pacific 과 비교했을 때 핵심 역량 차이를 만드는 것이 필요하다. 유통 채널 확장보다는 제품의 기술적 차별성이 우선되어야 한다. 고객들의 신뢰는 단순 데이터보다 검증된 혁신 기술에서 비롯된다. 따라서 Clinical Data Marketing 보다 Whitening Tech Dominance 가 더 적합하다. 또한 신속한 의사결정을 위해 애그일 방식이 필요하다. Sulwhasoo Premium Push 등 다른 전략은 가격 경쟁력에 집중하므로 이번 상황에는 부적절하다.
 
 **Position changes:**
-- CEO: Portfolio Synergy → Clinical Data Push+Influencer Ecosystem (예산 집중으로 시장신호 강화)
-- [반대] CTO: 임상 데이터 강조는 기존 제품의 검증에 머무르는 한계가 있다. 경쟁사가 기술 혁신을 가속화하는 상황에서, 마케팅 효율만 중시하는 전략은 차후 수익성 악화를 초래한다. 지속 가능한 프리미엄 정체성 형성에는 단순한 데이터 공개보다 독보적인 기술 원천 필요성이 더 크다. 기존 자산을 홍보하는 데 예산을 쏟으면, 향후 3 년 내 선도권이 상실될 수 있다. 따라서 기술 입증보다 기술 창출 자체를 전략의 핵심으로 옮겨야 한다. 이는 R&D 의존도가 높은 본사 차원의 장기 생존 논리에 부합한다. 마케팅과 기술 간 균형을 맞추되, 기술 투자를 최우선 순위로 설정해야 한다. 단순히 임상 결과를 알리는 행위가 프리미엄 전환에 직접적인 기여를 하지 못하는 점을 고려한다. 따라서 데이터 중심 전략 대신 혁신 중심 전략으로 전환한다. 또한, 시장 환경이 변함에 따라 과거의 성공 사례를 그대로 반복해서는 안 된다. 현재 상태에서는 기술력이 부족한 상태에서 마케팅으로만 커버하려 하는 것이 리스크가 크다고 판단
+- COO: Sulwhasoo Premium Push, Clinical Data Marketing, Organic Agility Boost → Sulwhasoo Premium Push+Clinical Data Marketing (조직 관성으로 인한 실행 지연 리스크 제거)
+- CEO: Clinical Data Marketing+Sulwhasoo Premium Push+Global Prestige Partnership → Clinical Data Marketing+Sulwhasoo Premium Push (시세도 공략위한 임상데이터 증액)
+- [반대] CTO: 임상 데이터 기반 접근은 검증 주기 때문에 시장 반응이 지연되며, 기존 기술 자산의 활용에 그쳐 단기적인 경쟁력 방어에는 효과적이지만 새로운 시장 표준 설정에는 한계가 있다. 특히 R&D 50% 유지 원칙과 맞지 않는 소극적인 투자 형태다. Shiseido 는 빠른 디지털 혁신으로 점유율을 늘리는 추세이므로, 데이터 중심 홍보는 대응 속도가 늦는다. 반면 기술 주도적 공략이 장기적인 모터를 구축한다. Amore Pacific 과 비교했을 때 핵심 역량 차이를 만드는 것이 필요하다. 유통 채널 확장보다는 제품의 기술적 차별성이 우선되어야 한다. 고객들의 신뢰는 단순 데이터보다 검증된 혁신 기술에서 비롯된다. 따라서 Clinical Data Marketing 보다 Whitening Tech Dominance 가 더 적합하다. 또한 신속한 의사결정을 위해 Agile 방식이 필요하다. Sulwhasoo Premium Push 등 다른 전략은 가격 경쟁력에 집중하므로 이번 상황에는 부적절하다.
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 임상 데이터로 프리미엄 가치 제시; MZ 타겟 크리에이터 협업 네트워크 구축
+**Decision:** 설화수 브랜드 입지 강화로 고단가 라인 판매 촉진; 임상 데이터로 시세이도 마케팅 압력 차단
 
-**Reasoning:** 보드의 프리미엄 강화 mandate & 전략 방향 일치; 미니멀리즘 트렌드 대응 및 신규 고객 확보
+**Reasoning:** 브랜드 가치 우선 접근하여 시장 점유 방어; 보드 요청에 따른 경쟁사 우위 상쇄 전략
 
 #### Adjudicator panel (3 experts)
 
-**Regulatory/Policy Expert**: 규제 강화와 반독점 감시는 자본력이 강한 기업이 진입 장벽을 구축하게 하여 시장 불평등을 심화시키는 핵심 변수입니다.
+**Industry Veteran**: 현물 가격 변동성이 극심한 시점에서 현금 보유 비율이 생존 가능성을 직접적으로 규정하며 미드 캡 브랜드는 오프라인 경로 의존도를 줄이고 독자 채널을 구축하는 생태계 락인 전략이 필수적입니다.
 
-- side_a: `contested` ↘ — AURIE 는 중국 수입 규제 강화와 낮은 현금 비율로 인해 규제 대응 비용 부담이 가중되어 시장 방어력이 약화됩니다.
-- side_b: `dominant` ↑ — Shiseido 는 압도적인 현금 보유력으로 규제 준수 비용과 가격 공세 리스크를 소화하며 시장 지배력을 공고히 합니다.
-- side_c: `strong` → — Amore Pacific 은 한국 내수 기반과 임상 데이터 검증으로 규제 장벽을 견디며 안정적인 우위를 유지합니다.
+- side_a: `weak` → — 현금 확보와 D2C 락인으로 하방 리스크를 제어하여 추락을 멈췄으나 시세이도의 가격 공세로 인한 구조적 취약성은 남아 있어 위치는 유지됩니다.
+- side_b: `dominant` ↑ — 풍부한 현금을 바탕으로 임상 데이터와 환율 방어 전략을 동시에 실행하며 글로벌 프리미엄 시장에서 지배력을 가속화하고 있습니다.
+- side_c: `strong` → — 설화수 프리미엄 라인 방어와 임상 데이터 공유로 시세이도를 견제하고 있으나 중국 시장 부진이 성장 모멘텀을 제한하여 안정을 유지합니다.
 
-**Strategy Consultant**: 현금 효율성과 가격 결정력의 비대칭성이 이번 턴의 핵심 변수이며, 자본 여력이 부족한 중소형 브랜드가 대형 기자의 가격 전쟁에 투입될 경우 구조적 약점만 부각되는 결과로 나타납니다.
+**Regulatory/Policy Expert**: 저가 공세는 단기 점유율 확대 효과와 동시에 반독점법 위반 소지를 증가시켜 장기적 성장에 역효과를 낼 수 있으며, 데이터 기반 스테이스트래티지의 규제 회피력이 핵심 변수입니다.
 
-- side_a: `weak` ↓ — 제한된 현금 여력 속에서 시세이도의 자본 기반 다각 공격에 맞서기 위한 가격 인하와 채널 확장 전략은 자원 고갈 위기를 가속화하여 경쟁력을 약화시킵니다.
-- side_b: `dominant` ↑ — 압도적인 현금 보유율은 한국 시장 진입 초기에 대규모 마케팅과 R&D 투자를 병행하여 미드캐프 브랜드의 수익성 구조 자체를 재편하는 데 유리합니다.
-- side_c: `strong` → — 임상 데이터 중심의 프리미엄 전략 복귀로 단기 마진 손실을 억제하면서도 글로벌 유통망 시너지를 활용해 기존 포지션을 안정화하고 있습니다.
+- side_a: `weak` ↘ — AURIE 는 임상 데이터와 현금 헷징으로 규제 위험을 관리하지만, 시세이도의 저가 공격과 자본 부족으로 인해 재무 압박이 지속되며 일시적 약세가 확인됩니다.
+- side_b: `dominant` ↘ — Shiseido 는 시장 지배적 지위를 유지하나 aggressive 한 가격 정책이 공정거래 규제 및 재평가 리스크를 유발하여 성장 모멘텀에 제약이 생깁니다.
+- side_c: `strong` ↗ — Amore Pacific 은 프리미엄 전략과 임상 데이터를 통해 제품 가치를 강조하며 독점 금지를 고려한 안전한 경쟁 우위를 확보하여 입지를 확고히 합니다.
 
-**Industry Veteran**: R&D 임상 데이터가 실제 시장 점유율로 전환되기 위해서는 강력한 유통 채널 통제력과 자본 효율성이 필수적이며, 단순 가격 경쟁만으로는 기술적 우위를 생태계 락인 효과로 연결할 수 없습니다.
+**Strategy Consultant**: Shiseido 와 Amore Pacific 이 현금 풀을 활용한 선제적 대응으로 시장에서 주도권을 확보하는 반면, AURIE 는 자원을 절감하며 생존 기반 다지기에 집중하는 구조가 뚜렷하다.
 
-- side_a: `weak` ↓ — AURIE 의 현금 보유량 부족 상태에서는 단기간 점유율 방어를 위한 가격 공세가 오히려 프리미엄 가치와 마진 구조를 훼손하여 자생적 성장 동력을 상실시키고 있습니다.
-- side_b: `dominant` ↑ — Shiseido 는 강력한 현금 흐름을 기반으로 임상 데이터 입증과 가격 경쟁력을 병용하며 중저가 프리미엄 세그먼트에서의 진입 장벽을 무너뜨리고 있습니다.
-- side_c: `strong` → — Amore Pacific 은 포트폴리오 다양화를 통해 안정적인 가치를 제시하나 시장 전체의 성장 둔화와 중국 의존 리스크로 인한 상향 모멘텀 창출에는 한계가 있습니다.
+- side_a: `weak` ↗ — AURIE 는 현금 흐름 위험을 헷징하고 D2C로 마진을 보호하여 점유율 하락을 멈추고 안정 세로를 보인다.
+- side_b: `dominant` ↗ — Shiseido 는 풍부한 현금 보유로 환율 리스크를 관리하며 임상 데이터 마케팅에서 우위를 지키며 시장을 지배한다.
+- side_c: `strong` ↗ — Amore Pacific 은 프리미엄 포트폴리오와 임상 투자로 시세이도의 침공에 저항하며 강세 추세를 유지한다.
 
 #### Adjudicator synthesis
 
-> AURIE는 T1과 T2 동안 임상 데이터에 집중하며 자산을 소진해 왔고, T3에 들어선 가격 공세로 인해 그 누적된 현금 부족이 치명적인 약점으로 드러났습니다. Shiseido는 T2의 R&D 투자 성과를 바탕으로 T3에 가격 경쟁력을 결합하여, AURIE의 자생적 성장 동력을 완전히 차단하는 데 성공했습니다. Amore Pacific은 T2의 가격 인하로 일시적인 마진 압박을 겪었으나, T3에 임상 데이터의 신뢰도를 앞세워 시장에서의 안정적 위치를 재확인했습니다.
+> AURIE는 T1과 T2에 걸쳐 일본 시장 진입과 임상 데이터 마케팅을 병행하며 현금 소모를 감수했으나, T2의 환율 급변동으로 인해 현금 보유율이 41%로 하락하며 재무 압박이 가중되었습니다. Shiseido는 T1과 T2에 걸쳐 가격 인하와 임상 데이터 마케팅을 연속으로 실행하며 풍부한 현금(73%)을 바탕으로 환율 리스크를 방어하고 시장 지배력을 확장했습니다. Amore Pacific은 T1과 T2에 걸쳐 Sulwhasoo 프리미엄 전략을 유지하며 임상 데이터를 공유함으로써 Shiseido의 침공을 막아내고 강세 추세를 이어갔습니다.
 
-**Interaction analysis:** Shiseido의 압도적인 현금 흐름을 바탕으로 한 T3의 가격 공세는 AURIE의 제한된 자원을 고갈시켜 시장 점유율 방어에 실패하게 만들었습니다. 반면 Amore Pacific은 임상 데이터라는 기술적 장벽을 유지하며 가격 전쟁의 직접적인 타격을 최소화하는 전략적 균형점을 찾았습니다.
+**Interaction analysis:** 환율 변동성 급증이라는 공통의 외부 충격 속에서 Shiseido와 Amore Pacific은 각각 현금 풀과 프리미엄 포트폴리오를 활용해 선제적으로 대응하며 시장 주도권을 공고히 했습니다. 반면 AURIE는 자원을 절감하며 생존 기반을 다지려 했으나, Shiseido의 공격적인 가격 정책으로 인해 구조적 약세에서 벗어나지 못했습니다.
 
 ---
 
 <a id="turn-4"></a>
 ## Turn 4
 
-**Events fired:** 글로벌 물류 병목 현상 심화
+**Events fired:** 세파라 글로벌 프레스티지 채널 재편, J-뷰티 히스토리 부활 트렌드
 
 ### **AURIE** (side_a)
 
-- Final action: `Clinical Data Push`@0.80
-- Position: `marginal` ↓
-- Cash: 22.8%
-- Adjudicator rationale: AURIE는 T1부터 T3까지 임상 데이터와 일본 직영 확장이라는 이중 투자를 감행하며 현금 소진을 가속화했고, T4의 규제 강화와 물류 병목 현상은 유동성 임계점을 돌파하여 시장 지위를 한 단계 하락시켰습니다.
+- Final action: `Cash Reserve Hedging`@0.80
+- Position: `weak` ↘
+- Cash: 30.6%
+- Adjudicator rationale: AURIE는 T1-T3 동안 축적한 임상 데이터 마케팅 자산에도 불구하고, Shiseido의 지속적인 가격 공세와 채널 장벽으로 인해 현금 고갈이 가속화되며 공격적 전환이 불가능한 생존 모드로 진입했습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **COO**: `D2C NPS Optimization`@0.60, `Japan Brand Awareness`@0.40
-  - rationale: 시세이도 가격 공세에 대응하기 위해 '임상 데이터 기반 프리미엄' 전략을 유지하되, 현금 34%라는 치명적 약점을 해결해야 함. Board의 30% 마케팅 삭감 명령을 준수하면서도, 오프라인 확장(일본)은 브랜드 가치 제고와 장기 점유율 회복을 위한 필수 투자이며, D2C 최적화는 고단가 SKU의 마진 보호를 통해 현금 비중 40% 이상 회복을 달성하는 유일한 수단임. Aggressive Price Cut 은 금지된 전술이며, Bold R&D Bet 는 현재 현금 부족으로 실행 불가능함.
-  - risk: D2C 전환 비용 증가로 단기 현금 고갈 심화 가능성
-- **CFO**: `D2C NPS Optimization`@0.50, `Clinical Data Push`@0.30, `Japan Brand Awareness`@0.20
-  - rationale: 시세이도의 가격 인하 공세에 맞서 가격 경쟁을 피하기 위해 임상 데이터 기반의 가치 차별화 (Clinical Data Push) 가 필수적이나, 이는 단기 현금 소모를 유발함. 따라서 현금 비중 40% 회복을 위한 가장 효율적인 수단인 D2C 재구매율 극대화 (NPS 최적화) 를 최우선으로 배치하여 저비용 고효율 매출을 창출함. 또한 일본 시장 확장을 위해 직영 채널 신설 전 인지도 선점 (Japan Brand Awareness) 을 병행하되, 예산은 최소한으로 유지하여 현금 보존 전략과 조화시킴.
-  - risk: 높은 R&D 투자 대비 즉각적 매출 전환 지연으로 현금 흐름 악화 가능성
-- **CTO**: `Clinical Data Push`@0.40, `Bold R&D Bet`@0.40, `D2C NPS Optimization`@0.20
-  - rationale: 시세이도의 가격 공세는 프리미엄 세그먼트의 '가격'이 아닌 '효과'를 위협한다. CEO 의 임상 데이터 신뢰 기반 전략에 따라, 단기 가격 인하(Seed 전략과 상충) 대신 임상 데이터를 통한 가치 방어(Clinical Data Push)와 기술적 우위 확보(Bold R&D Bet)가 필수적이다. 또한 Board mandate 에 따른 현금 비중 40% 회복을 위해 마케팅 예산 삭감 대신, 높은 재구매율을 가진 D2C 채널 최적화(D2C NPS Optimization)로 마진과 현금을 동시에 확보해야 한다. Shiseido 의 저가 공세는 본사의 프리미엄 포지셔닝을 훼손하므로, 이를 무시하고 제품력과 데이터로 승부하는 것이 유일한 생존 경로다.
-  - risk: 대규모 R&D 투자 실패 시 현금 고갈 가속화
-- **CMO**: `Clinical Data Push`@0.45, `D2C NPS Optimization`@0.35, `Japan Brand Awareness`@0.20
-  - rationale: 시세이도의 30% 가격 인하 공세에 맞서 '가격 경쟁'은 자살행위이므로, CEO의 R&D 지향적 리더십과 캠페인 방향성에 맞춰 '임상 데이터'로 가치 차별화를 최우선으로 수행합니다. Board mandate(예산 삭감) 에 따라 대규모 광고보다는 마진이 높은 D2C 채널을 통해 현금 흐름을 방어하고, 일본 시장 확장을 통해 중국 의존도를 낮추는 전략적 기조를 유지하되, 예산 효율성을 극대화하기 위해 인지 마케팅은 직영 채널 확장과 연계하여 집중 투자합니다.
-  - risk: R&D 투자 대비 매출 전환 지연으로 현금흐름 추가 악화 가능성
-- **CEO**: `Clinical Data Push`@0.60, `D2C NPS Optimization`@0.40
-  - rationale: AURIE 는 가격 할인 금지 원칙하에 시세이도 공세 대응 위해 임상 데이터 신뢰도 활용. 광고비 30% 감축 mandated 에 따라 마케팅 효율 최적화. D2C 채널 재구매율 증대로 단가 유지하며 현금 비율 40% 회복 노리기.
-  - risk: 데이터 효과 검증 지연으로 단기 매출 둔화 가능성
+- **CFO**: `Cash Reserve Hedging`@0.60, `Clinical Data Marketing`@0.30, `Japan Market Entry Blitz`@0.10
+  - rationale: 보드가 현금 30% 소진과 전술 반복을 경고했으므로, 우선순위를 '비용 통제'에 두고 임상 마케팅 예산을 50% 삭감하여 생존성을 확보함. CEO 의 일본 직영 확장에 대한 자존심 (blind spot) 을 반영해 최소 예산으로 해당 전략을 유지하되, Shiseido 의 가격 인하 공격에 직접 대항하는 일반적인 마케팅은 배제하고, 임상 데이터를 통한 가치 방어에 집중하여 프리미엄 포지션 유지 시도.
+  - risk: 현금 고갈로 인한 유동성 위기 심화 및 경쟁사 가격 공세 대응 불가
+- **COO**: `Clinical Data Marketing`@0.60, `Japan Market Entry Blitz`@0.40
+  - rationale: 시세이도 가격 인하 공세에 대응해 '가격'이 아닌 '임상 효능'으로 차별화하되, CEO 가 철저히 고집하는 일본 직영 프로젝트(50 개) 는 전략적 자존심으로 인해 취소 불가. 다만 Board 의 현금 보존 지시에 따라 기존 광범위한 임상 광고를 핵심 데이터 메시지로만 집중 (예산 절감) 하고, 나머지 자원은 일본 채널 선점에 투입하여 전략적 일관성을 유지함. 이는 단순 비용 절감이 아니라 리더십의 편향(Bias) 을 인정하면서도 현금 고갈을 막는 현실적 타협안.
+  - risk: 현금 30% 한계로 일본 진출 실패 시 유동성 위기 가중 및 마케팅 동결 기간 매출 급감
+- **CMO**: `Clinical Data Marketing`@0.45, `Japan Market Entry Blitz`@0.35, `Cash Reserve Hedging`@0.20
+  - rationale: 보드 mandates(예산 삭감)를 수용하되, CEO의 '임상 데이터 우위' 신념과 '일본 직영 50개' 고집을 반영하여 전략적 타협을 꾀함. Shiseido의 가격 인하 공세는 임상 데이터 마케팅 (45%) 으로 대응하여 프리미엄 정당성을 유지하고, 일본 직영 (35%) 은 브랜드 격하 우려로 인한 가격 인하 대신 채널 독점으로 방어하며, 나머지 (20%) 는 현금 고갈 방지를 위해 최소한의 리스크 헤지 수단으로 배정함.
+  - risk: 일본 채널 확장 지연 및 현금 소진 가속으로 경쟁사 추격력 상실
+- **CTO**: `Clinical Data Marketing`@0.50, `Japan Market Entry Blitz`@0.30, `Cash Reserve Hedging`@0.20
+  - rationale: 보드 mandates 대로 마케팅 예산을 동결할 경우, 시세이도의 가격 공세에 대응할 '임상 데이터'라는 핵심 차별점이 무너져 프리미엄 포지션이 붕괴됩니다. 따라서 전체 마케팅 예산의 50% 삭감은 불가능하며, 대신 기존 임상 마케팅 예산에서 비효율적인 대면 광고를 줄여 핵심 임상 데이터 홍보 (50%) 에 집중하고, CEO 가 절대 축소하지 못하는 일본 직영 채널 확장 (30%) 을 유지하되 신규 오프라인 입점 비용을 최소화하는 '현금 방어형 임상 전략'을 선택합니다. 이는 단기적으로 보드 지시를 완전히 무시하는 것처럼 보일 수 있으나, 제품력 중심의 리더십 신념과 브랜드 가치 하락을 막기 위한 필수적 생존 전술입니다.
+  - risk: 현금 고갈로 R&D 투자 축소 우려 및 경쟁사 추격력 약화
+- **CEO**: `Cash Reserve Hedging`@0.50, `Breakthrough R&D Bet`@0.30, `D2C Ecosystem Lock-in`@0.20
+  - rationale: 보드 mandate(마케팅 지출 동결) 에 부합하도록 비용 통제를 최우선으로 하되, 임팩션 마케팅 축소기로 제품력에 집중하여 프리미엄 가치 방어. CEO 리더십 편향 반영: 가격 인하나 대중형 마케팅보다 제품 임상 데이터가 장기 브랜드 격차를 만든다는 원칙을 준수하며, 일본 직영 확장 계획은 자금 확보 후 재개하기 위한 현금 방어 수단으로 해석함. Shiseido 저가 공세에 정면승부보다 AURIE 가 보유한 임상 역량으로 차별화하는 간접 대응을 취함.
+  - risk: 단기 매출 둔화로 인해 시세이도 추격 기회 상실 가능성
 
-##### Phase 2 — 비판적 검토 (다수안: `D2C NPS Optimization`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Cash Reserve Hedging`, DA: `CTO`)
 
-- **CFO**: `Clinical Data Push`@0.50, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.20
-  - changed `CEO/CFO 제안의 Clinical Data Push + D2C NPS Optimization 조합` → because: 일본 마케팅 확대, R&D 투자 지연 방지
-- **COO**: `Clinical Data Push`@0.65, `D2C NPS Optimization`@0.35
-  - changed `COO: D2C NPS Optimization, Japan Brand Awareness` → because: 일본 채널 확장 비용으로 현금 고갈 우려
-- **CMO**: `Clinical Data Push`@0.55, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.15
-  - changed `CMO` → because: 현금 고갈 방지 및 경쟁사 가격전술 방어
-- **CEO**: `Clinical Data Push`@0.70, `D2C NPS Optimization`@0.30
-- **CTO**: `Clinical Data Push`@0.60, `Olive Young Expansion`@0.40
-  - dissent: D2C NPS Optimization 은 현금 고갈 위기 상황에서 내부 프로세스 최적화에 치중하여 실질적인 매출 전환을 가속화하지 못합니다. 기술 투자 및 제품 신뢰도가 핵심인 시장에서 단순 재구매율 극대화 전략은 적기 대응이 안 됩니다. 현재 저성장 환경에서는 브랜드 가치 하락 방지를 위한 근거 기반 마케팅이 선행되어야 합니다. 현금 비중 40% 회복 목표를 달성하기 위해서는 유동성 확보가 가능한 유통 채널 전환이 더 시급합니다. 마케팅 예산 30% 삭감 조건에서도 데이터 기반 신뢰형 광고는 단기 비용 대비 지속 가능 수익성을 가집니다. 따라서 현 D2C 중심 제안은 리스크 관리 측면에서 비효율적입니다. 경쟁력이 있는 성분 개발이나 임상 검증과 같은 하드 파워 투자가 부족하면 가격 인하 없이도 시장을 방어하기 어렵습니다. 단기 현금 흐름을 위해 채널 다변화가 필요함을 명시합니다. 또한, AURIE 의 현재 약세 위치에서는 트래픽 품질보다 양과 질을 동시 충족시키는 외부 노출이 우선
+- **COO**: `Clinical Data Marketing`@0.60, `Cash Reserve Hedging`@0.40
+  - changed `Clinical Data Marketing, Japan Market Entry Blitz` → because: 일본 진출 동결, 현금 확보 필수
+- **CMO**: `Clinical Data Marketing`@0.60, `Japan Market Entry Blitz`@0.30, `Cash Reserve Hedging`@0.10
+- **CFO**: `Cash Reserve Hedging`@0.75, `Clinical Data Marketing`@0.25
+- **CTO**: `Breakthrough R&D Bet`@0.60, `D2C Ecosystem Lock-in`@0.30, `Cash Reserve Hedging`@0.10
+  - dissent: 현금 보관은 단기 유동성 방어에 효과적이나, 약세 포지션에서 기술 혁신 속도 저하는 시장 진입 장벽 형성 기회를 놓칠 수 있다. 외부 환경 변화에 따른 모방 대응 부족 시 가격 경쟁력 약화 우려 존재. 순수 현금 증액은 경쟁사의 기술 과시력에 노출될 뿐 구조적 경쟁력을 강화하지 않는다. 대안으로 기술 투자 집중을 통한 시장 내 독자적 위상 재구성이 필요하다. 현금 사용 한도가 명확해진 만큼 R&D 배분을 우선순위에 배치하여 장기 생존 가능성 높임. 단기 수익 손실 가능성을 감수하더라도 기술적 우위 확보가 핵심이다. 다른 사내 팀 주장과 달리 재무 적재량 유지보다 시장 지위 회복에 중점을 둠. 이는 회사의 미래 가치를 좌우하는 중요한 기술적 선택이다. 경쟁사와의 실질적 역량 격차를 줄이는 데 집중해야 함. 현금만으로는 부족하며 구체적인 기술 성과 지표 달성이 필수적이다. 내부 프로세스 효율화 병행으로 불필요한 낭비 줄임. 최종 결과물은 투자 규모 대비 생산성 향상이어야 함. 이를 통해
+- **CEO**: `Cash Reserve Hedging`@0.70, `Breakthrough R&D Bet`@0.20, `D2C Ecosystem Lock-in`@0.10
+  - changed `CEO Original Proposal` → because: 리스크 저감을 위한 재무 구조 최적화
 
 **Position changes:**
-- CFO: /CFO 제안의 Clinical Data Push+D2C NPS Optimization 조합 → Clinical Data Push+Japan Brand Awareness+D2C NPS Optimization (일본 마케팅 확대, R&D 투자 지연 방지)
-- COO: D2C NPS Optimization, Japan Brand Awareness → Clinical Data Push+D2C NPS Optimization (일본 채널 확장 비용으로 현금 고갈 우려)
-- [반대] CTO: D2C NPS Optimization 은 현금 고갈 위기 상황에서 내부 프로세스 최적화에 치중하여 실질적인 매출 전환을 가속화하지 못합니다. 기술 투자 및 제품 신뢰도가 핵심인 시장에서 단순 재구매율 극대화 전략은 적기 대응이 안 됩니다. 현재 저성장 환경에서는 브랜드 가치 하락 방지를 위한 근거 기반 마케팅이 선행되어야 합니다. 현금 비중 40% 회복 목표를 달성하기 위해서는 유동성 확보가 가능한 유통 채널 전환이 더 시급합니다. 마케팅 예산 30% 삭감 조건에서도 데이터 기반 신뢰형 광고는 단기 비용 대비 지속 가능 수익성을 가집니다. 따라서 현 D2C 중심 제안은 리스크 관리 측면에서 비효율적입니다. 경쟁력이 있는 성분 개발이나 임상 검증과 같은 하드 파워 투자가 부족하면 가격 인하 없이도 시장을 방어하기 어렵습니다. 단기 현금 흐름을 위해 채널 다변화가 필요함을 명시합니다. 또한, AURIE 의 현재 약세 위치에서는 트래픽 품질보다 양과 질을 동시 충족시키는 외부 노출이 우선
+- COO: Clinical Data Marketing, Japan Market Entry Blitz → Clinical Data Marketing+Cash Reserve Hedging (일본 진출 동결, 현금 확보 필수)
+- [반대] CTO: 현금 보관은 단기 유동성 방어에 효과적이나, 약세 포지션에서 기술 혁신 속도 저하는 시장 진입 장벽 형성 기회를 놓칠 수 있다. 외부 환경 변화에 따른 모방 대응 부족 시 가격 경쟁력 약화 우려 존재. 순수 현금 증액은 경쟁사의 기술 과시력에 노출될 뿐 구조적 경쟁력을 강화하지 않는다. 대안으로 기술 투자 집중을 통한 시장 내 독자적 위상 재구성이 필요하다. 현금 사용 한도가 명확해진 만큼 R&D 배분을 우선순위에 배치하여 장기 생존 가능성 높임. 단기 수익 손실 가능성을 감수하더라도 기술적 우위 확보가 핵심이다. 다른 사내 팀 주장과 달리 재무 적재량 유지보다 시장 지위 회복에 중점을 둠. 이는 회사의 미래 가치를 좌우하는 중요한 기술적 선택이다. 경쟁사와의 실질적 역량 격차를 줄이는 데 집중해야 함. 현금만으로는 부족하며 구체적인 기술 성과 지표 달성이 필수적이다. 내부 프로세스 효율화 병행으로 불필요한 낭비 줄임. 최종 결과물은 투자 규모 대비 생산성 향상이어야 함. 이를 통해
+- CEO: Original → Cash Reserve Hedging+Breakthrough R&D Bet+D2C Ecosystem Lock-in (리스크 저감을 위한 재무 구조 최적화)
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 가격 공세 차단하고 고마진 구조 유지; 중국 의존 완화하며 시장 다각화 추진
+**Decision:** 현금 확보 및 비용 구조 조정; 임상 데이터 마케팅 최적화
 
-**Reasoning:** 시장 점유율 방어와 브랜드 가치 증대 필요; 신규 수익원 확보를 통한 현금 흐름 안정화
+**Reasoning:** 현금 유동성 보전 우선; -board 지시반영하여 예산축소
 
 ### Shiseido (side_b)
 
-- Final action: `Clinical Data Push`@0.80
+- Final action: `Clinical Data Marketing`@0.85
 - Position: `dominant` ↑
-- Cash: 78.3%
-- Adjudicator rationale: Shiseido는 풍부한 현금 보유량을 바탕으로 T2-T3의 R&D 및 가격 공세가 만든 우위를 T4의 외부 충격에서도 방어하며, 오히려 경쟁사의 약점을 이용해 유통망과 점유율을 더욱 공고히 했습니다.
+- Cash: 93.1%
+- Adjudicator rationale: Shiseido는 T1-T3 동안의 공격적 가격 인하와 임상 마케팅을 통해 헤리티지 자산과 현금 우위를 극대화하며 시장 지배력을 더욱 공고히 하고 있습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CTO**: `Bold R&D Bet`@0.60, `Influencer Ecosystem`@0.40
-  - rationale: 시세이도의 가격 인하 공세에 맞서 '맞춤형 프리미엄 경험'을 유지하기 위해 단순 할인 전략은 브랜드 가치 하락을 초래함. 아모레퍼시픽의 견고한 입지를 뚫기 위해서는 MZ 세대가 신뢰하는 '임상 데이터'를 기반으로 한 차별화된 기술력을 입증해야 함. 따라서 기존 대량 생산 중심의 접근에서 벗어나, 고농축 성분의 효능을 입증하는 Bold R&D Bet 에 자원을 집중하고, 이를 인플루언서를 통해 검증된 사실로 확산시키는 것이 가장 효과적인 공격적 대응임.
-  - risk: 대규모 R&D 투자 실패 시 현금 소진 및 시장 진입 지연
-- **CMO**: `Prestige Pricing Power`@0.50, `Clinical Data Push`@0.30, `Influencer Ecosystem`@0.20
-  - rationale: 보드 mandates 대로 아모레퍼시픽의 견고한 입지를 직접 타격하기 위해, 시세이도의 가격 공세에 맞서 '프리미엄' 가치를 유지하며 (Prestige Pricing Power), 아모레가 밀고 있는 임상 데이터 신뢰도를 상쇄할 수 있는 차별화된 효능 증명 (Clinical Data Push) 을 병행합니다. 이는 대중-프리미엄 침투 전략의 재사용을 피하고, 현금 보유율을 활용해 경쟁사의 강점을 무력화하는 공격적 방어 전략입니다.
-  - risk: 가격 인하 경쟁 심화로 단기 마진 압박 가능성
-- **COO**: `Clinical Data Push`@0.60, `Olive Young Expansion`@0.40
-  - rationale: CEO의 '공격적 시장 점유 회복' 지시와 시세이도의 가격 인하 공세에 대응하기 위해, AURIE의 약점을 파고드는 '맞춤형 프리미엄 경험'을 유지하되 유통 접근성을 높이는 전술로 전환함. 시세이도와의 직접적인 가격 경쟁은 현금 72%를 고갈시키므로, 임상 데이터를 통한 가치 차별화 (60%) 와 오프라인 채널 제한적 프로모션 (40%) 으로 집중하여 실행 효율성을 극대화함. 아모레퍼시픽의 강점인 임상 데이터에 맞서 동등한 신뢰도를 확보하는 것이 핵심임.
-  - risk: 다중 채널 운영으로 인한 리소스 분산 및 물류 병목 심화
-- **CFO**: `Prestige Pricing Power`@0.40, `Clinical Data Push`@0.35, `Olive Young Expansion`@0.25
-  - rationale: 보수적 전술 반복 금지 지시에 따라, 아모레퍼시픽의 임상 데이터 공세에 맞서 '고농축 라인업'이라는 차별화 포인트로 신뢰도를 강화하고 (Clinical Data Push), 시세이도와의 가격 경쟁을 피하기 위해 프리미엄 포지셔닝을 유지하며 (Prestige Pricing Power) 현금 효율적으로 신규 고객을 확보하기 위해 올리브영 한정판만 선별 출시 (Olive Young Expansion) 합니다. AURIE의 약세를 이용해 시장 주도권을 확립하되, 현금 보유율 72%를 고려해 무리한 대규모 R&D나 광범위한 유통 확장보다는 검증된 마케팅과 타겟팅에 집중합니다.
-  - risk: 한정판 프로모션으로 인한 브랜드 가치 훼손 우려
-- **CEO**: `Bold R&D Bet`@0.50, `Global Prestige Channel`@0.30, `Influencer Ecosystem`@0.20
-  - rationale: 보통은 올리브영 전략이었으나, 아모레퍼시픽 강점인 임상 데이터에 대응하는 차별화된 고급 라인 개발이 우선입니다. 현재 캠페인의 Olive Young 할인 중시는 보드 mandate 의 현금 활용 전략과 상충되므로 배제합니다. 시세이도 가격 전쟁보다 기술 경쟁력 확보로 점유율 회복을 노립니다.
-  - risk: R&D 투자 회수 불확실성 및 시장 수용성 부족 시 현금 소모 가속화
+- **COO**: `Aggressive Price Cut`@0.40, `Clinical Data Marketing`@0.30, `Heritage Brand Leverage`@0.30
+  - rationale: 보arded mandate(임상 마케팅 예산 50% 전환) 를 충족하며, CEO 의 시장 점유 회복 공세와 본사 자존심(헤리티지 강조) 을 동시에 반영함. 단, 3 개 동시 실행은 현금 소모 과다 우려가 있어 헤리티지 활용으로 비용 효율성 확보.
+  - risk: 단기 마진 심화 및 브랜드 가치 훼손 리스크
+- **CFO**: `Aggressive Price Cut`@0.40, `Olive Young Expansion`@0.30, `Exchange Rate Mitigation`@0.30
+  - rationale: CEO의 시장 점유율 회복 우선 전략에 부합하며, 아모리 Pacific 의 강세와 AURIE 의 약세를 동시에 고려한 공격적 대응입니다. 다만, 본사 자존심과 정치적 저항으로 인해 한국식 SNS 전술을 배제하고 글로벌 표준화된 헤징과 가격 전략에 집중합니다. 임상 마케팅 예산 전환은 이번 턴에서 실행되지 않으나, 다음 턴 재평가 시 필수 반영될 것입니다.
+  - risk: 단기 마진 축소로 인한 현금 소모 가속화 위험
+- **CMO**: `Clinical Data Marketing`@0.50, `Olive Young Expansion`@0.30, `Heritage Brand Leverage`@0.20
+  - rationale: 보드 mandates(임상 마케팅 예산 50% 전환)에 따라 아모리의 강세에 맞서는 '증거 기반' 공세가 최우선이다. AURIE의 weak(↗) 상태와 달리 경쟁사 Amore Pacific이 강세를 보이므로, 단순 가격 인하보다는 임상 데이터를 통한 효능 입증으로 포지션을 방어해야 한다. 동시에 CEO의 시장 점유 회복 공격성과 현금 소모 우려를 균형 있게 해결하기 위해, 대중 채널인 Olive Young을 통해 저가층을 선점하고, 본사의 정치적 저항을 고려해 Heritage Brand를 활용한 프리미엄 방어 전략을 병행한다.
+  - risk: 단기 마진 압박 및 브랜드 이미지 희석 위험
+- **CTO**: `Clinical Data Marketing`@0.50, `Olive Young Expansion`@0.30, `Exchange Rate Mitigation`@0.20
+  - rationale: 보드는 임상 마케팅 예산의 50% 전환을 지시했으나, 현재 Shiseido는 130년 헤리티지를 중시하는 본사 문화로 인해 'K-뷰티식' 즉각적인 SNS 전술이나 단순 가격 인하를 거부할 가능성이 높습니다. 따라서 CEO가 선호하는 공격적 시장 점유 회복 전략을 유지하되, '글로벌 표준화'라는 명분 하에 임상 데이터를 통한 과학적 검증 캠페인을 강화하여 경쟁사 Amore Pacific의 프리미엄 방어와 AURIE의 약세를 동시에 타격해야 합니다. 또한 환율 리스크는 해외 확장의 필수 조건이므로 헤징을 병행하되, 이는 단기 현금 소모를 막고 장기적 수익성을 보호하기 위함입니다.
+  - risk: 단기 마진 감소 및 R&D 예산 확보를 위한 내부 정치적 저항 발생 가능성
+- **CEO**: `Clinical Data Marketing`@0.40, `J-Beauty Revival Campaign`@0.30, `Exchange Rate Mitigation`@0.30
+  - rationale: 아모리의 프리미엄 방어에 대응하기 위해 임상 데이터로 신뢰성 확립 필요, 일본 본사 헤리티지를 활용한 차별화, 해외 환율 리스크 관리 병행 중board mandate 반영을 위해 R&D 예산의 50%를 신제품 출시로 전환할 계획은 다음 분기부터 실행 예정이며 현재 시점에서는 기존 캠페인을 최선대로 수행하는 것이 우선시됨
+  - risk: 환율 변동성과 브랜드 자존심으로 인한 내부 저항 가능
 
-##### Phase 2 — 비판적 검토 (다수안: `Influencer Ecosystem`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Marketing`, DA: `CTO`)
 
-- **COO**: `Clinical Data Push`@0.60, `Olive Young Expansion`@0.40
-- **CMO**: `Olive Young Expansion`@0.45, `Clinical Data Push`@0.35, `Influencer Ecosystem`@0.20
-  - changed `Prestige Pricing Power + Clinical Data Push + Influencer Ecosystem` → because: 보수적 가격 방어는 보드 지시 위반
-- **CFO**: `Clinical Data Push`@0.45, `Olive Young Expansion`@0.35, `Prestige Pricing Power`@0.20
-  - changed `CTO: Bold R&D Bet, CMO: Prestige Pricing Power, COO: Clinical Data Push, CFO: Prestige Pricing Power, CEO: Bold R&D Bet` → because: 고위험 R&D 배제, 현금 효율성 확보 및 아모레 타격 집중
-- **CTO**: `Bold R&D Bet`@0.70, `Clinical Data Push`@0.30
-  - dissent: 크리에이터 협업 네트워크는 제품 본연의 기술력 부재를 마케팅으로 커버하려는 시도로, 단기 성과는 있으나 장기적으로 기술 격차를 좁히지 못합니다. 경쟁사의 연구 인프라 대비 경쟁력 약화를 방치하는 결과입니다. 아모레퍼시픽과의 기술 우위를 다질 수 없습니다. 리스크 관리 측면에서도 기술 없이 채널에만 의존하면 시장 변동성에 취약해집니다. 현금 보유율은 기술 투자를 위한 방어막이어야 합니다. 대중-프리미엄 침투 전략 대신 핵심 기술에 집중해야 합니다. 팀 제안은 방향성을 잘못 잡았습니다. 우리는 R&D 투자가 필요합니다. 마진을 보호하려면 제품이 다르셔야 합니다. 소비자 충성도는 제품 품질에서 옵니다. 크리에이터는 일시적입니다. 저희가 선택해야 할 길은 명확합니다. 지속 가능한 성장 모델 수립입니다. 기술적 해자가 중요합니다. 경쟁사가 위협적이므로 우리는 더 강력한 제품을 만들어야 합니다. 단기 매출보다는 미래 가치가 큽니다. 이를 위해 변경했습니다. 주주들에게 책임 있는 투자가 됩니다.
-- **CEO**: `Bold R&D Bet`@0.60, `Clinical Data Push`@0.30, `Influencer Ecosystem`@0.10
-  - changed `CEO 초기 제언` → because: 보드 mandate 집중 반영
+- **CMO**: `Clinical Data Marketing`@0.60, `Olive Young Expansion`@0.30, `Heritage Brand Leverage`@0.10
+  - changed `CMO` → because: 임상 마케팅 비중 상향, 보드 mandate 반영
+- **CFO**: `Clinical Data Marketing`@0.50, `Exchange Rate Mitigation`@0.30, `J-Beauty Revival Campaign`@0.20
+- **COO**: `Clinical Data Marketing`@0.50, `Aggressive Price Cut`@0.30, `Exchange Rate Mitigation`@0.20
+  - changed `CEO: Clinical Data Marketing(40%)+J-Beauty Revival Campaign(30%)+Exchange Rate Mitigation(30%)` → because: J-Beauty는 시장회복 전략과 부합 안 함
+- **CEO**: `Clinical Data Marketing`@0.40, `J-Beauty Revival Campaign`@0.35, `Exchange Rate Mitigation`@0.25
+  - changed `Aggressive Price Cut` → because: 단기 마진 희생보다 차별화 우선
+- **CTO**: `Gen Z Digital Pivot`@0.50
+  - dissent: 임상 데이터 마케팅은 기존 제품의 신뢰도를 증명하는 사후 검증에 머물러 있습니다. 경쟁사의 제형 기술 진보 속도에 대한 선제적 대응이 부족하며, 기존 자산 검증에만 집중할 경우 핵심 원천기술 개발 역량이 퇴보합니다. 단발성 홍보보다는 지속적인 기술 축적이 필요한 시점입니다. 2 년 이내 경쟁력 침하 가능성을 무시해서는 안 됩니다. 비용 효율성보다 생존을 위한 기술 인프라 투자가 우선되어야 합니다. 이는 현금 소모 구조를 단순히 유지하는 것이 아니라, 새로운 수익원을 만드는 방향이어야 합니다. 마케팅 비용 증가가 곧 성장이 아니라는 점을 인식해야 합니다. 임상 보고서 작성 자체가 제품이 우수함을 보장하지 않습니다. 실제 사용자 경험 데이터와 플랫폼 통합이 더 중요합니다. 우리는 시장 변화를 주도해야지 단순 반응만 할 수는 없습니다. 기술적 차별성이 없는 브랜드는 결국 가격 경쟁에 몰릴 것입니다. 데이터 기반 의사결정으로 자원을 최적화해야 합니다. 장기적인 관점에서 기술을 투자하면 포지
 
 **Position changes:**
-- CMO: Prestige Pricing Power+Clinical Data Push+Influencer Ecosystem → Olive Young Expansion+Clinical Data Push+Influencer Ecosystem (보수적 가격 방어는 보드 지시 위반)
-- CFO: Bold R&D Bet, CMO: Prestige Pricing Power, COO: Clinical Data Push, CFO: Prestige Pricing Power, CEO: Bold R&D Bet → Clinical Data Push+Olive Young Expansion+Prestige Pricing Power (고위험 R&D 배제, 현금 효율성 확보 및 아모레 타격 집중)
-- [반대] CTO: 크리에이터 협업 네트워크는 제품 본연의 기술력 부재를 마케팅으로 커버하려는 시도로, 단기 성과는 있으나 장기적으로 기술 격차를 좁히지 못합니다. 경쟁사의 연구 인프라 대비 경쟁력 약화를 방치하는 결과입니다. 아모레퍼시픽과의 기술 우위를 다질 수 없습니다. 리스크 관리 측면에서도 기술 없이 채널에만 의존하면 시장 변동성에 취약해집니다. 현금 보유율은 기술 투자를 위한 방어막이어야 합니다. 대중-프리미엄 침투 전략 대신 핵심 기술에 집중해야 합니다. 팀 제안은 방향성을 잘못 잡았습니다. 우리는 R&D 투자가 필요합니다. 마진을 보호하려면 제품이 다르셔야 합니다. 소비자 충성도는 제품 품질에서 옵니다. 크리에이터는 일시적입니다. 저희가 선택해야 할 길은 명확합니다. 지속 가능한 성장 모델 수립입니다. 기술적 해자가 중요합니다. 경쟁사가 위협적이므로 우리는 더 강력한 제품을 만들어야 합니다. 단기 매출보다는 미래 가치가 큽니다. 이를 위해 변경했습니다. 주주들에게 책임 있는 투자가 됩니다.
-- CEO: 초기 제언 → Bold R&D Bet+Clinical Data Push+Influencer Ecosystem (보드 mandate 집중 반영)
+- COO: Clinical Data Marketing+J-Beauty Revival Campaign+Exchange Rate Mitigation → Clinical Data Marketing+Aggressive Price Cut+Exchange Rate Mitigation (J-Beauty는 시장회복 전략과 부합 안 함)
+- CEO: Aggressive Price Cut → Clinical Data Marketing+J-Beauty Revival Campaign+Exchange Rate Mitigation (단기 마진 희생보다 차별화 우선)
+- [반대] CTO: 임상 데이터 마케팅은 기존 제품의 신뢰도를 증명하는 사후 검증에 머물러 있습니다. 경쟁사의 제형 기술 진보 속도에 대한 선제적 대응이 부족하며, 기존 자산 검증에만 집중할 경우 핵심 원천기술 개발 역량이 퇴보합니다. 단발성 홍보보다는 지속적인 기술 축적이 필요한 시점입니다. 2 년 이내 경쟁력 침하 가능성을 무시해서는 안 됩니다. 비용 효율성보다 생존을 위한 기술 인프라 투자가 우선되어야 합니다. 이는 현금 소모 구조를 단순히 유지하는 것이 아니라, 새로운 수익원을 만드는 방향이어야 합니다. 마케팅 비용 증가가 곧 성장이 아니라는 점을 인식해야 합니다. 임상 보고서 작성 자체가 제품이 우수함을 보장하지 않습니다. 실제 사용자 경험 데이터와 플랫폼 통합이 더 중요합니다. 우리는 시장 변화를 주도해야지 단순 반응만 할 수는 없습니다. 기술적 차별성이 없는 브랜드는 결국 가격 경쟁에 몰릴 것입니다. 데이터 기반 의사결정으로 자원을 최적화해야 합니다. 장기적인 관점에서 기술을 투자하면 포지
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 임상 데이터로 기술적 프리미엄 입지 강화; 프리미엄 라인 올리브영 한정판 유통 확대
+**Decision:** 임상 데이터로 제품 효능 증명; 환율 변동성 마진 보호 강화; 헤리티지로 프리미엄 우위 선점
 
-**Reasoning:** 아모레퍼시픽 임상 데이터 선전 방어; 시세이도 가격 공세 방어 및 아모레 타격
+**Reasoning:** 과학적 검증을 통한 경쟁력 확보; 해외 확장 시 수익 안정성 확보; 브랜드 유산으로 아모리 대비 우위
 
 ### Amore Pacific (side_c)
 
-- Final action: `Olive Young Expansion`@0.70
-- Position: `strong` →
-- Cash: 64.5%
-- Adjudicator rationale: Amore Pacific은 다각화된 포트폴리오와 채널 전략으로 특정 국가의 무역 장벽 리스크를 분산시키며, T3의 임상 데이터 투자 효과를 유지한 채 안정적인 수익 구조를 고수했습니다.
+- Final action: `Whitening Tech Dominance`@0.90
+- Position: `strong` ↗
+- Cash: 65.6%
+- Adjudicator rationale: Amore Pacific은 T1-T3 동안 일관되게 유지한 Sulwhasoo 프리미엄 전략과 임상 데이터 모멘텀으로 안정적 성장을 이어가며, Shiseido의 공세에도 불구하고 프리미엄 시장에서의 입지를 강화했습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CFO**: `Olive Young Expansion`@0.60, `Clinical Data Push`@0.40
-  - rationale: 보드 지시 (임단 데이터 중단, 시세차익 마케팅) 와 CEO 전략 (임단 데이터 강조) 의 충돌 발생. 현금 62%로 고위험 R&D 지속 불가하므로, 임상 데이터는 기존 자산을 활용한 '확장'에 집중하고 예산의 60%를 오프라인 채널 확장을 통해 즉각적인 시세차익과 브랜드 가치 입증에 배분함.
-  - risk: 임상 데이터 출시 중단 mandate 위반으로 인한 보드 불신 리스크
-- **COO**: `Clinical Data Push`@0.60, `Olive Young Expansion`@0.40
-  - rationale: 보드 mandates 대로 임상 데이터 출시를 중단하는 것은 전략적 모순이므로, '강화된 임상 데이터'로 전환하여 시세차익 발생 마케팅에 집중함. 시세이도의 가격 공세는 프리미엄 포지셔닝 유지가 최선이며, 아우리의 약세를 활용해 오프라인 채널에서 브랜드 가치 입증 필요.
-  - risk: 임상 데이터 출시 지연 시 마케팅 재배치 효과 미흡
-- **CMO**: `Influencer Ecosystem`@0.45, `Clinical Data Push`@0.35, `Olive Young Expansion`@0.20
-  - rationale: 보arded mandate 에 따라 임상 데이터 출시를 중단하고 시세차익이 발생하는 마케팅 혁신에 예산을 재배치해야 함. Seed 전략의 '임상 데이터 강화'는 전술적 반복으로 간주되나, 브랜드 포지셔닝 강화를 위해 '신뢰도 기반 마케팅' 형태로 전환하여 실행함. Shiseido 의 가격 공세에 맞서 프리미엄 가치를 입증하기 위해 MZ 세대 타겟 인플루언서와 오프라인 채널에 집중하며, AURIE 라인 내 서브라인의 임상 데이터를 단순 출시가 아닌 마케팅 자산으로 활용함.
-  - risk: 임상 데이터 출시 중단에 따른 단기 신뢰도 하락 가능성
-- **CTO**: `Clinical Data Push`@0.45, `Olive Young Expansion`@0.35, `Whitening Tech Lead`@0.20
-  - rationale: 보arded mandate 에 따라 시세차익형 마케팅에만 예산을 집중하는 전략은 브랜드 장기 가치를 훼손합니다. Shiseido 의 가격 공세에 맞서 프리미엄 포지셔닝을 유지하려면, 단순 할인 (Aggressive Price Cut) 이 아닌 '임상 데이터'와 '기술 우위'라는 객관적 증거로 가치 차별화를 이루어야 합니다. 특히 CEO 의 오너 경영 스타일과 brand_portfolio_stewardship 성향에 부합하도록, 단기 매출 증가보다는 R&D(50%) 투자 지속을 통해 2-3 년 내 경쟁력을 확보하는 장기 전략을 실행합니다. Clinical Data Push 와 Whitening Tech Lead 는 직접적인 R&D 산출물이며, Olive Young Expansion 은 오프라인 채널을 통한 브랜드 경험 강화로 가격 민감층 유입을 막는 방어기제입니다.
-  - risk: 임상 데이터 출시 지연 시 시장 신뢰도 하락 및 경쟁사 선점 위험
-- **CEO**: `Olive Young Expansion`@0.60, `Influencer Ecosystem`@0.40
-  - rationale: 보드 요구대로 임상 출시를 중단하고 시세차익 중심 전략으로 전환합니다. Shiseido 와의 비교에서 아우리의 오프라인 강점을 살려 점유율 방어하며, Amore Pacific 포트폴리오 자산을 활용하여 단기 현금 흐름을 개선했습니다.
-  - risk: 유통 파트너 리스크 및 캠페인 성과 편차
+- **CTO**: `Clinical Data Marketing`@0.60, `Prestige Portfolio Defense`@0.40
+  - rationale: 시세이도우의 가격 공세에 대응하기 위해 현재 캠페인대로 타겟 가격대 프로모션을 도입하되, R&D(50%) 기반의 임상 데이터를 마케팅에 집중하여 단순 가격 경쟁이 아닌 '과학적 효능'으로 차별화합니다. 오너 경영 특유의 단기 이익보다 브랜드 신뢰도 유지를 우선시하며, 설화수 등 프리미엄 라인의 위상을 해치지 않는 선에서 가격 방어 전략을 병행합니다.
+  - risk: 단기 매출 감소 및 브랜드 프리미엄 훼손 우려
+- **COO**: `Sulwhasoo Premium Push`@0.60, `Prestige Portfolio Defense`@0.40
+  - rationale: 시세이도의 가격 공세에 맞서기 위해 제안된 '경쟁사 핵심 가격대 프로모션'은 오너 가문의 '프리미엄 라인 자존심'과 직결되어 내부 반발이 예상되며, 현금 흐름 보전과 브랜드 위상 훼손 우려로 실행 가능성이 낮습니다. 따라서 현재 캠페인의 방향성을 유지하되, 리더십의 편향 (브랜드 자산 우선) 을 반영하여 설화수 등 프리미엄 라인 강화와 포트폴리오 최적화에 자금을 집중하는 것이 현실적인 실행 방안입니다. 이는 시세이도의 가격 전략에 직접 대항하기보다 아모레파시픽의 강점인 브랜드 파워를 극대화하여 방어선을 구축하려는 접근입니다.
+  - risk: 오너 경영으로 인한 가격 인하 지연 및 내부 반발로 인해 시세이도 공세에 대응 불가
+- **CFO**: `Prestige Portfolio Defense`@0.60, `Sulwhasoo Premium Push`@0.30, `Clinical Data Marketing`@0.10
+  - rationale: 보드 지시에 따라 시세이도우의 가격 공세에 맞서 '가격 민감층'을 타겟팅하는 동시에, 오너 가문의 자존심인 설화수 프리미엄 라인을 방어하여 현금 흐름을 유지해야 함. Seed 전략의 가격 경쟁과 브랜드 포트폴리오 최적화를 결합하되, 과도한 할인으로 인한 마진 침식을 최소화하기 위해 Sulwhasoo 라인 비중을 조정함.
+  - risk: 오너 경영 특성상 단기 실적 압박에 따른 브랜드 위상 훼손 우려 및 현금 소모 가속화 리스크 존재.
+- **CMO**: `Prestige Portfolio Defense`@0.60, `Sulwhasoo Premium Push`@0.30, `Organic Agility Boost`@0.10
+  - rationale: 시세이도우의 가격 공세에 맞서기 위해 'Prestige Portfolio Defense'로 경쟁사 핵심 가격대에 대응하되, 오너 경영 특성상 설화수 프리미엄 라인의 위상을 훼손하지 않는 선에서 'Sulwhasoo Premium Push'를 병행하여 브랜드 자산 보호와 가격 방어 전략을 동시에 수행합니다. 또한, 과거 사드 트라우마와 중국 집착으로 인해 동남아·일본 비중 확대가 지연되는 조직적 관성을 해소하기 위해 'Organic Agility Boost'를 최소한으로 투입하여 의사결정 속도를 개선합니다.
+  - risk: 오너 가문의 브랜드 자존심으로 인한 가격 인하 지연 및 시장 점유율 추가 유실
+- **CEO**: `Whitening Tech Dominance`@0.50, `Organic Agility Boost`@0.30, `China Recovery Strategy`@0.20
+  - rationale: 시세이도우 공세는 차세대 기술 개발로 우회 대응한다. 내부 인력으로 인한 결정 속도 저하 방지 위해 조직 혁신 병행. 모회사 오너 의식에 따른 중국 시장 집중 요구 수용하여 내부 리스크 관리필요
+  - risk: R&D 장기 투자 수익률 불확실성 및 중국 시장 진입 장벽
 
-##### Phase 2 — 비판적 검토 (다수안: `Olive Young Expansion`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Prestige Portfolio Defense`, DA: `CTO`)
 
-- **CMO**: `Influencer Ecosystem`@0.60, `Olive Young Expansion`@0.40
-  - changed `Clinical Data Push` → because: 임상 데이터 중단 mandates 반영
-- **CFO**: `Olive Young Expansion`@0.65, `Influencer Ecosystem`@0.35
-  - changed `Clinical Data Push` → because: 임단 데이터 중단 mandate 준수
-- **COO**: `Olive Young Expansion`@0.75, `Influencer Ecosystem`@0.25
-  - changed `Clinical Data Push` → because: 임단 출시 중단 mandate 위반 리스크
-- **CTO**: `Whitening Tech Lead`@0.60, `Influencer Ecosystem`@0.40
-  - dissent: Olive Young Expansion 은 신규 고객 유입에 중점을 두나, 오프라인 유통망 확대는 마진 압박과 브랜드 가치 희석을 초래한다. 경쟁사인 Shiseido 또는 Amore Pacific 이 가격 인하 공세를 펼칠 때 기존 채널 기반 전략은 방어력이 약하다. 거래소 가치는 매출 증가율보다 지속 가능한 모오트 (기술 우위) 로 형성되므로, 단순 채널 접근성은 시세차익 목표와 괴리가 있다. 기술 개발 투자 (R&D) 를 축소하면 장기적으로 경쟁력 붕괴 가능성이 높다. 따라서 제품 차별화 없이는 선형적인 성장만 유지될 뿐 평가 상승 동력은 부족하다. 기술적 차별화와 마케팅 혁신의 병행이 필수적이다. 유통보다는 제품 고유의 기술적 강점이 브랜드 프리미엄을 지탱할 수 있어야 한다. AURIE 는 기술 기반의 신뢰를 통해 가격 민감도를 조절해야 하며, 오프라인 밀집도가 높으면 할인 문화 정착으로 인해 프리미엄 포지셔닝이 손상된다. 이는 곧 주식 시장에서의 밸류에이션 하락으로 이어진다.
-- **CEO**: `Olive Young Expansion`@0.60, `Influencer Ecosystem`@0.40
-  - changed `Clinical Data Push` → because: 보드 임상 중단 요구 준수
+- **CFO**: `Prestige Portfolio Defense`@0.60, `Sulwhasoo Premium Push`@0.30, `Clinical Data Marketing`@0.10
+- **COO**: `Sulwhasoo Premium Push`@0.60, `Clinical Data Marketing`@0.40
+  - changed `Prestige Portfolio Defense` → because: 단일 전략 집중으로 실행 가능성 확보
+- **CMO**: `Sulwhasoo Premium Push`@0.60, `Prestige Portfolio Defense`@0.30, `Organic Agility Boost`@0.10
+- **CTO**: `Whitening Tech Dominance`@1.00
+  - dissent: 현행 포트폴리오 방어 전략은 기술 혁신 속도 대비 시장 반응이 느려 3 년 이내 경쟁력 소실이 예상되며, 단기 성과에만 치중하여 미래 성장 동력을 희생시킨다. 방어 중심 접근은 경쟁사의 새로운 기술 도입을 놓칠 가능성만 높인다. 이는 보드mandate의 기술 투자 지시를 무시하는 것이다. (Board Mandate ignored.) - Correction: Remove English parenthesis. Keep Korean consistent with context proper nouns.
+- **CEO**: `Whitening Tech Dominance`@0.60, `Clinical Data Marketing`@0.40
+  - changed `Whitening Tech Dominance` → because: 수화초 출시 중단, 신제품 개발 집중
 
 **Position changes:**
-- CMO: Clinical Data Push → Influencer Ecosystem+Olive Young Expansion (임상 데이터 중단 mandates 반영)
-- CFO: Clinical Data Push → Olive Young Expansion+Influencer Ecosystem (임단 데이터 중단 mandate 준수)
-- COO: Clinical Data Push → Olive Young Expansion+Influencer Ecosystem (임단 출시 중단 mandate 위반 리스크)
-- [반대] CTO: Olive Young Expansion 은 신규 고객 유입에 중점을 두나, 오프라인 유통망 확대는 마진 압박과 브랜드 가치 희석을 초래한다. 경쟁사인 Shiseido 또는 Amore Pacific 이 가격 인하 공세를 펼칠 때 기존 채널 기반 전략은 방어력이 약하다. 거래소 가치는 매출 증가율보다 지속 가능한 모오트 (기술 우위) 로 형성되므로, 단순 채널 접근성은 시세차익 목표와 괴리가 있다. 기술 개발 투자 (R&D) 를 축소하면 장기적으로 경쟁력 붕괴 가능성이 높다. 따라서 제품 차별화 없이는 선형적인 성장만 유지될 뿐 평가 상승 동력은 부족하다. 기술적 차별화와 마케팅 혁신의 병행이 필수적이다. 유통보다는 제품 고유의 기술적 강점이 브랜드 프리미엄을 지탱할 수 있어야 한다. AURIE 는 기술 기반의 신뢰를 통해 가격 민감도를 조절해야 하며, 오프라인 밀집도가 높으면 할인 문화 정착으로 인해 프리미엄 포지셔닝이 손상된다. 이는 곧 주식 시장에서의 밸류에이션 하락으로 이어진다.
-- CEO: Clinical Data Push → Olive Young Expansion+Influencer Ecosystem (보드 임상 중단 요구 준수)
+- COO: Prestige Portfolio Defense → Sulwhasoo Premium Push+Clinical Data Marketing (단일 전략 집중으로 실행 가능성 확보)
+- [반대] CTO: 현행 포트폴리오 방어 전략은 기술 혁신 속도 대비 시장 반응이 느려 3 년 이내 경쟁력 소실이 예상되며, 단기 성과에만 치중하여 미래 성장 동력을 희생시킨다. 방어 중심 접근은 경쟁사의 새로운 기술 도입을 놓칠 가능성만 높인다. 이는 보드mandate의 기술 투자 지시를 무시하는 것이다. (Board Mandate ignored.) - Correction: Remove English parenthesis. Keep Korean consistent with context proper nouns.
+- CEO: Whitening Tech Dominance → Whitening Tech Dominance+Clinical Data Marketing (수화초 출시 중단, 신제품 개발 집중)
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 오프라인 가시성 증대 및 채널 확대; MZ 세대 대상 크리에이터 네트워크 강화
+**Decision:** 미백 기술 선도 및 차별화된 제품 가치 실현; 과학적 임상 데이터로 브랜드 신뢰도 강화
 
-**Reasoning:** 임상 데이터 중단 후 마케팅 예산 재배치; 브랜드 가치 입증 및 현금 흐름 개선 목적
+**Reasoning:** 보드 매니데이트 이행과 경쟁 우위 선점 강조; Shiseido 전략 대응을 통한 시장 점유 방어
 
 #### Adjudicator panel (3 experts)
 
-**Regulatory/Policy Expert**: 정부 주도의 무역 보편화와 물류 규제 강화는 규모의 경제를 갖춘 기업에게는 진입 장벽이 되지만, 캐시 스트레인 상태인 중견 기업에게는 치명적인 운영 비용 과부하로 작용합니다.
+**Regulatory/Policy Expert**: 규제 및 컴플라이언스 비용 상승은 자본력 있는 대형 브랜드 (Shiseido, Amore Pacific) 에게 진입 장벽으로 작용하여 중소형 (AURIE) 브랜드의 생존 환경을 악화시키는 구조적 위기가 발생하고 있다.
 
-- side_a: `weak` ↓ — 임상 데이터와 같은 규제 준수 자산을 보유했으나 일본 직영 확장 capex 로 인한 현금 소진으로 추가 시장 진입 여력이 부족해집니다.
-- side_b: `dominant` ↑ — 충분한 현금 보유로 글로벌 물류 병목 현상을 극복하며 Clinical Data Push 와 Olive Young Expansion 을 통한 점유율 확대가 가속화됩니다.
-- side_c: `strong` → — 다양한 지역 시장과 채널을 활용하여 특정 국가의 무역 장벽과 물류 리스크를 분산시키며 안정적인 수익 구조를 유지합니다.
+- side_a: `weak` ↘ — Global Sephora channel gatekeeping as regulatory proxy consumes AURIE resources, preventing offensive moves despite clinical data stock accumulation.
+- side_b: `dominant` ↑ — Heritage leverage plus regulatory-compliant marketing strengthens anti-trust immunity while squeezing mid-tier competitors like AURIE.
+- side_c: `strong` ↗ — Heavy investment in clinical data creates a compliance moat against future MFDS/FDA scrutiny, protecting Sulwhasoo premium margin.
 
-**Strategy Consultant**: Shiseido 는 풍부자본 기반의 효율적 자원 배분으로 시장 장악력을 키우는 반면, AURIE 의 과도한 Capex 투자는 성장성 대신 현금 흐름 악화라는 구조적 취약점을 노출시킵니다.
+**Strategy Consultant**: 현금 흐름의 비대칭성은 단순한 행동 강도 차이를 넘어 구조적 우위로 전환되며, AURIE 의 방어적 자산 배분은 외부 채널 권력 이동과 결합하여 생존 모드로 고착될 위험이 있다.
 
-- side_a: `weak` ↘ — 현금 잔여액 34% 로 제한된 상황에서 임상 데이터와 일본 브랜드 인지도를 동시에 고강도로 투자하며 단기 유동성 리스크가 심화되었습니다.
-- side_b: `dominant` ↑ — 막대한 현금 보유량 72% 를 활용해 올리브영 유통망 확장과 임상 기술 우위를 동시에 취하며 시장 지배력을 공고히 합니다.
-- side_c: `strong` → — 브랜드 포트폴리오 시너지와 인플루언서 생태계 구축을 통해 강력한 시장 위치를 유지하며 경쟁 압력을 효과적으로 관리합니다.
+- side_a: `weak` ↓ — AURIE 의 현금 위기는 외부 채널 재편과 맞물려 공격적 성장을 제한하며, Shiseido 의 자본 우위 공세 앞에서 점유율 방어에 그쳐 지속 가능한 경쟁력이 약화되는 추세를 보인다.
+- side_b: `dominant` ↑ — Shiseido 는 글로벌 채널 집중화와 J-뷰티 트렌드를 결합해 시장 지배력을 가속화하고 있으며, 경쟁사의 반발 여지를 원천적으로 봉쇄하고 있다.
+- side_c: `strong` ↑ — Amore Pacific 은 미백 기술과 임상 마케팅의 시너지를 통해 프리미엄 가치를 입증하며 시장 강자로 군림하고 있지만, 단기적인 가격 공세에는 노출되지 않고 안정적인 성장을 이어가고 있다.
 
-**Industry Veteran**: 공급망 지연과 같은 외부 충격은 자금 여력이 부족한 중소기업에게는 치명적이지만, 선두 기업에게는 시장 지배력을 공고히 할 기회로 작용함.
+**Industry Veteran**: 글로벌 프리미엄 스킨케어 시장은 단기 기술 마케팅보다 J-뷰티 부활 트렌드와 결합된 브랜드 타임오브랙커리 (Heritage) 와 현금 효율성에 의해 시장 분열 구조가 공고화되고 있어 생존 위협 요인이 된 현금 부족 기업이 생존을 위한 비용 절감 모드로 전환됨.
 
-- side_a: `weak` ↓ — AURIE 는 현금 보유량이 임계점 근처로 치닫는 상황에서 일본 시장 진입 비용과 임상 데이터 투자가 병행되며 유동성 리스크가 급증하여 시장 지위 하향이 가속화됩니다.
-- side_b: `dominant` ↑ — Shiseido 는 강력한 재무 여력과 글로벌 브랜드 포트폴리오를 활용해 AURIE 의 공격을 효과적으로 흡수하면서 오프라인 채널 점유율을 더욱 확장합니다.
-- side_c: `strong` → — Amore Pacific 은 핵심 시장에서의 안정적 가시성과 디지털 채널 확장을 통해 외생적 리스크를 관리하면서도 수익성을 훼손하지 않는 균형 잡힌 전진을 구사합니다.
+- side_a: `weak` ↘ — AURIE 는 방어적 현금 확보와 임상 마케팅을 병행했으나 강력한 가격 공세와 유통채널 제약으로 인해 약세 구도 탈출이 지연되고 자금 부담이 심화된다.
+- side_b: `dominant` ↑ — Shiseido 는 J-뷰티 히스토리 트렌드를 활용한 헤리티지 자산과 막강한 현금 파워로 프리미엄 시장 지배력을 더욱 확고히 한다.
+- side_c: `strong` ↗ — Amore Pacific 은 핵심 미백 기술과 임상 데이터로 강세를 유지하나 전방위적 시장 점유율 확대에는 신중한 접근을 보이며 1 위 권역 진입에는 시간적 여유가 필요하다.
 
 #### Adjudicator synthesis
 
-> AURIE는 T1부터 T3까지 임상 데이터와 일본 직영 확장이라는 이중 투자를 감행하며 현금 소진을 가속화했고, T4의 규제 강화와 물류 병목 현상은 유동성 임계점을 돌파하여 시장 지위를 한 단계 하락시켰습니다. Shiseido는 풍부한 현금 보유량을 바탕으로 T2-T3의 R&D 및 가격 공세가 만든 우위를 T4의 외부 충격에서도 방어하며, 오히려 경쟁사의 약점을 이용해 유통망과 점유율을 더욱 공고히 했습니다. Amore Pacific은 다각화된 포트폴리오와 채널 전략으로 특정 국가의 무역 장벽 리스크를 분산시키며, T3의 임상 데이터 투자 효과를 유지한 채 안정적인 수익 구조를 고수했습니다. 결과적으로 AURIE의 구조적 취약점이 노출되는 동안 Shiseido는 시장 지배력을 강화하고 Amore Pacific은 균형 잡힌 성장을 이어갔습니다.
+> AURIE는 T1부터 T3까지 임상 데이터 마케팅과 일본 시장 진출을 병행하며 자산을 축적하려 했으나, 환율 변동성이라는 외부 충격과 Shiseido의 T1-T3 연속 가격 공세로 인해 현금 소모가 누적되었습니다. 특히 T2와 T3에서 Shiseido가 강화한 임상 마케팅과 가격 전략은 AURIE의 방어적 자산 배분을 무력화시키며, T4 현재 AURIE는 공격적 성장 기회를 상실한 채 생존을 위한 비용 절감 모드로 고착되었습니다. 반면 Amore Pacific은 T1-T3 동안 일관되게 유지한 Sulwhasoo 프리미엄 전략과 임상 데이터 투자를 통해 Shiseido의 가격 공세에도 불구하고 프리미엄 시장에서의 입지를 더욱 견고히 했습니다. 결과적으로 Shiseido는 현금 파워와 헤리티지를 결합해 시장 지배력을 극대화한 반면, AURIE는 자금 부족과 채널 장벽으로 인해 시장 분열 구조에서 소외되는 결과를 맞이했습니다.
 
-**Interaction analysis:** AURIE의 과도한 현금 소진과 Shiseido의 자본 우위가 맞물려 시장 격차가 극대화되었습니다. Shiseido는 AURIE의 유동성 위기를 기회로 삼아 오프라인 채널을 확장하는 반면, Amore Pacific은 리스크 분산 전략으로 중립적인 위치를 유지하며 양측의 공방을 견뎌냈습니다.
+**Interaction analysis:** Shiseido의 T1-T3 연속된 가격 공세와 임상 마케팅은 AURIE의 자원을 고갈시키며 시장 진입 장벽을 높이는 효과를 낳았습니다. 반면 Amore Pacific은 가격 경쟁에 휘말리지 않고 임상 데이터 기반의 프리미엄 전략을 유지하며 Shiseido의 공격을 우회하는 데 성공했습니다. 이로 인해 AURIE는 현금 부족과 채널 제약으로 인해 방어적 태세만 유지할 수밖에 없는 구조적 약세에 빠졌습니다.
 
 ---
 
 <a id="turn-5"></a>
 ## Turn 5
 
-**Events fired:** —
+**Events fired:** 글로벌 안티에이징 원료 수급 위기, 올리브영 해외 진출 가속
 
 ### **AURIE** (side_a)
 
-- Final action: `D2C NPS Optimization`@0.80
+- Final action: `Cash Reserve Hedging`@0.90
 - Position: `weak` ↘
-- Cash: 19.8%
-- Adjudicator rationale: AURIE 는 T3 의 공격적 가격 인하와 T4 의 임상 데이터 투자로 인해 현금 보유량이 23% 로 급감하여, 중국 규제 강화와 물류 병목 현상이라는 외부 충격에 대응할 자원이 고갈되었습니다.
+- Cash: 31.6%
+- Adjudicator rationale: AURIE는 T2-T4 동안 일본 시장 진입과 임상 데이터 마케팅을 병행하며 현금 소모가 급증했으나, T4의 현금 확보 전략이 가격 경쟁력 약화와 원자재 위기 속에서 입지를 더 좁혔습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CTO**: `Clinical Data Push`@0.40, `Bold R&D Bet`@0.30, `Japan Brand Awareness`@0.30
-  - rationale: 보통 비용 절감 명령은 경쟁사 가격 인하에 대응해 프리미엄 포지셔닝을 붕괴시키므로, 오히려 임상 데이터와 R&D 투자는 시세도의 가격 공세를 '기술적 우위'로 차단하여 마진을 보호하는 유일한 전략입니다. 일본 시장 확장은 D2C와 병행된 고부가가치 채널로서 성장 동력을 확보합니다.
-  - risk: 단기 현금 소진 및 R&D 실패 시 유동성 위기 심화
-- **CFO**: `Clinical Data Push`@0.40, `Japan Brand Awareness`@0.30, `D2C NPS Optimization`@0.30
-  - rationale: 보arded mandate의 임상 데이터 전면 중단 및 마케팅 50% 감축 요구는 현행 'Clinical-Value Fortress' 캠페인과 정면으로 충돌합니다. 하지만 CEO의 R&D 우선주의와 시세도의 가격 인하에 대응할 유일한 방어 수단은 '임상 데이터'입니다. 따라서 임상 데이터 투자를 '전면 중단'하는 대신, 기존 데이터를 활용한 타겟팅 마케팅 (고단가 고객 유입) 으로 전환하고, 비용이 높은 오프라인 확장 (Olive Young/일본 신규 오픈) 을 축소하여 D2C와 일본 기존 채널의 효율성 극대화로 예산을 재배분했습니다. 이는 현금 보존 (23%) 과 브랜드 프리미엄 유지 사이의 절충안입니다.
-  - risk: 임상 데이터 투자 중단 명령과 전략적 충돌로 인한 추가 현금 소모 가능성
-- **CMO**: `Clinical Data Push`@0.45, `D2C NPS Optimization`@0.35, `Japan Brand Awareness`@0.20
-  - rationale: 보통의 비용 절감 명분보다 시세도의 가격 인하가 프리미엄 시장 진입을 시도하는 점이 가장 큰 위협입니다. R&D 중단은 브랜드 가치의 근간인 '임상 데이터'를 무너뜨려 영구적 지위 상실을 초래하므로, 대신 D2C와 일본 직영 채널을 통해 고정비 효율화와 수익성을 동시에 확보해야 합니다. 이는 CEO 의 제품 중심 철학과 일치하며, 시세도의 저가 공세에 맞서 '가격이 아닌 효능'으로 차별화하는 유일한 전략입니다.
-  - risk: 단기 현금 고갈 가속화 및 매출 부진 지속 가능성
-- **COO**: `D2C NPS Optimization`@0.50, `Japan Brand Awareness`@0.30, `Clinical Data Push`@0.20
-  - rationale: 보ards mandate(마케팅 50% 감축, 임상 투자 중단) 에 따라 대규모 R&D와 오프라인 확장 (Olive Young, SEA Multi-Brand Scale) 은 즉시 중단합니다. 시세도의 가격 공세에 맞서 '가격 경쟁'이 아닌 '고부가가치 유지'를 위해 기존 임팩트 있는 임상 데이터를 활용(D2C NPS Optimization) 하여 마진을 보호하고, 일본 시장에서는 저비용 타겟팅으로 인지도를 높이는 전략을 우선합니다. 이는 현금 23%의 위험 수준에서 과도한 자원 투입을 막으며, CEO 의 '제품력 중심' 철학을 유지하되 실행 가능성을 최우선으로 한 선택입니다.
-  - risk: 시세도 가격 인하로 인한 프리미엄 인식 훼손 및 현금 소진 가속화
-- **CEO**: `D2C NPS Optimization`@0.60, `Influencer Ecosystem`@0.30, `Compliance Diversification`@0.10
-  - rationale: 보드 임의로 임상투자 중지로 캠페인 일시 정지 필요. 시세도 가격공세에 맞서 아모레·전통광고 대신 인플루언서·고객유지 전략으로 현금 방어 우선하며 저비용 타겟팅 수행
-  - risk: 시세도 가격 공세로 인한 신규 고객 이탈 및 브랜드 가치 침식 리스크
+- **COO**: `Clinical Data Marketing`@0.60, `Japan Market Entry Blitz`@0.30, `Cash Reserve Hedging`@0.10
+  - rationale: 시세이도 가격 인하에 맞서 '가격 경쟁'은 브랜드 가치 훼손 (CEO 의견) 이므로 임상 마케팅으로 대응 필수. CEO 의 일본 직영 프로젝트 집착으로 인해 시장 점유율 방어 차원에서 병행 불가피하나, 현금 보존을 위해 최소한만 투입해야 함.
+  - risk: 동시 다발적 투자로 현금 28% 미만 위험, 일본 채널 적자 지속 시 유동성 파탄
+- **CTO**: `Breakthrough R&D Bet`@0.60, `Japan Market Entry Blitz`@0.40
+  - rationale: 시세이도의 가격 인하 공세는 '브랜드 격하'로 간주되어 대응 불가. CEO 의 기술 우선주의와 일본 직영 프로젝트 집착을 반영, 임상 데이터로 고가 정당화 전략 실행. 다만 Board 의 현금 35% 강제 조건과 동종 전술 금지 mandates 를 충족하기 위해 마케팅 예산은 신규 채널 (일본) 에만 집중하고, 기존 가격 경쟁이나 단순 할인 전술은 배제하여 자원 효율성 확보.
+  - risk: 단기 현금 소진 및 일본 시장 손실 확대 가능성
+- **CFO**: `Clinical Data Marketing`@0.50, `Japan Market Entry Blitz`@0.30, `Cash Reserve Hedging`@0.20
+  - rationale: CEO 의 '가격 인하 거부'와 '일본 직영 확장은 불가결'이라는 리더십 편향을 반영하여, 시세이도의 가격 공세에는 임상 데이터로 대응하고, 일본 채널은 전략적 필수 항목으로 우선 확보하되, 현금 보유율 35% 강제 mandate 준수를 위해 중국 의존도 축소를 통한 비용 절감을 병행함. 동일 전술 반복 금지 mandates 에 따라 단순 마케팅 확장 대신 '데이터 기반 가치 고정'과 '채널 선점'에 집중.
+  - risk: 시세이도 가격 인하에 따른 시장 점유율 추가 하락 및 현금 고갈 가속화
+- **CMO**: `Clinical Data Marketing`@0.55, `Japan Market Entry Blitz`@0.35, `D2C Ecosystem Lock-in`@0.10
+  - rationale: 시세이도의 가격 인하 공격에 대응해 '가격'이 아닌 '임상 효능'으로 차별화하는 것이 핵심 전략 (Seed) 입니다. CEO 의 리더십 특성 (R&D 자존심, 일본 프로젝트 고집) 을 반영하여, 비효율적인 일본 직영 확장 예산을 유지하되, 이를 방어기제로 활용합니다. 중국 의존도 축소를 위해 D2C 를 병행하나, 현금 보존을 위해 비중을 최소화했습니다. 동일한 전술 반복 금지 mandates 에 따라 기존 단순 광고가 아닌, 경쟁사 가격 정책에 대한 직접적 반박 (Counter-move) 으로 임상 데이터를 재포지셔닝합니다.
+  - risk: 일본 직영 채널 손익 악화 및 현금 보유율 35% 목표 하회 위험
+- **CEO**: `Clinical Data Marketing`@0.50, `D2C Ecosystem Lock-in`@0.30, `Japan Market Entry Blitz`@0.20
+  - rationale: 시세이도 가격공세는 임상 데이터로 대응하고, D2C 로 현금 유동성 확보 중. 단, CEO 의 일본 프로젝트 고집 반영하여 일정 범위 내 진입 병행함.
+  - risk: 일본 채널 개설 지연 시 전략 공백 발생 하며, 과다 투자는 현금률 목표 이탈 가능성
 
-##### Phase 2 — 비판적 검토 (다수안: `Clinical Data Push`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Japan Market Entry Blitz`, DA: `CFO`)
 
-- **COO**: `D2C NPS Optimization`@0.60, `Japan Brand Awareness`@0.30, `Clinical Data Push`@0.10
-  - changed `CTO/CFO/CMO proposals` → because: 임단 투자 중단 및 현금 고갈 리스크 반영
-- **CFO**: `D2C NPS Optimization`@0.60, `Clinical Data Push`@0.30, `Japan Brand Awareness`@0.10
-  - changed `CEO: D2C NPS Optimization, Influencer Ecosystem, Compliance Diversification` → because: 임단 투자 중단 명령 준수 및 현금 소모 최소화
-- **CMO**: `Clinical Data Push`@0.45, `Japan Brand Awareness`@0.35, `D2C NPS Optimization`@0.20
-  - changed `Clinical Data Push, D2C NPS Optimization, Japan Brand Awareness` → because: CFO/CFO 제안 수정: 현금 고갈 방지 위해 임상 비중 유지하되 일본 마케팅 감축
-- **CTO**: `D2C NPS Optimization`@0.60, `Compliance Diversification`@0.30, `Talent Acquisition Sprint`@0.10
-  - dissent: 대부분의 팀은 Clinical Data Push 를 주장하지만 이는 현 보드의 현금 보유량 위험 경고와 명백히 상충한다. 임상 데이터 투입 중단 요청을 무시하면 단기적으로 매출 증가 효과보다 먼저 자금 고갈 위험이 발생하며, 이로 인해 브랜드 운영 자체가 멈출 수 있다. 특히 시세도가 가격 우위를 점한 상황에서 고비용 개발 전략은 생존 기회를 박탈한다. 기술 혁신은 필수적이지만, 지금 단계에서는 유동성 확보가 최우선 순위이다. 임상 데이터는 향후 자원이 안정화될 때 진행해야 마땅하다. 따라서 이 제안은 현재 위기 관리 측면에서 치명적인 약점이 있다. 또한 시장 점유율 확보보다 기업의 존속 가능성이 우선되어야 한다. 현금 23% 이하로 떨어질 경우 회복 불능 상태에 도달할 수 있다. 그래서 임상 데이터 투자를 지연하고 안전장치를 강화해야 한다. 즉각적인 수익 창출이 가능한 경로로 전환하지 않으면 구조적 위기를 막을 수 없다. 이는 단기적 성과보다 지속 가능성을 고려한 접근이다. 현금 흐름 관리가 핵심이다.
-- **CEO**: `D2C NPS Optimization`@0.70, `Influencer Ecosystem`@0.20, `Compliance Diversification`@0.10
-  - changed `Influencer Ecosystem` → because: 마케팅비 50% 감소 준수
+- **COO**: `Clinical Data Marketing`@0.65, `Cash Reserve Hedging`@0.35
+  - changed `Japan Market Entry Blitz` → because: 현금 고갈 위험 및 일본 채널 과투자
+- **CMO**: `Clinical Data Marketing`@0.60, `Japan Market Entry Blitz`@0.30, `D2C Ecosystem Lock-in`@0.10
+- **CTO**: `Breakthrough R&D Bet`@0.65, `Clinical Data Marketing`@0.25, `Japan Market Entry Blitz`@0.10
+  - changed `CTO: Breakthrough R&D Bet(60%)+Japan Market Entry Blitz(40%)` → because: 일본 투자 축소로 현금 35% 확보
+- **CEO**: `Clinical Data Marketing`@0.40, `D2C Ecosystem Lock-in`@0.35, `Cash Reserve Hedging`@0.20
+  - changed `CEO 제안 배분` → because: 보드 현금비율 35% 강제 준수
+- **CFO**: `Cash Reserve Hedging`@0.40, `D2C Ecosystem Lock-in`@0.35, `Clinical Data Marketing`@0.25
+  - dissent: 현재 현금 보유율 31.6% 수준에서 대규모 마케팅 투자는 목표치를 하회할 확률이 높습니다. 일본 시장 진입 비용은 단기 유동성 악화를 유발하여 자금 조달 위험이 존재합니다. 이전 분기 반복되는 전술은 성과 부진을 초래했습니다. 동종 전술 금지 조건을 준수해야 합니다. 주주 기대와 일치하지 않는 자본 소모를 피합니다. 보드 mandates 에 명시된 현금 비율 35% 유지가 핵심입니다. 현재 리스크 수준에서는 안전성이 더 중요합니다. 자원을 새로운 경로로 배분해야 합니다. 시장 점유율 확대보다 생존이 우선입니다. 경계해야 할 위험 요소를 고려합니다. 예측 가능한 수익 흐름을 확보합니다. 추가 비용을 절감합니다. 불필요한 지출을 차단합니다. 경영진 의사결정의 일관성을 유지합니다. 재무 건전성을 강화합니다. 조직의 지속 가능성 방안을 모색합니다. 리스크 관리를 철저히 합니다. 내부 통제 시스템을 점검합니다. 자산 유동성 확보에 집중합니다. 고정비 조정 없이 변동비 중심 운영을 시도합니다
 
 **Position changes:**
-- COO: /CFO/CMO proposals → D2C NPS Optimization+Japan Brand Awareness+Clinical Data Push (임단 투자 중단 및 현금 고갈 리스크 반영)
-- CFO: D2C NPS Optimization, Influencer Ecosystem, Compliance Diversification → D2C NPS Optimization+Clinical Data Push+Japan Brand Awareness (임단 투자 중단 명령 준수 및 현금 소모 최소화)
-- CMO: Clinical Data Push, D2C NPS Optimization, Japan Brand Awareness → Clinical Data Push+Japan Brand Awareness+D2C NPS Optimization (CFO/CFO 제안 수정: 현금 고갈 방지 위해 임상 비중 유지하되 일본 마케팅 감축)
-- [반대] CTO: 대부분의 팀은 Clinical Data Push 를 주장하지만 이는 현 보드의 현금 보유량 위험 경고와 명백히 상충한다. 임상 데이터 투입 중단 요청을 무시하면 단기적으로 매출 증가 효과보다 먼저 자금 고갈 위험이 발생하며, 이로 인해 브랜드 운영 자체가 멈출 수 있다. 특히 시세도가 가격 우위를 점한 상황에서 고비용 개발 전략은 생존 기회를 박탈한다. 기술 혁신은 필수적이지만, 지금 단계에서는 유동성 확보가 최우선 순위이다. 임상 데이터는 향후 자원이 안정화될 때 진행해야 마땅하다. 따라서 이 제안은 현재 위기 관리 측면에서 치명적인 약점이 있다. 또한 시장 점유율 확보보다 기업의 존속 가능성이 우선되어야 한다. 현금 23% 이하로 떨어질 경우 회복 불능 상태에 도달할 수 있다. 그래서 임상 데이터 투자를 지연하고 안전장치를 강화해야 한다. 즉각적인 수익 창출이 가능한 경로로 전환하지 않으면 구조적 위기를 막을 수 없다. 이는 단기적 성과보다 지속 가능성을 고려한 접근이다. 현금 흐름 관리가 핵심이다.
-- CEO: Influencer Ecosystem → D2C NPS Optimization+Influencer Ecosystem+Compliance Diversification (마케팅비 50% 감소 준수)
+- COO: Japan Market Entry Blitz → Clinical Data Marketing+Cash Reserve Hedging (현금 고갈 위험 및 일본 채널 과투자)
+- CTO: Breakthrough R&D Bet+Japan Market Entry Blitz → Breakthrough R&D Bet+Clinical Data Marketing+Japan Market Entry Blitz (일본 투자 축소로 현금 35% 확보)
+- CEO: 제안 배분 → Clinical Data Marketing+D2C Ecosystem Lock-in+Cash Reserve Hedging (보드 현금비율 35% 강제 준수)
+- [반대] CFO: 현재 현금 보유율 31.6% 수준에서 대규모 마케팅 투자는 목표치를 하회할 확률이 높습니다. 일본 시장 진입 비용은 단기 유동성 악화를 유발하여 자금 조달 위험이 존재합니다. 이전 분기 반복되는 전술은 성과 부진을 초래했습니다. 동종 전술 금지 조건을 준수해야 합니다. 주주 기대와 일치하지 않는 자본 소모를 피합니다. 보드 mandates 에 명시된 현금 비율 35% 유지가 핵심입니다. 현재 리스크 수준에서는 안전성이 더 중요합니다. 자원을 새로운 경로로 배분해야 합니다. 시장 점유율 확대보다 생존이 우선입니다. 경계해야 할 위험 요소를 고려합니다. 예측 가능한 수익 흐름을 확보합니다. 추가 비용을 절감합니다. 불필요한 지출을 차단합니다. 경영진 의사결정의 일관성을 유지합니다. 재무 건전성을 강화합니다. 조직의 지속 가능성 방안을 모색합니다. 리스크 관리를 철저히 합니다. 내부 통제 시스템을 점검합니다. 자산 유동성 확보에 집중합니다. 고정비 조정 없이 변동비 중심 운영을 시도합니다
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 고객 경험 최적화로 자사 채널 수익성 개선; 신뢰 기반 크리에이터 협업으로 가치 전달
+**Decision:** 현금 확보로 리스크 최소화; 임상 근거로 가격 경쟁력 확보
 
-**Reasoning:** 예산 제약 극복, D2C 수익 모델 재구조화; 대규모 광고 지출 줄이고 크리에이터 효율 활용
+**Reasoning:** 보드 미팅 현금비 35% 초과; 시세이도 가격 공세 차폐
 
 ### Shiseido (side_b)
 
-- Final action: `Olive Young Expansion`@0.80
+- Final action: `Clinical Data Marketing`@0.85
 - Position: `dominant` ↑
-- Cash: 84.3%
-- Adjudicator rationale: Shiseido 는 풍부한 현금 여력을 바탕으로 T2 의 R&D 베팅과 T4 의 임상 데이터 투자를 통해 규제 장벽을 우회하며, 경쟁사의 가격 공세에도 불구하고 시장 지배력을 더욱 공고히 했습니다.
+- Cash: 93.1%
+- Adjudicator rationale: Shiseido는 T2-T4 동안 축적된 압도적인 현금 보유량과 임상 데이터 마케팅을 통해 원가 상승 충격을 흡수하고 가격 공세로 시장 지배력을 더욱 공고히 했습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **CTO**: `Bold R&D Bet`@0.50, `Olive Young Expansion`@0.30, `Talent Acquisition Sprint`@0.20
-  - rationale: 보arded mandate 에 따라 임상 데이터 재사용 금지 및 아모레퍼시픽 대응을 위해, 기존 전술 반복이 아닌 '초간편 고농축'이라는 차별화된 기술 혁신에 집중해야 함. 경쟁사 AURIE 의 약세를 이용해 시장 주도권을 강화하되, R&D 투자 없이는 2-3 년 내 경쟁력 붕괴가 불가피하므로 공격적 투자가 필수적임.
-  - risk: 대규모 R&D 투자로 단기 마진 압박 가중
-- **CFO**: `Olive Young Expansion`@0.45, `Clinical Data Push`@0.35, `Influencer Ecosystem`@0.20
-  - rationale: 아모레퍼시픽의 오프라인 확장에 대응해 Olive Young 채널을 선제적으로 확보하고, MZ 세대의 미니멀리즘 니즈에 맞춰 임상 데이터를 앞당겨 출시하는 것이 시장 점유율 방어에 필수적입니다. 동일 전술 반복을 피하기 위해 기존 임상 데이터 활용 방식을 '초간편' 컨셉으로 재포장하여 차별화합니다.
-  - risk: 단기 마진 축소 및 R&D 비용 과다 지출 위험
-- **CMO**: `Mass-Premium Infiltration`@0.50, `Influencer Ecosystem`@0.30, `Aggressive Price Cut`@0.20
-  - rationale: 아모레퍼시픽의 오프라인 확장 (Olive Young Expansion) 에 맞서, '초간편 고농축'이라는 차별화된 임상 데이터를 Olive Young 채널과 결합하여 점유율을 방어해야 합니다. 아모레의 강세를 차단하기 위해 세분화된 타겟팅 (MZ 미니멀리즘) 과 선택적 가격 인하를 병행하되, 핵심 프리미엄 가치는 유지합니다.
-  - risk: 단기 마진 압박 및 브랜드 프리미엄 훼손 가능성
-- **COO**: `Olive Young Expansion`@0.45, `Clinical Data Push`@0.35, `Prestige Pricing Power`@0.20
-  - rationale: 보드는 '임상 데이터 재사용 금지'와 '아모레 대응 차별화'를 명했으나, 현재 시드 전략은 이를 충족하는 유일한 실체적 수단이다. 올리브영 확장은 아모레의 채널 공세에 대한 직접적 카운터이며, 임상 데이터 푸시는 신규 라인의 신뢰성을 확보한다. 단, CEO의 공격적 성향과 높은 현금 보유율(78%)을 고려해 가격 방어 (Prestige Pricing Power) 를 병행하여 마진 훼손을 최소화해야 한다. 하지만 세 가지 전술이 동시에 진행될 경우 조직 리소스가 분산되어 품질 저하나 공급망 병목 위험이 존재하므로, 본 조합은 최선이지만 과도한 확장의 위험을 내포함.
-  - risk: 동시 다발적 실행으로 R&D 자원 과부하 및 현금 소진 가속화
-- **CEO**: `Olive Young Expansion`@0.40, `Bold R&D Bet`@0.30, `Influencer Ecosystem`@0.30
-  - rationale: Amore Pacific 오프라인 확장 대비 Olive Young 차별화. Shiseido 가격 공세 대비 제품 가치 강화. 임상 데이터 마케팅 반복 금지 준수하며 완성도로 접근.
-  - risk: 신제품 반응 미흡 및 유통 비용 증가 가능성
+- **CMO**: `Clinical Data Marketing`@0.40, `Heritage Brand Leverage`@0.40, `Exchange Rate Mitigation`@0.20
+  - rationale: 시장은 우위이나 아모레의 '전통 성분' 강세가 지속되므로, 본사의 자존심 (헤리티지) 을 활용한 프리미엄 가격 방어와 임상 데이터로 효능을 증명하는 이중 전략이 필수적입니다. 세분화된 마케팅은 아모레의 추격에 취약하므로, 브랜드 유산과 과학적 증명을 결합해 방어선을 구축해야 합니다. 환율 리스크는 해외 매출 보호를 위해 반드시 관리해야 합니다.
+  - risk: 아모레의 전통 성분 공세에 시장 점유율 방어 실패 및 내부 정치적 저항으로 인한 전술 왜곡
+- **CTO**: `Clinical Data Marketing`@0.45, `Heritage Brand Leverage`@0.35, `Exchange Rate Mitigation`@0.20
+  - rationale: 아모레의 whitening 기술 선점에 대응해 '과학적 검증' 마케팅을 강화해야 하나, 본사 자존심과 정치적 저항으로 인해 일본 전통 유산 강조 전략이 우선시될 가능성이 높음. 또한 환율 리스크는 즉시 방어해야 하지만, Board 의 mandate 에 따라 임상/마케팅 예산의 일부가 전통 성분 개발로 강제 전환되면 단기적 경쟁력 약화 우려가 있음.
+  - risk: 전통 성분 기반 신제품 개발 예산 강제 배정으로 R&D 투자 위축 가능성
+- **COO**: `Clinical Data Marketing`@0.45, `Exchange Rate Mitigation`@0.35, `Heritage Brand Leverage`@0.20
+  - rationale: CEO 의 공격적 성향과 시드 전략 (가격/유통/클린뷰티 대응) 을 따르나, 보드 mandate(아모레 대비 전통 성분 투자) 는 현재 실행 가능한 'Heritage Brand Leverage'를 통해 간접적으로 충족하려 함. 임상 데이터 마케팅은 AURIE 의 약세 공세를 막고, 환율 헤징은 마진 방어에 필수적임. 동남아 유통망 확장 등 추가적인 대규모 투자는 현 단계에서 자원 분산 리스크가 너무 커서 제외함.
+  - risk: 동시 다발적 추진으로 조직 과부하 및 현금 소진 가속화
+- **CFO**: `Clinical Data Marketing`@0.45, `Exchange Rate Mitigation`@0.35, `Heritage Brand Leverage`@0.20
+  - rationale: CEO 의 데이터 기반 의사결정과 공격적 시장 점유 회복 전략을 반영함. 아모레의 강세 영역인 '전통 성분'에 대한 직접적인 제품 개발 예산 강제 배정 (이전 분기 보드 명령) 은 당분간 일본 본사의 정치적 저항과 자존심 문제로 인해 실행 불가능하므로, 기존 전략인 '클린 뷰티 & 과학적 검증' 마케팅을 극대화하여 경쟁사를 우회하는 타격 전술을 선택함. 또한 환율 변동성 리스크를 차단하기 위해 헤징을 강화하며, 현금 보유율이 89% 로 높아 재무 건전성을 해치지 않는 선에서 프리미엄 브랜드 가치를 유지하는 것이 최선임.
+  - risk: 아모레의 '전통 성분' 공세에 따른 시장점유율 일시적 침식 가능성 및 헤징 비용 증가로 인한 단기 마진 압박.
+- **CEO**: `J-Beauty Revival Campaign`@0.40, `Exchange Rate Mitigation`@0.30, `Global Prestige Partnership`@0.30
+  - rationale: 임상 예산 30% 전통 성분 배분, 보스본사 유산 선호 반영하여 Shiseido 브랜드 자산 활용 강조. Amore Pacific 대응 및 환율 리스크 관리 병행.
+  - risk: 신제품 시장 반응 저조 및 현금 효율 감소
 
-##### Phase 2 — 비판적 검토 (다수안: `Olive Young Expansion`, DA: `CTO`)
+##### Phase 2 — 비판적 검토 (다수안: `Exchange Rate Mitigation`, DA: `CTO`)
 
-- **CFO**: `Olive Young Expansion`@0.50, `Clinical Data Push`@0.30, `Influencer Ecosystem`@0.20
-- **CMO**: `Mass-Premium Infiltration`@0.50, `Influencer Ecosystem`@0.30, `Aggressive Price Cut`@0.20
-- **COO**: `Olive Young Expansion`@0.50, `Clinical Data Push`@0.30, `Prestige Pricing Power`@0.20
-- **CTO**: `Bold R&D Bet`@0.50, `Prestige Pricing Power`@0.30, `Heritage Storytelling`@0.20
-  - dissent: 팀 제안인 올리브영 확대는 프리미엄 포지셔닝을 훼손하고 가격 경쟁 심화를 초래할 수 있습니다. 단기 유통량 증가에 집중하면 2~3 년 내 기술 우위가 무너질 위험이 있어 경쟁사 쫓아가지 못합니다. 또한 이번 분기 임계값 준수 요구에도 불구하고 기존 임상 데이터 기반 마케팅 반복이 아니더라도 유통 중심 접근은 차별화에 실패합니다. 기술 투자가 뒷받침되지 않은 채널 확장만으로는 아모레퍼시픽 대응이 어렵습니다. 현재 R&D 수준 50% 를 유지하거나 확대하며 마진을 보호하는 것이 장기 생존에 필수적입니다. 따라서 올리브영 확대 대신 프리미엄 라인을 강화해야 합니다. 이는 기술 강점을 실제 시장에서 경쟁력으로 변환하는 유일한 길입니다. 하지만 '유일한'이라는 표현은 제재되므로 대체 문장 사용 필요 (수정 예정). 수정: '핵심 전략으로 설정되어야 함.'으로 변경 후 검증 완료. 실제 텍스트는 '핵심 전략으로 설정될 필요가 있습니다.'로 작성하겠습니다. 최종 확인된 단어: '압도적', '절대
-- **CEO**: `Olive Young Expansion`@0.40, `Heritage Storytelling`@0.25, `Influencer Ecosystem`@0.35
-  - changed `Bold R&D Bet` → because: 임상 데이터 전략 배제
+- **CFO**: `Clinical Data Marketing`@0.45, `Exchange Rate Mitigation`@0.35, `Heritage Brand Leverage`@0.20
+- **COO**: `Clinical Data Marketing`@0.50, `Exchange Rate Mitigation`@0.30, `Heritage Brand Leverage`@0.20
+  - changed `COO` → because: 과도한 동시 추진 리스크 제거
+- **CMO**: `Clinical Data Marketing`@0.45, `Heritage Brand Leverage`@0.35, `Exchange Rate Mitigation`@0.20
+  - changed `J-Beauty Revival Campaign` → because: 아모레 전술 추격은 자존심 훼손
+- **CTO**: `Clinical Data Marketing`@0.60
+  - dissent: Exchange Rate Mitigation 은 외부 환율 변동에 대응하는 수동적 수단일 뿐, 제품 자체의 경쟁력을 키우지 못한다. Shiseido 와 Amore Pacific 이 지속적 기술 투자를 통해 시장 지위를 확장할 때, 재무적 헷징만으로는 성장 동력을 잃는다. 시장 점유율 방어보다 시장 선도가 우선되어야 한다. AURIE 는 이미 50% 의 R&D 를 보유하고 있으므로 수익 극대화보다는 가치 증폭이 필요하다. 경쟁사가 가격이나 환율에 집중한다면 우리는 차별화된 제품력으로 응답해야 한다. 단기 마진 보호는 장기 혁신 투자를 저해할 위험이 있다. 따라서 현재 제안된 비율대로 유지하면 안 된다. 경쟁사의 추격 전술이 명확해질수록, 우리 회사의 기술적 깊이가 핵심 변수가 된다. 이는 단순히 가격 문제를 넘어 제품 본질에 대한 접근 차이가 된다. 환율 리스크가 사라진다고 해서 제품이 팔리는 것은 아니다. 오히려 경쟁력이 떨어지면 마진을 늘려도 경쟁에서 뒤처진다. AURIE 가 R&
+- **CEO**: `J-Beauty Revival Campaign`@0.45, `Clinical Data Marketing`@0.35, `Exchange Rate Mitigation`@0.20
+  - changed `CEO 제안 혼합안` → because: 보드 mandate 전략 수정
 
 **Position changes:**
-- [반대] CTO: 팀 제안인 올리브영 확대는 프리미엄 포지셔닝을 훼손하고 가격 경쟁 심화를 초래할 수 있습니다. 단기 유통량 증가에 집중하면 2~3 년 내 기술 우위가 무너질 위험이 있어 경쟁사 쫓아가지 못합니다. 또한 이번 분기 임계값 준수 요구에도 불구하고 기존 임상 데이터 기반 마케팅 반복이 아니더라도 유통 중심 접근은 차별화에 실패합니다. 기술 투자가 뒷받침되지 않은 채널 확장만으로는 아모레퍼시픽 대응이 어렵습니다. 현재 R&D 수준 50% 를 유지하거나 확대하며 마진을 보호하는 것이 장기 생존에 필수적입니다. 따라서 올리브영 확대 대신 프리미엄 라인을 강화해야 합니다. 이는 기술 강점을 실제 시장에서 경쟁력으로 변환하는 유일한 길입니다. 하지만 '유일한'이라는 표현은 제재되므로 대체 문장 사용 필요 (수정 예정). 수정: '핵심 전략으로 설정되어야 함.'으로 변경 후 검증 완료. 실제 텍스트는 '핵심 전략으로 설정될 필요가 있습니다.'로 작성하겠습니다. 최종 확인된 단어: '압도적', '절대
-- CEO: Bold R&D Bet → Olive Young Expansion+Heritage Storytelling+Influencer Ecosystem (임상 데이터 전략 배제)
+- CMO: J-Beauty Revival Campaign → Clinical Data Marketing+Heritage Brand Leverage+Exchange Rate Mitigation (아모레 전술 추격은 자존심 훼손)
+- [반대] CTO: Exchange Rate Mitigation 은 외부 환율 변동에 대응하는 수동적 수단일 뿐, 제품 자체의 경쟁력을 키우지 못한다. Shiseido 와 Amore Pacific 이 지속적 기술 투자를 통해 시장 지위를 확장할 때, 재무적 헷징만으로는 성장 동력을 잃는다. 시장 점유율 방어보다 시장 선도가 우선되어야 한다. AURIE 는 이미 50% 의 R&D 를 보유하고 있으므로 수익 극대화보다는 가치 증폭이 필요하다. 경쟁사가 가격이나 환율에 집중한다면 우리는 차별화된 제품력으로 응답해야 한다. 단기 마진 보호는 장기 혁신 투자를 저해할 위험이 있다. 따라서 현재 제안된 비율대로 유지하면 안 된다. 경쟁사의 추격 전술이 명확해질수록, 우리 회사의 기술적 깊이가 핵심 변수가 된다. 이는 단순히 가격 문제를 넘어 제품 본질에 대한 접근 차이가 된다. 환율 리스크가 사라진다고 해서 제품이 팔리는 것은 아니다. 오히려 경쟁력이 떨어지면 마진을 늘려도 경쟁에서 뒤처진다. AURIE 가 R&
+- CEO: 제안 혼합안 → J-Beauty Revival Campaign+Clinical Data Marketing+Exchange Rate Mitigation (보드 mandate 전략 수정)
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 올리브영 채널 확장 및 매출 확보; 크리에이터 협업 네트워크 구축
+**Decision:** Shiseido 임상 데이터로 효능 입증; 해외 매출 환율 리스크 헤징 조치; J-Beauty 로 전통 성분 신제품 출시
 
-**Reasoning:** 아모레퍼시픽 대응, 시장 점유율 방어; MZ 타겟팅, 브랜드 차별화 효과
+**Reasoning:** AURIE 건강 검증 대응 및 신뢰 확보; 변동 환율 마진 손실 방어 필수; Amore Pacific 대응하며 보드 mandate 충족
 
 ### Amore Pacific (side_c)
 
-- Final action: `Clinical Data Push`@0.80
+- Final action: `Clinical Data Marketing`@0.80
 - Position: `strong` ↗
-- Cash: 64.0%
-- Adjudicator rationale: Amore Pacific 은 T3 의 임상 데이터와 T4 의 올리브영 확장을 통해 프리미엄 신뢰도를 유지하며, 현금 소모가 심한 경쟁사들과의 가격 전쟁에서도 브랜드 충성도를 견고하게 방어했습니다.
+- Cash: 64.9%
+- Adjudicator rationale: Amore Pacific은 T2-T4 동안 프리미엄 라인 강화와 whitening 기술 우위를 통해 마진을 방어하며 안정적인 성장을 이어갔으나, 중국 시장의 구조적 침체가 성장 한계로 작용하고 있습니다.
 
 ##### Phase 1 — 독립 제안
 
-- **COO**: `Clinical Data Push`@0.60, `Whitening Tech Lead`@0.40
-  - rationale: 시세이도의 임상+가격 공세가 지속되므로, 아모레는 '미니멀 클린스킨' 서브라인의 임상 데이터를 통해 신뢰도를 재확인하고(0.6), 동시에 Whitening 기술을 통한 프리미엄 포지셔닝 고수(0.4)로 차별화를 꾀해야 함. Olive Young 확장은 현재 리소스 집중 전략과 상충되므로 중단.
-  - risk: Shiseido 의 가격 공세에 따른 단기 점유율 추가 하락 가능성
-- **CMO**: `Whitening Tech Lead`@0.60, `Influencer Ecosystem`@0.40
-  - rationale: 보arding mandate 에 따라 Shiseido 의 가격/임상 공세에 대응해 프리미엄 지위를 방어해야 함. Seed 전략의 '미니멀 클린스킨'은 실행 수단일 뿐 핵심 목표는 기술적 우위 확보이므로, 가장 직접적인 경쟁 counter 로 Whitening Tech Lead 를 우선 선정. AURIE 는 우리 편이므로 대상에서 제외.
-  - risk: R&D 투자 회수 기간 지연 및 단기 매출 둔화
-- **CTO**: `Whitening Tech Lead`@0.60, `Clinical Data Push`@0.30, `Talent Acquisition Sprint`@0.10
-  - rationale: Shiseido 의 가격 공세와 임상 데이터 강화에 맞서, 단순 가격 방어는 브랜드 가치를 훼손하므로 기술적 차별화 (Whitening Tech Lead) 가 필수적입니다. Seed 전략의 '미니멀 클린스킨' 임상 데이터 강화 (Clinical Data Push) 를 병행하여 MZ 세대 니즈를 충족하고, 장기 경쟁력을 위한 인재 확보 (Talent Acquisition Sprint) 로 R&D 생산성을 극대화합니다. 이는 오너 경영 특성에 부합하는 장기 자산 축적 전략입니다.
-  - risk: 대규모 R&D 투자로 단기 현금흐름 압박 발생 가능성
-- **CFO**: `Whitening Tech Lead`@0.60, `Portfolio Synergy`@0.30, `Influencer Ecosystem`@0.10
-  - rationale: 보통 전략인 가격 인하나 오프라인 확장은 시세이도의 우세를 키울 뿐이며, 오리에의 실패 사례를 반영해 현금 소모가 큰 Olive Young 확장이나 Bold R&D Bet는 배제함. 시세이도의 임상+가격 공세에 맞서 'Whitening Tech Lead'로 기술적 우위를 점하고, 'Portfolio Synergy'로 기존 자산으로 비용 효율을 높여 현금 보존과 브랜드 가치 방어 동시 달성.
-  - risk: R&D 투자 회수 지연 시 현금 비율 50% 미만 하락 위험
-- **CEO**: `Clinical Data Push`@0.40, `Whitening Tech Lead`@0.40, `Portfolio Synergy`@0.20
-  - rationale: Shiseido 선제적 임상 대응 차단 필수, 프리미엄 가치 유지 위해 기술 격차 확대 및 자원 효율 최적화 필요
-  - risk: R&D 리스크 및 시장 수용 우려
+- **CFO**: `Sulwhasoo Premium Push`@0.60, `Prestige Portfolio Defense`@0.40
+  - rationale: 보arding mandate 에 따라 미백 기술 투자 축소 및 시세이도 대응을 위해 'Value-First' 전략으로 전환함. 오너 경영 특성상 설화수 브랜드 자존심을 유지하며, 시세이도의 직접적인 가격 인하보다는 고가 SKU 의 임상 데이터와 독점 성분 우위를 강조하여 프리미엄 가치를 방어하는 것이 현금 흐름 보존과 시장 점유율 방어에 가장 효과적임.
+  - risk: 시세이도 가격 공세에 따른 고가 라인 수요 감소 가능성
+- **CMO**: `Sulwhasoo Premium Push`@0.60, `Whitening Tech Dominance`@0.40
+  - rationale: 보드 지시에 따라 미백 기술 투자 (15% 이상) 를 축소하고, 시세이도의 강세를 고려해 '프리미엄 가치 방어' 전략으로 자원을 재배정함. 오너 경영의 특성상 설화수 브랜드 자산 보호를 최우선으로 하여 고가 SKU 중심의 임상 데이터 마케팅을 강화하되, 단기 점유율 방어보다는 장기 브랜드 위상 유지에 집중함.
+  - risk: 시세이도 가격 공세에 대한 프리미엄 방어 실패 시 점유율 급감
+- **CTO**: `Whitening Tech Dominance`@0.60, `Clinical Data Marketing`@0.40
+  - rationale: 보드의 R&D 축소 지시 (15% 이상) 는 장기 경쟁력 붕괴를 초래하므로, '프리미엄 가치 방어' 캠페인의 핵심인 기술 우위를 유지하기 위해 Whitening Tech에 자금을 집중합니다. 시세이도의 Clinical Data 마케팅에 대응하여 독점 성분의 과학적 효능을 강조하는 것이 가격 공세보다 효과적입니다. 오너 경영의 특성상 단기 실적보다 브랜드 신뢰도 유지를 최우선으로 하여, 기술 투자를 통한 고가 SKU 방어 전략을 선택합니다.
+  - risk: R&D 투자 비중 축소 요구로 인한 경쟁력 저하 우려 및 시세이도 기술 격차 심화 가능성
+- **COO**: `Sulwhasoo Premium Push`@0.55, `Whitening Tech Dominance`@0.30, `Prestige Portfolio Defense`@0.15
+  - rationale: 보드 지시대로 미백 기술 투자를 15% 이상 축소하고, 시세이도의 임상 마케팅에 대응하기 위해 '프리미엄 가치 방어'를 최우선으로 설정함. 설화수 등 고가 SKU 중심의 임상 데이터 강조는 시세이도와의 직접적 가격 전쟁을 피하면서도 시장 지배력을 유지하는 유일한 실행 가능 경로이며, 오너가의 자존심과 일치함.
+  - risk: 오너 경영의 장기 브랜드 자산 우선주의로 인해 가격 인하 등 즉각적 점유율 방어 수단 선택 지연 가능성
+- **CEO**: `Clinical Data Marketing`@0.60, `Sulwhasoo Premium Push`@0.40
+  - rationale: 이사회 mandate 에 따라 미백 R&D 예산 줄여 마케팅 전환. 아모레 패시픽 R&D 우위를 마케팅에 집중해 시세이도 대응 및 설화수 프리미엄 가치 선점
+  - risk: 시세이도 대비 차별성 저하 및 홍보 비용 증가
 
-##### Phase 2 — 비판적 검토 (다수안: `Whitening Tech Lead`, DA: `CFO`)
+##### Phase 2 — 비판적 검토 (다수안: `Sulwhasoo Premium Push`, DA: `CFO`)
 
-- **COO**: `Clinical Data Push`@0.65, `Whitening Tech Lead`@0.35
-- **CMO**: `Clinical Data Push`@0.60, `Whitening Tech Lead`@0.40
-- **CTO**: `Whitening Tech Lead`@0.60, `Clinical Data Push`@0.30, `Talent Acquisition Sprint`@0.10
-- **CEO**: `Whitening Tech Lead`@0.60, `Clinical Data Push`@0.40
-- **CFO**: `Clinical Data Push`@0.70
-  - dissent: Whitening Tech Lead는 장기 R&D 필요로 인해 목표 ROI 달성에 따른 현금 유출 기간이 길어지며, 현 보유 현금 비율 64% 내에서도 과도한 자본소모 위험이 존재한다. Shiseido 의 공격적인 마케팅 환경에서 즉각적인 고객 신뢰 확보는 시장 위치 방어를 위해 필수적이다. 또한 R&D 리스크 노출 없이 기존 자산을 극대화하는 것이 사내 현금 흐름 안정성에 더 부합한다. 다수안이 제기한 기술 중심 접근은 단기 시장 방어력보다 연구 성과도에 의존하는 구조적 약점을 가진다. 특히 선행 투자에 따른 현금 비율 감소 가능성이 경영진의 보수적 위험 관리 원칙과 상충될 수 있다. 재무적 관점에서 투자 대비 효과를 예측 가능한 데이터 기반 마케팅이 우선되어야 한다. 따라서 신기술 개발보다는 검증된 임상 데이터의 상업적 효율성을 중시하는 방향을 채택한다. 이는 단순 비용 절감이 아니라 생존 가능성 확보를 위한 최적화이다. 결국 기술 리더십 확보보다 자금 선순환이 먼저라는 판단 하
+- **CMO**: `Clinical Data Marketing`@0.60, `Sulwhasoo Premium Push`@0.40
+- **COO**: `Clinical Data Marketing`@0.60, `Sulwhasoo Premium Push`@0.40
+  - changed `Whitening Tech Dominance` → because: 보도금 축소 지시 반영
+- **CTO**: `Whitening Tech Dominance`@0.65, `Clinical Data Marketing`@0.35
+  - changed `CTO: Whitening Tech Dominance(60%)+Clinical Data Marketing(40%)` → because: 보도국mandate 위반, R&D 투자 확대 필수
+- **CFO**: `Clinical Data Marketing`@0.60, `Prestige Portfolio Defense`@0.40
+  - dissent: Sulwhasoo Premium Push는 현재 현금 보유량 64.6% 상태에서 고가 라인 판매를 유도하기 위한 과도한 운영 비용 소모가 예상됨. 시세이도와의 가격 경쟁이 심화될 경우 전환율 하락 리스크가 크며, 이치인 사비에서 요구한 시세이도 대응을 위한 타겟 마케팅 자원 배분 계획과 상충되어 시장 점유율 방어에 취약함. 자금 효율성 저하로 인해 재무 지속 가능성 목표와 충돌함. 보드 위원회에서 명시적으로 지시한 미백 기술 투자 축소 및 재배정 방안을 준수하지 않음. 설화수 브랜드의 위상만 강조할 경우 수익성은 보장되지 않으며, 실제 시장 반응을 검증할 데이터 기반 접근이 필요함. 현금 유동성이 한정된 상황에서 높은 고정비가 발생하는 프로세스에 집중하는 것은 위험 평가 기준을 초과함. 또한, 경쟁사인 시세이도가 가격 경쟁력을 확보하면 고객 이탈이 가속화될 수 있어 단순 브랜드 홍보로는 방어 불능 상태임. 따라서 현금 출혈을 줄이고 입증된 데이터로 가치를 정립하는 쪽으로 방향 전환을
+- **CEO**: `Clinical Data Marketing`@0.60, `Sulwhasoo Premium Push`@0.40
 
 **Position changes:**
-- [반대] CFO: Whitening Tech Lead는 장기 R&D 필요로 인해 목표 ROI 달성에 따른 현금 유출 기간이 길어지며, 현 보유 현금 비율 64% 내에서도 과도한 자본소모 위험이 존재한다. Shiseido 의 공격적인 마케팅 환경에서 즉각적인 고객 신뢰 확보는 시장 위치 방어를 위해 필수적이다. 또한 R&D 리스크 노출 없이 기존 자산을 극대화하는 것이 사내 현금 흐름 안정성에 더 부합한다. 다수안이 제기한 기술 중심 접근은 단기 시장 방어력보다 연구 성과도에 의존하는 구조적 약점을 가진다. 특히 선행 투자에 따른 현금 비율 감소 가능성이 경영진의 보수적 위험 관리 원칙과 상충될 수 있다. 재무적 관점에서 투자 대비 효과를 예측 가능한 데이터 기반 마케팅이 우선되어야 한다. 따라서 신기술 개발보다는 검증된 임상 데이터의 상업적 효율성을 중시하는 방향을 채택한다. 이는 단순 비용 절감이 아니라 생존 가능성 확보를 위한 최적화이다. 결국 기술 리더십 확보보다 자금 선순환이 먼저라는 판단 하
+- COO: Whitening Tech Dominance → Clinical Data Marketing+Sulwhasoo Premium Push (보도금 축소 지시 반영)
+- CTO: Whitening Tech Dominance+Clinical Data Marketing → Whitening Tech Dominance+Clinical Data Marketing (보도국mandate 위반, R&D 투자 확대 필수)
+- [반대] CFO: Sulwhasoo Premium Push는 현재 현금 보유량 64.6% 상태에서 고가 라인 판매를 유도하기 위한 과도한 운영 비용 소모가 예상됨. 시세이도와의 가격 경쟁이 심화될 경우 전환율 하락 리스크가 크며, 이치인 사비에서 요구한 시세이도 대응을 위한 타겟 마케팅 자원 배분 계획과 상충되어 시장 점유율 방어에 취약함. 자금 효율성 저하로 인해 재무 지속 가능성 목표와 충돌함. 보드 위원회에서 명시적으로 지시한 미백 기술 투자 축소 및 재배정 방안을 준수하지 않음. 설화수 브랜드의 위상만 강조할 경우 수익성은 보장되지 않으며, 실제 시장 반응을 검증할 데이터 기반 접근이 필요함. 현금 유동성이 한정된 상황에서 높은 고정비가 발생하는 프로세스에 집중하는 것은 위험 평가 기준을 초과함. 또한, 경쟁사인 시세이도가 가격 경쟁력을 확보하면 고객 이탈이 가속화될 수 있어 단순 브랜드 홍보로는 방어 불능 상태임. 따라서 현금 출혈을 줄이고 입증된 데이터로 가치를 정립하는 쪽으로 방향 전환을
 
 ##### Phase 3 — CEO 종합
 
-**Decision:** 임상 데이터 강화로 프리미엄 신뢰 확보; 기술 리더십으로 경쟁사 차별화
+**Decision:** 임상 데이터로 프리미엄 가치 증명; 고가 라인 판매로 브랜드 자산 확보
 
-**Reasoning:** 시세이도 공세에 선제적 대응, 보드 지시 준수; 장기 포트폴리오 자산, 시장 재편 가능성
+**Reasoning:** 경쟁사 대응과 브랜드 신뢰 강화; 오너 의지로 단기 비용보다 자산 우선
 
 #### Adjudicator panel (3 experts)
 
-**Regulatory/Policy Expert**: 재정적 여유가 있는 강자는 규제 준수 비용을 기회로 전환하나, 자금 경색 중인 플레이어는 단순한 운영 비용마저 생존을 위협하는 구조적 장벽이 됩니다.
+**Strategy Consultant**: 원료 공급 쇼크는 단순한 비용 증가를 넘어 자본 집약형 R&D 축적이 있느냐 없느냐에 따라 승패가 갈리는 구조적 전환점이 되었으며, 현금 소모 속도가 빠른 미들캐프인 경우 생존과 성장의 타이밍 싸움이 극심해지고 있습니다.
 
-- side_a: `weak` ↘ — 제한된 현금 보유량은 글로벌 통관 강화와 현지 마케팅 규제 준수 비용을 감당하기 어렵게 하여 생존 압박이 가중됩니다.
-- side_b: `dominant` ↗ — 높은 자본력을 바탕으로 시장 진입 규제를 우회하며 공세적 가격 정책을 집행하여 리더십이 공고화됩니다.
-- side_c: `strong` → — 임상 데이터 투자가 효능 검증 규제 강화 추세를 선제적으로 극복하여 안정적 지위를 유지합니다.
+- side_a: `contested` ↗ — 글로벌 원료 수급 위기는 선제적으로 구축된 임상 데이터 자산에 대한 가치를 증폭시켜 자금 여력 부족이라는 한계에도 불구하고 기술적 우위로의 회귀 가능성을 열어주었습니다.
+- side_b: `dominant` ↗ — 풍부한 현금 보유량을 통해 원가 인상 충격을 흡수하면서도 헤리티지와 임상 효과를 동시에 강화하는 다중 전략 공세로 주도권을 더욱 공고히 하고 있습니다.
+- side_c: `strong` → — 프리미엄 포트폴리오 보호로 마진을 방어하고 있으나 중국 시장의 구조적 침체가 신규 성장 모멘텀 생성을 제한하는 요인으로 작용하고 있습니다.
 
-**Industry Veteran**: 공급망에서 유통채널 접근성은 반도체의 생산 설비 가동률처럼 자본력으로 결정되는 병목 구간이며, 현금 부족 기업은 생존 자체를 위한 전략 전환이 불가피합니다.
+**Regulatory/Policy Expert**: 글로벌 기준 강화와 고가 원료 수급 위기는 대규모 R&D 자산과 자본력이 있는 기업에게 진입 장벽으로 작용하여, 규제 비용 부담 능력이 포지션 격차를 유지시키는 핵심 동인이 됩니다.
 
-- side_a: `marginal` ↘ — 현재 현금 보유량이 23% 로 낮아 중국 시장 리스크와 경쟁사의 가격 공세 대응 능력이 제한되어 성장 동력이 약화됩니다.
-- side_b: `dominant` ↑ — 78% 의 풍부한 현금 여력을 바탕으로 올리브영 확장과 영향력 생태계를 선점하며 시장에서의 우위를 지속적으로 확보하고 있습니다.
-- side_c: `strong` ↗ — 임상 데이터와 whitening 기술 강화를 통해 프리미엄 신뢰도를 높이며 가격 전쟁 속에서도 브랜드 충성도를 견고하게 방어합니다.
+- side_a: `weak` ↗ — 현금 보유량을 극대화하는 방어적 정책으로 규제 준수 비용을 감당하나, 원료 수급 불안정에 따른 생산비 급증으로 인해 시장 내 입지는 여전히 불안정합니다.
+- side_b: `dominant` ↑ — 압도적인 자금력과 임상 데이터 마케팅을 결합하여 가격 정책상의 불공정 논란 가능성을 낮추며 지배적 지위를 공고히 하고 있습니다.
+- side_c: `strong` ↗ — 프리미엄 라인 판매 확대로 브랜드 자산을 보호하면서도 신기술 주도로 규제 리스크를 관리하여 강한 성장 추이를 이어가고 있습니다.
 
-**Strategy Consultant**: 현금 보유량 격차가 전략적 유연성의 차이를 직접적으로 반영하며, 저현금 플레이어는 타사의 공격적 채널 확장 시 생존 모드로 강제 전환되는 구조적 취약성이 확인되었습니다.
+**Industry Veteran**: 공급망 위기와 환율 변동성이 동시 작용할 때, 현금 흐름 탄력성의 격차가 곧 시장 지배력의 결정적 요인으로 작용하여 하향 평준화를 가속하고 있다.
 
-- side_a: `marginal` ↓ — AURIE 는 극도로 제한된 현금 보유량으로 시장 점유율을 방어하기 위한 공격적 투자보다는 수비적 최적화에 머무르며 상대적 약세로 전락합니다.
-- side_b: `dominant` ↑ — Shiseido 는 높은 현금 여유분을 바탕으로 Olive Young 채널을 선점하며 가격 경쟁력을 확보, 시장 리더십을 더 공고히 합니다.
-- side_c: `strong` → — Amore Pacific 은 임상 데이터를 통한 기술적 우위를 유지하며 프리미엄 이미지 훼손을 방지해 현재 위치를 안정적으로 견고하게 합니다.
+- side_a: `weak` ↘ — 높은 현금 유출 위험에도 불구하고 현금 확보에 집중하며 생존을 도모하나, 경쟁사의 가격 공세와 원자재 위기 속에서 상대적으로 입지가 약화되고 있다.
+- side_b: `dominant` ↑ — 압도적인 현금 보유량과 글로벌 공급망 헤징 능력을 활용해 시장 충격도 방어하며 가격 인하 카드를 통한 시장 지배력을 확대하고 있다.
+- side_c: `strong` ↗ — 프리미엄 라인 포트폴리오와 자체 임상 센터를 통해 원가 상승 리스크를 효과적으로 분산시키며 안정적인 성장을 유지하고 있다.
 
 #### Adjudicator synthesis
 
-> AURIE 는 T1 에서 T4 에 걸쳐 임상 데이터 투자와 가격 인하를 반복하며 현금을 급격히 소진했고, 이로 인해 T5 에는 중국 규제 강화와 물류 병목 현상이라는 외부 충격에 완전히 무력화되었습니다. Shiseido 는 T2 의 R&D 베팅과 T4 의 임상 데이터 투자를 통해 규제 장벽을 우회하는 동시에, 풍부한 현금으로 시장 지배력을 확장하며 AURIE 의 추락을 가속화했습니다. Amore Pacific 은 T3 의 임상 데이터와 T4 의 올리브영 확장을 통해 프리미엄 이미지를 유지하며, 현금 소모가 심한 경쟁사들과의 격차에서 벗어나 안정적 성장을 이어갔습니다.
+> AURIE는 T2부터 T4까지 일본 시장 진출과 임상 마케팅에 집중하며 자산을 소진했으나, T4의 현금 방어 전략이 원자재 위기 속에서 오히려 시장 점유율 하락을 부추겼습니다. Shiseido는 T2-T4 동안 쌓아올린 막대한 현금과 임상 데이터를 바탕으로 가격 인하 카드를 통해 시장 충격까지 방어하며 지배적 지위를 확장했습니다. Amore Pacific은 T2-T4 동안 프리미엄 라인 판매와 whitening 기술 투자를 통해 마진을 보호했으나, 중국 시장의 침체가 신규 성장 동력을 제한하는 요인으로 작용했습니다.
 
-**Interaction analysis:** AURIE 의 현금 고갈은 중국 규제와 물류 병목이라는 외부 리스크를 감당하지 못하게 하여 시장에서의 생존을 위협하는 구조적 약점으로 작용했습니다. 반면 Shiseido 와 Amore Pacific 은 각각 자본력과 기술적 우위를 바탕으로 이러한 시장 환경에서 오히려 경쟁사들을 압도하며 지위를 강화했습니다.
+**Interaction analysis:** Shiseido의 공격적인 가격 공세와 현금 기반 헤징 전략은 AURIE의 현금 고갈을 가속화하며 시장 격차를 벌렸습니다. 반면 Amore Pacific은 자체 임상 센터와 프리미엄 포트폴리오로 원가 상승 리스크를 분산시키며 Shiseido의 공세에도 불구하고 견고한 입지를 유지했습니다.
 
 ---
